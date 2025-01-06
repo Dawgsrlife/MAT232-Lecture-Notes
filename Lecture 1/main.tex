@@ -2,7 +2,6 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{newunicodechar}
-\newunicodechar{ℝ}{\mathbb{R}}
 \usepackage{EngReport}
 \usepackage{listings}
 \usepackage{cancel}
@@ -54,22 +53,85 @@
 \pagebreak
 \normalsize
 
-\section*{Question \#X}
-wordsgohere
+\section*{Parametric Equations}
+Recall the following from high school and first-year calculus:
 
-\begin{proof}
-\leavevmode\\
-    proofgoeshere \\
-\end{proof}
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Equation Type}     & \textbf{Example}             \\ \hline
+Cartesian Equation         & $y = x^2$                   \\ \hline
+Function in Cartesian Form & $y = f(x) = x^2$            \\ \hline
+Parametric Equation        & $\begin{cases} 
+x = t \\ 
+y = t^2 
+\end{cases}$ \\ \hline
+\end{tabular}
+\caption{Comparison of equation representations}
+\label{tab:equation_comparison}
+\end{table}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{parabola.jpg}
+\caption{Graph of a parabola: $y = x^2$}
+\label{fig:parabola}
+\end{figure}
+
+Parametric equations are of the form:
+\[
+x = f(t), \quad y = g(t), \quad t \in \mathbb{R}
+\]
+
+For example:
+\[
+x = t, \quad y = t^2, \quad t \in \mathbb{R}
+\]
+This yields points such as:
+\[
+(1, 1), \quad (0, 0), \quad (-1, 1)
+\]
+
+Alternatively:
+\[
+x = -t, \quad y = t^2, \quad t \in \mathbb{R}
+\]
+This yields points such as:
+\[
+(-1, 1), \quad (0, 0)
+\]
+
 \pagebreak
 
-\section*{Question \#X}
-wordsgohere
+\section*{Drawing Parametric Equations}
+Two methods are commonly used to sketch parametric equations:
+\begin{itemize}
+    \item Use a table of values for manual computation.
+    \item Convert to a Cartesian equation (eliminate \( t \)) and sketch the graph, if possible.
+\end{itemize}
 
-\begin{proof}
-\leavevmode\\
-    proofgoeshere \\
-\end{proof}
-\pagebreak
+Example:
+Sketch \( x = t^2, y = t^3 \) for \( -\infty < t < \infty \).
+
+Table of Values:
+\[
+\begin{array}{|c|c|c|c|}
+\hline
+t & x = t^2 & y = t^3 & (x, y) \\ \hline
+2 & 4 & 8 & (4, 8) \\ \hline
+1 & 1 & 1 & (1, 1) \\ \hline
+0 & 0 & 0 & (0, 0) \\ \hline
+-1 & 1 & -1 & (1, -1) \\ \hline
+-2 & 4 & -8 & (4, -8) \\ \hline
+\end{array}
+\]
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{sketching_example1.jpg}
+\caption{Sketch of \( x = t^2, y = t^3 \)}
+\label{fig:sketch_example1}
+\end{figure}
 
 \end{document}
