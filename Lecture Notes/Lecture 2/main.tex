@@ -21,6 +21,7 @@
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{cancel}
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -61,13 +62,28 @@ A \textbf{parametric equation} is a set of equations that express the coordinate
 
 \section*{Examples}
 \begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
+\textbf{Example:} Sketch the graph, using a table of values:
+\[ x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad t > 0. \]
+
+\begin{center}
+\begin{adjustbox}{max width=\textwidth}
+\LARGE
+\begin{tabular}{|c|c|c|c|}
+\hline
+$t$    & $1/t$ & $x$ & $y$ \\ \hline
+$0.01$ & $\frac{1}{0.01} = \frac{1}{\frac{1}{100}} = 100$     & $100.01$   & $0.01 - 100 = -99.99$   \\ \hline
+$0.1$  & $\frac{1}{0.1} = \frac{1}{\frac{1}{10}} = 10$     & $10.1$   & $-9.9$   \\ \hline
+$0.2$  & $\frac{1}{0.2} = \frac{1}{\frac{20}{100}} = \frac{1}{\frac{2}{10}} = 5$     & $5.2$   & $4.8$   \\ \hline
+$1$    & $\frac{1}{1}$     & $2$   & $0$   \\ \hline
+$5.0$  & $0.2$     & $5.2$   & $4.8$   \\ \hline
+$10$   & $0.1$     & $10.1$   & $9.9$   \\ \hline
+$10$   & $0.01$    & $100.01$   & $99.99$   \\ \hline
+\end{tabular}
+\normalsize
+\end{adjustbox}
+\end{center}
+
+This describes a hyperbolic curve.
 \end{examplebox}
 
 \begin{figure}[H]
@@ -76,6 +92,20 @@ This describes a parabola.
     \caption{Sample image illustrating the concept.}
     \label{fig:sample_image}
 \end{figure}
+
+\begin{examplebox}
+\textbf{Example:} Sketch the graph (this is the same one), using the elimination method:
+\[ x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad t > 0. \]
+\( LHS = A^2 - B^2 = (A - B)(A + B) = RHS \)
+\( X = A \) and \( y = B \).
+\( LHS: x^2 - y^2 \).
+\( A - B = x - y = (t + \frac{1}{t}) - (t - \frac{1}{t}) = \frac{2}{t} \).
+\( A + B = x + y = (t + \frac{1}{t}) + (t - \frac{1}{t}) = 2t \).
+\( RHS: (A - B)(A + B) = (x - y)(x + y) = (\frac{2}{t})(2t) = 4 \).
+Therefore, \( x^2 - y^2 = 4 \), \( y \in \mathbb{R} \) will work, \( x > 0 \).
+
+This describes a hyperbolic curve.
+\end{examplebox}
 
 \section*{Theorems and Proofs}
 \begin{theorembox}
@@ -90,9 +120,40 @@ This describes a parabola.
     \label{fig:sample_image1}
 \end{figure}
 
-\section*{Additional Notes}
+\section*{Practice Questions}
 \begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
+Try this question at home! \\
+\\
+Sketch and eliminate \( t \) if possible: \\
+\[
+    x = t^2, \quad y = t^3, \quad -2 \leq t \leq 2
+\]
+Note that this is a closed interval. The starting point is the smallest value of \( t \). This highlights where the graph should begin. The finishing point should be the largest value of \( t \). \\
+Using an arrow, make sure to indicate the direction of the graph as \( t \to \infty \). \\
+\end{notebox}
+
+\begin{notebox}
+Try another question at home! \\
+\\
+Sketch and eliminate \( t \) if possible: \\
+\[
+    c_1: x = -cos(\frac{t}{4}), y = sin(\frac{t}{4}), for 0 \leq t \leq 4\pi
+\]
+\[
+    c_2: x = -sin(t), y = -cos(t), for \frac{\pi}{2} \leq t \leq \frac{3\pi}{2}
+\]
+\[
+    c_3: x = cos(t), y = sin(t), for t \in [0, \pi]
+\]
+Hint: \( x = rcos(\theta), y = rsin(\theta), x^2 + y^2 = r^2 \). Also, for these curves, it follows that \( r = 1 \).
+\end{notebox}
+
+\section*{The Elimination Method Does NOT Always Work}
+\begin{notebox}
+Consider the following case where \( t \) cannot be eliminated:
+\[
+    x = e^t - \sin^2(t), \quad y = ln(t) + \frac{1}{t}, \quad t > 0
+\]
 \end{notebox}
 
 \section*{Further Visualization}
@@ -102,5 +163,164 @@ Always check the domain of the parameter $t$ when solving problems involving par
     \caption{Additional visualization for parametric curves.}
     \label{fig:sample_image2}
 \end{figure}
+
+\section*{Section 1.2: Calculus on Parametric Equations}
+\section*{Key Concepts}
+Recall the concept from $1^{\text{st}}$ year calculus:
+\begin{definitionbox}
+If \( y = f(x) \) is given, then the slope of the tangent line to the curve of \( y = f(x) \) is:
+\[
+    y' = f'(x) = \frac{dy}{dx}
+\]
+\end{definitionbox}
+Now, for MAT232, we have:
+\begin{definitionbox}
+Given \( x = f(t), \quad y = g(t), \quad t \in \mathbb{R} \), these are defifferentiable w.r.t.\ (w.r.t.\ = ``with respect to'') \( t \). This is such that:
+\[
+    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \frac{dx}{dt} \neq 0
+\]
+This will also be provided in the formula sheet. \\
+\\
+\[
+    x = f(t), \quad y = g(t), \quad t \in \mathbb{R}
+\]
+Because the chain rule must follow through, always! \\
+\textit{Here is the derivation:}
+So \dots \( y = g(t) \) \\
+\[
+     \frac{dy}{dt} = \frac{dy}{dx} \cdot \frac{dx}{dt}
+\]
+\textit{Chain rule.} \\
+\\
+\[
+    \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{dy}{dx}, \quad \text{provided that} \quad \frac{dx}{dt} \neq 0
+\]
+\end{definitionbox}
+
+\section*{Second Derivative}
+\begin{theorembox}
+Given \( x = f(t), y = g(t), t \in \mathbb{R} \) are differentiable at \( t \) and \( \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} \) exists and is differentiable at \( t \):
+\[
+    \frac{d^{2y}}{dx^2} = \frac{d}{dx}(\frac{dy}{dx}) = dx(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})
+\]
+Notice that the expression of the innermost bracket is a derivative all in terms of \( t \).
+Thus:
+\[
+    = \frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}) \cdot \frac{dt}{dx} = \frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}) = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}} \text{.}
+\]
+This follows from the \textbf{inverse function theorem}. \\
+Collectively, it follows that:
+\[
+    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}}, \quad \frac{dx}{dt} \neq 0 \text{.}
+\]
+\textit{This is not included on the formula sheet.}
+\end{theorembox}
+
+\section*{Examples}
+\begin{examplebox}
+Consider the following parametric curve:
+\[
+    x = \sec(t), \quad y = \tan(t), \quad -\frac{\pi}{2} < t < \frac{\pi}{2}
+\]
+(A) Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \). \\
+(B) Find the vertical tangent(s), if any. \\
+(C) Find \( \frac{d^2y}{dx^2} \).
+\end{examplebox}
+Let's do this, one at a time! \\
+\\
+(A) Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \).
+\begin{examplebox}
+\underline{Tangent Line:}
+Recall\dots
+\begin{enumerate}
+    \item \( y - y_0 = m(x - x_0) \), where \( m \) is the slope and \( (x_0, y_0) \) is a point on the curve;
+    \item \( y = mx + b \), where \( m \) is the slope and \( b \) is the y-intercept.
+\end{enumerate}
+Given point \( (\sqrt{2}, 1) = (x_0, y_0) \), \( \frac{dy}{dt} = \sec^2(t) \), and \( \frac{dx}{dt} = \sec(t)\tan(t) \), it follows that:
+\[
+    m = \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{\sec^{\cancel{2}}(t)\tan(t)}{\cancel{\sec(t)}\tan(t)} = \frac{\sec(t)}{\tan(t)}
+\]
+Next, \( \frac{dy}{dx} \mid_{t = \frac{\pi}{4}} = \frac{\sec(\frac{\pi}{4})}{\tan(\frac{\pi}{4})} = \frac{\sqrt{2}}{1} = \sqrt{2} = m \). \\
+
+\textbf{self-note: finish these notes (check the camera roll)}
+
+\end{examplebox}
+
+(B) Find the vertical tangent(s), if any.
+\begin{examplebox}
+\[
+    \frac{dy}{dt} = \sec^2(t)
+\]
+\[
+    \frac{dx}{dt} = \sec(t)\tan(t)
+\]
+So\dots
+\[
+    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{\sec^2(t)}{\sec(t)\tan(t)}
+\]
+
+Recall from first year calculus:
+\begin{theorembox}
+    Given \( y = f(x) \), it follows that \( y' = f'(x) = 0 \). That is, the roots of \( y' = 0 \) indicate the positions of the horizontal tangents.
+\end{theorembox}
+So\dots\\
+Horizonal Tangent: \( \frac{dy}{dx} = 0 \); find \( t \) values.
+\[
+    \frac{dy}{dt} = 0, \quad \text{but } \frac{dx}{dt} \neq 0
+\]
+Vertical Tangent: \( \frac{dy}{dx} \) is \textit{undefined}; find \( t \) values.
+\[
+    \frac{dx}{dt} = 0, \quad \text{but} \frac{dy}{dt} \neq 0
+\]
+In this case, there is a singular point:
+\[
+    \frac{dx}{dt} = 0 \quad \text{and} \quad \frac{dy}{dt} = 0
+\]
+Vertical Tangents: \( \frac{dx}{dt} = 0 \), but \( \frac{dy}{dt} \neq 0 \). \\
+So\dots
+\[
+    \frac{dx}{dt} = \sec(t)\tan(t) = 0, \quad -\frac{\pi}{2} < t < \frac{\pi}{2} \text{.}
+\]
+Notice that
+\begin{itemize}
+    \item \( \sec(t) = \frac{1}{\cos(t)} = 0 \) is impossible as \( 1 \neq 0 \);
+    \item \( \tan(t) = 0 \) occurs at \( t = 0 \).
+\end{itemize}
+Now, check \( \frac{dy}{dt} = 0 \) at \( t = 0 \).
+\[
+    \frac{dy}{dt} = \sec^2(t) = 0, \quad \text{for } t = 0
+\]
+Is this true? \\
+\\
+Therefore, the vertical tangent is at \( t = 0 \).
+\end{examplebox}
+
+(C) Find \( \frac{d^2y}{dx^2} \).
+\begin{examplebox}
+Recall:
+\[
+    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}}
+\]
+\[
+    \frac{dy}{dx} = \frac{\sec(t)}{\tan(t)} \quad \text{and} \quad \frac{dx}{dt} = \sec(t)\tan(t)
+\]
+\[
+    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\sec(t)}{\tan(t)})}{\sec(t)\tan(t)}
+\]
+\[
+    \frac{\sec(t)}{\tan(t)} = \frac{\frac{1}{cos(t)}} \cdot {\frac{\sin(t)}{\cos(t)}} = \frac{1}{\cos(t)}(\frac{\cos(t)}{\sin(t)})
+\]
+\[
+    = \frac{1}{\sin(t)}
+\]
+\[
+    \sec(t)\tan(t) = \frac{1}{\cos(t)} \cdot \frac{\sin(t)}{\cos(t)} = \frac{\sin(t)}{\cos^2(t)}
+\]
+Now, find the derivative of \( y = \frac{1}{\sin(t)}\):
+\[
+    y' = \frac{0 \cdot \sin(t) - \cos(t) \cdot 1}{\sin^2(t)} = -\frac{\cos(t)}{\sin^2(t)}
+\]
+\textbf{note to self: finish this off}
+\end{examplebox}
 
 \end{document}
