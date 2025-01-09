@@ -1,163 +1,163 @@
-\documentclass[12pt]{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage{newunicodechar}
-\usepackage{EngReport}
+\documentclass{article}
+\usepackage{amsthm,amsmath,amsfonts,lipsum}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
 \usepackage{listings}
-\usepackage{cancel}
-\usepackage{comment}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{amsmath}
+\usepackage{fontawesome5}
+\usepackage{adjustbox}
+\usepackage{mathabx}
+\usepackage{thmtools}
+\usepackage{import}
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{geometry}
-\usepackage{xcolor}  % Required for coloring in listings
+\usepackage{physics}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fullpage}
+\usepackage{indentfirst}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{animate}
+\usepackage{tikz}
 
-\graphicspath{{Images/}}
-\onehalfspacing
-\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
-
-% Define custom colors
-\definecolor{myblue}{RGB}{0, 128, 255}
-\definecolor{mygreen}{RGB}{34, 139, 34}
-\definecolor{myorange}{RGB}{255, 140, 0}
-\definecolor{mygray}{RGB}{128, 128, 128}
-\definecolor{mypurple}{RGB}{148, 0, 211}
-\definecolor{myred}{RGB}{255, 69, 0}
-
-% Configure listings for Python with custom styles
-\lstset{
-    language=Python,             % Set language to Python
-    basicstyle=\ttfamily\small,  % Use a smaller monospace font
-    keywordstyle=\color{myblue}\bfseries,  % Keywords in blue and bold
-    commentstyle=\color{mygreen}\itshape,  % Comments in green and italic
-    stringstyle=\color{myorange},          % Strings in orange
-    numberstyle=\color{mygray},            % Line numbers in gray
-    identifierstyle=\color{mypurple},      % Functions and variables in purple
-    morekeywords={print, len, range},      % Define additional Python keywords
-    showstringspaces=false,                % Do not show spaces in strings
-    breaklines=true,                       % Enable line breaking
-    numbers=left,                          % Add line numbers to the left
-    numbersep=5pt,                         % Space between line numbers and code
-    frame=single,                          % Add a box around the code
-    rulecolor=\color{mygray},              % Frame color
-    moredelim=[is][\color{myred}]{@@}{@@}, % Custom inline LaTeX coloring
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
 }
+
+\newcommand{\sincfig}[1]{%
+    \def\svgwidth{0.7\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\newcommand{\hs} {
+\hspace{1cm}
+}
+
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
+\onehalfspacing
 
 \begin{document}
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
-\input{headerfooter}
 \pagebreak
 \normalsize
 
 \section*{Parametric Equations}
-Recall the following from high school and first-year calculus:
 
-\begin{table}[h!]
+\begin{tcolorbox}[colframe=RoyalBlue, colback=blue!5!white, title=Introduction]
+Recall the following from high school and first-year calculus:
+\end{tcolorbox}
+
+\begin{table}[H]
 \centering
 \begin{tabular}{|c|c|}
 \hline
-\textbf{Equation Type}     & \textbf{Example}             \\ \hline
-Cartesian Equation         & $y = x^2$                   \\ \hline
-Function in Cartesian Form & $y = f(x) = x^2$            \\ \hline
-Parametric Equation        & $\begin{cases} 
-x = t \\ 
-y = t^2 
-\end{cases}$ \\ \hline
+\textbf{Equation Type} & \textbf{Example} \\
+\hline
+Cartesian Equation & $y = x^2$ \\
+\hline
+Function in Cartesian Form & $y = f(x) = x^2$ \\
+\hline
+Parametric Equation & $\begin{cases} x = t \\ y = t^2 \end{cases}$ \\
+\hline
 \end{tabular}
 \caption{Comparison of equation representations}
 \label{tab:equation_comparison}
 \end{table}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{parabola.jpg}
 \caption{Graph of a parabola: $y = x^2$}
 \label{fig:parabola}
 \end{figure}
 
+\begin{tcolorbox}[colframe=ForestGreen, colback=green!5!white, title=Parametric Equation Form]
 Parametric equations are of the form:
-\[
-x = f(t), \quad y = g(t), \quad t \in \mathbb{R}
-\]
+\[ x = f(t), \quad y = g(t), \quad t \in \mathbb{R} \]
+\end{tcolorbox}
 
 For example:
-\[
-x = t, \quad y = t^2, \quad t \in \mathbb{R}
-\]
+\[ x = t, \quad y = t^2, \quad t \in \mathbb{R} \]
 This yields points such as:
-\[
-(1, 1), \quad (0, 0), \quad (-1, 1)
-\]
+\[ (1, 1), \quad (0, 0), \quad (-1, 1) \]
 
 Alternatively:
-\[
-x = -t, \quad y = t^2, \quad t \in \mathbb{R}
-\]
+\[ x = -t, \quad y = t^2, \quad t \in \mathbb{R} \]
 This yields points such as:
-\[
-(-1, 1), \quad (0, 0)
-\]
+\[ (-1, 1), \quad (0, 0) \]
 
 \section*{Drawing Parametric Equations}
+
+\begin{tcolorbox}[colframe=RedOrange, colback=orange!5!white, title=Methods to Sketch Parametric Equations]
 Two methods are commonly used to sketch parametric equations:
 \begin{itemize}
     \item Use a table of values for manual computation.
-    \item Convert to a Cartesian equation (eliminate \( t \)) and sketch the graph, if possible.
+    \item Convert to a Cartesian equation (eliminate $t$) and sketch the graph, if possible.
 \end{itemize}
+\end{tcolorbox}
 
-Example:
-Sketch \( x = t^2, y = t^3 \) for \( -\infty < t < \infty \).
+\subsection*{Example}
+\begin{tcolorbox}[colframe=RoyalBlue, colback=blue!5!white, title=Example Problem]
+Sketch $x = t^2, y = t^3$ for $-\infty < t < \infty$.
+\end{tcolorbox}
 
-Table of Values:
-\[
-\begin{array}{|c|c|c|c|}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
 \hline
-t & x = t^2 & y = t^3 & (x, y) \\ \hline
-2 & 4 & 8 & (4, 8) \\ \hline
-1 & 1 & 1 & (1, 1) \\ \hline
-0 & 0 & 0 & (0, 0) \\ \hline
--1 & 1 & -1 & (1, -1) \\ \hline
--2 & 4 & -8 & (4, -8) \\ \hline
-\end{array}
-\]
+$t$ & $x = t^2$ & $y = t^3$ & $(x, y)$ \\
+\hline
+2 & 4 & 8 & (4, 8) \\
+\hline
+1 & 1 & 1 & (1, 1) \\
+\hline
+0 & 0 & 0 & (0, 0) \\
+\hline
+-1 & 1 & -1 & (1, -1) \\
+\hline
+-2 & 4 & -8 & (4, -8) \\
+\hline
+\end{tabular}
+\caption{Table of values for $x = t^2, y = t^3$}
+\end{table}
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.4\textwidth]{sketching_example1.jpg}
-\caption{Sketch of \( x = t^2, y = t^3 \)}
+\caption{Sketch of $x = t^2, y = t^3$}
 \label{fig:sketch_example1}
 \end{figure}
 
 \section*{Other Examples}
-A cartesian equation is given by:  
-\[
-\begin{aligned}
-x &= t^2, \\
-y &= t^3.
-\end{aligned}
-\]
-From these, we derive:  
-\[
-\begin{aligned}
-x^3 &= (t^2)^3 = t^6, \\
-y^2 &= (t^3)^2 = t^6.
-\end{aligned}
-\]
+
+\begin{tcolorbox}[colframe=RoyalPurple, colback=purple!5!white, title=Advanced Example]
+A Cartesian equation is given by:
+\[ \begin{aligned}
+    x &= t^2, \\
+    y &= t^3.
+\end{aligned} \]
+From these, we derive:
+\[ \begin{aligned}
+    x^3 &= (t^2)^3 = t^6, \\
+    y^2 &= (t^3)^2 = t^6.
+\end{aligned} \]
 Thus, we have:
-\[
-x^3 = t^6 = y^2 \implies x^3 = y^2.
-\]
-Rewriting \( y^2 = x^3 \), we solve for \( y \):
-\[
-y = \pm x^{\frac{3}{2}},
-\]
+\[ x^3 = t^6 = y^2 \implies x^3 = y^2. \]
+Rewriting $y^2 = x^3$, we solve for $y$:
+\[ y = \pm x^{\frac{3}{2}}, \]
 which gives the two solutions:
-\[
-y = x^{\frac{3}{2}} \quad \text{and} \quad y = -x^{\frac{3}{2}}.
-\]
+\[ y = x^{\frac{3}{2}} \quad \text{and} \quad y = -x^{\frac{3}{2}}. \]
+\end{tcolorbox}
 
 \end{document}
