@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  8 JAN 2025 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  9 JAN 2025 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -808,20 +808,11 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.40004pt}.
 
 [1 <./parabola.jpg>]
-
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 33.40004pt, for example:
-(fancyhdr)                \setlength{\headheight}{33.40004pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-3.40004pt}.
-
-[2]
-<sketching_example1.jpg, id=21, 2385.91376pt x 1786.675pt>
+<sketching_example1.jpg, id=18, 2385.91376pt x 1786.675pt>
 File: sketching_example1.jpg Graphic file (type jpg)
 <use sketching_example1.jpg>
-Package pdftex.def Info: sketching_example1.jpg  used on input line 132.
-(pdftex.def)             Requested size: 281.85587pt x 211.06573pt.
+Package pdftex.def Info: sketching_example1.jpg  used on input line 130.
+(pdftex.def)             Requested size: 187.89914pt x 140.7014pt.
 
 
 
@@ -831,7 +822,16 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-3.40004pt}.
 
-[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./sketching_example1.jpg>] (./main.aux)
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./sketching_example1.jpg>]
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 33.40004pt, for example:
+(fancyhdr)                \setlength{\headheight}{33.40004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.40004pt}.
+
+[3] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -841,18 +841,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19122 strings out of 473579
- 390530 string characters out of 5732263
- 1272108 words of memory out of 5000000
- 41784 multiletter control sequences out of 15000+600000
+ 19124 strings out of 473579
+ 390588 string characters out of 5732263
+ 1274108 words of memory out of 5000000
+ 41786 multiletter control sequences out of 15000+600000
  565474 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,15n,107p,787b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 302192 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (4 pages, 311714 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
