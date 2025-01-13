@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736786731.74038 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 1/main.tex" "main.pdf" "main" 1736786733.47631 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 1/main.tex" 1736786460 4709 666974acc9458958d034b2f9bc492c75 ""
+["pdflatex"] 1736786934.36843 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 1/main.tex" "main.pdf" "main" 1736786936.03391 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 1/main.tex" 1736786933 4711 9b5cacf5fcc17acd03477691e55a39bd ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -240,9 +240,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727297209 5523052 a6c4264ca43d05e5adfe84e964c2ac4c ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1736786733 1561 3f91c9c5e921241edb5a94cca6aa4d27 "pdflatex"
-  "main.out" 1736786733 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1736786460 4709 666974acc9458958d034b2f9bc492c75 ""
+  "main.aux" 1736786935 1561 3f91c9c5e921241edb5a94cca6aa4d27 "pdflatex"
+  "main.out" 1736786935 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1736786933 4711 9b5cacf5fcc17acd03477691e55a39bd ""
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "parabola.jpg" 1736204426 90610 5838a35d0beaadc034647551a89c97f8 ""
   "sketching_example1.jpg" 1736204426 118412 7fc563135fba8d96cd6fdfe65784a9fc ""
