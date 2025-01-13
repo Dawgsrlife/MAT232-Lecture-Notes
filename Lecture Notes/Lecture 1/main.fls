@@ -350,6 +350,12 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
@@ -379,6 +385,10 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm3583.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx3583.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
@@ -417,6 +427,9 @@ INPUT ./parabola.jpg
 INPUT ./parabola.jpg
 INPUT ./parabola.jpg
 INPUT ./parabola.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
@@ -427,7 +440,13 @@ INPUT ./sketching_example1.jpg
 INPUT ./sketching_example1.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
