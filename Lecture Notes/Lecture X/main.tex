@@ -21,6 +21,17 @@
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{background}
+
+% Configuring the background
+\backgroundsetup{
+  scale=1, % Optional, scale if needed
+  color=black, % Optional, set the image color, can be omitted
+  opacity=0.18, % Optional, adjust opacity for watermark effect
+  angle=0,
+  position=current page.center, % Center the image on the page
+  contents={\includegraphics[width=1.5\paperwidth, height=1.5\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
+}
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}

@@ -316,6 +316,12 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -357,6 +363,10 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm3583.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx3583.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
@@ -390,6 +400,9 @@ INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
@@ -398,11 +411,20 @@ INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./sample_image2.jpg
 INPUT ./sample_image2.jpg
 INPUT ./sample_image2.jpg
 INPUT ./sample_image2.jpg
 INPUT ./sample_image2.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
