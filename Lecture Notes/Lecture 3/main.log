@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  13 JAN 2025 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  13 JAN 2025 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,7 +838,14 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box85
 \tcb@totalupperbox=\box86
 \tcb@totallowerbox=\box87
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `fig:sample_image1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sample_image1' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -939,62 +946,112 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>])
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+<1styearcalc.jpg, id=17, 1079.03125pt x 800.9925pt>
+File: 1styearcalc.jpg Graphic file (type jpg)
+<use 1styearcalc.jpg>
+Package pdftex.def Info: 1styearcalc.jpg  used on input line 74.
+(pdftex.def)             Requested size: 281.85587pt x 209.23091pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<sample_image.jpg, id=17, 147.4308pt x 147.4308pt>
-File: sample_image.jpg Graphic file (type jpg)
-<use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 86.
-(pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 
-     
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 90.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
- [1{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<sample_image1.jpg, id=31, 147.4308pt x 147.4308pt>
-File: sample_image1.jpg Graphic file (type jpg)
-<use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 99.
-(pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
-
-
+l.103 
+      
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 103.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[2 <./sample_image.jpg>]
-<sample_image2.jpg, id=39, 147.4308pt x 147.4308pt>
-File: sample_image2.jpg Graphic file (type jpg)
-<use sample_image2.jpg>
-Package pdftex.def Info: sample_image2.jpg  used on input line 112.
+ [1 <./1styearcalc.jpg>]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 140.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[2]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 155.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<sample_image1.jpg, id=43, 147.4308pt x 147.4308pt>
+File: sample_image1.jpg Graphic file (type jpg)
+<use sample_image1.jpg>
+Package pdftex.def Info: sample_image1.jpg  used on input line 186.
 (pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 116.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 190.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[3 <./sample_image1.jpg>]
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 117.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 215.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[4 <./sample_image2.jpg>] (./main.aux)
+[5 <./sample_image1.jpg>]
+File: sample_image1.jpg Graphic file (type jpg)
+<use sample_image1.jpg>
+Package pdftex.def Info: sample_image1.jpg  used on input line 223.
+(pdftex.def)             Requested size: 263.07692pt x 263.11887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--226
+
+ []
+
+File: sample_image1.jpg Graphic file (type jpg)
+<use sample_image1.jpg>
+Package pdftex.def Info: sample_image1.jpg  used on input line 230.
+(pdftex.def)             Requested size: 263.07692pt x 263.11887pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 249.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[6]
+Overfull \vbox (344.4143pt too high) has occurred while \output is active []
+
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 249.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[7]
+<sample_image2.jpg, id=75, 147.4308pt x 147.4308pt>
+File: sample_image2.jpg Graphic file (type jpg)
+<use sample_image2.jpg>
+Package pdftex.def Info: sample_image2.jpg  used on input line 258.
+(pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 263.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[8 <./sample_image2.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1004,22 +1061,25 @@ L3 programming layer <2024-09-10>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.17pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33960 strings out of 473579
- 655912 string characters out of 5732263
- 1134068 words of memory out of 5000000
- 56295 multiletter control sequences out of 15000+600000
- 570170 words of font info for 63 fonts, out of 8000000 for 9000
+ 34001 strings out of 473579
+ 656487 string characters out of 5732263
+ 1137295 words of memory out of 5000000
+ 56317 multiletter control sequences out of 15000+600000
+ 572416 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,12n,101p,635b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (5 pages, 500848 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on main.pdf (9 pages, 582077 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

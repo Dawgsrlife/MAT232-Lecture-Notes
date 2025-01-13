@@ -65,33 +65,120 @@
 This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
 \end{notebox}
 
-\section*{Key Concepts}
+\section*{Recall 1st Year Calculus}
 \begin{definitionbox}
-A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
+A definite integral...
 \end{definitionbox}
-
-\section*{Examples}
-\begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
-\end{examplebox}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{sample_image.jpg}
+    \includegraphics[width=0.6\textwidth]{1styearcalc.jpg}
     \caption{Sample image illustrating the concept.}
     \label{fig:sample_image}
 \end{figure}
 
-\section*{Theorems and Proofs}
+\section*{Section 1.2 (...cont'd): Now, in MAT232...}
+\begin{definitionbox}
+    \textbf{self-note: make this definition proper}
+    A \textbf{parametric curve} has properties
+    \[
+        x = f(t), \quad y = g(t), \quad \alpha \leq t \leq \beta
+    \]
+    above the x-axis, and does not self-intersect.
+    \textbf{self-note: show an image of self intersection and a cross to denote the ``NO!''}
+    \[
+        Area = \int_{x=a}^{x=b} f(x) dx = \int_{b}^{a} y(x) dx = \int_{c}^{d} x(y) dy
+    \]
+    Aside:
+    \[
+        Area = \int_{y=e}^{y=d} g(y) dy
+    \]
+    Also\dots
+    \[
+        Area = \int_{t=\alpha}^{t=\beta} g(t) f'(t) dt
+    \]
+    \[
+        Area = \int_{t=\alpha}^{t=\beta} f(t) g'(t) dt
+    \]
+\end{definitionbox}
+
+\section*{Examples}
+\begin{examplebox}
+\textbf{Example 1:} Find the area under the curve of the cycloid defined by the equations
+\[ x = t - \sin(t), \quad y = 1 - \cos(t), \quad 0 \leq t \leq 2\pi. \]
+\begin{itemize}
+    \item \( x = f(t) = t - \sin(t) \) 
+    \item \( x' = f'(t) = 1 - \cos(t) \) 
+    \item \( y = g(t) = 1 - \cos(t) \)
+\end{itemize}
+Recall the generic formula to find the area:
+\[
+    Area = \int_{t=\alpha}^{t=\beta} g(t) f'(t) dt
+\]
+Applying \( f(t), g(t) \) from this question:
+\begin{equation*}
+    \begin{aligned}
+        Area &= \int_{0}^{2\pi} [1 - \cos(t)][1 - \cos(t)] dt \\
+        &= \int_{0}^{2\pi} [1 - 2\cos(t) + cos^2(t)] dt
+    \end{aligned}
+\end{equation*}
+Recall the half-angles trigonometric identity:
+\[
+    \int_{}^{} \cos^2(x) dx = \int_{}^{} \frac{1 + cos(2x)}{2} dx
+\]
+\[
+    \int_{}^{} \cos(x) dx = \sin(x) + c
+\]
+So\dots
+\textbf{self-note: finish off the work below on the ellipsis}
+\begin{equation*}
+    \begin{aligned}
+        Area &= \dots \\
+        &= 3\pi
+    \end{aligned}
+\end{equation*}
+\end{examplebox}
+
+
+\section*{Homework Practice Question}
+\begin{examplebox}
+    Find the area under the curve defined by
+    \[
+        x = 3\cos(t) + \cos(3t), \quad y = 3\sin(t) - \sin(3t), \quad 0 \leq t \leq \pi.
+    \]
+    Hint: Recall that \( \sin^2(x) + \cos^2(x) = 1 \).
+    Notice that...
+    \[
+        mathgoeshere
+    \]
+    \textbf{answer:} \( 3\pi \) 
+\end{examplebox}
+
+\section*{The Arc Length of a Parametric Curve}
 \begin{theorembox}
-\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
-\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
+\textbf{Theorem:} \textbf{self-note: grab the actual theorem from the textbook lol}
+
+\begin{itemize}
+    \item \( (x_1, y_1) \) and \( (x_2, y_2) \) are points
+    \item \( \Delta x = x_1 - x_2 \), \( \Delta = \text{Delta} \) 
+\end{itemize}
+The distance between two points is denoted by \( D \) as follows:
+\[
+    D = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+\]
+Substitute \( \Delta x \) and \( \Delta y \) as follows:
+\[
+    D = \sqrt{\Delta x^2 + \Delta y^2} 
+\]
+It follows that\dots
+\[
+    D = \sqrt{(\frac{\Delta x}{\Delta t})^2 + (\frac{\Delta y}{\Delta t})^2 } \Delta t
+\]
+Now, notice the similarity to Riemann sums from MAT136. As \( \Delta x \to 0 \):
+\[
+    L = \int_{t=\alpha}^{t=\beta} \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} dt 
+\]
+\textit{\( L \) is the (arc) length of a curve. This is confirmed to be included on term test 1, and will be on the formula sheet.}
+
 \end{theorembox}
 
 \begin{figure}[H]
@@ -100,6 +187,65 @@ This describes a parabola.
     \caption{Graphical representation of the theorem.}
     \label{fig:sample_image1}
 \end{figure}
+
+\section*{Example}
+\begin{examplebox}
+    Find the arc length of the curve defined by
+    \[
+        x = 3\cos(t), \quad y = 3\sin(t), \quad t \in [0, 2\pi] \text{.}
+    \]
+    The arc length is denoted by \( L \). Evaluate as follows:
+    \begin{equation*}
+        \begin{aligned}
+            L &= \int_{0}^{2\pi} \sqrt{(-3\sin(t))^2 + (3\cos(t))^2} dt \\
+            &= \textbf{self-note: finish this using the notes in the camera roll}
+        \end{aligned}
+    \end{equation*}
+\end{examplebox}
+
+\section*{Homework Practice Problem}
+\begin{notebox}
+    Find the arc length of the curve defined by
+    \[
+        x = 3t^2, \quad y = 2t^3, \quad 1 \leq t \leq 3 \text{.}
+    \]
+    \textbf{self-note: do the solution to this} \\
+    \\
+\end{notebox}
+
+\section*{Section 1.3: Polar Coordinates}
+\begin{definitionbox}
+    \textbf{give the actual definition here from the textbook lol} \\
+    \\
+    Cartesian Coordniates:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
+        \caption{Graphical representation of the theorem.}
+        \label{fig:sample_image1}
+    \end{figure}
+    Polar Coordinates:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
+        \caption{Graphical representation of the theorem.}
+        \label{fig:sample_image1}
+    \end{figure}
+    How to work with \textbf{Polar Coordinates}
+    \begin{enumerate}
+        \item Start from the origin, and trace positively along the x-axis by the amount of the radius
+        \item Imagine a line segment connecting from the origin to the resultant point, and rotate this line segment \( \theta \) degrees about the origin
+        \item The destination of the resultant point is the point represented by the polar coordinate \( (r, \theta) \).
+    \end{enumerate}
+    Converting from \textbf{Cartesian Coordinates} to \textbf{Polar Coordinates}:
+    \begin{enumerate}
+        \item \textbf{self-note: see camera roll to fill this in with}
+    \end{enumerate}
+    Converting from \textbf{Cartesian Coordinates} to \textbf{Polar Coordinates}:
+    \begin{enumerate}
+        \item \textbf{self-note: see camera roll to fill this in with}
+    \end{enumerate}
+\end{definitionbox}
 
 \section*{Additional Notes}
 \begin{notebox}
