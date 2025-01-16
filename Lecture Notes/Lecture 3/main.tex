@@ -159,100 +159,314 @@ Graph the curve defined by $r = 4\sin\theta$.
 \input{intolecturecontent}
 \normalsize
 
-\section*{Recall 1st Year Calculus}
+\section*{Recall: 1st Year Calculus}
 \begin{definitionbox}
-A definite integral\dots
+The \textbf{definite integral} of a function \( y = f(x) \), where \( f(x) \geq 0 \), represents the area under the curve from \( x = a \) to \( x = b \):
 \[
-    y = f(x) \geq 0
+    \text{Area} = \int_{x=a}^{x=b} f(x) \, dx
 \]
-\[
-    Area = \int_{x=a}^{x=b} f(x) dx
-\]
-\end{definitionbox}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{1styearcalc.jpg}
-    \caption{Sample image illustrating the concept.}
+    \caption{Illustration of the area under \( y = f(x) \).}
+    \label{fig:sample_image}
+\end{figure}
+\end{definitionbox}
+
+\section*{Section 1.2: MAT232 Perspective}
+\begin{definitionbox}
+A \textbf{parametric curve} is defined by:
+\[
+    x = f(t), \quad y = g(t), \quad \alpha \leq t \leq \beta
+\]
+with the following properties:
+\begin{itemize}
+    \item The curve lies above the \( x \)-axis.
+    \item The curve does not self-intersect.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{self_intersecting_parametric_curve_example.png}
+    \caption{A curve that self-intersects.}
     \label{fig:sample_image}
 \end{figure}
 
-\section*{Section 1.2 (...cont'd): Now, in MAT232...}
-\begin{definitionbox}
-    \textbf{self-note: make this definition proper}
-    A \textbf{parametric curve} has properties
-    \[
-        x = f(t), \quad y = g(t), \quad \alpha \leq t \leq \beta
-    \]
-    above the x-axis, and does not self-intersect.
-    \textbf{self-note: show an image of self intersection and a cross to denote the ``NO!''}
-    \[
-        Area = \int_{x=a}^{x=b} f(x) dx = \int_{b}^{a} y(x) dx = \int_{c}^{d} x(y) dy
-    \]
-    Aside:
-    \[
-        Area = \int_{y=e}^{y=d} g(y) dy
-    \]
-    Also\dots
-    \[
-        Area = \int_{t=\alpha}^{t=\beta} g(t) f'(t) dt
-    \]
-    \[
-        Area = \int_{t=\alpha}^{t=\beta} f(t) g'(t) dt
-    \]
+The area enclosed by the curve is given by:
+\[
+    \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt
+\]
+or equivalently:
+\[
+    \text{Area} = \int_{t=\alpha}^{t=\beta} f(t) g'(t) \, dt
+\]
 \end{definitionbox}
 
-\section*{Examples}
+\subsection*{Alternative Forms for Area}
+\begin{notebox}
+In specific cases, the area can also be calculated using:
+\[
+    \text{Area} = \int_{y=c}^{y=d} x(y) \, dy
+\]
+or:
+\[
+    \text{Area} = \int_{x=a}^{x=b} y(x) \, dx
+\]
+\end{notebox}
+
+\section*{Area Enclosed by a Parametric Curve}
 \begin{examplebox}
-\textbf{Example 1:} Find the area under the curve of the cycloid defined by the equations
-\[ x = t - \sin(t), \quad y = 1 - \cos(t), \quad 0 \leq t \leq 2\pi. \]
-\begin{itemize}
-    \item \( x = f(t) = t - \sin(t) \) 
-    \item \( x' = f'(t) = 1 - \cos(t) \) 
-    \item \( y = g(t) = 1 - \cos(t) \)
-\end{itemize}
-Recall the generic formula to find the area:
+Calculate the area enclosed by the parametric curve:
 \[
-    Area = \int_{t=\alpha}^{t=\beta} g(t) f'(t) dt
+    x = \cos(t), \quad y = \sin(t), \quad 0 \leq t \leq \pi
 \]
-Applying \( f(t), g(t) \) from this question:
-\begin{equation*}
-    \begin{aligned}
-        Area &= \int_{0}^{2\pi} [1 - \cos(t)][1 - \cos(t)] dt \\
-        &= \int_{0}^{2\pi} [1 - 2\cos(t) + cos^2(t)] dt
-    \end{aligned}
-\end{equation*}
-Recall the half-angles trigonometric identity:
+
+\begin{solutionbox}
+The area is calculated as:
 \[
-    \int_{}^{} \cos^2(x) dx = \int_{}^{} \frac{1 + cos(2x)}{2} dx
+    \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt,
 \]
+where \( x = f(t) \) and \( y = g(t) \). Here, \( f(t) = \cos(t) \), \( g(t) = \sin(t) \), and \( f'(t) = -\sin(t) \). Substituting:
 \[
-    \int_{}^{} \cos(x) dx = \sin(x) + c
+    \text{Area} = \int_{t=0}^{t=\pi} \sin(t)(-\sin(t)) \, dt = \int_{t=0}^{t=\pi} -\sin^2(t) \, dt.
 \]
-So\dots
-\textbf{self-note: finish off the work below on the ellipsis}
-\begin{equation*}
-    \begin{aligned}
-        Area &= \dots \\
-        &= 3\pi
-    \end{aligned}
-\end{equation*}
+
+Using \( \sin^2(t) = \frac{1}{2}(1 - \cos(2t)) \), we get:
+\[
+    \text{Area} = -\int_{t=0}^{t=\pi} \frac{1}{2}(1 - \cos(2t)) \, dt = -\frac{1}{2} \left[ \int_{t=0}^{t=\pi} 1 \, dt - \int_{t=0}^{t=\pi} \cos(2t) \, dt \right].
+\]
+
+Evaluate the integrals:
+\[
+    \int_{t=0}^{t=\pi} 1 \, dt = \pi, \quad \int_{t=0}^{t=\pi} \cos(2t) \, dt = \left[ \frac{\sin(2t)}{2} \right]_0^\pi = 0.
+\]
+
+Thus:
+\[
+    \text{Area} = -\frac{1}{2}(\pi - 0) = -\frac{\pi}{2}.
+\]
+Taking the absolute value (since area is positive):
+\[
+    \text{Area} = \frac{\pi}{2}.
+\]
+\end{solutionbox}
+\end{examplebox}
+
+\section*{Area Under the Curve of a Cycloid}
+\begin{examplebox}
+\textbf{Example:} Find the area under the cycloid defined by:
+\[
+    x = t - \sin(t), \quad y = 1 - \cos(t), \quad 0 \leq t \leq 2\pi.
+\]
+
+\begin{solutionbox}
+The area under a parametric curve is given by:
+\[
+    \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt, \quad f'(t) = \frac{dx}{dt}.
+\]
+\\
+\textbf{Step 1: Substitution} \\
+From \( x = t - \sin(t) \) and \( y = 1 - \cos(t) \):  
+\[
+    f'(t) = 1 - \cos(t), \quad g(t) = 1 - \cos(t).
+\]
+Substitute into the formula:
+\[
+    \text{Area} = \int_{0}^{2\pi} (1 - \cos(t))^2 \, dt.
+\]
+\\
+\textbf{Step 2: Expand and Separate Terms} \\
+Expand \( (1 - \cos(t))^2 \):
+\[
+    \text{Area} = \int_{0}^{2\pi} [1 - 2\cos(t) + \cos^2(t)] \, dt.
+\]
+Split the integral:
+\[
+    \text{Area} = \int_{0}^{2\pi} 1 \, dt - 2\int_{0}^{2\pi} \cos(t) \, dt + \int_{0}^{2\pi} \cos^2(t) \, dt.
+\]
+\textit{...cont'd...}
+\end{solutionbox}
+\end{examplebox}
+\begin{examplebox}
+\begin{solutionbox}
+\textit{...cont'd...} \\
+\\
+\textbf{Step 3: Evaluate Each Term} \\
+1. \underline{First Term:}  
+\[
+    \int_{0}^{2\pi} 1 \, dt = 2\pi.
+\]  
+2. \underline{Second Term:}  
+\[
+    \int_{0}^{2\pi} \cos(t) \, dt = [\sin(t)]_{0}^{2\pi} = 0.
+\]  
+3. \underline{Third Term:} \\
+\\
+Using \( \cos^2(t) = \dfrac{1 + \cos(2t)}{2} \):  
+\[
+    \int_{0}^{2\pi} \cos^2(t) \, dt = \frac{1}{2} \int_{0}^{2\pi} 1 \, dt + \frac{1}{2} \int_{0}^{2\pi} \cos(2t) \, dt.
+\]
+Evaluate:  
+\[
+    \frac{1}{2} \int_{0}^{2\pi} 1 \, dt = \pi, \quad \frac{1}{2} \int_{0}^{2\pi} \cos(2t) \, dt = 0.
+\]
+Thus:
+\[
+    \int_{0}^{2\pi} \cos^2(t) \, dt = \pi.
+\]
+
+\textbf{Step 4: Combine Results}  
+\[
+    \text{Area} = 2\pi - 0 + \pi = 3\pi.
+\]
+
+\begin{answerbox}
+\( \text{Area} = 3\pi \) 
+\end{answerbox}
+
+\end{solutionbox}
 \end{examplebox}
 
 
-\section*{Homework Practice Question}
-\begin{examplebox}
+\section*{Homework Practice Question: Area Under a Parametric Curve}
+\begin{exercisebox}
     Find the area under the curve defined by
     \[
         x = 3\cos(t) + \cos(3t), \quad y = 3\sin(t) - \sin(3t), \quad 0 \leq t \leq \pi.
     \]
     Hint: Recall that \( \sin^2(x) + \cos^2(x) = 1 \).
-    Notice that...
+    
+    \begin{solutionbox}
+    The area under a parametric curve is given by:
     \[
-        mathgoeshere
+        \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt,
     \]
-    \textbf{answer:} \( 3\pi \) 
-\end{examplebox}
+    where \( x = f(t) \), \( y = g(t) \), and \( f'(t) = \frac{dx}{dt} \). \\
+    \\
+    \textbf{Step 1: Differentiate \( x(t) \)} \\
+    Given \( x = 3\cos(t) + \cos(3t) \), compute:
+    \[
+        f'(t) = \frac{d}{dt}[3\cos(t) + \cos(3t)] = -3\sin(t) - 3\sin(3t).
+    \]
+    \\
+    \textbf{Step 2: Substitute into the Formula} \\
+    The parametric area formula becomes:
+    \[
+        \text{Area} = \int_{0}^{\pi} \big[3\sin(t) - \sin(3t)\big] \big[-3\sin(t) - 3\sin(3t)\big] \, dt.
+    \]
+    \\
+    \textbf{Step 3: Simplify the Expression} \\
+    Expand the product:
+    \[
+        \big[3\sin(t) - \sin(3t)\big]\big[-3\sin(t) - 3\sin(3t)\big] = -9\sin^2(t) - 9\sin(t)\sin(3t) + 3\sin(3t)\sin(t) + 3\sin^2(3t).
+    \]
+    Combine terms:
+    \[
+        -9\sin^2(t) + 3\sin^2(3t) - 6\sin(t)\sin(3t).
+    \]
+    \textit{...cont'd...}
+    \end{solutionbox}
+\end{exercisebox}
+\begin{exercisebox}
+    \begin{solutionbox}
+    \textit{...cont'd..} \\
 
+    Using the product-to-sum identity for \( \sin(a)\sin(b) = \frac{1}{2}[\cos(a-b) - \cos(a+b)] \):
+    \[
+        \sin(t)\sin(3t) = \frac{1}{2}[\cos(2t) - \cos(4t)].
+    \]
+        
+    Substitute this back:
+    \[
+        \text{Area} = \int_{0}^{\pi} \big[-9\sin^2(t) + 3\sin^2(3t) - 3[\cos(2t) - \cos(4t)]\big] \, dt.
+    \]
+    \\
+    \textbf{Step 4: Break the Integral into Separate Terms} \\
+    Split the integral:
+    \[
+        \text{Area} = -9\int_{0}^{\pi} \sin^2(t) \, dt + 3\int_{0}^{\pi} \sin^2(3t) \, dt - 3\int_{0}^{\pi} \cos(2t) \, dt + 3\int_{0}^{\pi} \cos(4t) \, dt.
+    \]
+
+    \textbf{Step 5: Evaluate Each Integral}  
+
+    1. \underline{First Term (\(-9\int_{0}^{\pi} \sin^2(t) \, dt\)):} \\
+    \\
+       Use the identity \( \sin^2(t) = \dfrac{1 - \cos(2t)}{2} \):
+       \[
+           \int_{0}^{\pi} \sin^2(t) \, dt = \int_{0}^{\pi} \frac{1 - \cos(2t)}{2} \, dt = \frac{1}{2} \int_{0}^{\pi} 1 \, dt - \frac{1}{2} \int_{0}^{\pi} \cos(2t) \, dt.
+       \]
+       Evaluate:
+       \[
+           \frac{1}{2} \int_{0}^{\pi} 1 \, dt = \frac{\pi}{2}, \quad \frac{1}{2} \int_{0}^{\pi} \cos(2t) \, dt = \frac{1}{2}[0] = 0.
+       \]
+       So:
+       \[
+           \int_{0}^{\pi} \sin^2(t) \, dt = \frac{\pi}{2}.
+       \]
+       Multiply by \(-9\):
+       \[
+           -9\int_{0}^{\pi} \sin^2(t) \, dt = -9 \cdot \frac{\pi}{2} = -\frac{9\pi}{2}.
+       \]
+    \textit{...cont'd...}
+    \end{solutionbox}
+\end{exercisebox}
+\begin{exercisebox}
+    \begin{solutionbox}
+        \textit{...cont'd...} \\
+        \\
+        2. \underline{Second Term (\(3\int_{0}^{\pi} \sin^2(3t) \, dt\)):} \\
+        \\
+       Similarly, \( \sin^2(3t) = \dfrac{1 - \cos(6t)}{2} \):
+       \[
+           \int_{0}^{\pi} \sin^2(3t) \, dt = \frac{1}{2} \int_{0}^{\pi} 1 \, dt - \frac{1}{2} \int_{0}^{\pi} \cos(6t) \, dt.
+       \]
+       Evaluate:
+       \[
+           \frac{1}{2} \int_{0}^{\pi} 1 \, dt = \frac{\pi}{2}, \quad \frac{1}{2} \int_{0}^{\pi} \cos(6t) \, dt = 0.
+       \]
+       So:
+       \[
+           \int_{0}^{\pi} \sin^2(3t) \, dt = \frac{\pi}{2}.
+       \]
+       Multiply by 3:
+       \[
+           3\int_{0}^{\pi} \sin^2(3t) \, dt = 3 \cdot \frac{\pi}{2} = \frac{3\pi}{2}.
+       \]
+
+    3. \underline{Third Term (\(-3\int_{0}^{\pi} \cos(2t) \, dt\)):} \\
+    \\
+       Since \(\int_{0}^{\pi} \cos(2t) \, dt = 0\):
+       \[
+           -3\int_{0}^{\pi} \cos(2t) \, dt = 0.
+       \]
+
+    4. \underline{Fourth Term (\(3\int_{0}^{\pi} \cos(4t) \, dt\)):} \\
+    \\
+       Similarly, \(\int_{0}^{\pi} \cos(4t) \, dt = 0\):
+       \[
+           3\int_{0}^{\pi} \cos(4t) \, dt = 0.
+       \]
+    \\
+    \textbf{Step 6: Combine Results} \\
+    Add the evaluated terms:
+    \[
+        \text{Area} = -\frac{9\pi}{2} + \frac{3\pi}{2} + 0 + 0 = -\frac{6\pi}{2} = -3\pi.
+    \]
+    However, the area is always positive, so:
+    \[
+        \text{Area} = 3\pi.
+    \]
+    \end{solutionbox}
+\end{exercisebox}
+\begin{exercisebox}
+    \begin{solutionbox}
+        \textit{...cont'd...}
+        \begin{answerbox}
+            \( \text{Area} = 3\pi \)
+        \end{answerbox}
+    \end{solutionbox}
+\end{exercisebox}
+
+\textbf{continue here with embellishments!}
 \section*{The Arc Length of a Parametric Curve}
 \begin{theorembox}
 \textbf{Theorem:} \textbf{self-note: grab the actual theorem from the textbook lol}
