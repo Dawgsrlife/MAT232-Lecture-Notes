@@ -175,24 +175,273 @@ Note that the radius is positive. Thus:
 \[
     r = 4 \text{.}
 \]
-Note that
+Recall that:
+\[
+    \tan(\theta) = \frac{y}{x}
+\]
+\[
+    \tan(\theta) = \frac{2\sqrt{3}}{-2}
+\]
+\[
+    \tan(\theta) = -\sqrt{3}
+\]
+\begin{notebox}
+Note that:
+\[
+    \arctan(\frac{y}{x}) = \theta, \quad \frac{\pi}{2} < \theta < \frac{\pi}{2}
+\]
+\end{notebox}
+\begin{tipbox}
+Manually determining \( \theta \) from \( \tan(\theta) = \sqrt{3} \).
+
+Note the special angles (in radians):
+\begin{itemize}
+    \item \( 0 \) 
+    \item \( \frac{\pi}{6} \) 
+    \item \( \frac{\pi}{4} \)
+    \item \( \frac{\pi}{3} \)
+    \item \( \frac{\pi}{2} \)
+\end{itemize}
+Check:
+At \( \theta = \frac{\pi}{6} \),
+\[
+    LHS = \dfrac{\sin(\frac{\pi}{6})}{\cos(\frac{\pi}{6})}
+\]
+\[
+    LHS = \dfrac{\frac{1}{2}}{\frac{\sqrt{3}}{2}}
+\]
+\[
+    LHS = (\dfrac{1}{2})(\dfrac{2}{\sqrt{3}})
+\]
+\[
+    LHS = \frac{1}{\sqrt{3}}
+\]
+\[
+    RHS = \sqrt{3}
+\]
+Clearly, \( LHS = \frac{1}{\sqrt{3}} \neq \sqrt{3} = RHS \).
+So, \( \theta \neq \frac{\pi}{6} \).
+
+Now, do the same to check that \( \theta \) is indeed \( \sqrt{3} \).
+[do that here!]
+\end{tipbox}
+
+We now have \( (r, \theta) = (4, -\frac{\pi}{3 = -60\text{\textdegree}})\). \\
+\\
+We don't want to retain the negative! \\
+\\
+So, the fix\dots
+\[
+    (4, -\frac{\pi}{3} + \pi = -60\text{\textdegree} + 180\text{\textdegree}) = (4, \frac{2\pi}{3} = 120\text{\textdegree})
+\]
 \end{solutionbox}
 \end{examplebox}
 
-\section*{Key Concepts}
+\begin{tipbox}
+When practicing for this course, you are encouraged to leverage any available graphing websites and/or software. \\
+\\
+Ideally, you want to know how to draw lines and circles.
+\end{tipbox}
+
+\section*{Polar Curves}
+\begin{examplebox}
+Consider \( r = f(\theta) \). \\
+\\
+Sketch the following functions: \\
+(a) \( r = 1 \) \\
+(b) \( \theta = \frac{\pi}{4} \) \\
+(c) \( r = \theta, \quad \theta \geq 0 \) \\
+(d) \( r = \sin(\theta) \) \\
+(e) \( r = \cos(2\theta) \) \\
+\\
+\end{examplebox}
+
+(a)
+\begin{solutionbox}
+Here, \( r = 1 \) and \( \theta \) is an arbitrary angle. \\
+\\
+Converting from a polar-coordinate curve to a cartesian-coordinate equation:
+\[
+    x^2 + y^2 = r^2 = 1^2 = 1
+\]
+Clearly, we are working with the unit cirle.
+
+\textbf{self-note: actually show the illustration as andie drew on the lecture notes}
+\end{solutionbox}
+
+(b)
+\begin{solutionbox}
+    [fill this in]
+\end{solutionbox}
+
+(c) \( r = \theta, \quad \theta \geq 0 \)
+\begin{solutionbox}
+As \( r \to \infty \), \( \theta \) increases.
+\[
+    r = f(\theta)
+\]
+\[
+    \pi \doteq 3.14
+\]
+\[
+\begin{array}{c|c|c|c|c|c}
+\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} \\
+\hline
+r & 0 & \doteq 1 & \doteq 1.2 & \doteq 1.4 & \doteq 1.5 \\
+\end{array}
+\]
+
+Check out the illustration:
+[add-illustration-here] \\
+\\
+Now, converting from polar coordinates to cartesian coordinates:
+\[
+    x^2 + y^2 = r^2
+\]
+\[
+    \sqrt{x^2 + y^2} = r
+\]
+[and also add the other equation]
+\end{solutionbox}
+
+(d) \( r = \sin\theta \)
+\begin{solutionbox}
+\[
+\begin{array}{c|c|c|c|c|c}
+\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} \\
+\hline
+r & 0 & \frac{1}{2} & \frac{1}{\sqrt{2}} & \frac{\sqrt{3}}{2} & 1 \\
+\end{array}
+\]
+Just use the table to directly plot the points for the graph! \\
+\\
+\textbf{add-illustration-here}
+We now need an equation that will help us get rid of \( r = \sin\theta \). Consider the possibilities:
+\begin{itemize}
+    \item \( x = r\cos\theta \)
+    \item \( y = r\sin\theta \)
+    \item \( \frac{y}{r} = \sin\theta \)
+\end{itemize}
+
+\[
+    r = \sin\theta
+\]
+\[
+    r = \frac{y}{r}
+\]
+\[
+    r^2 = y
+\]
+\( x^2 + y^2 = r^2 \)
+So,
+\[
+    x^2 + y^2 = y \text{.}
+\]
+\begin{propositionbox}
+Recall how to complete the square from Grade 10 math:
+\textbf{self-note: add that here to reference}
+\end{propositionbox}
+Proceed to complete the square:
+\[
+    x^2 + y^2 - y + \frac{1}{4} = \frac{1}{4}
+\]
+step no. 1: \( -\frac{1}{2} \) \\
+step no. 2: \( (-\dfrac{1}{2})^2 = \frac{1}{4} \).
+Recall that:
+\[
+    (y + a)^2 = (y + a)(y + a)
+\]
+\[
+    = y^2 + 2ay + a^2
+\]
+This would represent the \( y^2 - y + \frac{1}{4} \) part.
+
+Note that the \( (y - a)^2 \) represents the \( -\frac{1}{2} \) 
+
+result:
+\[
+    x^2 + (y - \frac{1}{2})^2 = \frac{1}{4}
+\]
+Centre: \( (0, \frac{1}{2}) \) \\
+Radius: \( r = \frac{1}{2} \) \\
+
+\end{solutionbox}
+
+\begin{exercisebox}
+Try:
+\[
+    r = \cos\theta
+\]
+under the same context as denoted for the above questions.
+\end{exercisebox}
+
+\section*{The Derivative of a Polar Curve}
+\subsection*{Tangents to Polar Curves}
 \begin{definitionbox}
-A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
+\begin{notebox}
+Recall that polar curves are defined by:
+\[
+    r = f(\theta)
+\]
+\end{notebox}
+\[
+    x = r\cos\theta = f(\theta) \cos\theta
+\]
+\[
+    y = r\sin\theta = f(\theta) \sin\theta
+\]
+\begin{intuitionbox}
+The goal is to have everything on \( x \) depend on \textbf{one} parameter. \\
+\\
+Do the exact same thing on \( y \).
+\end{intuitionbox}
+
+So, 
+\[
+    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\frac{dx}{\dfrac{d}{\theta}}}.
+\]
+We want require \( \frac{dx}{d\theta} \neq 0 \).
+
+So\dots
+\[
+    \frac{dy}{dx} = \frac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}}
+\]
+\[
+    = \dfrac{\frac{df(\theta)}{d\theta} \sin\theta + \cos\theta f(\theta)}{\frac{df(\theta)}{d\theta} \cos\theta - \sin\theta f(\theta)}
+\]
+So,
+\[
+    \frac{dy}{dx} = \frac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}} = \dfrac{\frac{dr}{d\theta} \sin\theta + r \cos\theta}{\frac{dr}{d\theta} \cos\theta - r \sin\theta}
+\]
+(subbed \( r \) in for \( f(\theta) \)).
+\underline
+\\
+{Conclusion:}
+\begin{itemize}
+    \item Horizontal Tangents: \( \frac{dy}{d\theta} = 0, \quad \frac{dx}{d\theta} \neq 0 \)
+    \item Vertical Tangents: \( \frac{dx}{d\theta} = 0, \quad \frac{dy}{d\theta} \neq 0 \)
+    \item Singular Points (discard; we will not be doing further analysis for this case in MAT232): \( \frac{dy}{d\theta} = \frac{dx}{d\theta} = 0 \)
+\end{itemize}
+
 \end{definitionbox}
 
 \section*{Examples}
 \begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
+Find the \textbf{vertical tangent} angles of the polar curve \( r = 1 - \cos\theta, \quad 0 \leq \theta \leq \pi \).
+\begin{solutionbox}
+Recall that \( \frac{dr}{d\theta} = \sin\theta \).
+
+Obtain the first derivative:
+\[
+    \frac{dy}{dx} = ...
+\]
+
+\textbf{self-note: prof is going way too fast; finish the notes according to your camera roll later! the good thing is that you didn't actually miss any sections! fulfilling incomplete sections is just a matter of reviewing and comparing to the pictures taken of the prof's projected live notes!}
+
+\begin{answerbox}
+The vertical tangents are located at \( x = \{ \frac{\pi}{3}, \pi \} \).
+\end{answerbox}
+\end{solutionbox}
 
 \begin{figure}[H]
     \centering
