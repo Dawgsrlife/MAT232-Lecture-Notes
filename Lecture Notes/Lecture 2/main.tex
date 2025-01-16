@@ -15,7 +15,7 @@
 \usepackage{float}
 \usepackage[english]{babel}
 \usepackage{framed}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,x11names]{xcolor}
 \usepackage{tcolorbox}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -23,6 +23,7 @@
 \usepackage{enumitem}
 \usepackage{cancel}
 \usepackage{background}
+\usepackage{units}
 
 % Configuring the background
 \backgroundsetup{
@@ -34,12 +35,29 @@
   contents={\includegraphics[width=1.75\paperwidth, height=1.75\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
 }
 
+% Colours
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
 \newtcolorbox{definitionbox}{colframe=RoyalBlue, colback=blue!5!white, title=Definition}
 \newtcolorbox{examplebox}{colframe=ForestGreen, colback=green!5!white, title=Example}
 \newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
 \newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
+
+\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
+\newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=red!5!white, title=Warning}
+\newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
+\newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
+\newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
+\newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
+\newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
+\newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
+\newtcolorbox{conceptbox}{colframe=Chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{historicalbox}{colframe=Firebrick, colback=red!10!white, title=Historical Note}
+\newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
 
 % Geometry settings
 \geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
@@ -58,13 +76,60 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
-\pagebreak
 \normalsize
 
-\section*{Lecture Title}
+\input{preliminary}
+\section*{Parametric Equations and Parameters}
+
+\begin{definitionbox}
+If \( x \) and \( y \) are continuous functions of \( t \) on an interval \( I \), then the equations  
+\[
+x = x(t) \quad \text{and} \quad y = y(t)
+\]  
+are called \textbf{parametric equations}, and \( t \) is called the \textbf{parameter}. The set of points \( (x, y) \) obtained as \( t \) varies over the interval \( I \) is called the \textbf{graph of the parametric equations}. The graph of parametric equations is referred to as a \textbf{parametric curve} or \textbf{plane curve}, and is denoted by \( C \).  
+\end{definitionbox}
+
+\section*{Theorem 1.1: Derivative of Parametric Equations}
+\begin{theorembox}
+Consider the plane curve defined by the parametric equations \( x = x(t) \) and \( y = y(t) \). Suppose that \( x'(t) \) and \( y'(t) \) exist, and assume that \( x'(t) \neq 0 \). Then the derivative \( \frac{dy}{dx} \) is given by  
+\[
+\frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{y'(t)}{x'(t)}.
+\]
+\begin{proofbox}
+    \begin{proof}
+    \leavevmode\\
+        This theorem can be proven using the Chain Rule. Assume that the parameter \( t \) can be eliminated, yielding a differentiable function \( y = F(x) \). Then \( y(t) = F(x(t)) \). Differentiating both sides of this equation using the Chain Rule gives  
+        \[
+        y'(t) = F'(x(t)) x'(t),
+        \]  
+        so  
+        \[
+        F'(x(t)) = \frac{y'(t)}{x'(t)}.
+        \]  
+        But \( F'(x(t)) = \frac{dy}{dx} \), which proves the theorem. \\
+    \end{proof}
+    \end{proofbox}
+\end{theorembox}
+
+\section*{Equation 1.1 and Applications}
 \begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
+Equation 1.1 can be used to calculate derivatives of plane curves, as well as critical points. Recall that a critical point of a differentiable function \( y = f(x) \) is any point \( x = x_0 \) such that either \( f'(x_0) = 0 \) or \( f'(x_0) \) does not exist. Equation 1.1 gives a formula for the slope of a tangent line to a curve defined parametrically regardless of whether the curve can be described by a function \( y = f(x) \) or not.
 \end{notebox}
+
+\section*{Second-Order Derivatives}
+\begin{theorembox}
+The next goal is to see how to take the second derivative of a function defined parametrically. The second derivative of a function \( y = f(x) \) is defined to be the derivative of the first derivative; that is,  
+\[
+\frac{d^2y}{dx^2} = \frac{d}{dx} \left[ \frac{dy}{dx} \right].
+\]  
+
+Since \( \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} \), it is possible to replace \( y \) on both sides of this equation with \( \frac{dy}{dx} \). This yields
+\[
+\frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left( \frac{dy}{dx} \right)}{\frac{dx}{dt}}.
+\]
+\end{theorembox}
+
+\input{intolecturecontent}
 
 \section*{Key Concepts}
 \begin{definitionbox}
@@ -82,9 +147,9 @@ A \textbf{parametric equation} is a set of equations that express the coordinate
 \begin{tabular}{|c|c|c|c|}
 \hline
 $t$    & $1/t$ & $x$ & $y$ \\ \hline
-$0.01$ & $\frac{1}{0.01} = \frac{1}{\frac{1}{100}} = 100$     & $100.01$   & $0.01 - 100 = -99.99$   \\ \hline
-$0.1$  & $\frac{1}{0.1} = \frac{1}{\frac{1}{10}} = 10$     & $10.1$   & $-9.9$   \\ \hline
-$0.2$  & $\frac{1}{0.2} = \frac{1}{\frac{20}{100}} = \frac{1}{\frac{2}{10}} = 5$     & $5.2$   & $4.8$   \\ \hline
+$0.01$ & $\nicefrac{1}{0.01} = \nicefrac{1}{\frac{1}{100}} = 100$     & $100.01$   & $0.01 - 100 = -99.99$   \\ \hline
+$0.1$  & $\nicefrac{1}{0.1} = \nicefrac{1}{\frac{1}{10}} = 10$     & $10.1$   & $-9.9$   \\ \hline
+$0.2$  & $\nicefrac{1}{0.2} = \nicefrac{1}{\frac{20}{100}} = \nicefrac{1}{\frac{2}{10}} = 5$     & $5.2$   & $4.8$   \\ \hline
 $1$    & $\frac{1}{1}$     & $2$   & $0$   \\ \hline
 $5.0$  & $0.2$     & $5.2$   & $4.8$   \\ \hline
 $10$   & $0.1$     & $10.1$   & $9.9$   \\ \hline
