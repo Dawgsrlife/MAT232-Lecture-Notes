@@ -88,7 +88,7 @@
 
 % Definition: Polar Coordinates
 \begin{definitionbox}
-\textbf{Polar Coordinates.}  
+\textbf{Polar Coordinates.} \\
 Each point in the Cartesian plane can be represented in polar coordinates as an ordered pair $(r, \theta)$, where $r$ is the radial coordinate (distance from the origin), and $\theta$ is the angular coordinate (angle measured from the positive $x$-axis).  
 The correspondence between Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$ is given by:
 \[
@@ -98,7 +98,7 @@ x = r\cos\theta, \quad y = r\sin\theta, \quad r^2 = x^2 + y^2, \quad \tan\theta 
 
 % Theorem: Converting Points
 \begin{theorembox}
-\textbf{Theorem 1.4. Converting Points Between Coordinate Systems.}  
+\textbf{Theorem 1.4. Converting Points Between Coordinate Systems.} \\
 Given a point $P$ in the plane with Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$, the following conversion formulas hold true:
 \[
 x = r\cos\theta, \quad y = r\sin\theta,
@@ -118,7 +118,7 @@ These formulas can be used to convert between Cartesian and polar coordinates.
     \[
     r^2 = x^2 + y^2 = 1^2 + 1^2 = 2 \implies r = \sqrt{2}, \quad \tan\theta = \frac{y}{x} = \frac{1}{1} = 1 \implies \theta = \frac{\pi}{4}.
     \]
-    Therefore, $(1, 1)$ can be represented as $(\sqrt{2}, \pi/4)$ in polar coordinates.
+    Therefore, $(1, 1)$ can be represented as $(\sqrt{2}, \dfrac{\pi}{4})$ in polar coordinates.
 \end{enumerate}
 \end{examplebox}
 
@@ -135,7 +135,7 @@ These formulas can be used to convert between Cartesian and polar coordinates.
 
 % Example: Graphing in Polar Coordinates
 \begin{examplebox}
-\textbf{Example 1.12. Graphing a Function in Polar Coordinates.}
+\textbf{Example 1.12. Graphing a Function in Polar Coordinates.} \\
 Graph the curve defined by $r = 4\sin\theta$.  
 \begin{enumerate}
     \item Create a table of values for $\theta$ and calculate $r$:
@@ -143,24 +143,31 @@ Graph the curve defined by $r = 4\sin\theta$.
     \begin{array}{c|c|c|c|c|c|c}
     \theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{2} & \pi & 2\pi \\
     \hline
-    r & 0 & 2 & \sqrt{2} & 4 & 0 & 0
+    r = 4\sin\theta & 0 & 2 & 2\sqrt{2} & 4 & 0 & 0
     \end{array}
     \]
     \item Plot the points and connect them to form the curve. The result is a circle with radius $2$ centered at $(0, 2)$ in rectangular coordinates.
 \end{enumerate}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{rEquals4sinTheta.jpg}
+    \caption{The graph of the function \( r = 4\sin\theta \) is a circle.}
+    \label{fig:sample_image}
+\end{figure}
 \end{examplebox}
 
 \input{intolecturecontent}
 \normalsize
 
-\section*{Lecture Title}
-\begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
-\end{notebox}
-
 \section*{Recall 1st Year Calculus}
 \begin{definitionbox}
-A definite integral...
+A definite integral\dots
+\[
+    y = f(x) \geq 0
+\]
+\[
+    Area = \int_{x=a}^{x=b} f(x) dx
+\]
 \end{definitionbox}
 \begin{figure}[H]
     \centering
