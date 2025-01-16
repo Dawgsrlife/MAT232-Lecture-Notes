@@ -37,6 +37,9 @@
 
 % Colours
 \definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
+\definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
+\definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -48,7 +51,7 @@
 \newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
 \newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
 \newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
-\newtcolorbox{warningbox}{colframe=Crimson, colback=red!5!white, title=Warning}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
 \newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
 \newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
 \newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
@@ -56,7 +59,7 @@
 \newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
 \newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
 \newtcolorbox{conceptbox}{colframe=Chocolate, colback=brown!10!white, title=Concept}
-\newtcolorbox{historicalbox}{colframe=Firebrick, colback=red!10!white, title=Historical Note}
+\newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
 \newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
 
 % Geometry settings
@@ -131,19 +134,20 @@ Since \( \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} \), it is possible 
 
 \input{intolecturecontent}
 
-\section*{Key Concepts}
+\section*{Key Concept}
 \begin{definitionbox}
 A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
 \end{definitionbox}
 
-\section*{Examples}
+\section*{Sketching Parametric Equations}
 \begin{examplebox}
 \textbf{Example:} Sketch the graph, using a table of values:
 \[ x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad t > 0. \]
-
+\begin{solutionbox}
+    \textbf{Table of Values:}
 \begin{center}
-\begin{adjustbox}{max width=\textwidth}
-\LARGE
+\begin{adjustbox}{max width=\textwidth, max height=\textheight}
+\large
 \begin{tabular}{|c|c|c|c|}
 \hline
 $t$    & $1/t$ & $x$ & $y$ \\ \hline
@@ -158,79 +162,230 @@ $10$   & $0.01$    & $100.01$   & $99.99$   \\ \hline
 \normalsize
 \end{adjustbox}
 \end{center}
-
-This describes a hyperbolic curve.
-\end{examplebox}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
+    \includegraphics[width=0.5\textwidth]{hyperbola.jpg}
+    \caption{The corresponding hyperbolic graph.}
     \label{fig:sample_image}
 \end{figure}
-
-\begin{examplebox}
-\textbf{Example:} Sketch the graph (this is the same one), using the elimination method:
-\[ x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad t > 0. \]
-\( LHS = A^2 - B^2 = (A - B)(A + B) = RHS \)
-\( X = A \) and \( y = B \).
-\( LHS: x^2 - y^2 \).
-\( A - B = x - y = (t + \frac{1}{t}) - (t - \frac{1}{t}) = \frac{2}{t} \).
-\( A + B = x + y = (t + \frac{1}{t}) + (t - \frac{1}{t}) = 2t \).
-\( RHS: (A - B)(A + B) = (x - y)(x + y) = (\frac{2}{t})(2t) = 4 \).
-Therefore, \( x^2 - y^2 = 4 \), \( y \in \mathbb{R} \) will work, \( x > 0 \).
-
-This describes a hyperbolic curve.
+\end{solutionbox}
 \end{examplebox}
 
-\section*{Theorems and Proofs}
-\begin{theorembox}
-\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
-\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
-\end{theorembox}
+\begin{examplebox}
+\textbf{Example:} Sketch the graph of the same parametric equation, using the elimination method:
+\[
+x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad t > 0.
+\]
 
-\begin{figure}[H]
+\begin{solutionbox}
+    We start by simplifying the expressions for \( x \) and \( y \):
+    
+    \[
+    \text{LHS} = A^2 - B^2 = (A - B)(A + B) = \text{RHS}.
+    \]
+    Let \( A = x \) and \( B = y \), so we can rewrite this as:
+    \[
+    \text{LHS:} \quad x^2 - y^2.
+    \]
+    
+    Now, compute \( A - B \) and \( A + B \):
+    
+    \[
+    A - B = x - y = \left( t + \frac{1}{t} \right) - \left( t - \frac{1}{t} \right) = \frac{2}{t},
+    \]
+    \[
+    A + B = x + y = \left( t + \frac{1}{t} \right) + \left( t - \frac{1}{t} \right) = 2t.
+    \]
+    
+    Now, calculate the RHS:
+    \[
+    \text{RHS:} \quad (A - B)(A + B) = (x - y)(x + y) = \left( \frac{2}{t} \right)(2t) = 4.
+    \]
+    
+    Thus, we obtain the equation:
+    \[
+    x^2 - y^2 = 4, \quad x > 0.
+    \]
+
+    \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
+    \includegraphics[width=0.35\textwidth]{hyperbola_nicer.jpg}
+    \caption{Precise graph of the parametric equation \( x = t + \frac{1}{t}, \quad y = t - \frac{1}{t}, \quad x > 0 \)}
+    \end{figure}
+\end{solutionbox}    
+\end{examplebox}    
 
-\section*{Practice Questions}
-\begin{notebox}
-Try this question at home! \\
-\\
-Sketch and eliminate \( t \) if possible: \\
+\section*{The Slope of a Parametric Curve}
+
+\begin{definitionbox}
+\textbf{Definition:} If \( x(t) \) and \( y(t) \) are differentiable functions, the slope of the curve described by these parametric equations is given by:  
+\[
+\frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0.
+\]
+\begin{remarkbox}
+    This formula allows you to find the slope of the tangent line to the curve at any point where the derivative of \( x(t) \) with respect to \( t \) is nonzero. \\
+    \\
+    Here's a concrete example illustration!
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{slopeparametricexample.png}
+        \caption{Graphical representation of the slope of a parametric curve.}
+        \label{fig:slopeparametricexample}
+    \end{figure}
+\end{remarkbox}
+\end{definitionbox}
+
+\section*{Parametric Curve Sketching Practice Questions}
+
+\begin{exercisebox}
+\textbf{Question 1:} Sketch and eliminate \( t \) if possible: \\
 \[
     x = t^2, \quad y = t^3, \quad -2 \leq t \leq 2
 \]
-Note that this is a closed interval. The starting point is the smallest value of \( t \). This highlights where the graph should begin. The finishing point should be the largest value of \( t \). \\
-Using an arrow, make sure to indicate the direction of the graph as \( t \to \infty \). \\
-\end{notebox}
+Note that this is a closed interval, which means the graph starts at \( t = -2 \) and ends at \( t = 2 \). The starting point is where \( t = -2 \), and the finishing point is where \( t = 2 \). The direction of the graph should be indicated using an arrow as \( t \to 2 \).
 
-\begin{notebox}
-Try another question at home! \\
-\\
-Sketch and eliminate \( t \) if possible: \\
+Express the relationship between \( x \) and \( y \) in Cartesian form.
+
+\begin{solutionbox}
+    \textbf{Solution:}
+    
+    The parametric equations are \( x = t^2 \) and \( y = t^3 \). We aim to eliminate \( t \).
+    
+    From \( x = t^2 \), we can solve for \( t \) as:
+    \[
+        t = \pm \sqrt{x}.
+    \]
+    Substituting this into the equation for \( y \):
+    \[
+        y = (\pm \sqrt{x})^3 = \pm x^{3/2}.
+    \]
+    Thus, the Cartesian form is:
+    \[
+        y = \pm x^{3/2}.
+    \]
+    This describes a curve that is symmetric about the x-axis. The graph starts at \( t = -2 \) with coordinates \( (x, y) = (4, -8) \), and ends at \( t = 2 \) with coordinates \( (x, y) = (4, 8) \). The graph is symmetric, opening upwards and downwards, as \( t \) moves from \( -2 \) to \( 2 \).
+    
+    As \( t \) increases, the direction of the graph is indicated by the arrows as shown below.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.22\textwidth]{curvesketchingpractice1.png}
+        \caption{Graph of the curve for \( x = t^2, y = t^3 \).}
+        \label{fig:curvesketchingpractice1}
+    \end{figure}
+\end{solutionbox}
+\end{exercisebox}
+
+\begin{exercisebox}
+\textbf{Question 2:} Sketch and eliminate \( t \) if possible for each of the following parametric equations:
+
 \[
-    c_1: x = -cos(\frac{t}{4}), y = sin(\frac{t}{4}), for 0 \leq t \leq 4\pi
+    c_1: x = -\cos\left(\frac{t}{4}\right), \quad y = \sin\left(\frac{t}{4}\right), \quad 0 \leq t \leq 4\pi
 \]
 \[
-    c_2: x = -sin(t), y = -cos(t), for \frac{\pi}{2} \leq t \leq \frac{3\pi}{2}
+    c_2: x = -\sin(t), \quad y = -\cos(t), \quad \frac{\pi}{2} \leq t \leq \frac{3\pi}{2}
 \]
 \[
-    c_3: x = cos(t), y = sin(t), for t \in [0, \pi]
+    c_3: x = \cos(t), \quad y = \sin(t), \quad t \in [0, \pi]
 \]
-Hint: \( x = rcos(\theta), y = rsin(\theta), x^2 + y^2 = r^2 \). Also, for these curves, it follows that \( r = 1 \).
-\end{notebox}
+For each equation, express the relationship in Cartesian form and sketch the curve. The hint suggests that \( x = r \cos(\theta) \), \( y = r \sin(\theta) \), and \( x^2 + y^2 = r^2 \). For these curves, \( r = 1 \).
+
+\begin{solutionbox}
+    \textbf{Solution} \textit{(see illustration below)}\textbf{:}
+    
+    \textbf{For \( c_1 \):}
+    The parametric equations are \( x = -\cos\left(\frac{t}{4}\right) \) and \( y = \sin\left(\frac{t}{4}\right) \). To eliminate \( t \), use the identity \( \cos^2\theta + \sin^2\theta = 1 \), where \( \theta = \frac{t}{4} \). This gives:
+    \[
+        x^2 + y^2 = \cos^2\left(\frac{t}{4}\right) + \sin^2\left(\frac{t}{4}\right) = 1.
+    \]
+    This represents a circle with radius 1, centered at the origin.
+    
+    For \( t = 0 \), we have \( (x, y) = (-1, 0) \). For \( t = 4\pi \), we have \( (x, y) = (1, 0) \). The curve traces a semicircle in the clockwise direction, starting at \( -1, 0 \) and ending at \( (1, 0) \).
+    
+    \textbf{For \( c_2 \):}
+    The parametric equations are \( x = -\sin(t) \) and \( y = -\cos(t) \). Using the identity \( \sin^2\theta + \cos^2\theta = 1 \), we have:
+    \[
+        x^2 + y^2 = \sin^2(t) + \cos^2(t) = 1.
+    \]
+    This describes a unit circle. The curve starts at \( t = \frac{\pi}{2} \), corresponding to \( (x, y) = (-1, 0) \), and ends at \( t = \frac{3\pi}{2} \), corresponding to \( (x, y) = (1, 0) \). The graph traces a semicircle in the clockwise direction.
+    
+    \textbf{For \( c_3 \):}
+    The parametric equations are \( x = \cos(t) \) and \( y = \sin(t) \). Again using the identity \( \cos^2\theta + \sin^2\theta = 1 \), we get:
+    \[
+        x^2 + y^2 = \cos^2(t) + \sin^2(t) = 1.
+    \]
+    This describes a unit circle. The curve starts at \( t = 0 \), corresponding to \( (x, y) = (1, 0) \), and ends at \( t = \pi \), corresponding to \( (x, y) = (-1, 0) \). The graph traces the upper half of the unit circle, moving counterclockwise.
+\end{solutionbox}
+\end{exercisebox}
+
+\begin{illustrationbox}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{c1.png}
+        \caption{Graph of the curve for \( c_1 \).}
+        \label{fig:curvesketchingpractice2}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{c2.png}
+        \caption{Graph of the curve for \( c_2 \).}
+        \label{fig:curvesketchingpractice2}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{c3.png}
+        \caption{Graph of the curve for \( c_3 \).}
+        \label{fig:curvesketchingpractice2}
+    \end{figure}
+\end{illustrationbox}
 
 \section*{The Elimination Method Does NOT Always Work}
-\begin{notebox}
-Consider the following case where \( t \) cannot be eliminated:
-\[
-    x = e^t - \sin^2(t), \quad y = ln(t) + \frac{1}{t}, \quad t > 0
-\]
-\end{notebox}
+\begin{warningbox}
+    In some cases, it is not possible to eliminate the parameter \( t \) to express the relationship between \( x \) and \( y \) in a Cartesian form. While elimination works in many situations—especially when the parametric equations describe simpler curves, like circles or straight lines—there are cases where it's not possible to eliminate \( t \) algebraically, or it becomes extremely complicated to do so. 
+    
+    \subsection*{Example:}
+    
+    Consider the following parametric equations:
+    \[
+    x = e^t - \sin^2(t), \quad y = \ln(t) + \frac{1}{t}, \quad t > 0
+    \]
+    
+    - Here, \( x \) and \( y \) are both expressed in terms of \( t \), but neither \( x \) nor \( y \) is simply related to \( t \) in a way that allows for easy elimination of \( t \).
+    
+    \subsection*{Why Can't We Eliminate \( t \)?}
+    
+    Let's break down why we can't eliminate \( t \) easily from these equations.
+    
+    \begin{itemize}
+        \item \textbf{The equation for \( x \)}:
+        \[
+        x = e^t - \sin^2(t)
+        \]
+        This equation involves both an exponential function (\( e^t \)) and a trigonometric function (\( \sin^2(t) \)), making it nontrivial to solve for \( t \) in terms of \( x \). The combination of these two types of functions—one that grows exponentially and another that oscillates—does not lead to a simple relationship between \( x \) and \( t \).
+        
+        \item \textbf{The equation for \( y \)}:
+        \[
+        y = \ln(t) + \frac{1}{t}
+        \]
+        This equation involves a logarithmic function (\( \ln(t) \)) and a rational function (\( \frac{1}{t} \)). Again, these are not straightforward to combine algebraically to eliminate \( t \), as the presence of \( t \) in different forms (in the logarithmic and rational terms) complicates the process.
+    \end{itemize}
+    
+    \subsection*{The Resulting Complexity}
+    
+    To try and eliminate \( t \), we would have to manipulate these equations in such a way that we express one variable in terms of the other, without involving \( t \). However, due to the combination of different types of functions (exponential, trigonometric, logarithmic, and rational), it becomes extremely difficult to isolate \( t \) in either equation and then substitute it into the other equation.
+    
+    In this case, even if we tried solving one equation for \( t \) and substituting it into the other, the resulting expressions would likely be too complicated or may not even have a simple closed form.
+    
+    \subsection*{Conclusion}
+    
+    The \textbf{elimination method} relies on being able to algebraically manipulate the parametric equations into a form where we can solve for \( t \) and eliminate it. However, in cases like this one, where the parametric equations involve complex combinations of different types of functions (like exponentials, trigonometric functions, and logarithms), the elimination method becomes impractical or impossible.
+    
+    This is why the elimination method does not always work, and in these situations, it's important to either:
+    \begin{itemize}
+        \item \textbf{Graph the parametric equations} to understand the curve visually, or
+        \item Use other methods such as \textbf{numerical techniques} or \textbf{approximation methods} if a Cartesian form is needed.
+    \end{itemize}    
+\end{warningbox}
 
 \section*{Further Visualization}
 \begin{figure}[H]
@@ -318,7 +473,29 @@ Given point \( (\sqrt{2}, 1) = (x_0, y_0) \), \( \frac{dy}{dt} = \sec^2(t) \), a
 \]
 Next, \( \frac{dy}{dx} \mid_{t = \frac{\pi}{4}} = \frac{\sec(\frac{\pi}{4})}{\tan(\frac{\pi}{4})} = \frac{\sqrt{2}}{1} = \sqrt{2} = m \). \\
 
-\textbf{self-note: finish these notes (check the camera roll)}
+Remember:
+\[
+    \sec(\theta) = \frac{1}{\cos(\theta)}
+\]
+\[
+    \csc(\theta) = \frac{1}{\sin(\theta)}
+\]
+Note that \( \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} \). \\
+So\dots
+\[
+    \sec(\frac{\pi}{4}) = \frac{1}{\cos(\frac{\pi}{4})} = \frac{1}{\frac{1}{\sqrt{2}}} = \sqrt{2}
+\]
+Tangent Line:
+\[
+    y - y_0 = m(x - x_0)
+\]
+\[
+    y - 1 = \sqrt{2} (x - \sqrt{2})
+\]
+\[
+    y = \sqrt{2}x - 1
+\]
+is the tangent line!
 
 \end{examplebox}
 
