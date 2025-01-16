@@ -15,13 +15,15 @@
 \usepackage{float}
 \usepackage[english]{babel}
 \usepackage{framed}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,x11names]{xcolor}
 \usepackage{tcolorbox}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{cancel}
 \usepackage{background}
+\usepackage{units}
 
 % Configuring the background
 \backgroundsetup{
@@ -33,12 +35,35 @@
   contents={\includegraphics[width=1.75\paperwidth, height=1.75\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
 }
 
+% Colours
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
+\definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
+\definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
+\definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
 \newtcolorbox{definitionbox}{colframe=RoyalBlue, colback=blue!5!white, title=Definition}
 \newtcolorbox{examplebox}{colframe=ForestGreen, colback=green!5!white, title=Example}
 \newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
 \newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
+
+\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
+\newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
+\newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
+\newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
+\newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
+\newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
+\newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
+\newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
+\newtcolorbox{conceptbox}{colframe=chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
+\newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
+\newtcolorbox{answerbox}{colframe=RoyalBlue, colback=blue!10!white, title=Answer}
 
 % Geometry settings
 \geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
@@ -57,7 +82,75 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
-\pagebreak
+\input{preliminary}
+
+\section*{Preliminary Definitions and Theorems}
+
+% Definition: Polar Coordinates
+\begin{definitionbox}
+\textbf{Polar Coordinates.}  
+Each point in the Cartesian plane can be represented in polar coordinates as an ordered pair $(r, \theta)$, where $r$ is the radial coordinate (distance from the origin), and $\theta$ is the angular coordinate (angle measured from the positive $x$-axis).  
+The correspondence between Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$ is given by:
+\[
+x = r\cos\theta, \quad y = r\sin\theta, \quad r^2 = x^2 + y^2, \quad \tan\theta = \frac{y}{x}.
+\]
+\end{definitionbox}
+
+% Theorem: Converting Points
+\begin{theorembox}
+\textbf{Theorem 1.4. Converting Points Between Coordinate Systems.}  
+Given a point $P$ in the plane with Cartesian coordinates $(x, y)$ and polar coordinates $(r, \theta)$, the following conversion formulas hold true:
+\[
+x = r\cos\theta, \quad y = r\sin\theta,
+\]
+\[
+r^2 = x^2 + y^2, \quad \tan\theta = \frac{y}{x}.
+\]
+These formulas can be used to convert between Cartesian and polar coordinates.
+\end{theorembox}
+
+% Example: Converting Coordinates
+\begin{examplebox}
+\textbf{Example 1.10. Converting Between Rectangular and Polar Coordinates.}
+\begin{enumerate}
+    \item Convert $(1, 1)$ to polar coordinates:  
+    Use $x = 1$ and $y = 1$. Then:
+    \[
+    r^2 = x^2 + y^2 = 1^2 + 1^2 = 2 \implies r = \sqrt{2}, \quad \tan\theta = \frac{y}{x} = \frac{1}{1} = 1 \implies \theta = \frac{\pi}{4}.
+    \]
+    Therefore, $(1, 1)$ can be represented as $(\sqrt{2}, \pi/4)$ in polar coordinates.
+\end{enumerate}
+\end{examplebox}
+
+% Problem-Solving Strategy: Plotting a Curve
+\begin{conceptbox}
+\textbf{Problem-Solving Strategy: Plotting a Curve in Polar Coordinates.}
+\begin{enumerate}
+    \item Create a table with two columns: one for $\theta$ values and one for $r$ values.
+    \item Calculate the corresponding $r$ values for each $\theta$.
+    \item Plot each ordered pair $(r, \theta)$ on the polar coordinate axes.
+    \item Connect the points and observe the resulting graph.
+\end{enumerate}
+\end{conceptbox}
+
+% Example: Graphing in Polar Coordinates
+\begin{examplebox}
+\textbf{Example 1.12. Graphing a Function in Polar Coordinates.}
+Graph the curve defined by $r = 4\sin\theta$.  
+\begin{enumerate}
+    \item Create a table of values for $\theta$ and calculate $r$:
+    \[
+    \begin{array}{c|c|c|c|c|c|c}
+    \theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{2} & \pi & 2\pi \\
+    \hline
+    r & 0 & 2 & \sqrt{2} & 4 & 0 & 0
+    \end{array}
+    \]
+    \item Plot the points and connect them to form the curve. The result is a circle with radius $2$ centered at $(0, 2)$ in rectangular coordinates.
+\end{enumerate}
+\end{examplebox}
+
+\input{intolecturecontent}
 \normalsize
 
 \section*{Lecture Title}
