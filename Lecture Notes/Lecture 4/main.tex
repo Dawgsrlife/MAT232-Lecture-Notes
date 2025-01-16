@@ -24,6 +24,7 @@
 \usepackage{cancel}
 \usepackage{background}
 \usepackage{units}
+\usepackage{textcomp}
 
 % Configuring the background
 \backgroundsetup{
@@ -86,10 +87,97 @@
 \input{intolecturecontent}
 \normalsize
 
-\section*{Lecture Title}
+\section*{Recall the content from last lecture\dots}
 \begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
+Converting from cartesian coordniates \( (x, y) \) to polar coordinates \( r, \theta \).
+\[
+    x^2 + y^2 = r^2
+\]
+\[
+    \arctan(\dfrac{y}{x}) = \theta
+\]
+Converting from polar coordinates \( (r, \theta) \) to cartesian coordinates \( (x, y) \) 
+\[
+    x = r\cos\theta
+\]
+\[
+    y = r\sin\theta
+\]
+Remember how to between degrees and radians:
+\begin{itemize}
+    \item Degrees to radians: [fill this in]
+    \item Radians to degrees: [fill this in]
+\end{itemize}
 \end{notebox}
+
+\section*{New}
+\begin{conceptbox}
+Note the convention for \( r \) in a polar-coordinate point: \\
+PC is represented as \( (r, \theta) \).
+\[
+    (-r, \theta) = (r, \theta + 180\text{\textdegree})
+\]
+\end{conceptbox}
+
+\subsection*{Example of Plot Points}
+\begin{examplebox}
+Plot points: \( (3, -45\text{\textdegree}), (3, 225\text{\textdegree}), (4, 330\text{\textdegree}), (1, -45\text{\textdegree}) \)
+\textbf{self-note: finish this part up}
+
+
+\textbf{self-note: add drawing from prof from camera roll here}
+\end{examplebox}
+
+\section*{Example of Converting from Polar Coordinates to Cartesian Coordinates}
+\begin{examplebox}
+Find the \textbf{rectangular coordinates} of the point \( p \) whose polar coordniates are \( 6, \dfrac{\pi}{3}\).
+
+\begin{solutionbox}
+\[
+    x = r\cos\theta = c\cos(\dfrac{\pi}{3}) = 6(\frac{1}{2}) = 3
+\]
+\[
+    y = r\sin\theta=6\sin(\dfrac{\pi}{3}) = 6(\frac{\sqrt{3}}{2}) = 3\sqrt{3} 
+\]
+\[
+    \frac{\pi}{3} = 60\text{\textdegree}
+\]
+Therefore, the cartesian coordinate is \( x, y = (3, 3\sqrt{3}) \).
+\end{solutionbox}
+\end{examplebox}
+
+\section*{Converting from Cartesian Coordinates to Polar Coordinates}
+\begin{examplebox}
+Find the polar coordinate of the point \( p \) whose rectangular coordinates are \( -2, 2\sqrt{3} \).
+
+\begin{solutionbox}
+Recall that (the circle equation):
+\[
+    x^2 + y^2 = r^2
+\]
+It follows that:
+\[
+    (-2)^2 + (2\sqrt{3})^2 = r^2
+\]
+\[
+    4 + 4 \cdot 3 = r^2
+\]
+\[
+    16 = r^2
+\]
+\[
+    \pm \sqrt{16} = r 
+\]
+\[
+    r = \pm 4
+\]
+Note that the radius is positive. Thus:
+\[
+    r = 4 \text{.}
+\]
+Note that
+\end{solutionbox}
+\end{examplebox}
 
 \section*{Key Concepts}
 \begin{definitionbox}
