@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737053681.68833 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737053683.51637 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737053680 13485 b885e30a84754fa8114dce4c0974eac1 ""
+["pdflatex"] 1737054099.25166 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737054101.20269 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737054098 13737 85cf4081078d39b76552b96c08275fdd ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -242,9 +242,9 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737053683 1365 d15874653b80efd3a38afac64a6be7a9 "pdflatex"
-  "main.out" 1737053682 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1737053680 13485 b885e30a84754fa8114dce4c0974eac1 ""
+  "main.aux" 1737054100 1365 8f05bd7e9ed2ff04be367dccea13d5ec "pdflatex"
+  "main.out" 1737054100 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1737054098 13737 85cf4081078d39b76552b96c08275fdd ""
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "preliminary.tex" 1737039586 451 007a58133a5e6df778541a9fee6dab25 ""
   "sample_image.jpg" 1736441765 7660 85608fa263154431da985ad621fbc020 ""
