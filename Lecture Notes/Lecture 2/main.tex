@@ -40,6 +40,8 @@
 \definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
 \definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
 \definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
+\definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -58,9 +60,10 @@
 \newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
 \newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
 \newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
-\newtcolorbox{conceptbox}{colframe=Chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{conceptbox}{colframe=chocolate, colback=brown!10!white, title=Concept}
 \newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
 \newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
+\newtcolorbox{answerbox}{colframe=RoyalBlue, colback=blue!10!white, title=Answer}
 
 % Geometry settings
 \geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
@@ -341,239 +344,232 @@ For each equation, express the relationship in Cartesian form and sketch the cur
 
 \section*{The Elimination Method Does NOT Always Work}
 \begin{warningbox}
-    In some cases, it is not possible to eliminate the parameter \( t \) to express the relationship between \( x \) and \( y \) in a Cartesian form. While elimination works in many situations—especially when the parametric equations describe simpler curves, like circles or straight lines—there are cases where it's not possible to eliminate \( t \) algebraically, or it becomes extremely complicated to do so. 
+    In some cases, it is not possible to eliminate the parameter \( t \) to express the relationship between \( x \) and \( y \) in a Cartesian form. While elimination works in many situations—especially when the parametric equations describe simpler curves, like circles or straight lines—there are cases where it's not possible to eliminate \( t \) algebraically, or it becomes extremely complicated to do so.
+
+    \begin{remarkbox}
+        MAT232 is structured around problems where the \textbf{elimination method} is guaranteed to work effectively. However, the following section delves into extreme cases of equations where the elimination method may fail. These types of equations are not part of the curriculum for MAT232.
+    \end{remarkbox}
     
-    \subsection*{Example:}
-    
-    Consider the following parametric equations:
-    \[
-    x = e^t - \sin^2(t), \quad y = \ln(t) + \frac{1}{t}, \quad t > 0
-    \]
-    
-    - Here, \( x \) and \( y \) are both expressed in terms of \( t \), but neither \( x \) nor \( y \) is simply related to \( t \) in a way that allows for easy elimination of \( t \).
-    
-    \subsection*{Why Can't We Eliminate \( t \)?}
-    
-    Let's break down why we can't eliminate \( t \) easily from these equations.
-    
-    \begin{itemize}
-        \item \textbf{The equation for \( x \)}:
+    \begin{examplebox}
+        Consider the following parametric equations:
         \[
-        x = e^t - \sin^2(t)
+        x = e^t - \sin^2(t), \quad y = \ln(t) + \frac{1}{t}, \quad t > 0
         \]
-        This equation involves both an exponential function (\( e^t \)) and a trigonometric function (\( \sin^2(t) \)), making it nontrivial to solve for \( t \) in terms of \( x \). The combination of these two types of functions—one that grows exponentially and another that oscillates—does not lead to a simple relationship between \( x \) and \( t \).
         
-        \item \textbf{The equation for \( y \)}:
-        \[
-        y = \ln(t) + \frac{1}{t}
-        \]
-        This equation involves a logarithmic function (\( \ln(t) \)) and a rational function (\( \frac{1}{t} \)). Again, these are not straightforward to combine algebraically to eliminate \( t \), as the presence of \( t \) in different forms (in the logarithmic and rational terms) complicates the process.
-    \end{itemize}
-    
-    \subsection*{The Resulting Complexity}
-    
-    To try and eliminate \( t \), we would have to manipulate these equations in such a way that we express one variable in terms of the other, without involving \( t \). However, due to the combination of different types of functions (exponential, trigonometric, logarithmic, and rational), it becomes extremely difficult to isolate \( t \) in either equation and then substitute it into the other equation.
-    
-    In this case, even if we tried solving one equation for \( t \) and substituting it into the other, the resulting expressions would likely be too complicated or may not even have a simple closed form.
-    
-    \subsection*{Conclusion}
-    
-    The \textbf{elimination method} relies on being able to algebraically manipulate the parametric equations into a form where we can solve for \( t \) and eliminate it. However, in cases like this one, where the parametric equations involve complex combinations of different types of functions (like exponentials, trigonometric functions, and logarithms), the elimination method becomes impractical or impossible.
-    
-    This is why the elimination method does not always work, and in these situations, it's important to either:
-    \begin{itemize}
-        \item \textbf{Graph the parametric equations} to understand the curve visually, or
-        \item Use other methods such as \textbf{numerical techniques} or \textbf{approximation methods} if a Cartesian form is needed.
-    \end{itemize}    
+        Here, \( x \) and \( y \) are both expressed in terms of \( t \), but neither \( x \) nor \( y \) is simply related to \( t \) in a way that allows for easy elimination of \( t \).
+        
+        \begin{intuitionbox}
+        Let's break down why we can't eliminate \( t \) easily from these equations.
+        
+        \begin{itemize}
+            \item \textbf{Equation for \( x \)}: 
+            \[
+            x = e^t - \sin^2(t)
+            \]
+            This equation combines an exponential and a trigonometric function, making it difficult to solve for \( t \) in terms of \( x \). The exponential grows, while the trigonometric part oscillates, leading to a complex relationship.
+        
+            \item \textbf{Equation for \( y \)}:
+            \[
+            y = \ln(t) + \frac{1}{t}
+            \]
+            This equation mixes a logarithmic and a rational function. The different forms of \( t \) (logarithmic and rational) make it challenging to eliminate \( t \) algebraically.
+        \end{itemize}        
+        \end{intuitionbox}
+    \end{examplebox}
 \end{warningbox}
 
-\section*{Further Visualization}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{sample_image2.jpg}
-    \caption{Additional visualization for parametric curves.}
-    \label{fig:sample_image2}
-\end{figure}
+\begin{warningbox}
+    \begin{notebox}
+        To try and eliminate \( t \), we would have to manipulate these equations in such a way that we express one variable in terms of the other, without involving \( t \). However, due to the combination of different types of functions (exponential, trigonometric, logarithmic, and rational), it becomes extremely difficult to isolate \( t \) in either equation and then substitute it into the other equation.
+    
+        In this case, even if we tried solving one equation for \( t \) and substituting it into the other, the resulting expressions would likely be too complicated or may not even have a simple closed form.
+    \end{notebox}
+    \begin{conceptbox}
+        The \textbf{elimination method} relies on being able to algebraically manipulate the parametric equations into a form where we can solve for \( t \) and eliminate it. However, in cases like this one, where the parametric equations involve complex combinations of different types of functions (like exponentials, trigonometric functions, and logarithms), the elimination method becomes impractical or impossible.
+    
+        This is why the elimination method does not always work, and in these situations, it's important to either:
+        \begin{itemize}
+            \item \textbf{Graph the parametric equations} to understand the curve visually, or
+            \item Use other methods such as \textbf{numerical techniques} or \textbf{approximation methods} if a Cartesian form is needed.
+        \end{itemize}
+    \end{conceptbox}  
+\end{warningbox}
+\newpage
 
 \section*{Section 1.2: Calculus on Parametric Equations}
-\section*{Key Concepts}
-Recall the concept from $1^{\text{st}}$ year calculus:
-\begin{definitionbox}
-If \( y = f(x) \) is given, then the slope of the tangent line to the curve of \( y = f(x) \) is:
+\section*{The First Derivative}
+
+In first-year calculus, we learned that for a function \( y = f(x) \), the slope of the tangent line to the curve is given by:
+\begin{corollarybox}
+The derivative of \( y = f(x) \) with respect to \( x \) is:
 \[
     y' = f'(x) = \frac{dy}{dx}
 \]
-\end{definitionbox}
-Now, for MAT232, we have:
+\end{corollarybox}
+
+In MAT232, we deal with parametric equations. Given the parametric equations \( x = f(t) \) and \( y = g(t) \), where \( t \) is a real parameter, the derivative of \( y \) with respect to \( x \) is defined as:
 \begin{definitionbox}
-Given \( x = f(t), \quad y = g(t), \quad t \in \mathbb{R} \), these are defifferentiable w.r.t.\ (w.r.t.\ = ``with respect to'') \( t \). This is such that:
+For parametric equations \( x = f(t) \) and \( y = g(t) \), we differentiate with respect to \( t \) as follows:
 \[
-    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \frac{dx}{dt} \neq 0
+    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{with} \quad \frac{dx}{dt} \neq 0
 \]
-This will also be provided in the formula sheet. \\
-\\
+This formula is also provided on the formula sheet. \\
+\textit{Derivation:} Using the chain rule:
 \[
-    x = f(t), \quad y = g(t), \quad t \in \mathbb{R}
+    \frac{dy}{dt} = \frac{dy}{dx} \cdot \frac{dx}{dt}
 \]
-Because the chain rule must follow through, always! \\
-\textit{Here is the derivation:}
-So \dots \( y = g(t) \) \\
+Rearranging gives:
 \[
-     \frac{dy}{dt} = \frac{dy}{dx} \cdot \frac{dx}{dt}
-\]
-\textit{Chain rule.} \\
-\\
-\[
-    \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{dy}{dx}, \quad \text{provided that} \quad \frac{dx}{dt} \neq 0
+    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided that} \quad \frac{dx}{dt} \neq 0
 \]
 \end{definitionbox}
 
 \section*{Second Derivative}
-\begin{theorembox}
-Given \( x = f(t), y = g(t), t \in \mathbb{R} \) are differentiable at \( t \) and \( \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} \) exists and is differentiable at \( t \):
+\begin{definitionbox}
+Given that \( x = f(t) \), \( y = g(t) \), and \( t \in \mathbb{R} \) are differentiable at \( t \), and the first derivative \( \frac{dy}{dx} \) exists and is differentiable, the second derivative of \( y \) with respect to \( x \) is given by:
 \[
-    \frac{d^{2y}}{dx^2} = \frac{d}{dx}(\frac{dy}{dx}) = dx(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})
+    \frac{d^2y}{dx^2} = \frac{d}{dx}\left(\frac{dy}{dx}\right)
 \]
-Notice that the expression of the innermost bracket is a derivative all in terms of \( t \).
-Thus:
+Using the chain rule, we can express this as:
 \[
-    = \frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}) \cdot \frac{dt}{dx} = \frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}) = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}} \text{.}
+    \frac{d^2y}{dx^2} = \frac{d}{dt}\left(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}\right) \cdot \frac{dt}{dx}
 \]
-This follows from the \textbf{inverse function theorem}. \\
-Collectively, it follows that:
+Simplifying further:
 \[
-    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}}, \quad \frac{dx}{dt} \neq 0 \text{.}
+    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left(\frac{\frac{dy}{dt}}{\frac{dx}{dt}}\right)}{\frac{dx}{dt}}, \quad \frac{dx}{dt} \neq 0
 \]
-\textit{This is not included on the formula sheet.}
-\end{theorembox}
+This result follows from the \textbf{inverse function theorem}. \\
+\textit{Note: This formula is not provided on the formula sheet.}
+\end{definitionbox}
 
-\section*{Examples}
+\section*{Applying the First and Second Derivatives}
 \begin{examplebox}
 Consider the following parametric curve:
 \[
     x = \sec(t), \quad y = \tan(t), \quad -\frac{\pi}{2} < t < \frac{\pi}{2}
 \]
-(A) Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \). \\
-(B) Find the vertical tangent(s), if any. \\
-(C) Find \( \frac{d^2y}{dx^2} \).
+\textbf{(A)} Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \). \\
+\textbf{(B)} Find the vertical tangent(s), if any. \\
+\textbf{(C)} Find \( \frac{d^2y}{dx^2} \).
 \end{examplebox}
-Let's do this, one at a time! \\
-\\
-(A) Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \).
-\begin{examplebox}
-\underline{Tangent Line:}
-Recall\dots
-\begin{enumerate}
-    \item \( y - y_0 = m(x - x_0) \), where \( m \) is the slope and \( (x_0, y_0) \) is a point on the curve;
-    \item \( y = mx + b \), where \( m \) is the slope and \( b \) is the y-intercept.
-\end{enumerate}
-Given point \( (\sqrt{2}, 1) = (x_0, y_0) \), \( \frac{dy}{dt} = \sec^2(t) \), and \( \frac{dx}{dt} = \sec(t)\tan(t) \), it follows that:
-\[
-    m = \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{\sec^{\cancel{2}}(t)\tan(t)}{\cancel{\sec(t)}\tan(t)} = \frac{\sec(t)}{\tan(t)}
-\]
-Next, \( \frac{dy}{dx} \mid_{t = \frac{\pi}{4}} = \frac{\sec(\frac{\pi}{4})}{\tan(\frac{\pi}{4})} = \frac{\sqrt{2}}{1} = \sqrt{2} = m \). \\
 
-Remember:
-\[
-    \sec(\theta) = \frac{1}{\cos(\theta)}
-\]
-\[
-    \csc(\theta) = \frac{1}{\sin(\theta)}
-\]
-Note that \( \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2} \). \\
-So\dots
-\[
-    \sec(\frac{\pi}{4}) = \frac{1}{\cos(\frac{\pi}{4})} = \frac{1}{\frac{1}{\sqrt{2}}} = \sqrt{2}
-\]
-Tangent Line:
+Let's tackle each part one at a time.
+
+\subsection*{(A) Find the tangent line to the given curve at the point \( (\sqrt{2}, 1) \) where \( t = \frac{\pi}{4} \).}
+
+\begin{solutionbox}
+\underline{Tangent Line:} \\
+The tangent line is given by:
 \[
     y - y_0 = m(x - x_0)
 \]
+where \( m \) is the slope and \( (x_0, y_0) \) is a point on the curve. Alternatively, it can be written as:
 \[
-    y - 1 = \sqrt{2} (x - \sqrt{2})
+    y = mx + b
 \]
+We are given \( (\sqrt{2}, 1) = (x_0, y_0) \). To find the slope \( m \), we use the chain rule:
+\[
+    m = \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}
+\]
+where \( \frac{dy}{dt} = \sec^2(t) \) and \( \frac{dx}{dt} = \sec(t)\tan(t) \). Substituting these gives:
+\[
+    m = \frac{\sec^2(t)}{\sec(t)\tan(t)} = \frac{\sec(t)}{\tan(t)}
+\]
+At \( t = \frac{\pi}{4} \), we have:
+\[
+    \sec\left(\frac{\pi}{4}\right) = \sqrt{2}, \quad \tan\left(\frac{\pi}{4}\right) = 1
+\]
+Thus, the slope is:
+\[
+    m = \frac{\sqrt{2}}{1} = \sqrt{2}
+\]
+Using the point-slope form:
+\[
+    y - 1 = \sqrt{2}(x - \sqrt{2})
+\]
+Simplifying gives:
 \[
     y = \sqrt{2}x - 1
 \]
-is the tangent line!
+\begin{answerbox}
+The equation of the tangent line is \( y = \sqrt{2}x - 1 \).
+\end{answerbox}
+\end{solutionbox}
 
-\end{examplebox}
+\subsection*{(B) Find the vertical tangent(s), if any.}
 
-(B) Find the vertical tangent(s), if any.
-\begin{examplebox}
+\begin{solutionbox}
+To find the vertical tangent, we need to analyze \( \frac{dy}{dx} \), which is given by:
 \[
-    \frac{dy}{dt} = \sec^2(t)
+    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{\sec^2(t)}{\sec(t)\tan(t)} = \frac{\sec(t)}{\tan(t)}
 \]
+Vertical tangents occur when \( \frac{dy}{dx} \) is undefined. This happens when \( \frac{dx}{dt} = 0 \) while \( \frac{dy}{dt} \neq 0 \). \\
+We have:
 \[
     \frac{dx}{dt} = \sec(t)\tan(t)
 \]
-So\dots
+To find the vertical tangent, we set \( \frac{dx}{dt} = 0 \):
 \[
-    \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}} = \frac{\sec^2(t)}{\sec(t)\tan(t)}
+    \sec(t)\tan(t) = 0
 \]
+Since \( \sec(t) = \frac{1}{\cos(t)} \), it cannot be zero. Thus, the condition for a vertical tangent occurs when:
+\[
+    \tan(t) = 0
+\]
+This happens at \( t = 0 \), so we need to check if \( \frac{dy}{dt} \neq 0 \) at \( t = 0 \). \\
+We have:
+\[
+    \frac{dy}{dt} = \sec^2(t)
+\]
+At \( t = 0 \), \( \frac{dy}{dt} = \sec^2(0) = 1 \), which is nonzero. Therefore, there is a vertical tangent at \( t = 0 \).
 
-Recall from first year calculus:
-\begin{theorembox}
-    Given \( y = f(x) \), it follows that \( y' = f'(x) = 0 \). That is, the roots of \( y' = 0 \) indicate the positions of the horizontal tangents.
-\end{theorembox}
-So\dots\\
-Horizonal Tangent: \( \frac{dy}{dx} = 0 \); find \( t \) values.
-\[
-    \frac{dy}{dt} = 0, \quad \text{but } \frac{dx}{dt} \neq 0
-\]
-Vertical Tangent: \( \frac{dy}{dx} \) is \textit{undefined}; find \( t \) values.
-\[
-    \frac{dx}{dt} = 0, \quad \text{but} \frac{dy}{dt} \neq 0
-\]
-In this case, there is a singular point:
-\[
-    \frac{dx}{dt} = 0 \quad \text{and} \quad \frac{dy}{dt} = 0
-\]
-Vertical Tangents: \( \frac{dx}{dt} = 0 \), but \( \frac{dy}{dt} \neq 0 \). \\
-So\dots
-\[
-    \frac{dx}{dt} = \sec(t)\tan(t) = 0, \quad -\frac{\pi}{2} < t < \frac{\pi}{2} \text{.}
-\]
-Notice that
-\begin{itemize}
-    \item \( \sec(t) = \frac{1}{\cos(t)} = 0 \) is impossible as \( 1 \neq 0 \);
-    \item \( \tan(t) = 0 \) occurs at \( t = 0 \).
-\end{itemize}
-Now, check \( \frac{dy}{dt} = 0 \) at \( t = 0 \).
-\[
-    \frac{dy}{dt} = \sec^2(t) = 0, \quad \text{for } t = 0
-\]
-Is this true? \\
-\\
-Therefore, the vertical tangent is at \( t = 0 \).
-\end{examplebox}
+Thus, the vertical tangent occurs at \( t = 0 \).
+\begin{answerbox}
+The vertical tangent occurs at \( t = 0 \).
+\end{answerbox}
+\end{solutionbox}
 
-(C) Find \( \frac{d^2y}{dx^2} \).
-\begin{examplebox}
-Recall:
+\subsection*{(C) Find \( \frac{d^2y}{dx^2} \).}
+
+\begin{solutionbox}
+To find the second derivative, we use the formula:
 \[
-    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\frac{dy}{dt}}{\frac{dx}{dt}})}{\frac{dx}{dt}}
+    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left( \frac{dy}{dx} \right)}{\frac{dx}{dt}}
 \]
+We already know that:
 \[
-    \frac{dy}{dx} = \frac{\sec(t)}{\tan(t)} \quad \text{and} \quad \frac{dx}{dt} = \sec(t)\tan(t)
+    \frac{dy}{dx} = \frac{\sec(t)}{\tan(t)}, \quad \frac{dx}{dt} = \sec(t)\tan(t)
 \]
+Thus, we need to compute the derivative of \( \frac{dy}{dx} \) with respect to \( t \). Start by differentiating:
 \[
-    \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}(\frac{\sec(t)}{\tan(t)})}{\sec(t)\tan(t)}
+    \frac{dy}{dx} = \frac{\sec(t)}{\tan(t)}
 \]
+Using the quotient rule, we get:
 \[
-    \frac{\sec(t)}{\tan(t)} = \frac{\frac{1}{cos(t)}} \cdot {\frac{\sin(t)}{\cos(t)}} = \frac{1}{\cos(t)}(\frac{\cos(t)}{\sin(t)})
+    \frac{d}{dt} \left( \frac{\sec(t)}{\tan(t)} \right) = \frac{\tan(t) \cdot \frac{d}{dt}[\sec(t)] - \sec(t) \cdot \frac{d}{dt}[\tan(t)]}{\tan^2(t)}
 \]
+Now, recall:
 \[
-    = \frac{1}{\sin(t)}
+    \frac{d}{dt}[\sec(t)] = \sec(t) \tan(t), \quad \frac{d}{dt}[\tan(t)] = \sec^2(t)
 \]
+Substituting these into the derivative:
 \[
-    \sec(t)\tan(t) = \frac{1}{\cos(t)} \cdot \frac{\sin(t)}{\cos(t)} = \frac{\sin(t)}{\cos^2(t)}
+    \frac{d}{dt} \left( \frac{\sec(t)}{\tan(t)} \right) = \frac{\tan(t) \cdot \sec(t) \tan(t) - \sec(t) \cdot \sec^2(t)}{\tan^2(t)} = \frac{\sec(t) (\tan^2(t) - \sec^2(t))}{\tan^2(t)}
 \]
-Now, find the derivative of \( y = \frac{1}{\sin(t)}\):
+Thus, the second derivative is:
 \[
-    y' = \frac{0 \cdot \sin(t) - \cos(t) \cdot 1}{\sin^2(t)} = -\frac{\cos(t)}{\sin^2(t)}
+    \frac{d^2y}{dx^2} = \frac{\frac{\sec(t) (\tan^2(t) - \sec^2(t))}{\tan^2(t)}}{\sec(t)\tan(t)}
 \]
-\textbf{note to self: finish this off}
-\end{examplebox}
+Simplifying the expression:
+\[
+    \frac{d^2y}{dx^2} = \frac{\tan^2(t) - \sec^2(t)}{\tan^3(t)}
+\]
+This is the second derivative of \( y \) with respect to \( x \).
+\begin{answerbox}
+\LARGE
+\( \frac{d^2y}{dx^2} = \frac{\tan^2(t) - \sec^2(t)}{\tan^3(t)} \)
+\normalsize
+\end{answerbox}
+\end{solutionbox}
 
 \end{document}
