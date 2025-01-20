@@ -1,0 +1,290 @@
+\documentclass{article}
+\usepackage{amsthm,amsmath,amsfonts,lipsum}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{listings}
+\usepackage{fontawesome5}
+\usepackage{adjustbox}
+\usepackage{mathabx}
+\usepackage{thmtools}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{physics}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames,x11names]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{background}
+\usepackage{units}
+
+% Configuring the background
+\backgroundsetup{
+  scale=1, % Optional, scale if needed
+  color=black, % Optional, set the image color, can be omitted
+  opacity=0.18, % Optional, adjust opacity for watermark effect
+  angle=0,
+  position=current page.center, % Center the image on the page
+  contents={\includegraphics[width=1.75\paperwidth, height=1.75\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
+}
+
+% Colours
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
+\definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
+\definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
+\definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+
+% Define custom tcolorbox styles for notes
+\tcbuselibrary{skins, breakable}
+\newtcolorbox{definitionbox}{colframe=RoyalBlue, colback=blue!5!white, title=Definition}
+\newtcolorbox{examplebox}{colframe=ForestGreen, colback=green!5!white, title=Example}
+\newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
+\newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
+
+\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
+\newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
+\newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
+\newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
+\newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
+\newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
+\newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
+\newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
+\newtcolorbox{conceptbox}{colframe=chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
+\newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
+\newtcolorbox{answerbox}{colframe=RoyalBlue, colback=blue!10!white, title=Answer}
+
+% Geometry settings
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{MAT232 - Lecture Notes}
+\rhead{\thepage}
+\lfoot{University of Toronto Mississauga}
+\rfoot{\today}
+
+% Document starts
+\begin{document}
+\renewcommand{\familydefault}{\rmdefault}
+
+\input{titlepage}
+\input{preliminary}
+\input{intolecturecontent}
+\normalsize
+
+\section*{Review from the Previous Lecture}
+\begin{remarkbox}
+Recall the following from last week's lecture:
+\begin{itemize}
+    \item Given \( r = f(\theta) \), \[ \frac{dy}{dx} = \dfrac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}} = \dfrac{\frac{dr}{d\theta}\sin\theta + r\cos\theta}{\frac{dr}{d\theta}\cos\theta - r\sin\theta} \]
+    \item Circle: \[ (x-h)^2 + (y-k)^2 = r^2 \text{,} \] where \( r \) is the radius and \( (h, k) \)is the centre.
+\end{itemize}
+\begin{notebox}
+Term Test 1 is on Thursday January 30th, 2025 (week 4)!!!
+\end{notebox}
+\end{remarkbox}
+
+\section*{Parabolas:}
+\begin{examplebox}
+\[
+    y = ax^2 + bx + c, \quad a \neq 0
+\]
+... complete the square
+\[
+    y = A(x - B)^2 + C
+\]
+\[
+     A > 0 \implies \text{up}
+\]
+\[
+    A < 0 \implies \text{down}
+\]
+\[
+    \text{Vertex: } (B, c)
+\]
+\begin{illustrationbox}
+\textbf{illustration goes here (see photo from camera roll for january 20th)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Sample image illustrating the concept.}
+    \label{fig:sample_image}
+\end{figure}
+\end{illustrationbox}
+\end{examplebox}
+
+\section*{Example: Sketching the Region of a Set}
+\begin{examplebox}
+Sketch the region of the set defined by
+\[
+    R = \{ (x, y) \mid y \geq x^2 + 1 \}
+\]
+\begin{solutionbox}
+    Consider the graph for the function \( y = x^2 = 1 \):
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{x^2 + 1.png}
+        \caption{Graph of \( y = x^2 + 1 \).}
+        \label{fig:sample_image}
+    \end{figure}
+    Notice that
+    \begin{equation*}
+    \begin{aligned}
+    y &= x^2 + 1 \\
+    \implies 0 &\geq (-2)^2 + 1 \\
+    \implies 0 &\geq 5 \text{, which is not true.}
+    \end{aligned}
+    \end{equation*}
+    Then, notice that
+    \begin{equation*}
+    \begin{aligned}
+    2 &\geq 0^2 + 1 \\
+    \implies 2 &\geq 1 \text{, which is true!}
+    \end{aligned}
+    \end{equation*}
+    Here is the region being considered:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+        \caption{Sample image illustrating the concept.}
+        \label{fig:sample_image}
+    \end{figure}
+\end{solutionbox}
+\end{examplebox}
+
+\section*{Ellipse}
+\begin{definitionbox}
+The equation of an ellipse is defined by
+\[
+    \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1 \text{.}
+\]
+\begin{notebox}
+Recall the equation of the circle, which is based on the equation of the ellipse when \( a = b = 1 \):
+\[
+    \text{Circle:} \quad (x - h)^2 + (y - k)^2 = r^2 \text{,}
+\]
+where \( (h, k) \) is the centre, \( a \) represents the x-axis radius, and \( b \) represents the y-axis radius.
+\end{notebox}
+\end{definitionbox}
+
+\section*{Example of Skecthing an Ellipse}
+\begin{examplebox}
+Sketch the region of the set defined by
+\[
+    A = \{ (x, y) \mid x^2 + 4y^2 > 4 \} \text{.}
+\]
+\begin{solutionbox}
+    Notice that
+    \[
+        x^2 + 4y^2 = 4 \text{.}
+    \]
+    This means the centre is at \( (0, 0) \).
+    Also,
+    \[
+        \dfrac{x^2}{4} + \dfrac{y^2}{1} = 1
+    \]
+    provides that the x-axis radius is \( a = 2 \) and the y-axis radius is \( b = 1 \). \\
+    \\
+    Here is the corresponding illustration:
+    \\\textbf{self-note: add the illustratoin from the lecture note from your camera roll}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+        \caption{Illustration of ellipse.}
+        \label{fig:sample_image}
+    \end{figure}
+    \begin{notebox}
+    Note that dashed lines are used to denote that the edge of the ellipse is \textbf{not included} in the region \( A \).
+    \end{notebox}
+    Check the point \( (0, 0) \):
+    \[
+        0^2 + 4 \cdot 0^2 > 4
+    \]
+    \[
+        \implies 0 > 4 \text{,}
+    \]
+    which is not true. \\
+    \\
+    Therefore, the inside of the ellipse is \textbf{not} to be shaded in. \\
+    \\
+    Check the point \( (3, 0) \) :
+    \[
+        3^2 + 4 \cdot 0^2 > 4
+    \]
+    \[
+        \implies 9 > 4 \text{,}
+    \]
+    which is true. \\
+    \\
+    This means, the outer region (excluding the edge) of the ellipse is the region of interest as denoted by \( A \).
+\end{solutionbox}
+\end{examplebox}
+
+\section*{Sketching a Region Involving a Hyperbola}
+\begin{examplebox}
+
+\end{examplebox}
+
+\section*{Lecture Title}
+\begin{notebox}
+This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
+\end{notebox}
+
+\section*{Key Concepts}
+\begin{definitionbox}
+A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
+\end{definitionbox}
+
+\section*{Examples}
+\begin{examplebox}
+\textbf{Example 1:} Consider the parametric equations:
+\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
+\begin{itemize}
+    \item At $t = 0$, $(x, y) = (0, 0)$.
+    \item At $t = 1$, $(x, y) = (1, 1)$.
+\end{itemize}
+This describes a parabola.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Sample image illustrating the concept.}
+    \label{fig:sample_image}
+\end{figure}
+
+\end{examplebox}
+
+\section*{Theorems and Proofs}
+\begin{theorembox}
+\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
+\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
+    \caption{Graphical representation of the theorem.}
+    \label{fig:sample_image1}
+\end{figure}
+
+\end{theorembox}
+
+\section*{Additional Notes}
+\begin{notebox}
+Always check the domain of the parameter $t$ when solving problems involving parametric equations.
+\end{notebox}
+
+\end{document}
