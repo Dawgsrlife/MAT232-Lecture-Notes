@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  16 JAN 2025 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  21 JAN 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1020,16 +1020,16 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 12.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [1])
-<1styearcalc.jpg, id=48, 1079.03125pt x 800.9925pt>
+<1styearcalc.jpg, id=48, 645.41125pt x 389.455pt>
 File: 1styearcalc.jpg Graphic file (type jpg)
 <use 1styearcalc.jpg>
 Package pdftex.def Info: 1styearcalc.jpg  used on input line 170.
-(pdftex.def)             Requested size: 263.07692pt x 195.28543pt.
-<self_intersecting_parametric_curve_example.png, id=49, 374.5995pt x 311.36325pt>
+(pdftex.def)             Requested size: 263.07692pt x 158.74458pt.
+<self_intersecting_parametric_curve_example.png, id=50, 550.055pt x 456.70625pt>
 File: self_intersecting_parametric_curve_example.png Graphic file (type png)
 <use self_intersecting_parametric_curve_example.png>
 Package pdftex.def Info: self_intersecting_parametric_curve_example.png  used on input line 189.
-(pdftex.def)             Requested size: 109.61426pt x 91.1102pt.
+(pdftex.def)             Requested size: 109.61426pt x 91.01208pt.
 
 
 
@@ -1136,24 +1136,24 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 468.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [8]
-<sample_image1.jpg, id=97, 147.4308pt x 147.4308pt>
+<sample_image1.jpg, id=98, 147.4308pt x 147.4308pt>
 File: sample_image1.jpg Graphic file (type jpg)
 <use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 500.
+Package pdftex.def Info: sample_image1.jpg  used on input line 499.
 (pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 504.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 503.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 525--528
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--528
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
 
  []
 
@@ -1161,27 +1161,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--528
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 529.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 528.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [10 <./sample_image1.jpg>]
 File: sample_image1.jpg Graphic file (type jpg)
 <use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 537.
+Package pdftex.def Info: sample_image1.jpg  used on input line 536.
 (pdftex.def)             Requested size: 263.07692pt x 263.11887pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--540
+Underfull \hbox (badness 10000) in paragraph at lines 531--539
 
  []
 
 File: sample_image1.jpg Graphic file (type jpg)
 <use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 544.
+Package pdftex.def Info: sample_image1.jpg  used on input line 543.
 (pdftex.def)             Requested size: 263.07692pt x 263.11887pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 563.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 562.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [11]
 Overfull \vbox (344.4143pt too high) has occurred while \output is active []
@@ -1190,19 +1190,19 @@ Overfull \vbox (344.4143pt too high) has occurred while \output is active []
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 563.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 562.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [12]
-<sample_image2.jpg, id=126, 147.4308pt x 147.4308pt>
+<sample_image2.jpg, id=127, 147.4308pt x 147.4308pt>
 File: sample_image2.jpg Graphic file (type jpg)
 <use sample_image2.jpg>
-Package pdftex.def Info: sample_image2.jpg  used on input line 572.
+Package pdftex.def Info: sample_image2.jpg  used on input line 571.
 (pdftex.def)             Requested size: 281.85587pt x 281.90086pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 577.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 576.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [13 <./sample_image2.jpg>] (./main.aux)
  ***********
@@ -1229,9 +1229,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  98i,12n,101p,635b,1510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (18 pages, 793460 bytes).
+Output written on main.pdf (18 pages, 829532 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
+ 219 PDF objects out of 1000 (max. 8388607)
  156 compressed objects within 2 object streams
  46 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
