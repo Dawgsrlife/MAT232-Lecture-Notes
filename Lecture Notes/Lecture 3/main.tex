@@ -42,6 +42,8 @@
 \definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
 \definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
 \definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+% Define the Navy color
+\definecolor{Navy}{rgb}{0.0, 0.0, 0.5}
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -150,7 +152,7 @@ Graph the curve defined by $r = 4\sin\theta$.
 \end{enumerate}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{rEquals4sinTheta.jpg}
+    \includegraphics[width=0.5\textwidth]{rEquals4sinTheta.png}
     \caption{The graph of the function \( r = 4\sin\theta \) is a circle.}
     \label{fig:sample_image}
 \end{figure}
@@ -467,110 +469,311 @@ Thus:
 \end{exercisebox}
 
 \section*{The Arc Length of a Parametric Curve}
+
 \begin{theorembox}
-\textbf{Theorem:} \textbf{self-note: grab the actual theorem from the textbook lol}
 
-\begin{itemize}
-    \item \( (x_1, y_1) \) and \( (x_2, y_2) \) are points
-    \item \( \Delta x = x_1 - x_2 \), \( \Delta = \text{Delta} \) 
-\end{itemize}
-The distance between two points is denoted by \( D \) as follows:
-\[
-    D = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
-\]
-Substitute \( \Delta x \) and \( \Delta y \) as follows:
-\[
-    D = \sqrt{\Delta x^2 + \Delta y^2} 
-\]
-It follows that\dots
-\[
-    D = \sqrt{(\frac{\Delta x}{\Delta t})^2 + (\frac{\Delta y}{\Delta t})^2 } \Delta t
-\]
-Now, notice the similarity to Riemann sums from MAT136. As \( \Delta x \to 0 \):
-\[
-    L = \int_{t=\alpha}^{t=\beta} \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} dt 
-\]
-\textit{\( L \) is the (arc) length of a curve. This is confirmed to be included on term test 1, and will be on the formula sheet.}
+    Let a curve be parameterized by \( t \), such that:
+    \[
+    x = x(t) \quad \text{and} \quad y = y(t), \quad \text{for } t \in [\alpha, \beta].
+    \]
+    
+    The \textbf{arc length} \( L \) of the curve between \( t = \alpha \) and \( t = \beta \) is given by:
+    \[
+        L = \int_{t=\alpha}^{t=\beta} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \, dt
+    \]
 
+\begin{conceptbox}
+Consider two points \( (x_1, y_1) \) and \( (x_2, y_2) \) on a curve. The differences in their coordinates are defined as:
+\[ \Delta x = x_2 - x_1, \quad \Delta y = y_2 - y_1 \]
+
+The distance \( D \) between the two points is given by the Pythagorean theorem:
+\[
+    D = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+Substituting \( \Delta x \) and \( \Delta y \):
+\[
+    D = \sqrt{\Delta x^2 + \Delta y^2}
+\]
+
+Now, consider the curve parameterized by \( t \), where \( x = x(t) \) and \( y = y(t) \). Dividing \( \Delta x \) and \( \Delta y \) by the parameter \( \Delta t \):
+\[
+    D \approx \sqrt{\left(\frac{\Delta x}{\Delta t}\right)^2 + \left(\frac{\Delta y}{\Delta t}\right)^2} \Delta t
+\]
+
+Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore, the arc length \( L \) of the curve is:
+\[
+    L = \int_{t=\alpha}^{t=\beta} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \, dt
+\]
+\end{conceptbox}
+
+\begin{notebox}
+    \( L \) represents the total length of the curve between \( t = \alpha \) and \( t = \beta \). This formula is provided on the formula sheet for term test 1.
+\end{notebox}
 \end{theorembox}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
+\begin{illustrationbox}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\textwidth]{arc length riemann sums showcase}
+        \caption{Visualizing the arc length theorem — the connection between Riemann sums and the integral for a curve's length.}
+        \label{fig:sample_image1}
+    \end{figure}
+\end{illustrationbox}
 
 \section*{Example}
 \begin{examplebox}
-    Find the arc length of the curve defined by
+    Find the arc length of the curve defined by:
     \[
-        x = 3\cos(t), \quad y = 3\sin(t), \quad t \in [0, 2\pi] \text{.}
+        x = 3\cos(t), \quad y = 3\sin(t), \quad t \in [0, 2\pi].
     \]
-    The arc length is denoted by \( L \). Evaluate as follows:
-    \begin{equation*}
-        \begin{aligned}
-            L &= \int_{0}^{2\pi} \sqrt{(-3\sin(t))^2 + (3\cos(t))^2} dt \\
-            &= \textbf{self-note: finish this using the notes in the camera roll}
-        \end{aligned}
-    \end{equation*}
+    
+    \begin{solutionbox}
+        The arc length is denoted by \( L \). We evaluate it as follows:
+
+        \begin{equation*}
+            \begin{aligned}
+                L &= \int_{0}^{2\pi} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} dt \\
+                &= \int_{0}^{2\pi} \sqrt{\left(-3\sin(t)\right)^2 + \left(3\cos(t)\right)^2} dt \\
+                &= \int_{0}^{2\pi} \sqrt{9\sin^2(t) + 9\cos^2(t)} dt.
+            \end{aligned}
+        \end{equation*}
+    
+        Using the Pythagorean identity \( \sin^2(t) + \cos^2(t) = 1 \), simplify the integrand:
+    
+        \begin{equation*}
+            \begin{aligned}
+                L &= \int_{0}^{2\pi} \sqrt{9 \cdot (\sin^2(t) + \cos^2(t))} dt \\
+                &= \int_{0}^{2\pi} \sqrt{9 \cdot 1} \, dt \\
+                &= \int_{0}^{2\pi} 3 \, dt.
+            \end{aligned}
+        \end{equation*}
+    
+        The integral simplifies to:
+    
+        \begin{equation*}
+            \begin{aligned}
+                L &= 3 \int_{0}^{2\pi} 1 \, dt \\
+                &= 3 \left[t\right]_{0}^{2\pi} \\
+                &= 3 \cdot \left(2\pi - 0\right) \\
+                &= 6\pi.
+            \end{aligned}
+        \end{equation*}
+        \begin{answerbox}
+            The arc length of the curve is \( L = 6\pi \).
+        \end{answerbox}
+    \end{solutionbox}
 \end{examplebox}
 
 \section*{Homework Practice Problem}
 \begin{notebox}
-    Find the arc length of the curve defined by
+    Find the arc length of the curve defined by:
     \[
-        x = 3t^2, \quad y = 2t^3, \quad 1 \leq t \leq 3 \text{.}
+        x = 3t^2, \quad y = 2t^3, \quad 1 \leq t \leq 3.
     \]
-    \textbf{self-note: do the solution to this} \\
-    \\
+
+    \begin{solutionbox}
+        The arc length is denoted by \( L \), which is evaluated as follows:
+
+    \begin{equation*}
+        \begin{aligned}
+            L &= \int_{1}^{3} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} dt.
+        \end{aligned}
+    \end{equation*}
+
+    Compute the derivatives:
+    \[
+        \frac{dx}{dt} = \frac{d}{dt}(3t^2) = 6t, \quad \frac{dy}{dt} = \frac{d}{dt}(2t^3) = 6t^2.
+    \]
+
+    Substitute these into the arc length formula:
+    \begin{equation*}
+        \begin{aligned}
+            L &= \int_{1}^{3} \sqrt{(6t)^2 + (6t^2)^2} dt \\
+            &= \int_{1}^{3} \sqrt{36t^2 + 36t^4} dt \\
+            &= \int_{1}^{3} \sqrt{36t^2(1 + t^2)} dt \\
+            &= \int_{1}^{3} 6t\sqrt{1 + t^2} dt.
+        \end{aligned}
+    \end{equation*}
+
+    Use substitution to simplify the integral. Let:
+    \[
+        u = 1 + t^2, \quad \frac{du}{dt} = 2t, \quad dt = \frac{du}{2t}.
+    \]
+
+    Change the limits of integration:
+    \[
+        \text{When } t = 1, \, u = 1 + 1^2 = 2; \quad \text{When } t = 3, \, u = 1 + 3^2 = 10.
+    \]
+
+    Substitute into the integral:
+    \begin{equation*}
+        \begin{aligned}
+            L &= \int_{2}^{10} 6t \cdot \sqrt{u} \cdot \frac{du}{2t} \\
+            &= \int_{2}^{10} 3\sqrt{u} \, du.
+        \end{aligned}
+    \end{equation*}
+    \end{solutionbox}
+\end{notebox}
+\begin{notebox}
+    \begin{solutionbox}
+        Evaluate the integral:
+        \begin{equation*}
+            \begin{aligned}
+                L &= 3 \int_{2}^{10} u^{1/2} \, du \\
+                &= 3 \left[\frac{2}{3} u^{3/2} \right]_{2}^{10} \\
+                &= 2 \left[u^{3/2}\right]_{2}^{10} \\
+                &= 2 \left[(10)^{3/2} - (2)^{3/2}\right].
+            \end{aligned}
+        \end{equation*}
+    
+        Simplify the result:
+        \[
+            L = 2 \left[10\sqrt{10} - 2\sqrt{2}\right].
+        \]
+    
+        \begin{answerbox}
+            The arc length of the curve is \( L = 2 \left(10\sqrt{10} - 2\sqrt{2}\right) \).
+        \end{answerbox}
+    \end{solutionbox}
 \end{notebox}
 
 \section*{Section 1.3: Polar Coordinates}
+
 \begin{definitionbox}
-    \textbf{give the actual definition here from the textbook lol} \\
-    \\
-    Cartesian Coordniates:
+\textbf{Polar coordinates} represent a point in the plane by specifying its distance from the origin (\( r \)) and the angle (\( \theta \)) it makes with the positive x-axis, measured counterclockwise.
+
+\vspace{0.5em}
+
+\begin{conceptbox}
+    \textbf{Cartesian Coordinates:}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
-        \caption{Graphical representation of the theorem.}
-        \label{fig:sample_image1}
+        \includegraphics[width=0.4\textwidth]{cartesian.png}
+        \caption{Graphical representation of Cartesian coordinates.}
+        \label{fig:cartesian_coordinates}
     \end{figure}
-    Polar Coordinates:
+    
+    \textbf{Polar Coordinates:}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.6\textwidth]{sample_image1.jpg}
-        \caption{Graphical representation of the theorem.}
-        \label{fig:sample_image1}
+        \includegraphics[width=0.4\textwidth]{polar.png}
+        \caption{Graphical representation of Polar coordinates.}
+        \label{fig:polar_coordinates}
     \end{figure}
-    How to work with \textbf{Polar Coordinates}
-    \begin{enumerate}
-        \item Start from the origin, and trace positively along the x-axis by the amount of the radius
-        \item Imagine a line segment connecting from the origin to the resultant point, and rotate this line segment \( \theta \) degrees about the origin
-        \item The destination of the resultant point is the point represented by the polar coordinate \( (r, \theta) \).
-    \end{enumerate}
-    Converting from \textbf{Cartesian Coordinates} to \textbf{Polar Coordinates}:
-    \begin{enumerate}
-        \item \textbf{self-note: see camera roll to fill this in with}
-    \end{enumerate}
-    Converting from \textbf{Cartesian Coordinates} to \textbf{Polar Coordinates}:
-    \begin{enumerate}
-        \item \textbf{self-note: see camera roll to fill this in with}
-    \end{enumerate}
+\end{conceptbox}
 \end{definitionbox}
 
-\section*{Additional Notes}
-\begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
-\end{notebox}
+\section*{How to Work with Polar Coordinates}
+\begin{tipbox}
+    \begin{enumerate}
+        \item Start from the origin and move radially outward by a distance equal to \( r \).
+        \item From this position, rotate the point counterclockwise by an angle \( \theta \) (in radians or degrees).
+        \item The resultant position is the point represented by the polar coordinate \( (r, \theta) \).
+    \end{enumerate}
+    
+    \vspace{1em}
+    
+    \subsection*{Converting from Cartesian to Polar Coordinates}
+    \begin{algorithmbox}
+    
+        \begin{enumerate}
+            \item Given a point \( (x, y) \) in Cartesian coordinates:
+                  \[
+                  r = \sqrt{x^2 + y^2}, \quad \theta = \tan^{-1}\left(\frac{y}{x}\right).
+                  \]
+            \item \( r \) represents the radial distance from the origin.
+            \item \( \theta \) is the angle measured from the positive x-axis to the line segment joining the origin to the point.
+            \item Adjust \( \theta \) based on the quadrant of the point to ensure the correct angle.
+        \end{enumerate}
+    \end{algorithmbox}
+    
+    \vspace{1em}
+    
+    \subsection*{Converting from Polar to Cartesian Coordinates}
+    \begin{algorithmbox}
+        \begin{enumerate}
+            \item Given a point \( (r, \theta) \) in polar coordinates:
+                  \[
+                  x = r\cos(\theta), \quad y = r\sin(\theta).
+                  \]
+            \item Compute \( x \) and \( y \) using trigonometric functions with \( r \) and \( \theta \).
+            \item The result \( (x, y) \) represents the Cartesian coordinates of the point.
+        \end{enumerate}
+    \end{algorithmbox}
+\end{tipbox}
 
-\section*{Further Visualization}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{sample_image2.jpg}
-    \caption{Additional visualization for parametric curves.}
-    \label{fig:sample_image2}
-\end{figure}
+\section*{Examples: Converting Rectangular to Polar Coordinates}
+\begin{examplebox}
+    To convert a point from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we use the following formulas:
+    \[
+    r = \sqrt{x^2 + y^2}
+    \]
+    \[
+    \theta = \tan^{-1} \left( \frac{y}{x} \right)
+    \]
+    Now, let's convert the following points:
+    \begin{exercisebox}
+        1. For the point $(1, 1)$:
+        \[
+        r = \sqrt{1^2 + 1^2} = \sqrt{2}, \quad \theta = \tan^{-1} \left( \frac{1}{1} \right) = \frac{\pi}{4}
+        \]
+        So, the polar coordinates are $\left( \sqrt{2}, \dfrac{\pi}{4} \right)$.
+    \end{exercisebox}
+    
+    \begin{exercisebox}
+        2. For the point $(-3, 4)$:
+        \[
+        r = \sqrt{(-3)^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5, \quad \theta = \tan^{-1} \left( \frac{4}{-3} \right) = \tan^{-1} \left( -\frac{4}{3} \right)
+        \]
+        Since the point is in the second quadrant, we add $\pi$ to the angle:
+        \[
+        \theta = \pi - \tan^{-1} \left( \frac{4}{3} \right)
+        \]
+        The polar coordinates are approximately $\left( 5, \pi - \tan^{-1} \left( \frac{4}{3} \right) \right)$.
+    \end{exercisebox}
+    
+    \begin{exercisebox}
+        3. For the point $(0, 3)$:
+       \[
+       r = \sqrt{0^2 + 3^2} = 3, \quad \theta = \frac{\pi}{2}
+       \]
+       So, the polar coordinates are $(3, \dfrac{\pi}{2})$.
+    \end{exercisebox}
+    \end{examplebox}
+    
+    \section*{Examples: Converting Polar to Rectangular Coordinates}
+    \begin{examplebox}
+    To convert a point from polar coordinates $(r, \theta)$ to rectangular coordinates $(x, y)$, we use the following formulas:
+    \[
+    x = r \cos(\theta)
+    \]
+    \[
+    y = r \sin(\theta)
+    \]
+    Now, let's convert the following points:
+    \begin{exercisebox}
+        1. For the point $(3, \frac{\pi}{3})$:
+       \[
+       x = 3 \cos\left( \frac{\pi}{3} \right) = 3 \times \frac{1}{2} = \frac{3}{2}, \quad y = 3 \sin\left( \frac{\pi}{3} \right) = 3 \times \frac{\sqrt{3}}{2} = \frac{3\sqrt{3}}{2}
+       \]
+       So, the rectangular coordinates are $\left( \dfrac{3}{2}, \dfrac{3\sqrt{3}}{2} \right)$.
+    \end{exercisebox}
+    
+    \begin{exercisebox}
+        2. For the point $(2, \frac{3\pi}{2})$:
+       \[
+       x = 2 \cos\left( \frac{3\pi}{2} \right) = 2 \times 0 = 0, \quad y = 2 \sin\left( \frac{3\pi}{2} \right) = 2 \times (-1) = -2
+       \]
+       So, the rectangular coordinates are $(0, -2)$.
+    \end{exercisebox}
+    
+    \begin{exercisebox}
+        3. For the point $(6, -\frac{5\pi}{6})$:
+       \[
+       x = 6 \cos\left( -\frac{5\pi}{6} \right) = 6 \times (-\frac{\sqrt{3}}{2}) = -3\sqrt{3}, \quad y = 6 \sin\left( -\frac{5\pi}{6} \right) = 6 \times (-\frac{1}{2}) = -3
+       \]
+       So, the rectangular coordinates are $(-3\sqrt{3}, -3)$.
+    \end{exercisebox}
+\end{examplebox}
 
 \end{document}

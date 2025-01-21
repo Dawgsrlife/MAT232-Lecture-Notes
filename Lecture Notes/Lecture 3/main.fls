@@ -419,11 +419,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./rEquals4sinTheta.jpg
-INPUT ./rEquals4sinTheta.jpg
-INPUT ./rEquals4sinTheta.jpg
-INPUT ./rEquals4sinTheta.jpg
-INPUT ./rEquals4sinTheta.jpg
+INPUT ./rEquals4sinTheta.png
+INPUT ./rEquals4sinTheta.png
+INPUT ./rEquals4sinTheta.png
+INPUT ./rEquals4sinTheta.png
+INPUT ./rEquals4sinTheta.png
 INPUT ./intolecturecontent.tex
 INPUT ./intolecturecontent.tex
 INPUT ./intolecturecontent.tex
@@ -476,38 +476,47 @@ INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx0500.tfm
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
+INPUT ./arc length riemann sums showcase.png
+INPUT ./arc length riemann sums showcase.png
+INPUT ./arc length riemann sums showcase.png
+INPUT ./arc length riemann sums showcase.png
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./cartesian.png
+INPUT ./cartesian.png
+INPUT ./cartesian.png
+INPUT ./cartesian.png
+INPUT ./cartesian.png
+INPUT ./polar.png
+INPUT ./polar.png
+INPUT ./polar.png
+INPUT ./polar.png
+INPUT ./polar.png
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
