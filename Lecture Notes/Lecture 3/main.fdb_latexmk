@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1737490360.45691 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" "main.pdf" "main" 1737490362.97671 0
+["pdflatex"] 1737493411.79468 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" "main.pdf" "main" 1737493414.24996 0
   "1styearcalc.jpg" 1737485661 50703 ee18935f91f1c598b24669a783d1973b ""
   "arc length riemann sums showcase.png" 1737486467 120175 13809a0af6612365814ed43b1e1150f1 ""
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" 1737490359 27429 4ae304d486b8852cf2d3012bd0cb2009 ""
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" 1737493410 28401 8d65d4993d39099608f0f839351a798c ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -243,9 +243,10 @@
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "cartesian.png" 1737488116 100279 5a0111efbbbf0fd336c997dc2ca7de57 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737490362 2997 90e71dee8087fe41d731f2f465cab922 "pdflatex"
-  "main.out" 1737490361 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1737490359 27429 4ae304d486b8852cf2d3012bd0cb2009 ""
+  "main.aux" 1737493414 4452 546ce50dfe003109de6f30de04ae81f8 "pdflatex"
+  "main.out" 1737493414 2643 95d39c22ffa88d362a40fcd36d213ba1 "pdflatex"
+  "main.tex" 1737493410 28401 8d65d4993d39099608f0f839351a798c ""
+  "main.toc" 1737493414 949 dc2789c5b3a0f50d380beda5b2d71a18 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "polar.png" 1737488092 141953 687a40324ab513fc6bdf8e1e457ad84e ""
   "preliminary.tex" 1737039586 451 007a58133a5e6df778541a9fee6dab25 ""
@@ -257,4 +258,5 @@
   "main.log"
   "main.out"
   "main.pdf"
+  "main.toc"
   (rewritten before read)

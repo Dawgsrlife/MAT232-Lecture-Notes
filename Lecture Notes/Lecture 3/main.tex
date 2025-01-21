@@ -84,9 +84,15 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
 \input{preliminary}
 
 \section*{Preliminary Definitions and Theorems}
+\addcontentsline{toc}{section}{Preliminary Definitions and Theorems}
 
 % Definition: Polar Coordinates
 \begin{definitionbox}
@@ -162,6 +168,7 @@ Graph the curve defined by $r = 4\sin\theta$.
 \normalsize
 
 \section*{Recall: 1st Year Calculus}
+\addcontentsline{toc}{section}{The Definite Integral}
 \begin{definitionbox}
 The \textbf{definite integral} of a function \( y = f(x) \), where \( f(x) \geq 0 \), represents the area under the curve from \( x = a \) to \( x = b \):
 \[
@@ -175,7 +182,8 @@ The \textbf{definite integral} of a function \( y = f(x) \), where \( f(x) \geq 
 \end{figure}
 \end{definitionbox}
 
-\section*{Section 1.2: MAT232 Perspective}
+\section*{Section 1.2: Area Enclosed by a Parametric Curve}
+\addcontentsline{toc}{section}{The Area Under a Parametric Curve}
 \begin{definitionbox}
 A \textbf{parametric curve} is defined by:
 \[
@@ -188,19 +196,21 @@ with the following properties:
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{self_intersecting_parametric_curve_example.png}
+    \includegraphics[width=0.15\textwidth]{self_intersecting_parametric_curve_example.png}
     \caption{A curve that self-intersects.}
     \label{fig:sample_image}
 \end{figure}
 
-The area enclosed by the curve is given by:
-\[
-    \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt
-\]
-or equivalently:
-\[
-    \text{Area} = \int_{t=\alpha}^{t=\beta} f(t) g'(t) \, dt
-\]
+\begin{theorembox}
+    The area enclosed by the curve is given by:
+    \[
+        \text{Area} = \int_{t=\alpha}^{t=\beta} g(t) f'(t) \, dt
+    \]
+    or equivalently:
+    \[
+        \text{Area} = \int_{t=\alpha}^{t=\beta} f(t) g'(t) \, dt
+    \]
+\end{theorembox}
 \end{definitionbox}
 
 \subsection*{Alternative Forms for Area}
@@ -215,7 +225,8 @@ or:
 \]
 \end{notebox}
 
-\section*{Area Enclosed by a Parametric Curve}
+\section*{Example: Standard Parametric Curve}
+\addcontentsline{toc}{subsection}{Example: Standard Parametric Curve}
 \begin{examplebox}
 Calculate the area enclosed by the parametric curve:
 \[
@@ -253,7 +264,8 @@ Taking the absolute value (since area is positive):
 \end{solutionbox}
 \end{examplebox}
 
-\section*{Area Under the Curve of a Cycloid}
+\section*{Example: Cycloid}
+\addcontentsline{toc}{subsection}{Example: Cycloid}
 \begin{examplebox}
 \textbf{Example:} Find the area under the cycloid defined by:
 \[
@@ -330,6 +342,7 @@ Thus:
 
 
 \section*{Homework Practice Question: Area Under a Parametric Curve}
+\addcontentsline{toc}{subsection}{Homework Practice Question}
 \begin{exercisebox}
     Find the area under the curve defined by
     \[
@@ -469,6 +482,7 @@ Thus:
 \end{exercisebox}
 
 \section*{The Arc Length of a Parametric Curve}
+\addcontentsline{toc}{section}{The Arc Length of a Parametric Curve}
 
 \begin{theorembox}
 
@@ -520,7 +534,8 @@ Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore,
     \end{figure}
 \end{illustrationbox}
 
-\section*{Example}
+\section*{Example: Parametric Curve}
+\addcontentsline{toc}{subsection}{Example: Parametric Curve}
 \begin{examplebox}
     Find the arc length of the curve defined by:
     \[
@@ -564,7 +579,8 @@ Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore,
     \end{solutionbox}
 \end{examplebox}
 
-\section*{Homework Practice Problem}
+\section*{Homework Practice Problem: Parametric Curve}
+\addcontentsline{toc}{subsection}{Homework Practice Problem: Parametric Curve}
 \begin{notebox}
     Find the arc length of the curve defined by:
     \[
@@ -638,6 +654,7 @@ Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore,
 \end{notebox}
 
 \section*{Section 1.3: Polar Coordinates}
+\addcontentsline{toc}{section}{Polar Coordinates}
 
 \begin{definitionbox}
 \textbf{Polar coordinates} represent a point in the plane by specifying its distance from the origin (\( r \)) and the angle (\( \theta \)) it makes with the positive x-axis, measured counterclockwise.
@@ -664,6 +681,8 @@ Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore,
 \end{definitionbox}
 
 \section*{How to Work with Polar Coordinates}
+\addcontentsline{toc}{subsection}{How to Work with Polar Coordinates}
+
 \begin{tipbox}
     \begin{enumerate}
         \item Start from the origin and move radially outward by a distance equal to \( r \).
@@ -702,7 +721,9 @@ Taking the limit as \( \Delta t \to 0 \), this becomes a Riemann sum. Therefore,
     \end{algorithmbox}
 \end{tipbox}
 
-\section*{Examples: Converting Rectangular to Polar Coordinates}
+\section*{Examples: Converting Between Rectangular and Polar Coordinates}
+\addcontentsline{toc}{subsection}{Examples: Converting Between Rectangular and Polar Coordinates}
+
 \begin{examplebox}
     To convert a point from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$, we use the following formulas:
     \[

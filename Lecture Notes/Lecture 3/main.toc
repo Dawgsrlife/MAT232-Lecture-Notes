@@ -1,0 +1,13 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Preliminary Definitions and Theorems}{1}{section*.2}%
+\contentsline {section}{The Definite Integral}{1}{section*.3}%
+\contentsline {section}{The Area Under a Parametric Curve}{2}{section*.4}%
+\contentsline {subsection}{Example: Standard Parametric Curve}{3}{section*.6}%
+\contentsline {subsection}{Example: Cycloid}{4}{section*.7}%
+\contentsline {subsection}{Homework Practice Question}{6}{section*.8}%
+\contentsline {section}{The Arc Length of a Parametric Curve}{10}{section*.9}%
+\contentsline {subsection}{Example: Parametric Curve}{12}{section*.10}%
+\contentsline {subsection}{Homework Practice Problem: Parametric Curve}{13}{section*.11}%
+\contentsline {section}{Polar Coordinates}{15}{section*.12}%
+\contentsline {subsection}{How to Work with Polar Coordinates}{16}{section*.13}%
+\contentsline {subsection}{Examples: Converting Between Rectangular and Polar Coordinates}{17}{section*.16}%
