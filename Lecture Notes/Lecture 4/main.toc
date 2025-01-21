@@ -3,3 +3,7 @@
 \contentsline {subsection}{Converting Points between Coordinate Systems}{1}{section*.3}%
 \contentsline {subsection}{Uniqueness of Polar Coordinates}{1}{section*.4}%
 \contentsline {subsection}{Symmetry of Polar Curves}{1}{section*.5}%
+\contentsline {subsection}{Recall the Content from Last Lecture}{2}{section*.7}%
+\contentsline {subsection}{Understanding the Convention for \( r \) in Polar Coordinates}{3}{section*.8}%
+\contentsline {subsection}{Example: Plotting Points}{4}{section*.10}%
+\contentsline {subsection}{Example: Converting from Polar Coords to Cartesian Coords}{5}{section*.11}%

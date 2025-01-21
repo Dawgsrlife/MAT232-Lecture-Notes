@@ -45,6 +45,8 @@
 \definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
 \definecolor{myframecolor}{rgb}{0.25, 0.41, 0.88} % RoyalBlue
 \definecolor{mybackgroundcolor}{rgb}{0.68, 0.85, 0.90} % LightSkyBlue
+% Define the Navy color
+\definecolor{Navy}{rgb}{0.0, 0.0, 0.5}
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -134,62 +136,161 @@
 \setcounter{page}{2}
 \normalsize
 
-\section*{Recall the content from last lecture\dots}
+\section*{Plotting Polar Coordinates}
+
+\subsection*{Recall the Content from Last Lecture}
+\addcontentsline{toc}{subsection}{Recall the Content from Last Lecture}
 \begin{notebox}
-Converting from cartesian coordniates \( (x, y) \) to polar coordinates \( r, \theta \).
-\[
-    x^2 + y^2 = r^2
-\]
-\[
-    \arctan(\dfrac{y}{x}) = \theta
-\]
-Converting from polar coordinates \( (r, \theta) \) to cartesian coordinates \( (x, y) \) 
-\[
-    x = r\cos\theta
-\]
-\[
-    y = r\sin\theta
-\]
-Remember how to between degrees and radians:
-\begin{itemize}
-    \item Degrees to radians: [fill this in]
-    \item Radians to degrees: [fill this in]
-\end{itemize}
+Converting between Cartesian coordinates \( (x, y) \) and Polar coordinates \( (r, \theta) \):
+
+\begin{algorithmbox}
+    \textbf{From Cartesian to Polar:}
+    \[
+        r = \sqrt{x^2 + y^2}, \quad \theta = \arctan\left(\frac{y}{x}\right)
+    \]
+    
+    \textbf{From Polar to Cartesian:}
+    \[
+        x = r\cos\theta, \quad y = r\sin\theta
+    \]
+\end{algorithmbox}
+
+\textbf{Converting Between Degrees and Radians:}
+\begin{algorithmbox}
+    \begin{itemize}
+        \item \textbf{Degrees to Radians:} Multiply by \( \dfrac{\pi}{180^{\circ}} \)
+        \[
+        \text{Radians} = \text{Degrees} \times \dfrac{\pi}{180^\circ}
+        \]
+        \item \textbf{Radians to Degrees:} Multiply by \( \dfrac{180^\circ}{\pi} \)
+        \[
+        \text{Degrees} = \text{Radians} \times \dfrac{180^\circ}{\pi}
+        \]
+    \end{itemize}
+\end{algorithmbox}
 \end{notebox}
 
-\section*{New}
+\subsection*{Understanding the Convention for \( r \) in Polar Coordinates}
+\addcontentsline{toc}{subsection}{Understanding the Convention for \( r \) in Polar Coordinates}
+
 \begin{conceptbox}
-Note the convention for \( r \) in a polar-coordinate point: \\
-PC is represented as \( (r, \theta) \).
-\[
-    (-r, \theta) = (r, \theta + 180\text{\textdegree})
-\]
+In polar coordinates, a point is represented as \( (r, \theta) \), where:
+\begin{itemize}
+    \item \( r \) is the radial distance from the origin (how far the point is from the origin).
+    \item \( \theta \) is the angle, measured counterclockwise from the positive x-axis.
+\end{itemize}
+
+\begin{notebox}
+    \subsubsection*{Special Case: When \( r \) is Negative}
+    \begin{itemize}
+        \item A negative \( r \) in \( (-r, \theta) \) is interpreted as the point being reflected through the origin.
+        \item The equivalent representation is:
+        \[
+        (-r, \theta) = (r, \theta + 180^\circ)
+        \]
+        or in radians:
+        \[
+        (-r, \theta) = (r, \theta + \pi)
+        \]
+    \end{itemize}
+\end{notebox}
+
+\begin{intuitionbox}
+    \begin{itemize}
+        \item Reflecting \( (r, \theta) \) through the origin is the same as rotating the point by \( 180^\circ \) (or \( \pi \) radians).
+        \item This property simplifies polar plots by offering alternate representations of the same point.
+    \end{itemize}
+\end{intuitionbox}
 \end{conceptbox}
 
-\subsection*{Example of Plot Points}
+\subsection*{Example: Plotting Points}
+\addcontentsline{toc}{subsection}{Example: Plotting Points}
+
 \begin{examplebox}
-Plot points: \( (3, -45\text{\textdegree}), (3, 225\text{\textdegree}), (4, 330\text{\textdegree}), (1, -45\text{\textdegree}) \)
-\textbf{self-note: finish this part up}
+Let us plot the following points in polar coordinates:
+\[
+(3, -45^\circ), \quad (3, 225^\circ), \quad (4, 330^\circ), \quad (1, -45^\circ)
+\]
 
-
-\textbf{self-note: add drawing from prof from camera roll here}
-\end{examplebox}
-
-\section*{Example of Converting from Polar Coordinates to Cartesian Coordinates}
-\begin{examplebox}
-Find the \textbf{rectangular coordinates} of the point \( p \) whose polar coordniates are \( 6, \dfrac{\pi}{3}\).
+\begin{algorithmbox}
+    \textbf{Step-by-Step Process:}
+    \begin{enumerate}
+        \item For each point, identify \( r \) and \( \theta \).
+        \item If \( \theta \) is negative or exceeds \( 360^\circ \), convert it to a standard range:
+        \[
+        \theta \in [0^\circ, 360^\circ)
+        \]
+        using \( \theta = \theta + 360^\circ \) (for negative angles) or subtracting \( 360^\circ \) (for angles over \( 360^\circ \)).
+        \item Plot the point by measuring \( \theta \) counterclockwise from the positive x-axis and placing it at a distance \( r \) from the origin.
+    \end{enumerate}
+\end{algorithmbox}
 
 \begin{solutionbox}
+    \begin{itemize}
+        \item For \( (3, -45^\circ) \): Add \( 360^\circ \) to \(-45^\circ\) to convert \( \theta \) to \( 315^\circ \). Plot as \( (3, 315^\circ) \).
+        \item For \( (3, 225^\circ) \): Already within the standard range, so plot directly.
+        \item For \( (4, 330^\circ) \): Angle is standard, so plot directly.
+        \item For \( (1, -45^\circ) \): Add \( 360^\circ \) to \(-45^\circ\), yielding \( (1, 315^\circ) \).
+    \end{itemize}
+    
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}{0.3\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{plot points.png}
+            \caption{Colour Legend}
+            \label{fig:image1}
+        \end{minipage}%
+        \hspace{0.04\textwidth} % Adds horizontal space between the images
+        \begin{minipage}{0.65\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{plot points example.png}
+            \caption{Polar Coordinates Plot and ``Trajectories''}
+            \label{fig:image2}
+        \end{minipage}
+    \end{figure}    
+\end{solutionbox}
+\end{examplebox}
+
+\begin{tipbox}
+    Ensure to label points clearly on the polar grid, and verify angle conversions and reflections for accuracy.
+\end{tipbox}
+
+\subsection*{Example: Converting from Polar Coords to Cartesian Coords}
+\addcontentsline{toc}{subsection}{Example: Converting from Polar Coords to Cartesian Coords}
+
+\begin{examplebox}
+Find the \textbf{rectangular coordinates} (or Cartesian coordinates) of the point \( p \) whose polar coordinates are \( (6, \frac{\pi}{3}) \).
+
+\begin{solutionbox}
+To convert from polar to Cartesian coordinates, we use the following formulas:
+
 \[
-    x = r\cos\theta = c\cos(\dfrac{\pi}{3}) = 6(\frac{1}{2}) = 3
+    x = r \cos \theta
 \]
 \[
-    y = r\sin\theta=6\sin(\dfrac{\pi}{3}) = 6(\frac{\sqrt{3}}{2}) = 3\sqrt{3} 
+    y = r \sin \theta
 \]
-\[
-    \frac{\pi}{3} = 60\text{\textdegree}
-\]
-Therefore, the cartesian coordinate is \( x, y = (3, 3\sqrt{3}) \).
+
+Substitute the given values for \( r = 6 \) and \( \theta = \dfrac{\pi}{3} \):
+
+\begin{itemize}
+    \item For \( x \):
+    \[
+        x = 6 \cos \left( \frac{\pi}{3} \right) = 6 \left( \frac{1}{2} \right) = 3
+    \]
+    \item For \( y \):
+    \[
+        y = 6 \sin \left( \frac{\pi}{3} \right) = 6 \left( \frac{\sqrt{3}}{2} \right) = 3\sqrt{3}
+    \]
+\end{itemize}
+
+Thus, \( (x, y) = (3, 3\sqrt{3}) \).
+
+\begin{answerbox}
+    The cartesian coordinates of the point are \( (x, y) = (3, 3\sqrt{3}) \).
+\end{answerbox}
+
 \end{solutionbox}
 \end{examplebox}
 

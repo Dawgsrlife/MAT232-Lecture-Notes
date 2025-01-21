@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  21 JAN 2025 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  21 JAN 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,26 +855,26 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Info: Command `\dddot' is already robust on input line 84.
-LaTeX Info: Command `\ddddot' is already robust on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Info: Command `\dddot' is already robust on input line 86.
+LaTeX Info: Command `\ddddot' is already robust on input line 86.
 \c@lstlisting=\count348
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -929,7 +929,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 86.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -945,7 +945,7 @@ LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <40> not available
 
 
 
-<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=23, 1927.2pt x 1606.0pt>
+<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=39, 1927.2pt x 1606.0pt>
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 14.
@@ -968,7 +968,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 92.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 94.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [0] (./preliminary.tex
 
@@ -1008,17 +1008,48 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [1])
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 174.
+
+
+
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 195.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 205.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 276--281
+<plot points.png, id=88, 994.71625pt x 252.945pt>
+File: plot points.png Graphic file (type png)
+<use plot points.png>
+Package pdftex.def Info: plot points.png  used on input line 240.
+(pdftex.def)             Requested size: 122.14897pt x 31.0584pt.
+<plot points example.png, id=90, 728.7225pt x 345.29pt>
+File: plot points example.png Graphic file (type png)
+<use plot points example.png>
+Package pdftex.def Info: plot points example.png  used on input line 247.
+(pdftex.def)             Requested size: 264.65094pt x 125.39491pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 254.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[3]
+Overfull \vbox (1.06712pt too high) has occurred while \output is active []
+
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 254.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[4 <./plot points.png> <./plot points example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 377--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--281
+Underfull \hbox (badness 10000) in paragraph at lines 377--382
 
  []
 
@@ -1026,80 +1057,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--281
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 286.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 387.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[3]
+[5]
 Overfull \vbox (379.57018pt too high) has occurred while \output is active []
 
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 286.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 288--291
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--311
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
-
- []
-
-
-
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 353.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 362--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--414
-
- []
-
-
-
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 416.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 387.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [6]
-Overfull \vbox (54.8056pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 389--392
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
 
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 416.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 441--444
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--446
 
  []
 
@@ -1107,41 +1102,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--444
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 474.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 454.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[8]
-Overfull \vbox (27.73615pt too high) has occurred while \output is active []
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 463--469
+
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
 
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 474.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[9]
-<sample_image.jpg, id=106, 147.4308pt x 147.4308pt>
-File: sample_image.jpg Graphic file (type jpg)
-<use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 495.
-(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
-<sample_image1.jpg, id=107, 147.4308pt x 147.4308pt>
-File: sample_image1.jpg Graphic file (type jpg)
-<use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 511.
-(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
+ []
+
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 517.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[10 <./sample_image.jpg>]
+[8]
+Overfull \vbox (54.8056pt too high) has occurred while \output is active []
+
+
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 537.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 517.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[11 <./sample_image1.jpg>] (./main.aux)
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 542--545
+
+ []
+
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 575.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[10]
+Overfull \vbox (27.73615pt too high) has occurred while \output is active []
+
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 575.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[11]
+<sample_image.jpg, id=143, 147.4308pt x 147.4308pt>
+File: sample_image.jpg Graphic file (type jpg)
+<use sample_image.jpg>
+Package pdftex.def Info: sample_image.jpg  used on input line 596.
+(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
+<sample_image1.jpg, id=144, 147.4308pt x 147.4308pt>
+File: sample_image1.jpg Graphic file (type jpg)
+<use sample_image1.jpg>
+Package pdftex.def Info: sample_image1.jpg  used on input line 612.
+(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 618.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[12 <./sample_image.jpg>]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 638.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[13 <./sample_image1.jpg>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1152,21 +1183,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.17pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FEAB03A3E1BAA74D6C9B8C6B86983ECF;903.
+(rerunfilecheck)             Checksum: F3DE9FE76A06947AF569FC885D6BE4D3;2060.
  ) 
 Here is how much of TeX's memory you used:
- 34649 strings out of 473579
- 667747 string characters out of 5732263
- 1177952 words of memory out of 5000000
- 56931 multiletter control sequences out of 15000+600000
- 574621 words of font info for 70 fonts, out of 8000000 for 9000
+ 34742 strings out of 473579
+ 669172 string characters out of 5732263
+ 1180190 words of memory out of 5000000
+ 57000 multiletter control sequences out of 15000+600000
+ 582407 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,12n,101p,635b,1512s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (15 pages, 601265 bytes).
+ 98i,12n,101p,635b,1513s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (17 pages, 871372 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
