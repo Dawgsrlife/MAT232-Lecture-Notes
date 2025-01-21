@@ -1,0 +1,5 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Polar Coordinates - Key Theorems}{1}{section*.2}%
+\contentsline {subsection}{Converting Points between Coordinate Systems}{1}{section*.3}%
+\contentsline {subsection}{Uniqueness of Polar Coordinates}{1}{section*.4}%
+\contentsline {subsection}{Symmetry of Polar Curves}{1}{section*.5}%

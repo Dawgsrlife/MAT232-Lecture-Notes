@@ -43,6 +43,8 @@
 \definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
 \definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
 \definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+\definecolor{myframecolor}{rgb}{0.25, 0.41, 0.88} % RoyalBlue
+\definecolor{mybackgroundcolor}{rgb}{0.68, 0.85, 0.90} % LightSkyBlue
 
 % Define custom tcolorbox styles for notes
 \tcbuselibrary{skins, breakable}
@@ -51,7 +53,7 @@
 \newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
 \newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
 
-\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{propositionbox}{colframe=myframecolor, colback=mybackgroundcolor!20!white, title=Proposition}
 \newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
 \newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
 \newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
@@ -83,8 +85,53 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
+
+\newpage
+\setcounter{page}{0}
+\tableofcontents
+\newpage
+
 \input{preliminary}
+
+\section*{Polar Coordinates - Key Theorems}
+\addcontentsline{toc}{section}{Polar Coordinates - Key Theorems}
+
+\subsection*{Converting Points between Coordinate Systems}
+\addcontentsline{toc}{subsection}{Converting Points between Coordinate Systems}
+\begin{theorembox}
+    Given a point \( P \) in the plane with Cartesian coordinates \( (x,y) \) and polar coordinates \( (r,\theta) \), the following conversion formulas hold true:
+    \[
+    x = r \cos\theta \quad \text{and} \quad y = r \sin\theta,
+    \]
+    \[
+    r^2 = x^2 + y^2 \quad \text{and} \quad \tan\theta = \frac{y}{x}.
+    \]
+    These formulas can be used to convert between rectangular and polar coordinates.
+\end{theorembox}
+
+\subsection*{Uniqueness of Polar Coordinates}
+\addcontentsline{toc}{subsection}{Uniqueness of Polar Coordinates}
+\begin{propositionbox}
+    Every point in the plane has an infinite number of representations in polar coordinates. Specifically, the polar coordinates \( (r, \theta) \) of a point are not unique.
+    
+    \begin{remarkbox}
+        For example, the polar coordinates \( (2, \pi/3) \) and \( (2, 7\pi/3) \) both represent the same point in the rectangular coordinate system. Additionally, the value of \( r \) can be negative. Therefore, the point with polar coordinates \( (-2, 4\pi/3) \) represents the same rectangular point as \( (2, \pi/3) \).
+    \end{remarkbox}
+\end{propositionbox}
+
+\subsection*{Symmetry of Polar Curves}
+\addcontentsline{toc}{subsection}{Symmetry of Polar Curves}
+\begin{theorembox}
+    Polar curves can exhibit symmetry similar to those in rectangular coordinates. The key symmetries to identify are:
+    \begin{itemize}
+        \item \textbf{Symmetry with respect to the polar axis:} A curve is symmetric with respect to the polar axis if replacing \( \theta \) with \( -\theta \) in its equation yields the same curve.
+        \item \textbf{Symmetry with respect to the line \( \theta = \frac{\pi}{2} \):} A curve is symmetric with respect to the line \( \theta = \frac{\pi}{2} \) if replacing \( \theta \) with \( \pi - \theta \) yields the same curve.
+        \item \textbf{Symmetry with respect to the pole (origin):} A curve is symmetric with respect to the pole if replacing \( r \) with \( -r \) yields the same curve.
+    \end{itemize}
+\end{theorembox}
+
 \input{intolecturecontent}
+\setcounter{page}{2}
 \normalsize
 
 \section*{Recall the content from last lecture\dots}
