@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1737493411.79468 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" "main.pdf" "main" 1737493414.24996 0
+["pdflatex"] 1737493822.70595 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" "main.pdf" "main" 1737493825.24952 0
   "1styearcalc.jpg" 1737485661 50703 ee18935f91f1c598b24669a783d1973b ""
   "arc length riemann sums showcase.png" 1737486467 120175 13809a0af6612365814ed43b1e1150f1 ""
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" 1737493410 28401 8d65d4993d39099608f0f839351a798c ""
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 3/main.tex" 1737493819 28447 044c68b068a22a387b4a6b196f4660c3 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -243,10 +243,10 @@
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "cartesian.png" 1737488116 100279 5a0111efbbbf0fd336c997dc2ca7de57 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737493414 4452 546ce50dfe003109de6f30de04ae81f8 "pdflatex"
-  "main.out" 1737493414 2643 95d39c22ffa88d362a40fcd36d213ba1 "pdflatex"
-  "main.tex" 1737493410 28401 8d65d4993d39099608f0f839351a798c ""
-  "main.toc" 1737493414 949 dc2789c5b3a0f50d380beda5b2d71a18 "pdflatex"
+  "main.aux" 1737493824 4452 acddf70ea9633aa89f442141ac6416de "pdflatex"
+  "main.out" 1737493825 2643 95d39c22ffa88d362a40fcd36d213ba1 "pdflatex"
+  "main.tex" 1737493819 28447 044c68b068a22a387b4a6b196f4660c3 ""
+  "main.toc" 1737493825 949 0924342c0424af36dd951b293ed9cafd "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "polar.png" 1737488092 141953 687a40324ab513fc6bdf8e1e457ad84e ""
   "preliminary.tex" 1737039586 451 007a58133a5e6df778541a9fee6dab25 ""
