@@ -421,52 +421,98 @@ Here, \( r \) increases as \( \theta \) increases. This creates a spiral that st
 
 \subsection*{(d) \( r = \sin(\theta) \)}
 \begin{solutionbox}
-Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph will form a \textbf{cardioid}.
+Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph forms a \textbf{cardioid}.
 
-\textbf{Table of Values:}
+\textbf{\underline{Table of Values}}
 \[
-\begin{array}{c|c}
-\theta & r \\
+\begin{array}{c|c|c|c|c|c|c}
+\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} & \pi \\
 \hline
-0 & 0 \\
-\frac{\pi}{6} & \frac{1}{2} \\
-\frac{\pi}{4} & \frac{\sqrt{2}}{2} \\
-\frac{\pi}{3} & \frac{\sqrt{3}}{2} \\
-\frac{\pi}{2} & 1 \\
-\pi & 0 \\
+r & 0 & \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & 1 & 0 \\
 \end{array}
 \]
 
-\textbf{Cartesian Conversion:}
-Substitute \( r = \sin(\theta) \) into the Cartesian equations:
+\textbf{\underline{Cartesian Conversion}} \\
+To express the equation in Cartesian form:
 \[
-x = r \cos\theta \quad \text{and} \quad y = r \sin\theta
+x = r \cos\theta, \quad y = r \sin\theta
 \]
-or eliminate \( r \) to express the equation in terms of \( x \) and \( y \):
+Eliminating \( r \), substitute \( r = \sin\theta \):
 \[
-r = \sin\theta \quad \Rightarrow \quad r = \frac{y}{r} \quad \Rightarrow \quad r^2 = y
+r = \frac{y}{r} \quad \Rightarrow \quad r^2 = y
 \]
-Substitute \( r^2 = x^2 + y^2 \) to get:
+Using \( r^2 = x^2 + y^2 \), we get:
 \[
 x^2 + y^2 = y
 \]
-Complete the square for \( y \) to rewrite the equation:
+Complete the square for \( y \):
 \[
 x^2 + \left(y - \frac{1}{2}\right)^2 = \frac{1}{4}
 \]
-This is a circle with centre \( \left(0, \frac{1}{2}\right) \) and radius \( \frac{1}{2} \).
+This represents a circle centred at \( \left(0, \frac{1}{2}\right) \) with radius \( \frac{1}{2} \).
 
-\textbf{Illustration:}
-The graph is a cardioid touching the origin and centred at \( \left(0, \frac{1}{2}\right) \).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{The graph of \( r = \sin(\theta) \).}
+    \label{fig:cardioid_graph}
+\end{figure}
+The graph is a cardioid, touching the origin and looping around the point \( \left(0, \frac{1}{2}\right) \).
 \end{solutionbox}
 
 \begin{exercisebox}
-Try:
-\[
-    r = \cos\theta
-\]
-under the same context as denoted for the above questions.
-\end{exercisebox}
+    Try sketching the curve:
+    \[
+        r = \cos\theta
+    \]
+    under the same context as the previous questions.
+    
+    \begin{solutionbox}
+    Here, \( r = \cos\theta \). Since \( \cos\theta \) oscillates between \( -1 \) and \( 1 \), the graph will form a \textbf{limacon} with an inner loop.
+    
+    \textbf{\underline{Table of Values}}
+    To visualize the curve, create a table of key points:
+    \[
+    \begin{array}{c|c}
+    \theta & r \\
+    \hline
+    0 & 1 \\
+    \frac{\pi}{3} & \frac{1}{2} \\
+    \frac{\pi}{2} & 0 \\
+    \frac{2\pi}{3} & -\frac{1}{2} \\
+    \pi & -1 \\
+    \end{array}
+    \]
+    
+    \begin{notebox}
+        Plot the points in the table and connect them smoothly to form the graph. Note that for negative \( r \), the points are plotted in the opposite direction from the origin.
+    \end{notebox}
+    
+    \textbf{\underline{Cartesian Conversion}}
+    Substitute \( r = \cos\theta \) into the Cartesian equations:
+    \[
+    x = r \cos\theta \quad \text{and} \quad y = r \sin\theta
+    \]
+    Substituting \( r = \sqrt{x^2 + y^2} \) and eliminating \( r \), we derive:
+    \[
+    x^2 + y^2 = x
+    \]
+    Complete the square for \( x \):
+    \[
+    (x - \frac{1}{2})^2 + y^2 = \frac{1}{4}
+    \]
+    This represents a circle with centre \( (\frac{1}{2}, 0) \) and radius \( \frac{1}{2} \).
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+        \caption{Sample image illustrating the concept.}
+        \label{fig:sample_image}
+    \end{figure}
+
+    The graph of \( r = \cos\theta \) is a limacon with an inner loop, and its Cartesian equivalent is the circle described above.
+    \end{solutionbox}
+\end{exercisebox}    
 
 \section*{The Derivative of a Polar Curve}
 \subsection*{Tangents to Polar Curves}
@@ -574,10 +620,5 @@ Recall how to complete the square:
 \textbf{self-note: complete this below} 
 \end{solutionbox}
 \end{examplebox}
-
-\section*{Additional Notes}
-\begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
-\end{notebox}
 
 \end{document}

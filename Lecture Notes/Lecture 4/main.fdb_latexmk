@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737516895.15188 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737516897.44117 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737516894 21284 c0a91eb802f44c07fd54b03bbd162552 ""
+["pdflatex"] 1737519689.28339 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737519694.03231 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737519687 22873 c66d0a8ca2bc89c7461bce2d362ad7d0 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -259,10 +259,10 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737516897 3833 c2c801d009f0f798960a290920e07e5e "pdflatex"
-  "main.out" 1737516897 2290 e8ec106936237ba0fce2b90f55283e98 "pdflatex"
-  "main.tex" 1737516894 21284 c0a91eb802f44c07fd54b03bbd162552 ""
-  "main.toc" 1737516897 776 9f4d8ec1a32eea3f148e6686d05a7e80 "pdflatex"
+  "main.aux" 1737519693 4355 6e476e35d89b980058a349d73acf8947 "pdflatex"
+  "main.out" 1737519693 2290 e8ec106936237ba0fce2b90f55283e98 "pdflatex"
+  "main.tex" 1737519687 22873 c66d0a8ca2bc89c7461bce2d362ad7d0 ""
+  "main.toc" 1737519693 776 9f4d8ec1a32eea3f148e6686d05a7e80 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "plot points example.png" 1737498384 140104 6828d2adc7be1fcd926281ef7e61fbc6 ""
   "plot points.png" 1737498355 145429 2ca9c01c90331e1b8c8f4e8d55fee915 ""
