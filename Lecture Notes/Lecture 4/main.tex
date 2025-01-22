@@ -137,6 +137,7 @@
 \normalsize
 
 \section*{Plotting Polar Coordinates}
+\addcontentsline{toc}{section}{Plotting Polar Coordinates}
 
 \subsection*{Recall the Content from Last Lecture}
 \addcontentsline{toc}{subsection}{Recall the Content from Last Lecture}
@@ -256,263 +257,207 @@ Let us plot the following points in polar coordinates:
     Ensure to label points clearly on the polar grid, and verify angle conversions and reflections for accuracy.
 \end{tipbox}
 
-\subsection*{Example: Converting from Polar Coords to Cartesian Coords}
-\addcontentsline{toc}{subsection}{Example: Converting from Polar Coords to Cartesian Coords}
+\subsection*{Example: Converting from Polar Coordinates to Cartesian Coordinates}
+\addcontentsline{toc}{subsection}{Example: Converting from Polar Coordinates to Cartesian Coordinates}
 
 \begin{examplebox}
-Find the \textbf{rectangular coordinates} (or Cartesian coordinates) of the point \( p \) whose polar coordinates are \( (6, \frac{\pi}{3}) \).
+Find the \textbf{rectangular coordinates} of the point \( p \) with polar coordinates \( (6, \frac{\pi}{3}) \).
 
 \begin{solutionbox}
-To convert from polar to Cartesian coordinates, we use the following formulas:
-
+To convert from polar to Cartesian coordinates, use:
 \[
-    x = r \cos \theta
-\]
-\[
-    y = r \sin \theta
+    x = r \cos \theta, \quad y = r \sin \theta
 \]
 
-Substitute the given values for \( r = 6 \) and \( \theta = \dfrac{\pi}{3} \):
+Substitute \( r = 6 \) and \( \theta = \frac{\pi}{3} \):
+\[
+    x = 6 \cos\left(\frac{\pi}{3}\right) = 6 \cdot \frac{1}{2} = 3, \quad
+    y = 6 \sin\left(\frac{\pi}{3}\right) = 6 \cdot \frac{\sqrt{3}}{2} = 3\sqrt{3}.
+\]
 
-\begin{itemize}
-    \item For \( x \):
-    \[
-        x = 6 \cos \left( \frac{\pi}{3} \right) = 6 \left( \frac{1}{2} \right) = 3
-    \]
-    \item For \( y \):
-    \[
-        y = 6 \sin \left( \frac{\pi}{3} \right) = 6 \left( \frac{\sqrt{3}}{2} \right) = 3\sqrt{3}
-    \]
-\end{itemize}
-
-Thus, \( (x, y) = (3, 3\sqrt{3}) \).
+Thus, the Cartesian coordinates are:
+\[
+    (x, y) = (3, 3\sqrt{3}).
+\]
 
 \begin{answerbox}
-    The cartesian coordinates of the point are \( (x, y) = (3, 3\sqrt{3}) \).
+The rectangular coordinates are \( (3, 3\sqrt{3}) \).
 \end{answerbox}
-
 \end{solutionbox}
 \end{examplebox}
 
 \section*{Converting from Cartesian Coordinates to Polar Coordinates}
 \begin{examplebox}
-Find the polar coordinate of the point \( p \) whose rectangular coordinates are \( -2, 2\sqrt{3} \).
+Find the \textbf{polar coordinates} of the point \( p \) with rectangular coordinates \( (-2, 2\sqrt{3}) \).
 
 \begin{solutionbox}
-Recall that (the circle equation):
+To find the polar coordinates, use:
 \[
-    x^2 + y^2 = r^2
+    r^2 = x^2 + y^2, \quad \tan(\theta) = \frac{y}{x}.
 \]
-It follows that:
+
+\textbf{Step 1: Solve for \( r \):}
 \[
-    (-2)^2 + (2\sqrt{3})^2 = r^2
+    r^2 = (-2)^2 + (2\sqrt{3})^2 = 4 + 12 = 16 \implies r = 4.
 \]
+
+\textbf{Step 2: Solve for \( \theta \):}
 \[
-    4 + 4 \cdot 3 = r^2
+    \tan(\theta) = \frac{y}{x} = \frac{2\sqrt{3}}{-2} = -\sqrt{3}.
 \]
+
+The point \( (-2, 2\sqrt{3}) \) lies in Quadrant II. The reference angle for \( \tan^{-1}(\sqrt{3}) \) is \( \frac{\pi}{3} \). Thus:
 \[
-    16 = r^2
+    \theta = \pi - \frac{\pi}{3} = \frac{2\pi}{3}.
 \]
-\[
-    \pm \sqrt{16} = r 
-\]
-\[
-    r = \pm 4
-\]
-Note that the radius is positive. Thus:
-\[
-    r = 4 \text{.}
-\]
-Recall that:
-\[
-    \tan(\theta) = \frac{y}{x}
-\]
-\[
-    \tan(\theta) = \frac{2\sqrt{3}}{-2}
-\]
-\[
-    \tan(\theta) = -\sqrt{3}
-\]
-\begin{notebox}
-Note that:
-\[
-    \arctan(\frac{y}{x}) = \theta, \quad \frac{\pi}{2} < \theta < \frac{\pi}{2}
-\]
-\end{notebox}
+
 \begin{tipbox}
-Manually determining \( \theta \) from \( \tan(\theta) = \sqrt{3} \).
-
-Note the special angles (in radians):
-\begin{itemize}
-    \item \( 0 \) 
-    \item \( \frac{\pi}{6} \) 
-    \item \( \frac{\pi}{4} \)
-    \item \( \frac{\pi}{3} \)
-    \item \( \frac{\pi}{2} \)
-\end{itemize}
-Check:
-At \( \theta = \frac{\pi}{6} \),
-\[
-    LHS = \dfrac{\sin(\frac{\pi}{6})}{\cos(\frac{\pi}{6})}
-\]
-\[
-    LHS = \dfrac{\frac{1}{2}}{\frac{\sqrt{3}}{2}}
-\]
-\[
-    LHS = (\dfrac{1}{2})(\dfrac{2}{\sqrt{3}})
-\]
-\[
-    LHS = \frac{1}{\sqrt{3}}
-\]
-\[
-    RHS = \sqrt{3}
-\]
-Clearly, \( LHS = \frac{1}{\sqrt{3}} \neq \sqrt{3} = RHS \).
-So, \( \theta \neq \frac{\pi}{6} \).
-
-Now, do the same to check that \( \theta \) is indeed \( \sqrt{3} \).
-[do that here!]
+    Alternatively, for a negative angle:
+    \[
+        \theta = -\frac{\pi}{3}, \quad \text{adjust to Quadrant II: } -\frac{\pi}{3} + \pi = \frac{2\pi}{3}.
+    \]
 \end{tipbox}
 
-We now have \( (r, \theta) = (4, -\frac{\pi}{3 = -60\text{\textdegree}})\). \\
-\\
-We don't want to retain the negative! \\
-\\
-So, the fix\dots
-\[
-    (4, -\frac{\pi}{3} + \pi = -60\text{\textdegree} + 180\text{\textdegree}) = (4, \frac{2\pi}{3} = 120\text{\textdegree})
-\]
+Thus, \( (r, \theta) = (4, \frac{2\pi}{3}) \).
+
+\begin{answerbox}
+The polar coordinates are \( (4, \dfrac{2\pi}{3}) \) or \( (4, 120^\circ) \).
+\end{answerbox}
 \end{solutionbox}
 \end{examplebox}
 
-\begin{tipbox}
-When practicing for this course, you are encouraged to leverage any available graphing websites and/or software. \\
-\\
-Ideally, you want to know how to draw lines and circles.
-\end{tipbox}
-
+\begin{notebox}
+    To enhance material understanding, make use of graphing websites (e.g. Desmos, Geogebra) or software whenever possible. Focus especially on mastering how to plot lines and circles, as these are fundamental for MAT232.
+\end{notebox}
 \section*{Polar Curves}
 \begin{examplebox}
-Consider \( r = f(\theta) \). \\
-\\
-Sketch the following functions: \\
-(a) \( r = 1 \) \\
-(b) \( \theta = \frac{\pi}{4} \) \\
-(c) \( r = \theta, \quad \theta \geq 0 \) \\
-(d) \( r = \sin(\theta) \) \\
-(e) \( r = \cos(2\theta) \) \\
-\\
+Consider \( r = f(\theta) \). Sketch the following functions: 
+\begin{enumerate}[label=(\alph*)]
+    \item \( r = 1 \)
+    \item \( \theta = \frac{\pi}{4} \)
+    \item \( r = \theta, \quad \theta \geq 0 \)
+    \item \( r = \sin(\theta) \)
+    \item \( r = \cos(2\theta) \)
+\end{enumerate}
 \end{examplebox}
 
-(a)
+\subsection*{(a) \( r = 1 \)}
 \begin{solutionbox}
-Here, \( r = 1 \) and \( \theta \) is an arbitrary angle. \\
-\\
-Converting from a polar-coordinate curve to a cartesian-coordinate equation:
-\[
-    x^2 + y^2 = r^2 = 1^2 = 1
-\]
-Clearly, we are working with the unit cirle.
+Here, \( r = 1 \), and \( \theta \) can take any value. 
 
-\textbf{self-note: actually show the illustration as andie drew on the lecture notes}
+This means the point is always at a distance of \( 1 \) from the origin, regardless of the angle \( \theta \). Hence, the graph is a \textbf{circle} with radius \( 1 \), centred at the origin.
+
+\begin{remarkbox}
+    \textbf{\underline{Cartesian Conversion}} \\
+    From the polar equation:
+    \[
+    x^2 + y^2 = r^2 = 1
+    \]
+    This confirms the equation of a unit circle in Cartesian coordinates.
+\end{remarkbox}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Sample image illustrating the concept.}
+    \label{fig:sample_image}
+\end{figure}
 \end{solutionbox}
 
-(b)
+\subsection*{(b) \( \theta = \dfrac{\pi}{4} \)}
 \begin{solutionbox}
-    [fill this in]
+Here, \( \theta = \dfrac{\pi}{4} \), and \( r \) can take any value. 
+
+This represents all points that lie along the line passing through the origin at an angle of \( \frac{\pi}{4} \) (or \( 45^\circ \)) with the positive \( x \)-axis. The graph is a straight line through the origin.
+
+\begin{remarkbox}
+    \textbf{\underline{Cartesian Conversion}} \\
+    In polar coordinates:
+    \[
+    \tan(\theta) = \frac{y}{x}
+    \]
+    Substituting \( \theta = \frac{\pi}{4} \), we get:
+    \[
+    \tan\left(\frac{\pi}{4}\right) = 1 \quad \Rightarrow \quad \frac{\pi}{4} = \tan^{-1}\left(1\right) = \tan^{-1}\left(\frac{y}{x}\right) \quad \Rightarrow \quad 1 = \frac{y}{x} \quad \Rightarrow \quad y = x
+    \]
+    Thus, the Cartesian equation is \( y = x \).
+\end{remarkbox}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Sample image illustrating the concept.}
+    \label{fig:sample_image}
+\end{figure}
 \end{solutionbox}
 
-(c) \( r = \theta, \quad \theta \geq 0 \)
+\subsection*{(c) \( r = \theta, \quad \theta \geq 0 \)}
 \begin{solutionbox}
-As \( r \to \infty \), \( \theta \) increases.
+Here, \( r \) increases as \( \theta \) increases. This creates a spiral that starts at the origin and winds outward as \( \theta \) grows. 
+
+\begin{remarkbox}
+    \textbf{\underline{Illustration}} \\
+    Create a table of values to plot key points:
+    \[
+    \begin{array}{c|c}
+    \theta & r \\
+    \hline
+    0 & 0 \\
+    \frac{\pi}{6} & \frac{\pi}{6} \approx 0.52 \\
+    \frac{\pi}{4} & \frac{\pi}{4} \approx 0.79 \\
+    \frac{\pi}{3} & \frac{\pi}{3} \approx 1.05 \\
+    \frac{\pi}{2} & \frac{\pi}{2} \approx 1.57 \\
+    \end{array}
+        \]
+    \begin{notebox}
+    Using \( x = r \cos\theta \) and \( y = r \sin\theta \), compute \( x \) and \( y \) for each point in the table above to visualize the curve in Cartesian coordinates.
+    \end{notebox}
+\end{remarkbox}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Sample image illustrating the concept.}
+    \label{fig:sample_image}
+\end{figure}
+\end{solutionbox}
+
+\subsection*{(d) \( r = \sin(\theta) \)}
+\begin{solutionbox}
+Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph will form a \textbf{cardioid}.
+
+\textbf{Table of Values:}
 \[
-    r = f(\theta)
-\]
-\[
-    \pi \doteq 3.14
-\]
-\[
-\begin{array}{c|c|c|c|c|c}
-\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} \\
+\begin{array}{c|c}
+\theta & r \\
 \hline
-r & 0 & \doteq 1 & \doteq 1.2 & \doteq 1.4 & \doteq 1.5 \\
+0 & 0 \\
+\frac{\pi}{6} & \frac{1}{2} \\
+\frac{\pi}{4} & \frac{\sqrt{2}}{2} \\
+\frac{\pi}{3} & \frac{\sqrt{3}}{2} \\
+\frac{\pi}{2} & 1 \\
+\pi & 0 \\
 \end{array}
 \]
 
-Check out the illustration:
-[add-illustration-here] \\
-\\
-Now, converting from polar coordinates to cartesian coordinates:
+\textbf{Cartesian Conversion:}
+Substitute \( r = \sin(\theta) \) into the Cartesian equations:
 \[
-    x^2 + y^2 = r^2
+x = r \cos\theta \quad \text{and} \quad y = r \sin\theta
 \]
+or eliminate \( r \) to express the equation in terms of \( x \) and \( y \):
 \[
-    \sqrt{x^2 + y^2} = r
+r = \sin\theta \quad \Rightarrow \quad r = \frac{y}{r} \quad \Rightarrow \quad r^2 = y
 \]
-[and also add the other equation]
-\end{solutionbox}
+Substitute \( r^2 = x^2 + y^2 \) to get:
+\[
+x^2 + y^2 = y
+\]
+Complete the square for \( y \) to rewrite the equation:
+\[
+x^2 + \left(y - \frac{1}{2}\right)^2 = \frac{1}{4}
+\]
+This is a circle with centre \( \left(0, \frac{1}{2}\right) \) and radius \( \frac{1}{2} \).
 
-(d) \( r = \sin\theta \)
-\begin{solutionbox}
-\[
-\begin{array}{c|c|c|c|c|c}
-\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} \\
-\hline
-r & 0 & \frac{1}{2} & \frac{1}{\sqrt{2}} & \frac{\sqrt{3}}{2} & 1 \\
-\end{array}
-\]
-Just use the table to directly plot the points for the graph! \\
-\\
-\textbf{add-illustration-here}
-We now need an equation that will help us get rid of \( r = \sin\theta \). Consider the possibilities:
-\begin{itemize}
-    \item \( x = r\cos\theta \)
-    \item \( y = r\sin\theta \)
-    \item \( \frac{y}{r} = \sin\theta \)
-\end{itemize}
-
-\[
-    r = \sin\theta
-\]
-\[
-    r = \frac{y}{r}
-\]
-\[
-    r^2 = y
-\]
-\( x^2 + y^2 = r^2 \)
-So,
-\[
-    x^2 + y^2 = y \text{.}
-\]
-\begin{propositionbox}
-Recall how to complete the square from Grade 10 math:
-\textbf{self-note: add that here to reference}
-\end{propositionbox}
-Proceed to complete the square:
-\[
-    x^2 + y^2 - y + \frac{1}{4} = \frac{1}{4}
-\]
-step no. 1: \( -\frac{1}{2} \) \\
-step no. 2: \( (-\dfrac{1}{2})^2 = \frac{1}{4} \).
-Recall that:
-\[
-    (y + a)^2 = (y + a)(y + a)
-\]
-\[
-    = y^2 + 2ay + a^2
-\]
-This would represent the \( y^2 - y + \frac{1}{4} \) part.
-
-Note that the \( (y - a)^2 \) represents the \( -\frac{1}{2} \) 
-
-result:
-\[
-    x^2 + (y - \frac{1}{2})^2 = \frac{1}{4}
-\]
-Centre: \( (0, \frac{1}{2}) \) \\
-Radius: \( r = \frac{1}{2} \) \\
-
+\textbf{Illustration:}
+The graph is a cardioid touching the origin and centred at \( \left(0, \frac{1}{2}\right) \).
 \end{solutionbox}
 
 \begin{exercisebox}
