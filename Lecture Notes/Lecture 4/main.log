@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  22 JAN 2025 04:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  22 JAN 2025 05:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,7 +945,7 @@ LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <40> not available
 
 
 
-<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=83, 1927.2pt x 1606.0pt>
+<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=99, 1927.2pt x 1606.0pt>
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 14.
@@ -1018,12 +1018,12 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 208.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [2]
-<plot points.png, id=140, 994.71625pt x 252.945pt>
+<plot points.png, id=160, 994.71625pt x 252.945pt>
 File: plot points.png Graphic file (type png)
 <use plot points.png>
 Package pdftex.def Info: plot points.png  used on input line 247.
 (pdftex.def)             Requested size: 122.14897pt x 31.0584pt.
-<plot points example.png, id=142, 728.7225pt x 345.29pt>
+<plot points example.png, id=162, 728.7225pt x 345.29pt>
 File: plot points example.png Graphic file (type png)
 <use plot points example.png>
 Package pdftex.def Info: plot points example.png  used on input line 254.
@@ -1056,12 +1056,12 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 351.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [6]
-<polar curve sketch a.png, id=170, 508.90125pt x 377.41pt>
+<polar curve sketch a.png, id=190, 508.90125pt x 377.41pt>
 File: polar curve sketch a.png Graphic file (type png)
 <use polar curve sketch a.png>
 Package pdftex.def Info: polar curve sketch a.png  used on input line 369.
 (pdftex.def)             Requested size: 153.46265pt x 113.81126pt.
-<polar curve sketch b.png, id=171, 556.0775pt x 451.6875pt>
+<polar curve sketch b.png, id=191, 556.0775pt x 451.6875pt>
 File: polar curve sketch b.png Graphic file (type png)
 <use polar curve sketch b.png>
 Package pdftex.def Info: polar curve sketch b.png  used on input line 397.
@@ -1082,12 +1082,12 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 402.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [8 <./polar curve sketch b.png>]
-<polar curve sketch c.png, id=191, 516.93124pt x 485.815pt>
+<polar curve sketch c.png, id=211, 516.93124pt x 485.815pt>
 File: polar curve sketch c.png Graphic file (type png)
 <use polar curve sketch c.png>
 Package pdftex.def Info: polar curve sketch c.png  used on input line 425.
 (pdftex.def)             Requested size: 328.8428pt x 309.05989pt.
-<polar curve sketch d.png, id=192, 542.025pt x 463.7325pt>
+<polar curve sketch d.png, id=212, 542.025pt x 463.7325pt>
 File: polar curve sketch d.png Graphic file (type png)
 <use polar curve sketch d.png>
 Package pdftex.def Info: polar curve sketch d.png  used on input line 451.
@@ -1099,7 +1099,7 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 456.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [9 <./polar curve sketch c.png>]
-<polar curve sketch e.png, id=200, 270.00874pt x 270.00874pt>
+<polar curve sketch e.png, id=220, 270.00874pt x 270.00874pt>
 File: polar curve sketch e.png Graphic file (type png)
 <use polar curve sketch e.png>
 Package pdftex.def Info: polar curve sketch e.png  used on input line 479.
@@ -1111,68 +1111,116 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 484.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [10 <./polar curve sketch d.png>]
-<sample_image.jpg, id=207, 147.4308pt x 147.4308pt>
-File: sample_image.jpg Graphic file (type jpg)
-<use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 530.
-(pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
+
+ []
+
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 538.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 552.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [11 <./polar curve sketch e.png>]
-Overfull \vbox (149.75311pt too high) has occurred while \output is active []
-
+<hw practice question limacon.png, id=233, 531.9875pt x 472.76625pt>
+File: hw practice question limacon.png Graphic file (type png)
+<use hw practice question limacon.png>
+Package pdftex.def Info: hw practice question limacon.png  used on input line 579.
+(pdftex.def)             Requested size: 223.93875pt x 199.00772pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 538.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 584.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[12 <./sample_image.jpg>]
-Overfull \vbox (262.1295pt too high) has occurred while \output is active []
-
-
+[12]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 604.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 585.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [13]
-File: sample_image.jpg Graphic file (type jpg)
-<use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 694.
-(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 
-Overfull \vbox (641.3925pt too high) has occurred while \output is active []
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 617.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[14 <./hw practice question limacon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
+
+ []
 
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 700.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 650.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[14]
-<sample_image1.jpg, id=240, 147.4308pt x 147.4308pt>
-File: sample_image1.jpg Graphic file (type jpg)
-<use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 718.
-(pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
+[15]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 691.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[16]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 743.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[17]
+<demo for 1 - cos(theta).png, id=273, 1123.19624pt x 406.51875pt>
+File: demo for 1 - cos(theta).png Graphic file (type png)
+<use demo for 1 - cos(theta).png>
+Package pdftex.def Info: demo for 1 - cos(theta).png  used on input line 748.
+(pdftex.def)             Requested size: 438.45708pt x 158.69054pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 762.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 753.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[15 <./sample_image1.jpg>]
+[18]
+<equation of a circle.png, id=279, 469.755pt x 391.4625pt>
+File: equation of a circle.png Graphic file (type png)
+<use equation of a circle.png>
+Package pdftex.def Info: equation of a circle.png  used on input line 776.
+(pdftex.def)             Requested size: 188.53333pt x 157.10786pt.
+
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 767.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 791.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[16] (./main.aux)
+[19 <./demo for 1 - cos(theta).png>]
+
+Package hyperref Warning: bookmark level for unknown secunit defaults to 0.
+
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 830.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[20 <./equation of a circle.png>]
+<equation of a circle example question.png, id=292, 574.145pt x 362.35374pt>
+File: equation of a circle example question.png Graphic file (type png)
+<use equation of a circle example question.png>
+Package pdftex.def Info: equation of a circle example question.png  used on input line 858.
+(pdftex.def)             Requested size: 203.57956pt x 128.4789pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 864.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[21]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 865.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[22 <./equation of a circle example question.png>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1183,21 +1231,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.17pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 084ACA7E5A4743D0339A9F68147B4A85;4125.
+(rerunfilecheck)             Checksum: 150960EA57A132E1C62EB93C3BA5477F;5165.
  ) 
 Here is how much of TeX's memory you used:
- 34833 strings out of 473578
- 670955 string characters out of 5732242
- 1181668 words of memory out of 5000000
- 57062 multiletter control sequences out of 15000+600000
- 582415 words of font info for 96 fonts, out of 8000000 for 9000
+ 34900 strings out of 473578
+ 672467 string characters out of 5732242
+ 1180078 words of memory out of 5000000
+ 57118 multiletter control sequences out of 15000+600000
+ 585008 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,12n,101p,635b,1535s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (20 pages, 1166764 bytes).
+ 98i,12n,101p,635b,1952s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (26 pages, 1348201 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -432,7 +432,7 @@ Here, \( r \) increases as \( \theta \) increases. This creates a \textbf{spiral
 \addcontentsline{toc}{subsection}{Perfect-Circle Cardioid}
 
 \begin{solutionbox}
-Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph forms a \textbf{cardioid} (which happens to be a perfect circle in this case).
+Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph forms a \textbf{cardioid} (which, in this case, is a perfect circle).
 
 \begin{conceptbox}
     \textbf{\underline{Cartesian Conversion}} \\ 
@@ -482,6 +482,7 @@ The equation \( r = \cos(2\theta) \) represents a \textbf{four-petaled rose}. As
 \end{figure}
 \end{solutionbox}
 
+\section*{Homework Practice Problem: Polar Graph Sketching}
 \begin{exercisebox}
     Try sketching the curve:
     \[
@@ -490,119 +491,164 @@ The equation \( r = \cos(2\theta) \) represents a \textbf{four-petaled rose}. As
     under the same context as the previous questions.
     
     \begin{solutionbox}
-    Here, \( r = \cos\theta \). Since \( \cos\theta \) oscillates between \( -1 \) and \( 1 \), the graph will form a \textbf{limacon} with an inner loop.
+    Here, \( r = \cos\theta \). Since \( \cos\theta \) oscillates between \( -1 \) and \( 1 \), the graph will form a \textbf{limacon} (which, in this case, simplifies to a standard circle) with an inner loop.
     
-    \textbf{\underline{Table of Values}}
-    To visualize the curve, create a table of key points:
-    \[
-    \begin{array}{c|c}
-    \theta & r \\
-    \hline
-    0 & 1 \\
-    \frac{\pi}{3} & \frac{1}{2} \\
-    \frac{\pi}{2} & 0 \\
-    \frac{2\pi}{3} & -\frac{1}{2} \\
-    \pi & -1 \\
-    \end{array}
-    \]
-    
-    \begin{notebox}
-        Plot the points in the table and connect them smoothly to form the graph. Note that for negative \( r \), the points are plotted in the opposite direction from the origin.
-    \end{notebox}
-    
-    \textbf{\underline{Cartesian Conversion}}
-    Substitute \( r = \cos\theta \) into the Cartesian equations:
-    \[
-    x = r \cos\theta \quad \text{and} \quad y = r \sin\theta
-    \]
-    Substituting \( r = \sqrt{x^2 + y^2} \) and eliminating \( r \), we derive:
-    \[
-    x^2 + y^2 = x
-    \]
-    Complete the square for \( x \):
-    \[
-    (x - \frac{1}{2})^2 + y^2 = \frac{1}{4}
-    \]
-    This represents a circle with centre \( (\frac{1}{2}, 0) \) and radius \( \frac{1}{2} \).
-    
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-
-    The graph of \( r = \cos\theta \) is a limacon with an inner loop, and its Cartesian equivalent is the circle described above.
+    \begin{conceptbox}
+        \textbf{\underline{Table of Values}} \\
+        To visualize the curve, create a table of key points:
+        \[
+        \begin{array}{c|ccccc}
+        \theta & 0 & \frac{\pi}{3} & \frac{\pi}{2} & \frac{2\pi}{3} & \pi \\
+        \hline
+        r & 1 & \frac{1}{2} & 0 & -\frac{1}{2} & -1 \\
+        \end{array}
+        \]
+        
+        \begin{notebox}
+            Plot the points in the table and connect them smoothly to form the graph. Note that for negative \( r \), the points are plotted in the opposite direction from the origin.
+        \end{notebox}
+    \end{conceptbox}
+    \textit{...cont'd...}
     \end{solutionbox}
-\end{exercisebox}    
+\end{exercisebox}
+\begin{exercisebox}
+    \begin{solutionbox}
+        \textit{...cont'd...}
+        \begin{conceptbox}
+        \textbf{\underline{Cartesian Conversion}} \\
 
-\section*{The Derivative of a Polar Curve}
-\subsection*{Tangents to Polar Curves}
+        To convert the polar equation \( r = \cos\theta \) into Cartesian form:
+        \begin{enumerate}
+            \item Recall the polar-to-Cartesian relationships:
+            \[
+            x = r \cos\theta \quad \text{and} \quad y = r \sin\theta.
+            \]
+            \item Substitute \( r = \cos\theta \) into \( x = r \cos\theta \):
+            \[
+            x = (\cos\theta)(\cos\theta) = \cos^2\theta.
+            \]
+            \item Using the Pythagorean identity \( \cos^2\theta + \sin^2\theta = 1 \), write \( \cos^2\theta \) as:
+            \[
+            \cos^2\theta = 1 - \sin^2\theta.
+            \]
+            \item Replace \( \sin^2\theta \) with \( \left(\dfrac{y}{r}\right)^2 \) since \( \sin\theta = \dfrac{y}{r} \):
+            \[
+            x = 1 - \left(\frac{y}{r}\right)^2.
+            \]
+            Multiply through by \( r^2 = x^2 + y^2 \) to eliminate \( r \):
+            \[
+            r^2x = r^2 - y^2 \quad \Rightarrow \quad (x^2 + y^2)x = x^2 + y^2 - y^2.
+            \]
+        \end{enumerate}
 
-\begin{definitionbox}
-\begin{notebox}
-Recall that polar curves are defined by:
+        After simplifying, we find:
+        \[
+        x^2 + y^2 = x.
+        \]
+        
+        \textit{...cont'd...}
+        \end{conceptbox}
+    \end{solutionbox}
+\end{exercisebox}
+\begin{exercisebox}
+    \begin{solutionbox}
+        \textit{...cont'd...}
+        \begin{conceptbox}
+            \textbf{Completing the Square:} \\
+            To identify the shape of this equation:
+            \begin{enumerate}
+                \item Isolate \( x^2 + x \):
+                \[
+                x^2 - x + y^2 = 0.
+                \]
+                \item Complete the square for \( x \):
+                \[
+                \left(x - \frac{1}{2}\right)^2 - \frac{1}{4} + y^2 = 0 \quad \Rightarrow \quad \left(x - \frac{1}{2}\right)^2 + y^2 = \frac{1}{4} = \left(\frac{1}{2}\right)^2.
+                \]
+            \end{enumerate}
+    
+            This represents a circle with:
+            \begin{itemize}
+                \item \textbf{Centre:} \( \left(\frac{1}{2}, 0\right) \),
+                \item \textbf{Radius:} \( \frac{1}{2} \).
+            \end{itemize}
+        \end{conceptbox}
+    
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.55\textwidth]{hw practice question limacon.png}
+            \caption{Graph of \( r = \cos\theta \), showing the limacon with an inner loop.}
+            \label{fig:sample_image}
+        \end{figure}
+    \end{solutionbox}
+\end{exercisebox}
+
+\section*{Derivatives of Polar Curves and Their Applications}
+\addcontentsline{toc}{section}{Derivatives of Polar Curves and Their Applications}
+
+\subsection*{Tangents to Polar Curves: Finding Slopes and Key Conditions}
+\addcontentsline{toc}{subsection}{Tangents to Polar Curves: Finding Slopes and Key Conditions}
+
+\begin{theorembox}
+\textbf{Tangent Slopes to Polar Curves} \\
+Let an arbitrary polar curve be given by \( r = f(\theta) \), where \( r \) and \( \theta \) are related. The slope of the tangent line to the curve at a given point can be expressed as:
+
 \[
-    r = f(\theta).
-\]
-\end{notebox}
-
-The Cartesian coordinates \(x\) and \(y\) are expressed as:
-\[
-    x = r\cos\theta = f(\theta) \cos\theta, \quad 
-    y = r\sin\theta = f(\theta) \sin\theta.
+    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = \dfrac{\dfrac{dr}{d\theta} \sin\theta + r \cos\theta}{\dfrac{dr}{d\theta} \cos\theta - r \sin\theta}.
 \]
 
-\begin{intuitionbox}
-The goal is to express the slope \( \dfrac{dy}{dx} \) entirely in terms of \( \theta \), ensuring both \(x\) and \(y\) depend on this single parameter.
-\end{intuitionbox}
-
-\subsubsection*{Finding \( \dfrac{dy}{dx} \)}
-To compute \( \dfrac{dy}{dx} \), we use the chain rule:
-\[
-    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}}, \quad \text{where} \quad \dfrac{dx}{d\theta} \neq 0.
-\]
-
-\paragraph{Step 1: Compute \( \dfrac{dx}{d\theta} \) and \( \dfrac{dy}{d\theta} \)}
-\[
-    \dfrac{dx}{d\theta} = \dfrac{d}{d\theta} \big( f(\theta) \cos\theta \big) = \dfrac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta,
-\]
-\[
-    \dfrac{dy}{d\theta} = \dfrac{d}{d\theta} \big( f(\theta) \sin\theta \big) = \dfrac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta.
-\]
-
-\paragraph{Step 2: Substitute into \( \dfrac{dy}{dx} \)}
-\[
-    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = 
-    \dfrac{\dfrac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta}{\dfrac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta}.
-\]
-
-\paragraph{Step 3: Replace \(f(\theta)\) with \(r\)}
-For simplicity, we substitute \(f(\theta)\) with \(r\):
-\[
-    \dfrac{dy}{dx} = 
-    \dfrac{\dfrac{dr}{d\theta} \sin\theta + r \cos\theta}{\dfrac{dr}{d\theta} \cos\theta - r \sin\theta}.
-\]
-
-\subsubsection*{Key Tangent Conditions}
+\textbf{\underline{Tangent Types:}}
 \begin{itemize}
-    \item \textbf{Horizontal Tangents:} 
+    \item \textbf{Horizontal Tangents:} Occurs when
     \[
-        \dfrac{dy}{d\theta} = 0 \quad \text{and} \quad \dfrac{dx}{d\theta} \neq 0.
+        \frac{dy}{d\theta} = 0 \quad \text{and} \quad \frac{dx}{d\theta} \neq 0.
     \]
-    \item \textbf{Vertical Tangents:} 
+    \item \textbf{Vertical Tangents:} Occurs when
     \[
-        \dfrac{dx}{d\theta} = 0 \quad \text{and} \quad \dfrac{dy}{d\theta} \neq 0.
+        \frac{dx}{d\theta} = 0 \quad \text{and} \quad \frac{dy}{d\theta} \neq 0.
     \]
-    \item \textbf{Singular Points (discarded in MAT232):}
+    \item \textbf{Singular Points} (typically discarded in MAT232)\textbf{:} Occurs when both derivatives are zero\dots
     \[
-        \dfrac{dy}{d\theta} = 0 \quad \text{and} \quad \dfrac{dx}{d\theta} = 0.
+        \frac{dy}{d\theta} = 0 \quad \text{and} \quad \frac{dx}{d\theta} = 0.
     \]
 \end{itemize}
+\textit{...cont'd...}
+\end{theorembox}
 
-\end{definitionbox}
+\begin{theorembox}
+    \textit{...cont'd...}
+    
+    \begin{conceptbox}
+        \textbf{\underline{Derivation of the Tangent Slope}} \\
+        
+        To derive the formula for \( \dfrac{dy}{dx} \), we use the chain rule:
+        \[
+            \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}}, \quad \text{where} \quad \dfrac{dx}{d\theta} \neq 0.
+        \]
+        
+        Recall that \( r = f(\theta) \). First, compute the derivatives of \( x \) and \( y \) with respect to \( \theta \):
+        \[
+            \frac{dx}{d\theta} = \frac{d}{d\theta} \left( f(\theta) \cos\theta \right) = \frac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta,
+        \]
+        \[
+            \frac{dy}{d\theta} = \frac{d}{d\theta} \left( f(\theta) \sin\theta \right) = \frac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta.
+        \]
+        
+        Substitute these into the expression for \( \dfrac{dy}{dx} \):
+        \[
+            \frac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = \dfrac{\dfrac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta}{\dfrac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta}.
+        \]
+        
+        Finally, replace \( f(\theta) \) with \( r \), so we have the final expression:
+        \LARGE
+        \[
+            \dfrac{dy}{dx} = \dfrac{\dfrac{dr}{d\theta} \sin\theta + r \cos\theta}{\dfrac{dr}{d\theta} \cos\theta - r \sin\theta}.
+        \]
+        \normalsize
+        \end{conceptbox}
+\end{theorembox}
 
-\section*{Examples}
+\subsection*{Example: Finding the Vertical Tangent Angles on a Polar Curve}
 \begin{examplebox}
 Find the \textbf{vertical tangent} angles of the polar curve \( r = 1 - \cos\theta, \quad 0 \leq \theta \leq \pi \).
 
@@ -639,64 +685,74 @@ Vertical tangents occur when:
     \dfrac{dx}{d\theta} = \sin\theta(2\cos\theta - 1) = 0,
 \]
 provided \( \dfrac{dy}{d\theta} \neq 0 \).
-
-Solve \( \dfrac{dx}{d\theta} = 0 \):
-\[
-    \sin\theta = 0 \quad \text{or} \quad 2\cos\theta - 1 = 0.
-\]
-
-1. When \( \sin\theta = 0 \):
-   \[
-       \theta = 0, \pi \quad \text{(within \( 0 \leq \theta \leq \pi \))}.
-   \]
-
-2. When \( 2\cos\theta - 1 = 0 \):
-   \[
-       \cos\theta = \dfrac{1}{2}, \quad \theta = \dfrac{\pi}{3}.
-   \]
-
-The candidates for vertical tangents are:
-\[
-    \theta \in \{ 0, \dfrac{\pi}{3}, \pi \}.
-\]
-
-\subsection*{Step 3: Verify Each Candidate}
-To confirm vertical tangents, check \( \dfrac{dy}{dx} \neq 0 \) at these angles:
-\begin{itemize}
-    \item For \( \theta = 0 \):
-    \[
-        \dfrac{dx}{d\theta} = \sin(0)(2\cos(0) - 1) = 0, \quad 
-        \dfrac{dy}{d\theta} = 0 \quad \Rightarrow \text{discard}.
-    \]
-    \item For \( \theta = \dfrac{\pi}{3} \):
-    \[
-        \dfrac{dx}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
-    \]
-    \item For \( \theta = \pi \):
-    \[
-        \dfrac{dx}{d\theta} = \sin(\pi)(2\cos(\pi) - 1) = 0, \quad 
-        \dfrac{dy}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
-    \]
-\end{itemize}
-
-\subsection*{Final Answer}
-\begin{answerbox}
-The vertical tangents are located at:
-\[
-    \theta = \dfrac{\pi}{3} \quad \text{and} \quad \theta = \pi.
-\]
-\end{answerbox}
-
 \end{solutionbox}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Illustration of vertical tangents for \( r = 1 - \cos\theta \).}
-    \label{fig:vertical_tangents}
-\end{figure}
-
+\textit{...cont'd...}
 \end{examplebox}
+
+\begin{examplebox}
+    \textit{...cont'd...}
+    \begin{solutionbox}
+        Solve \( \dfrac{dx}{d\theta} = 0 \):
+        \[
+            \sin\theta = 0 \quad \text{or} \quad 2\cos\theta - 1 = 0.
+        \]
+        
+        1. When \( \sin\theta = 0 \):
+           \[
+               \theta \in \{ 0, \pi \} \quad \text{(within \( 0 \leq \theta \leq \pi \))}.
+           \]
+        
+        2. When \( 2\cos\theta - 1 = 0 \):
+           \[
+               \cos\theta = \dfrac{1}{2} \quad \Rightarrow \quad \theta = \dfrac{\pi}{3}.
+           \]
+        
+        The candidates for vertical tangents are:
+        \[
+            \theta \in \{ 0, \dfrac{\pi}{3}, \pi \}.
+        \]
+        
+        \subsection*{Step 3: Verify Each Candidate}
+        To confirm vertical tangents, check \( \dfrac{dy}{dx} \neq 0 \) at these angles:
+        \begin{itemize}
+            \item For \( \theta = 0 \):
+            \[
+                \dfrac{dx}{d\theta} = \sin(0)(2\cos(0) - 1) = 0, \quad 
+                \dfrac{dy}{d\theta} = 0 \quad \Rightarrow \text{discard}.
+            \]
+            \item For \( \theta = \dfrac{\pi}{3} \):
+            \[
+                \dfrac{dx}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
+            \]
+            \item For \( \theta = \pi \):
+            \[
+                \dfrac{dx}{d\theta} = \sin(\pi)(2\cos(\pi) - 1) = 0, \quad 
+                \dfrac{dy}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
+            \]
+        \end{itemize}
+        
+        \begin{answerbox}
+        The vertical tangents are located at:
+        \[
+            \theta = \dfrac{\pi}{3} \quad \text{and} \quad \theta = \pi.
+        \]
+        \end{answerbox}
+    \end{solutionbox}
+    \textit{...cont'd...}
+\end{examplebox}
+
+\begin{examplebox}
+    \textit{...cont'd...}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{demo for 1 - cos(theta).png}
+        \caption{Illustration of vertical tangent positions for \( r = 1 - \cos\theta \).}
+        \label{fig:vertical_tangents}
+    \end{figure}
+\end{examplebox}
+
+\section*{Equations of Circles in the Cartesian Plane}
+\addcontentsline{toc}{section}{Equations of Circles in the Cartesian Plane}
 
 \begin{theorembox}
     The equations below describe the geometry of a circle in the Cartesian plane:
@@ -706,62 +762,104 @@ The vertical tangents are located at:
         \[
             x^2 + y^2 = r^2.
         \]
-    
+        This equation represents a circle with radius \(r\), where every point on the circle is exactly \(r\) units away from the origin.
+
         \item \textbf{General Circle:} A circle centered at \((h, k)\) with radius \(r\) is described by:
         \[
             (x - h)^2 + (y - k)^2 = r^2.
         \]
+        This equation represents a circle with center at the point \((h, k)\) and radius \(r\). Each point on this circle is at a distance of \(r\) from the center \((h, k)\).
     \end{itemize}
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
+        \includegraphics[width=0.43\textwidth]{equation of a circle.png}
         \caption{Graphical representation of a circle in the Cartesian plane.}
         \label{fig:sample_image1}
     \end{figure}
+
+    \begin{notebox}
+        \begin{itemize}
+            \item In the case of the \textbf{standard circle}, the center of the circle is at the origin \((0, 0)\), making the equation simple as \(x^2 + y^2 = r^2\).
+            \item For the \textbf{general circle}, the center is at \((h, k)\), and the equation adjusts accordingly.
+            \begin{enumerate}
+                \item[\labelitemi] The terms \((x - h)\) and \((y - k)\) shift the circle to the new center.
+            \end{enumerate}
+        \end{itemize}
+    \end{notebox}
 \end{theorembox}
-    
-\begin{examplebox}
-    Sketch the curve described by the equation:
+
+\subsection*{Exercise: Sketching a Circle Curve}
+\addcontentsline{toc}{secunit}{entry}
+\begin{exercisebox}
+    \textbf{Example:} Sketch the curve described by the equation:
     \[
         x^2 + y^2 - 2x = 10.
     \]
     
     \begin{solutionbox}
-    To sketch the curve, rewrite the given equation in the standard form of a circle by completing the square.
-    
+    To sketch the curve, we need to rewrite the given equation in the standard form of a circle. We will do this by completing the square for the \(x\)-terms.
+
     \subsubsection*{Step 1: Group \(x\)-terms and prepare to complete the square}
+    First, we want to isolate the terms involving \(x\) on one side of the equation:
     \[
         x^2 - 2x + y^2 = 10.
     \]
-    
+    Notice that the \(y\)-terms are already in a simple form, and we will handle the \(x\)-terms separately.
+
     \subsubsection*{Step 2: Complete the square for \(x\)}
-    1. Divide the coefficient of \(x\) by 2 and square it:
-       \[
-           -\frac{2}{2} = -1, \quad (-1)^2 = 1.
-       \]
-    2. Add and subtract \(1\) to maintain equality:
-       \[
-           x^2 - 2x + 1 + y^2 = 10 + 1.
-       \]
-    
-    \subsubsection*{Step 3: Rewrite as a perfect square}
-    \[
-        (x - 1)^2 + y^2 = 11.
-    \]
-    
-    \subsubsection*{Final Form and Interpretation}
-    The equation represents a circle centered at \((1, 0)\) with radius \(\sqrt{11}\).
-    
-    \begin{answerbox}
-    \textbf{Solution:} The circle is centered at \((1, 0)\) and has a radius of \(\sqrt{11}\).
-    \end{answerbox}
-    
+    To complete the square, we focus on the expression \(x^2 - 2x\):
+    \begin{itemize}
+        \item Divide the coefficient of \(x\) by 2: 
+        \[
+            -\frac{2}{2} = -1.
+        \]
+        \item Then square the result:
+        \[
+            (-1)^2 = 1.
+        \]
+        \item Now, add and subtract this square, \(1\), to the equation to maintain equality:
+        \[
+            x^2 - 2x + 1 + y^2 = 10 + 1.
+        \]
+        This does not change the equation, but it allows us to rewrite the \(x\)-terms as a perfect square.
+    \end{itemize}
     \end{solutionbox}
-\end{examplebox}
+    \textit{...cont'd...}
+\end{exercisebox}
+
+\begin{exercisebox}
+    \textit{...cont'd...}
+    \begin{solutionbox}
+        \subsubsection*{Step 3: Rewrite as a perfect square}
+        Now, we can express the \(x\)-terms as a perfect square:
+        \[
+            (x - 1)^2 + y^2 = 11.
+        \]
+        This equation is now in the standard form of a circle, where:
+        \[
+            (x - h)^2 + (y - k)^2 = r^2,
+        \]
+        with \(h = 1\), \(k = 0\), and \(r^2 = 11\).
     
-\begin{notebox}
-    \textbf{Reminder:} Next week is \emph{Vector Week}! We will dive into vectors, a fundamental concept that bridges linear algebra and multivariable calculus (MAT232).
-\end{notebox}    
+        \subsubsection*{Final Form and Interpretation}
+        The equation \((x - 1)^2 + y^2 = 11\) represents a circle. From the standard form, we can directly read the center and radius:
+        \begin{itemize}
+            \item The center of the circle is \((h, k) = (1, 0)\).
+            \item The radius of the circle is \(r = \sqrt{11}\), as the radius is the square root of \(r^2\).
+        \end{itemize}
+        
+        \begin{tipbox}
+        The circle is centered at \((1, 0)\) and has a radius of \(\sqrt{11}\).
+        \end{tipbox}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=.5\textwidth]{equation of a circle example question.png}
+            \caption{Illustration of the circle with center \( (1, 0) \) and radius \( \sqrt{11} \).}
+            \label{fig:circle_example}
+        \end{figure}        
+    \end{solutionbox}
+\end{exercisebox}
 
 \end{document}

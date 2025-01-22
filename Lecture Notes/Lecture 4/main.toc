@@ -18,6 +18,7 @@
 \contentsline {subsection}{Spiral}{9}{section*.17}%
 \contentsline {subsection}{Perfect-Circle Cardioid}{10}{section*.18}%
 \contentsline {subsection}{Four-Petaled Rose}{11}{section*.19}%
-\contentsline {paragraph}{Step 1: Compute \( \dfrac {dx}{d\theta } \) and \( \dfrac {dy}{d\theta } \)}{13}{section*.23}%
-\contentsline {paragraph}{Step 2: Substitute into \( \dfrac {dy}{dx} \)}{13}{section*.24}%
-\contentsline {paragraph}{Step 3: Replace \(f(\theta )\) with \(r\)}{13}{section*.25}%
+\contentsline {section}{Derivatives of Polar Curves and Their Applications}{15}{section*.21}%
+\contentsline {subsection}{Tangents to Polar Curves: Finding Slopes and Key Conditions}{15}{section*.22}%
+\contentsline {section}{Equations of Circles in the Cartesian Plane}{20}{section*.27}%
+\contentsline {secunit}{entry}{21}{section*.28}%
