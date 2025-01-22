@@ -21,4 +21,4 @@
 \contentsline {section}{Derivatives of Polar Curves and Their Applications}{15}{section*.21}%
 \contentsline {subsection}{Tangents to Polar Curves: Finding Slopes and Key Conditions}{15}{section*.22}%
 \contentsline {section}{Equations of Circles in the Cartesian Plane}{20}{section*.27}%
-\contentsline {secunit}{entry}{21}{section*.28}%
+\contentsline {subsection}{Exercise: Sketching a Circle Curve}{21}{section*.28}%

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1737543112.41637 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737543114.98038 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737543109 33932 943978ee6a82c1470133ef14b2070403 ""
+["pdflatex"] 1737543170.80815 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737543173.44532 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737543168 33964 6e28698d053e59ccf8b8485c35e9a05e ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727661218 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727661218 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727662439 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -267,10 +267,10 @@
   "equation of a circle.png" 1737542288 44491 156e33a034fb5a96aacf0367903160c9 ""
   "hw practice question limacon.png" 1737539964 36183 76c553eff6f1bc16d07949a06b88df7d ""
   "intolecturecontent.tex" 1737530633 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737543114 6988 88cea3b12c6a2a24d35692dc2f36bda1 "pdflatex"
-  "main.out" 1737543114 5165 150960ea57a132e1c62eb93c3ba5477f "pdflatex"
-  "main.tex" 1737543109 33932 943978ee6a82c1470133ef14b2070403 ""
-  "main.toc" 1737543114 1808 98a48fcf4e6299edd3de54cf6f8ca910 "pdflatex"
+  "main.aux" 1737543173 7020 e9e191d81f4fe4c32123ca70603acd02 "pdflatex"
+  "main.out" 1737543173 5333 2a3afa6aa33ad3b3ddf2b842a1267d2a "pdflatex"
+  "main.tex" 1737543168 33964 6e28698d053e59ccf8b8485c35e9a05e ""
+  "main.toc" 1737543173 1840 63901ca69d7916e7e5e38a54fd6a57b1 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1737530633 352230 3026293457766b3dbc2374b1899913e4 ""
   "plot points example.png" 1737530633 140104 6828d2adc7be1fcd926281ef7e61fbc6 ""
   "plot points.png" 1737530633 145429 2ca9c01c90331e1b8c8f4e8d55fee915 ""
