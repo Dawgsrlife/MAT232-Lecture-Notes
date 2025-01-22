@@ -84,52 +84,117 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
+
+\setcounter{page}{0}
+\newpage
+\tableofcontents
+\newpage
+
 \input{preliminary}
+
+
+
 \input{intolecturecontent}
 \normalsize
 
-\textbf{self-note: honestly just screenshot from the prof's posted notes instead of using photos from the camera of the projected lecture notes, to achieve higher quality image imports xd}
+\setcounter{page}{1}
 
 \section*{Review from the Previous Lecture}
+\addcontentsline{toc}{section}{Review from the Previous Lecture}
 \begin{remarkbox}
-Recall the following from last week's lecture:
+In the previous lecture, we covered important foundational concepts related to polar coordinates and their derivatives. Here’s a brief summary: 
+
 \begin{itemize}
-    \item Given \( r = f(\theta) \), \[ \frac{dy}{dx} = \dfrac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}} = \dfrac{\frac{dr}{d\theta}\sin\theta + r\cos\theta}{\frac{dr}{d\theta}\cos\theta - r\sin\theta} \]
-    \item Circle: \[ (x-h)^2 + (y-k)^2 = r^2 \text{,} \] where \( r \) is the radius and \( (h, k) \)is the centre.
+    \item \textbf{Derivative of \( r = f(\theta) \) in Cartesian Coordinates:}
+    \large
+    \[
+        \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = \dfrac{\dfrac{dr}{d\theta}\sin\theta + r\cos\theta}{\dfrac{dr}{d\theta}\cos\theta - r\sin\theta}
+    \]
+    \normalsize
+    This formula helps us compute the slope of the tangent line for polar curves when converted to Cartesian coordinates. 
+
+    \item \textbf{Equation of a Circle:}
+    \[
+        (x-h)^2 + (y-k)^2 = r^2
+    \]
+    Here:
+    \begin{itemize}
+        \item[\labelitemi] \( r \): Radius of the circle
+        \item[\labelitemi] \( (h, k) \): Centre of the circle
+    \end{itemize}    
 \end{itemize}
+
 \begin{notebox}
-Term Test 1 is on Thursday January 30th, 2025 (week 4)!!!
+\textbf{Reminder:} Term Test 1 is scheduled for \textbf{Thursday, January 30th, 2025 (Week 4)}. Make sure to review polar derivatives, transformations, and conic sections!
 \end{notebox}
 \end{remarkbox}
 
-\section*{Parabolas:}
-\begin{examplebox}
+\section*{Exploring Common Curve Shapes}
+\addcontentsline{toc}{section}{Exploring Common Curve Shapes}
+
+\subsection*{Parabola}
+\addcontentsline{toc}{subsection}{Parabola}
+
+\begin{definitionbox}
+A \textbf{parabola} is a symmetric curve defined by the quadratic equation:  
 \[
     y = ax^2 + bx + c, \quad a \neq 0
 \]
-... complete the square
+To rewrite this equation in vertex form, we complete the square:  
 \[
     y = A(x - B)^2 + C
 \]
-\[
-     A > 0 \implies \text{up}
-\]
-\[
-    A < 0 \implies \text{down}
-\]
-\[
-    \text{Vertex: } (B, c)
-\]
-\begin{illustrationbox}
-\textbf{illustration goes here (see photo from camera roll for january 20th)}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{illustrationbox}
-\end{examplebox}
+
+Here:  
+\begin{itemize}
+    \item \( A \): Determines the direction and "width" of the parabola.  
+    \[
+        A > 0 \implies \text{The parabola opens upwards.}
+    \]  
+    \[
+        A < 0 \implies \text{The parabola opens downwards.}
+    \]
+    \item \( (B, C) \): Represents the vertex of the parabola.
+    \begin{itemize} 
+        \item[\labelitemi] \( B \): Horizontal position of the vertex.  
+        \item[\labelitemi] \( C \): Vertical position of the vertex.
+    \end{itemize} 
+\end{itemize}
+
+\begin{algorithmbox}
+
+    \textbf{Vertex Formula:}  
+    To find the vertex when given the standard form \( y = ax^2 + bx + c \), use the formulas:  
+    \[
+        B = -\frac{b}{2a}, \quad C = f(B)
+    \]
+    where \( f(B) \) is the value of the quadratic function evaluated at \( x = B \).
+\end{algorithmbox}
+\textit{...cont'd...}
+\end{definitionbox}
+
+\begin{definitionbox}
+    \textit{...cont'd...}
+    \begin{illustrationbox}
+        Below are examples of parabolas showcasing key features:  
+        \begin{figure}[H]
+            \centering
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{sample_image1.jpg}
+                \caption{A parabola opening down, labeled with its vertex and axis of symmetry.}
+                \label{fig:parabola_down}
+            \end{minipage}
+            \hspace{0.05\textwidth} % Adds horizontal space between the images
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{sample_image2.jpg}
+                \caption{Generic parabolas showing upwards and downwards directions of opening.}
+                \label{fig:parabola_generic}
+            \end{minipage}
+        \end{figure}
+    \end{illustrationbox}    
+\end{definitionbox}
 
 \section*{Example: Sketching the Region of a Set}
 \begin{examplebox}

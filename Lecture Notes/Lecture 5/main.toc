@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Review from the Previous Lecture}{1}{section*.2}%
+\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.3}%
+\contentsline {subsection}{Parabola}{2}{section*.4}%
