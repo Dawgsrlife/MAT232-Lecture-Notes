@@ -1,4 +1,6 @@
 \babel@toc {english}{}\relax 
+\contentsline {section}{Title Page}{0}{Doc-Start}%
+\contentsline {section}{Table of Contents}{0}{section*.1}%
 \contentsline {section}{Polar Coordinates - Key Theorems}{1}{section*.2}%
 \contentsline {subsection}{Converting Points between Coordinate Systems}{1}{section*.3}%
 \contentsline {subsection}{Uniqueness of Polar Coordinates}{1}{section*.4}%
@@ -7,4 +9,15 @@
 \contentsline {subsection}{Recall the Content from Last Lecture}{2}{section*.7}%
 \contentsline {subsection}{Understanding the Convention for \( r \) in Polar Coordinates}{3}{section*.8}%
 \contentsline {subsection}{Example: Plotting Points}{4}{section*.10}%
-\contentsline {subsection}{Example: Converting from Polar Coordinates to Cartesian Coordinates}{5}{section*.11}%
+\contentsline {section}{Converting Between Cartesian and Polar Coordinates}{5}{section*.11}%
+\contentsline {subsection}{Example: Converting from Polar Coordinates to Cartesian Coordinates}{5}{section*.12}%
+\contentsline {subsection}{Example: Converting from Cartesian Coordinates to Polar Coordinates}{6}{section*.13}%
+\contentsline {section}{Sketching Polar Curve Functions}{7}{section*.14}%
+\contentsline {subsection}{Standard Circle}{7}{section*.15}%
+\contentsline {subsection}{Straight Line}{8}{section*.16}%
+\contentsline {subsection}{Spiral}{9}{section*.17}%
+\contentsline {subsection}{Perfect-Circle Cardioid}{10}{section*.18}%
+\contentsline {subsection}{Four-Petaled Rose}{11}{section*.19}%
+\contentsline {paragraph}{Step 1: Compute \( \dfrac {dx}{d\theta } \) and \( \dfrac {dy}{d\theta } \)}{13}{section*.23}%
+\contentsline {paragraph}{Step 2: Substitute into \( \dfrac {dy}{dx} \)}{13}{section*.24}%
+\contentsline {paragraph}{Step 3: Replace \(f(\theta )\) with \(r\)}{13}{section*.25}%

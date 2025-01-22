@@ -87,10 +87,12 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
+\addcontentsline{toc}{section}{Title Page}
 
 \newpage
 \setcounter{page}{0}
 \tableofcontents
+\addcontentsline{toc}{section}{Table of Contents}
 \newpage
 
 \input{preliminary}
@@ -175,7 +177,7 @@ Converting between Cartesian coordinates \( (x, y) \) and Polar coordinates \( (
 \addcontentsline{toc}{subsection}{Understanding the Convention for \( r \) in Polar Coordinates}
 
 \begin{conceptbox}
-In polar coordinates, a point is represented as \( (r, \theta) \), where:
+In polar coordinates, a \textbf{point} is represented as \( (r, \theta) \), where:
 \begin{itemize}
     \item \( r \) is the radial distance from the origin (how far the point is from the origin).
     \item \( \theta \) is the angle, measured counterclockwise from the positive x-axis.
@@ -203,6 +205,10 @@ In polar coordinates, a point is represented as \( (r, \theta) \), where:
     \end{itemize}
 \end{intuitionbox}
 \end{conceptbox}
+
+\begin{tipbox}
+    When plotting points, ensure to label points clearly on the polar grid, and verify angle conversions and reflections for accuracy.
+\end{tipbox}
 
 \subsection*{Example: Plotting Points}
 \addcontentsline{toc}{subsection}{Example: Plotting Points}
@@ -253,15 +259,14 @@ Let us plot the following points in polar coordinates:
 \end{solutionbox}
 \end{examplebox}
 
-\begin{tipbox}
-    Ensure to label points clearly on the polar grid, and verify angle conversions and reflections for accuracy.
-\end{tipbox}
+\section*{Converting Between Cartesian and Polar Coordinates}
+\addcontentsline{toc}{section}{Converting Between Cartesian and Polar Coordinates}
 
 \subsection*{Example: Converting from Polar Coordinates to Cartesian Coordinates}
 \addcontentsline{toc}{subsection}{Example: Converting from Polar Coordinates to Cartesian Coordinates}
 
 \begin{examplebox}
-Find the \textbf{rectangular coordinates} of the point \( p \) with polar coordinates \( (6, \frac{\pi}{3}) \).
+Find the \textbf{rectangular coordinates} of the point \( p \) with polar coordinates \( (6, \dfrac{\pi}{3}) \).
 
 \begin{solutionbox}
 To convert from polar to Cartesian coordinates, use:
@@ -286,7 +291,8 @@ The rectangular coordinates are \( (3, 3\sqrt{3}) \).
 \end{solutionbox}
 \end{examplebox}
 
-\section*{Converting from Cartesian Coordinates to Polar Coordinates}
+\subsection*{Example: Converting from Cartesian Coordinates to Polar Coordinates}
+\addcontentsline{toc}{subsection}{Example: Converting from Cartesian Coordinates to Polar Coordinates}
 \begin{examplebox}
 Find the \textbf{polar coordinates} of the point \( p \) with rectangular coordinates \( (-2, 2\sqrt{3}) \).
 
@@ -327,10 +333,12 @@ The polar coordinates are \( (4, \dfrac{2\pi}{3}) \) or \( (4, 120^\circ) \).
 \end{examplebox}
 
 \begin{notebox}
-    To enhance material understanding, make use of graphing websites (e.g. Desmos, Geogebra) or software whenever possible. Focus especially on mastering how to plot lines and circles, as these are fundamental for MAT232.
+    The professor recommends using graphing tools like Desmos or GeoGebra to enhance your understanding of the material. These tools are especially helpful for plotting lines and circles, which are key concepts in MAT232. Getting comfortable with them will make the course much easier.
 \end{notebox}
-\section*{Polar Curves}
-\begin{examplebox}
+
+\section*{Sketching Polar Curve Functions}
+\addcontentsline{toc}{section}{Sketching Polar Curve Functions}
+\begin{exercisebox}
 Consider \( r = f(\theta) \). Sketch the following functions: 
 \begin{enumerate}[label=(\alph*)]
     \item \( r = 1 \)
@@ -339,63 +347,67 @@ Consider \( r = f(\theta) \). Sketch the following functions:
     \item \( r = \sin(\theta) \)
     \item \( r = \cos(2\theta) \)
 \end{enumerate}
-\end{examplebox}
+\end{exercisebox}
 
 \subsection*{(a) \( r = 1 \)}
+\addcontentsline{toc}{subsection}{Standard Circle}
 \begin{solutionbox}
 Here, \( r = 1 \), and \( \theta \) can take any value. 
 
 This means the point is always at a distance of \( 1 \) from the origin, regardless of the angle \( \theta \). Hence, the graph is a \textbf{circle} with radius \( 1 \), centred at the origin.
 
-\begin{remarkbox}
-    \textbf{\underline{Cartesian Conversion}} \\
+\begin{conceptbox}
+    \textbf{\underline{Cartesian Conversion}} \\ 
     From the polar equation:
     \[
     x^2 + y^2 = r^2 = 1
     \]
     This confirms the equation of a unit circle in Cartesian coordinates.
-\end{remarkbox}
+\end{conceptbox}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \includegraphics[width=0.35\textwidth]{polar curve sketch a.png}
+    \caption{The graph of \( r = 1 \).}
+    \label{fig:circle_graph}
 \end{figure}
 \end{solutionbox}
 
 \subsection*{(b) \( \theta = \dfrac{\pi}{4} \)}
+\addcontentsline{toc}{subsection}{Straight Line}
+
 \begin{solutionbox}
 Here, \( \theta = \dfrac{\pi}{4} \), and \( r \) can take any value. 
 
-This represents all points that lie along the line passing through the origin at an angle of \( \frac{\pi}{4} \) (or \( 45^\circ \)) with the positive \( x \)-axis. The graph is a straight line through the origin.
+This represents all points that lie along the line passing through the origin at an angle of \( \frac{\pi}{4} \) (or \( 45^\circ \)) with the positive \( x \)-axis. The graph is a \textbf{straight line} through the origin.
 
-\begin{remarkbox}
-    \textbf{\underline{Cartesian Conversion}} \\
+\begin{conceptbox}
+    \textbf{\underline{Cartesian Conversion}} \\ 
     In polar coordinates:
     \[
     \tan(\theta) = \frac{y}{x}
     \]
     Substituting \( \theta = \frac{\pi}{4} \), we get:
     \[
-    \tan\left(\frac{\pi}{4}\right) = 1 \quad \Rightarrow \quad \frac{\pi}{4} = \tan^{-1}\left(1\right) = \tan^{-1}\left(\frac{y}{x}\right) \quad \Rightarrow \quad 1 = \frac{y}{x} \quad \Rightarrow \quad y = x
+    \tan\left(\frac{\pi}{4}\right) = 1 \quad \Rightarrow \quad y = x
     \]
     Thus, the Cartesian equation is \( y = x \).
-\end{remarkbox}
+\end{conceptbox}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \includegraphics[width=0.8\textwidth]{polar curve sketch b.png}
+    \caption{The graph of \( \theta = \frac{\pi}{4} \).}
+    \label{fig:line_graph}
 \end{figure}
 \end{solutionbox}
 
 \subsection*{(c) \( r = \theta, \quad \theta \geq 0 \)}
-\begin{solutionbox}
-Here, \( r \) increases as \( \theta \) increases. This creates a spiral that starts at the origin and winds outward as \( \theta \) grows. 
+\addcontentsline{toc}{subsection}{Spiral}
 
-\begin{remarkbox}
-    \textbf{\underline{Illustration}} \\
-    Create a table of values to plot key points:
+\begin{solutionbox}
+Here, \( r \) increases as \( \theta \) increases. This creates a \textbf{spiral} that starts at the origin and winds outward as \( \theta \) grows. 
+
+\begin{conceptbox}
+    \textbf{\underline{Table of Values}}
     \[
     \begin{array}{c|c}
     \theta & r \\
@@ -406,58 +418,68 @@ Here, \( r \) increases as \( \theta \) increases. This creates a spiral that st
     \frac{\pi}{3} & \frac{\pi}{3} \approx 1.05 \\
     \frac{\pi}{2} & \frac{\pi}{2} \approx 1.57 \\
     \end{array}
-        \]
-    \begin{notebox}
-    Using \( x = r \cos\theta \) and \( y = r \sin\theta \), compute \( x \) and \( y \) for each point in the table above to visualize the curve in Cartesian coordinates.
-    \end{notebox}
-\end{remarkbox}
+    \]
+\end{conceptbox}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \includegraphics[width=0.75\textwidth]{polar curve sketch c.png}
+    \caption{The graph of \( r = \theta \).}
+    \label{fig:spiral_graph}
 \end{figure}
 \end{solutionbox}
 
 \subsection*{(d) \( r = \sin(\theta) \)}
+\addcontentsline{toc}{subsection}{Perfect-Circle Cardioid}
+
 \begin{solutionbox}
-Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph forms a \textbf{cardioid}.
+Here, \( r = \sin(\theta) \). Since \( \sin(\theta) \) oscillates between \( 0 \) and \( 1 \), the graph forms a \textbf{cardioid} (which happens to be a perfect circle in this case).
 
-\textbf{\underline{Table of Values}}
-\[
-\begin{array}{c|c|c|c|c|c|c}
-\theta & 0 & \frac{\pi}{6} & \frac{\pi}{4} & \frac{\pi}{3} & \frac{\pi}{2} & \pi \\
-\hline
-r & 0 & \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & 1 & 0 \\
-\end{array}
-\]
-
-\textbf{\underline{Cartesian Conversion}} \\
-To express the equation in Cartesian form:
-\[
-x = r \cos\theta, \quad y = r \sin\theta
-\]
-Eliminating \( r \), substitute \( r = \sin\theta \):
-\[
-r = \frac{y}{r} \quad \Rightarrow \quad r^2 = y
-\]
-Using \( r^2 = x^2 + y^2 \), we get:
-\[
-x^2 + y^2 = y
-\]
-Complete the square for \( y \):
-\[
-x^2 + \left(y - \frac{1}{2}\right)^2 = \frac{1}{4}
-\]
-This represents a circle centred at \( \left(0, \frac{1}{2}\right) \) with radius \( \frac{1}{2} \).
-
+\begin{conceptbox}
+    \textbf{\underline{Cartesian Conversion}} \\ 
+    Using \( r^2 = x^2 + y^2 \) and \( r = \sin(\theta) \), we get:
+    \[
+    x^2 + y^2 = y \quad \Rightarrow \quad \left(x^2 + y^2\right) - y = 0
+    \]
+    Completing the square for \( y \):
+    \[
+    x^2 + \left(y - \frac{1}{2}\right)^2 = \frac{1}{4}
+    \]
+    This is a circle centred at \( (0, \frac{1}{2}) \) with radius \( \frac{1}{2} \).
+\end{conceptbox}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \includegraphics[width=0.7\textwidth]{polar curve sketch d.png}
     \caption{The graph of \( r = \sin(\theta) \).}
     \label{fig:cardioid_graph}
 \end{figure}
-The graph is a cardioid, touching the origin and looping around the point \( \left(0, \frac{1}{2}\right) \).
+\end{solutionbox}
+
+\subsection*{(e) \( r = \cos(2\theta) \)}
+\addcontentsline{toc}{subsection}{Four-Petaled Rose}
+
+\begin{solutionbox}
+The equation \( r = \cos(2\theta) \) represents a \textbf{four-petaled rose}. As \( \theta \) varies from \( 0 \) to \( 2\pi \), \( r \) oscillates between \( -1 \) and \( 1 \), creating the petals.
+
+\begin{conceptbox}
+    \textbf{\underline{Table of Values}} \\ 
+    Evaluate \( r \) at critical angles:
+    \[
+    \begin{array}{c|ccccccccc}
+    \theta & 0 & \frac{\pi}{4} & \frac{\pi}{2} & \frac{3\pi}{4} & \pi & \frac{5\pi}{4} & \frac{3\pi}{2} & \frac{7\pi}{4} & 2\pi \\
+    \hline
+    r & 1 & 0 & -1 & 0 & 1 & 0 & -1 & 0 & 1 \\
+    \end{array}
+    \]
+    
+    The curve is symmetric about the polar axis, with petals centered at \( \theta = 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2} \).
+\end{conceptbox}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{polar curve sketch e.png}
+    \caption{The graph of \( r = \cos(2\theta) \).}
+    \label{fig:rose_graph}
+\end{figure}
 \end{solutionbox}
 
 \begin{exercisebox}
@@ -516,50 +538,66 @@ The graph is a cardioid, touching the origin and looping around the point \( \le
 
 \section*{The Derivative of a Polar Curve}
 \subsection*{Tangents to Polar Curves}
+
 \begin{definitionbox}
 \begin{notebox}
 Recall that polar curves are defined by:
 \[
-    r = f(\theta)
+    r = f(\theta).
 \]
 \end{notebox}
+
+The Cartesian coordinates \(x\) and \(y\) are expressed as:
 \[
-    x = r\cos\theta = f(\theta) \cos\theta
+    x = r\cos\theta = f(\theta) \cos\theta, \quad 
+    y = r\sin\theta = f(\theta) \sin\theta.
 \]
-\[
-    y = r\sin\theta = f(\theta) \sin\theta
-\]
+
 \begin{intuitionbox}
-The goal is to have everything on \( x \) depend on \textbf{one} parameter. \\
-\\
-Do the exact same thing on \( y \).
+The goal is to express the slope \( \dfrac{dy}{dx} \) entirely in terms of \( \theta \), ensuring both \(x\) and \(y\) depend on this single parameter.
 \end{intuitionbox}
 
-So, 
+\subsubsection*{Finding \( \dfrac{dy}{dx} \)}
+To compute \( \dfrac{dy}{dx} \), we use the chain rule:
 \[
-    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\frac{dx}{\dfrac{d}{\theta}}}.
+    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}}, \quad \text{where} \quad \dfrac{dx}{d\theta} \neq 0.
 \]
-We want require \( \frac{dx}{d\theta} \neq 0 \).
 
-So\dots
+\paragraph{Step 1: Compute \( \dfrac{dx}{d\theta} \) and \( \dfrac{dy}{d\theta} \)}
 \[
-    \frac{dy}{dx} = \frac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}}
+    \dfrac{dx}{d\theta} = \dfrac{d}{d\theta} \big( f(\theta) \cos\theta \big) = \dfrac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta,
 \]
 \[
-    = \dfrac{\frac{df(\theta)}{d\theta} \sin\theta + \cos\theta f(\theta)}{\frac{df(\theta)}{d\theta} \cos\theta - \sin\theta f(\theta)}
+    \dfrac{dy}{d\theta} = \dfrac{d}{d\theta} \big( f(\theta) \sin\theta \big) = \dfrac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta.
 \]
-So,
+
+\paragraph{Step 2: Substitute into \( \dfrac{dy}{dx} \)}
 \[
-    \frac{dy}{dx} = \frac{\frac{dy}{d\theta}}{\frac{dx}{d\theta}} = \dfrac{\frac{dr}{d\theta} \sin\theta + r \cos\theta}{\frac{dr}{d\theta} \cos\theta - r \sin\theta}
+    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = 
+    \dfrac{\dfrac{df(\theta)}{d\theta} \sin\theta + f(\theta) \cos\theta}{\dfrac{df(\theta)}{d\theta} \cos\theta - f(\theta) \sin\theta}.
 \]
-(subbed \( r \) in for \( f(\theta) \)).
-\underline
-\\
-{Conclusion:}
+
+\paragraph{Step 3: Replace \(f(\theta)\) with \(r\)}
+For simplicity, we substitute \(f(\theta)\) with \(r\):
+\[
+    \dfrac{dy}{dx} = 
+    \dfrac{\dfrac{dr}{d\theta} \sin\theta + r \cos\theta}{\dfrac{dr}{d\theta} \cos\theta - r \sin\theta}.
+\]
+
+\subsubsection*{Key Tangent Conditions}
 \begin{itemize}
-    \item Horizontal Tangents: \( \frac{dy}{d\theta} = 0, \quad \frac{dx}{d\theta} \neq 0 \)
-    \item Vertical Tangents: \( \frac{dx}{d\theta} = 0, \quad \frac{dy}{d\theta} \neq 0 \)
-    \item Singular Points (discard; we will not be doing further analysis for this case in MAT232): \( \frac{dy}{d\theta} = \frac{dx}{d\theta} = 0 \)
+    \item \textbf{Horizontal Tangents:} 
+    \[
+        \dfrac{dy}{d\theta} = 0 \quad \text{and} \quad \dfrac{dx}{d\theta} \neq 0.
+    \]
+    \item \textbf{Vertical Tangents:} 
+    \[
+        \dfrac{dx}{d\theta} = 0 \quad \text{and} \quad \dfrac{dy}{d\theta} \neq 0.
+    \]
+    \item \textbf{Singular Points (discarded in MAT232):}
+    \[
+        \dfrac{dy}{d\theta} = 0 \quad \text{and} \quad \dfrac{dx}{d\theta} = 0.
+    \]
 \end{itemize}
 
 \end{definitionbox}
@@ -567,58 +605,163 @@ So,
 \section*{Examples}
 \begin{examplebox}
 Find the \textbf{vertical tangent} angles of the polar curve \( r = 1 - \cos\theta, \quad 0 \leq \theta \leq \pi \).
-\begin{solutionbox}
-Recall that \( \frac{dr}{d\theta} = \sin\theta \).
 
-Obtain the first derivative:
+\begin{solutionbox}
+We aim to determine the angles \( \theta \) where the polar curve has vertical tangents. This occurs when \( \dfrac{dx}{d\theta} = 0 \), provided \( \dfrac{dy}{d\theta} \neq 0 \).
+
+\subsection*{Step 1: Compute \( \dfrac{dy}{dx} \)}
+The derivative of a polar curve is given by:
 \[
-    \frac{dy}{dx} = ...
+    \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = 
+    \dfrac{\dfrac{dr}{d\theta}\sin\theta + r\cos\theta}{\dfrac{dr}{d\theta}\cos\theta - r\sin\theta}.
 \]
 
-\textbf{self-note: prof is going way too fast; finish the notes according to your camera roll later! the good thing is that you didn't actually miss any sections! fulfilling incomplete sections is just a matter of reviewing and comparing to the pictures taken of the prof's projected live notes!}
+Given \( r = 1 - \cos\theta \), compute \( \dfrac{dr}{d\theta} \):
+\[
+    \dfrac{dr}{d\theta} = \sin\theta.
+\]
 
+Substitute \( r = 1 - \cos\theta \) and \( \dfrac{dr}{d\theta} = \sin\theta \) into the formula for \( \dfrac{dy}{dx} \):
+\[
+    \dfrac{dy}{dx} = 
+    \dfrac{\sin\theta\sin\theta + (1 - \cos\theta)\cos\theta}{\sin\theta\cos\theta - (1 - \cos\theta)\sin\theta}.
+\]
+
+Simplify the numerator and denominator:
+\[
+    \dfrac{dy}{dx} = 
+    \dfrac{\sin^2\theta - \cos^2\theta + \cos\theta}{\sin\theta(2\cos\theta - 1)}.
+\]
+
+\subsection*{Step 2: Condition for Vertical Tangents}
+Vertical tangents occur when:
+\[
+    \dfrac{dx}{d\theta} = \sin\theta(2\cos\theta - 1) = 0,
+\]
+provided \( \dfrac{dy}{d\theta} \neq 0 \).
+
+Solve \( \dfrac{dx}{d\theta} = 0 \):
+\[
+    \sin\theta = 0 \quad \text{or} \quad 2\cos\theta - 1 = 0.
+\]
+
+1. When \( \sin\theta = 0 \):
+   \[
+       \theta = 0, \pi \quad \text{(within \( 0 \leq \theta \leq \pi \))}.
+   \]
+
+2. When \( 2\cos\theta - 1 = 0 \):
+   \[
+       \cos\theta = \dfrac{1}{2}, \quad \theta = \dfrac{\pi}{3}.
+   \]
+
+The candidates for vertical tangents are:
+\[
+    \theta \in \{ 0, \dfrac{\pi}{3}, \pi \}.
+\]
+
+\subsection*{Step 3: Verify Each Candidate}
+To confirm vertical tangents, check \( \dfrac{dy}{dx} \neq 0 \) at these angles:
+\begin{itemize}
+    \item For \( \theta = 0 \):
+    \[
+        \dfrac{dx}{d\theta} = \sin(0)(2\cos(0) - 1) = 0, \quad 
+        \dfrac{dy}{d\theta} = 0 \quad \Rightarrow \text{discard}.
+    \]
+    \item For \( \theta = \dfrac{\pi}{3} \):
+    \[
+        \dfrac{dx}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
+    \]
+    \item For \( \theta = \pi \):
+    \[
+        \dfrac{dx}{d\theta} = \sin(\pi)(2\cos(\pi) - 1) = 0, \quad 
+        \dfrac{dy}{d\theta} \neq 0 \quad \Rightarrow \text{valid vertical tangent}.
+    \]
+\end{itemize}
+
+\subsection*{Final Answer}
 \begin{answerbox}
-The vertical tangents are located at \( x = \{ \frac{\pi}{3}, \pi \} \).
+The vertical tangents are located at:
+\[
+    \theta = \dfrac{\pi}{3} \quad \text{and} \quad \theta = \pi.
+\]
 \end{answerbox}
+
 \end{solutionbox}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \caption{Illustration of vertical tangents for \( r = 1 - \cos\theta \).}
+    \label{fig:vertical_tangents}
 \end{figure}
 
 \end{examplebox}
 
-\section*{Next Week: Vector Week}
 \begin{theorembox}
-\begin{itemize}
-    \item Circle: \( x^2 + y^2 = r ^2 \).
-    \item Generic form for a circle centered at \( (h, k) \): \( (x - h)^2 + (y - k)^2 = r^2 \)
-\end{itemize}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
-
+    The equations below describe the geometry of a circle in the Cartesian plane:
+    
+    \begin{itemize}
+        \item \textbf{Standard Circle:} A circle centered at the origin \((0, 0)\) with radius \(r\) is given by:
+        \[
+            x^2 + y^2 = r^2.
+        \]
+    
+        \item \textbf{General Circle:} A circle centered at \((h, k)\) with radius \(r\) is described by:
+        \[
+            (x - h)^2 + (y - k)^2 = r^2.
+        \]
+    \end{itemize}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
+        \caption{Graphical representation of a circle in the Cartesian plane.}
+        \label{fig:sample_image1}
+    \end{figure}
 \end{theorembox}
-
+    
 \begin{examplebox}
-Sketch \( x^2 + y^2 - 2x = 10 \).
-
-\begin{solutionbox}
-Recall how to complete the square:
-\[
-    x^2 - 2x + 1 + y^2 = 10 + 1
-\]
-\underline{Step \#1:} \( -\frac{2}{2} = -1 \); \\
-\underline{Step \#2:} \( (-1)^2 = 1 \) 
-\textbf{self-note: complete this below} 
-\end{solutionbox}
+    Sketch the curve described by the equation:
+    \[
+        x^2 + y^2 - 2x = 10.
+    \]
+    
+    \begin{solutionbox}
+    To sketch the curve, rewrite the given equation in the standard form of a circle by completing the square.
+    
+    \subsubsection*{Step 1: Group \(x\)-terms and prepare to complete the square}
+    \[
+        x^2 - 2x + y^2 = 10.
+    \]
+    
+    \subsubsection*{Step 2: Complete the square for \(x\)}
+    1. Divide the coefficient of \(x\) by 2 and square it:
+       \[
+           -\frac{2}{2} = -1, \quad (-1)^2 = 1.
+       \]
+    2. Add and subtract \(1\) to maintain equality:
+       \[
+           x^2 - 2x + 1 + y^2 = 10 + 1.
+       \]
+    
+    \subsubsection*{Step 3: Rewrite as a perfect square}
+    \[
+        (x - 1)^2 + y^2 = 11.
+    \]
+    
+    \subsubsection*{Final Form and Interpretation}
+    The equation represents a circle centered at \((1, 0)\) with radius \(\sqrt{11}\).
+    
+    \begin{answerbox}
+    \textbf{Solution:} The circle is centered at \((1, 0)\) and has a radius of \(\sqrt{11}\).
+    \end{answerbox}
+    
+    \end{solutionbox}
 \end{examplebox}
+    
+\begin{notebox}
+    \textbf{Reminder:} Next week is \emph{Vector Week}! We will dive into vectors, a fundamental concept that bridges linear algebra and multivariable calculus (MAT232).
+\end{notebox}    
 
 \end{document}
