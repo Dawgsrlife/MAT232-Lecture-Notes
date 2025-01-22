@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737543170.80815 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737543173.44532 0
+["pdflatex"] 1737543318.62437 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" "main.pdf" "main" 1737543321.54513 0
   "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 4/main.tex" 1737543168 33964 6e28698d053e59ccf8b8485c35e9a05e ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727661218 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727661218 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -267,10 +267,10 @@
   "equation of a circle.png" 1737542288 44491 156e33a034fb5a96aacf0367903160c9 ""
   "hw practice question limacon.png" 1737539964 36183 76c553eff6f1bc16d07949a06b88df7d ""
   "intolecturecontent.tex" 1737530633 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1737543173 7020 e9e191d81f4fe4c32123ca70603acd02 "pdflatex"
-  "main.out" 1737543173 5333 2a3afa6aa33ad3b3ddf2b842a1267d2a "pdflatex"
+  "main.aux" 1737543321 7020 e9e191d81f4fe4c32123ca70603acd02 "pdflatex"
+  "main.out" 1737543321 5333 2a3afa6aa33ad3b3ddf2b842a1267d2a "pdflatex"
   "main.tex" 1737543168 33964 6e28698d053e59ccf8b8485c35e9a05e ""
-  "main.toc" 1737543173 1840 63901ca69d7916e7e5e38a54fd6a57b1 "pdflatex"
+  "main.toc" 1737543321 1840 63901ca69d7916e7e5e38a54fd6a57b1 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1737530633 352230 3026293457766b3dbc2374b1899913e4 ""
   "plot points example.png" 1737530633 140104 6828d2adc7be1fcd926281ef7e61fbc6 ""
   "plot points.png" 1737530633 145429 2ca9c01c90331e1b8c8f4e8d55fee915 ""
@@ -280,7 +280,7 @@
   "polar curve sketch d.png" 1737535340 68642 93ebdafc93967527b4786ab6edc0833d ""
   "polar curve sketch e.png" 1737538234 23433 bbb5405718d3368454dc8571781b758c ""
   "preliminary.tex" 1737530633 451 007a58133a5e6df778541a9fee6dab25 ""
-  "titlepage.tex" 1737530633 464 78cbfad5ae95449fc5e93ec4ba44c444 ""
+  "titlepage.tex" 1737543318 503 5a90c0cc321dbf05571f976954905750 ""
   (generated)
   "main.aux"
   "main.log"
