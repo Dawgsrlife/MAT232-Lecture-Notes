@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Section 2.5: Lines and Planes}{1}{section*.2}%
+\contentsline {subsection}{Section 2.5: Lines and Planes}{1}{section*.3}%
+\contentsline {subsection}{Now, in MAT232, exploring the 3D world...}{1}{section*.4}%
+\contentsline {subsection}{2 Lines in 3D}{4}{section*.5}%
+\contentsline {section}{Planes}{6}{section*.6}%
+\contentsline {subsection}{Idea}{6}{section*.7}%

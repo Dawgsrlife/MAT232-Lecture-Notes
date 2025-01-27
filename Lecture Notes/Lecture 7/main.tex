@@ -1,0 +1,427 @@
+\documentclass{article}
+\usepackage{amsthm,amsmath,amsfonts,lipsum,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{listings}
+\usepackage{fontawesome5}
+\usepackage{adjustbox}
+\usepackage{mathabx}
+\usepackage{thmtools}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{physics}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames,x11names]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{background}
+\usepackage{units}
+
+% Configuring the background
+\backgroundsetup{
+  scale=1, % Optional, scale if needed
+  color=black, % Optional, set the image color, can be omitted
+  opacity=0.18, % Optional, adjust opacity for watermark effect
+  angle=0,
+  position=current page.center, % Center the image on the page
+  contents={\includegraphics[width=1.75\paperwidth, height=1.75\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
+}
+
+% Colours
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
+\definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
+\definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
+\definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+% Define the Navy color
+\definecolor{Navy}{rgb}{0.0, 0.0, 0.5}
+
+% Define custom tcolorbox styles for notes
+\tcbuselibrary{skins, breakable}
+\newtcolorbox{definitionbox}{colframe=RoyalBlue, colback=blue!5!white, title=Definition}
+\newtcolorbox{examplebox}{colframe=ForestGreen, colback=green!5!white, title=Example}
+\newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
+\newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
+
+\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
+\newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
+\newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
+\newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
+\newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
+\newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
+\newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
+\newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
+\newtcolorbox{conceptbox}{colframe=chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
+\newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
+\newtcolorbox{answerbox}{colframe=RoyalBlue, colback=blue!10!white, title=Answer}
+
+% Geometry settings
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{MAT232 - Lecture Notes}
+\rhead{\thepage}
+\lfoot{University of Toronto Mississauga}
+\rfoot{\today}
+
+% Document starts
+\begin{document}
+\renewcommand{\familydefault}{\rmdefault}
+
+\input{titlepage}
+
+\setcounter{page}{0}
+\newpage
+\tableofcontents
+\newpage
+
+\input{preliminary}
+
+
+
+\input{intolecturecontent}
+\normalsize
+
+\setcounter{page}{1}
+
+\begin{notebox}
+Remember that term test 1 is on Thursday, January 30$^{\text{th}}$, 2025 — from 6-8pm! \\
+\\
+Good luck studying!
+\end{notebox}
+
+\section*{Section 2.5: Lines and Planes}
+\addcontentsline{toc}{section}{Section 2.5: Lines and Planes}
+\subsection*{Recall from high school...}
+\addcontentsline{toc}{subsection}{Section 2.5: Lines and Planes}
+The line equation is defined by
+\[
+    y = mx + b
+\]
+where $m$ is the slope and $b$ is the $y$-intercept. The slope is defined as the change in $y$ over the change in $x$. The $y$-intercept is the point where the line crosses the $y$-axis. \\
+\\
+Alternatively, there was point-slope form, which is defined as
+\[
+    y - y_1 = m(x - x_1)
+\]
+where $(x_1, y_1)$ is a point on the line. \\
+
+\subsection*{Now, in MAT232, exploring the 3D world...}
+\addcontentsline{toc}{subsection}{Now, in MAT232, exploring the 3D world...}
+\begin{definitionbox}
+In 3D, we have a line equation defined by
+\[
+    \begin{aligned}
+        x &= x_0 + at \\
+        y &= y_0 + bt \\
+        z &= z_0 + ct
+    \end{aligned}
+\]
+where $(x_0, y_0, z_0)$ is a point on the line and $(a, b, c)$ is the direction vector. The parameter $t$ is a scalar.
+\end{definitionbox}
+
+\begin{definitionbox}
+Vector equation:
+\[
+    \overline{r} = \overline{r_0} + t\overline{v}
+\]
+\[
+    <x, y, z> = <x_0, y_0, z_0> + t<v_1, v_2, v_3>
+\]
+\end{definitionbox}
+\begin{definitionbox}
+This is also written as:
+\[
+    x = x_0 + at
+\]
+\[
+    y = y_0 + bt
+\]
+\[
+    z = z_0 + ct
+\]
+\end{definitionbox}
+
+\begin{examplebox}
+What does \( <x, y, z> = <-1, 0, 2> + t^2 <2, 10, -8> \) represent? Note that \( t \in \mathbb{R} \) is a scalar.
+\begin{solutionbox}
+It represents the line in 3D space that passes through the point \( (-1, 0, 2) \) and has direction vector \( <2, 10, -8> \) (or is parallel to this direction vector).
+\end{solutionbox}
+\end{examplebox}
+
+Try this at home: what about this one?
+\begin{exercisebox}
+What does \( <x, y, z> = <-1, 0, 2> + 2t^3 <1, 5, -4> \) represent?
+\end{exercisebox}
+
+\begin{examplebox}
+(A): Find the parametric equations of the line \( L \) that pass through the points \( A(2, 4 -1) \) and \( B(5, 0, 7) \).
+(B): Does this line intersect the \( xy \)-plane? If so, where? (Hint: \( z = 0 \).)
+\begin{solutionbox}
+(A): The direction vector is \( <5 - 2, 0 - 4, 7 - (-1)> = <3, -4, 8> \). The parametric equations are
+\[
+    \begin{aligned}
+        x &= 2 + 3t \\
+        y &= 4 - 4t \\
+        z &= -1 + 8t
+    \end{aligned}
+\]
+Vector equation:
+\[
+    \overline{r} = \overline{r_0} + t\overline{v}
+\]
+\[
+    <x, y, z> = <2, 4, -1> + t<3, -4, 8>
+\]
+(B): To find the intersection with the \( xy \)-plane, we set \( z = 0 \) and solve for \( t \):
+\[
+    -1 + 8t = 0 \implies t = \frac{1}{8}
+\]
+Substitute \( t = \frac{1}{8} \) into the parametric equations to find the intersection point:
+\[
+    \begin{aligned}
+        x &= 2 + 3\left(\frac{1}{8}\right) = \frac{19}{8} \\
+        y &= 4 - 4\left(\frac{1}{8}\right) = \frac{7}{2} \\
+        z &= -1 + 8\left(\frac{1}{8}\right) = 0
+    \end{aligned}
+\]
+Thus, the line intersects the \( xy \)-plane at the point \( \left(\frac{19}{8}, \frac{7}{2}, 0\right) \).
+\begin{answerbox}
+The parametric equations of the line are
+\[
+    \begin{aligned}
+        x &= 2 + 3t \\
+        y &= 4 - 4t \\
+        z &= -1 + 8t
+    \end{aligned}
+\]
+The line intersects the \( xy \)-plane at the point \( \left(\frac{19}{8}, \frac{7}{2}, 0\right) \).
+\end{answerbox}
+\end{solutionbox}
+\end{examplebox}
+
+\subsection*{2 Lines in 3D}
+\addcontentsline{toc}{subsection}{2 Lines in 3D}
+\begin{remarkbox}
+Two lines in 3D are either parallel, intersecting, or skew. Skew lines are lines that are not parallel and do not intersect.
+\begin{itemize}
+    \item Parallel lines have the same direction vector.
+    \item Intersecting lines have the same direction vector and a point in common.
+    \item Skew lines have different direction vectors.
+\end{itemize}
+\end{remarkbox}
+
+\begin{notebox}
+\begin{enumerate}
+    \item Can be parallel?
+    \item intersect at a point?
+    \item Skewed?
+\end{enumerate}
+\end{notebox}
+
+\begin{tipbox}
+To determine if two lines are parallel, intersecting, or skew, we can compare the direction vectors and points on the lines.
+\end{tipbox}
+
+Let's try an example:
+\begin{examplebox}
+Let \( L_1 \) and \( L_2 \) be the lines defined as:
+\[
+    \begin{aligned}
+        L_1: x &= 1 + 4t \\
+        y &= 5 - 4t \\
+        z &= -1 + 6t \\
+        L_2: <x, y, z> &= <2, 4, 5> + s<8, -3, 1>
+    \end{aligned}
+\]
+(A): Are the lines parallel, intersecting, or skew? \\
+(B): If they intersect, find the point of intersection.
+
+\begin{solutionbox}
+(A): The direction vector of \( L_1 \) is \( <4, -4, 6> \) and the direction vector of \( L_2 \) is \( <8, -3, 1> \). Since the direction vectors are not the same, the lines are skew. \\
+Specifically,
+\[
+    \overline{v_1} \stackrel{?}{=} k\overline{v_2}
+\]
+\[
+    \langle 4, -4, 6 \rangle \stackrel{?}{\neq} k \langle 8, -3, 1 \rangle
+\]
+No, \( L_1 \) is not \( \parallel \) to \( L_2 \). \\
+
+\begin{notebox}
+There are two ways to check if two lines are parallel:
+\begin{enumerate}
+    \item \( \overline{v_1} = k\overline{v_2} \), \( k \) is a scalar.
+    \item \( \overline{v_1} \times \overline{v_2} = \overline{0} \).
+\end{enumerate}
+\end{notebox}
+
+(B):
+Notice that
+\[
+    L_1: x = 1 + 4t, y = 5 - 4t, z = -1 + 6t
+\]
+\[
+    L_2: x = 2 + 8s, y = 4 - 3s, z = 5 + s
+\]
+Equate the \( x \), \( y \), and \( z \) components of the two lines to find the point of intersection:
+\[
+    \begin{aligned}
+        1 + 4t &= 2 + 8s \quad \textcircled{1} \\
+        5 - 4t &= 4 - 3s \quad \textcircled{2} \\
+        -1 + 6t &= 5 + s \quad \textcircled{3}
+    \end{aligned}
+\]
+So,
+\[
+    6 = 6 + 5s \implies s = 0
+\]
+Using \( \textcircled{1} \),
+\[
+    1 + 4t = 2 \implies t = \frac{1}{4}.
+\]
+Now, check \( s = 0 \) and \( t = \frac{1}{4} \) in \textcircled{3} (\( LHS = RHS \)):
+\[
+    -1 + 5\left(\frac{1}{4}\right) = 5 + 0
+\]
+Clearly,
+\[
+    \frac{1}{4} \neq 5.
+\]
+Therefore, the lines do not intersect. \\
+The lines are skewed.
+\begin{answerbox}
+The lines are skew and do not intersect.
+\end{answerbox}
+
+\end{solutionbox}
+
+\end{examplebox}
+
+\section*{Planes}
+\addcontentsline{toc}{section}{Planes}
+\begin{definitionbox}
+In 3D, we can define a plane using the equation
+\[
+    Ax + By + Cz = D
+\]
+or alternative, we can define the plane using the parametric form
+\[
+    \begin{aligned}
+        x &= x_0 + su + tv \\
+        y &= y_0 + su + tv \\
+        z &= z_0 + su + tv
+    \end{aligned}
+\]
+where \( (x_0, y_0, z_0) \) is a point on the plane and \( (u, v) \) are the direction vectors. The parameter \( s \) and \( t \) are scalars.
+\end{definitionbox}
+
+Check out the \( x \) plane:
+\[
+    x = a \text{ fixed}
+\]
+Check out the \( y \) plane:
+\[
+    y = b \text{ fixed}
+\]
+Check out the \( z \) plane:
+\[
+    z = c \text{ fixed}
+\]
+
+\subsection*{Idea}
+\addcontentsline{toc}{subsection}{Idea}
+\begin{illustrationbox}
+\textbf{self-note: add the illustration here from the camera roll}
+\end{illustrationbox}
+\begin{notebox}
+\begin{enumerate}
+    \item Point on plane - \( P(x_0, y_0, z_0) \)
+    \item Vector living on the plane:
+    \[
+        \overline{r} - \overline{r_0}
+    \]
+    \item Normal vector (90 degrees to the plane): \( \overline{n} = \langle A, B, C \rangle \)
+\end{enumerate}
+\end{notebox}
+
+\begin{definitionbox}
+The equation of the plane is defined by
+\[
+    \overline{n} \cdot (\overline{r} - \overline{r_0}) = 0.
+\]
+\[
+    \langle A, B, C \rangle \cdot \langle x, y, z \rangle - \langle <x_0, y_0, z_0 \rangle = 0
+\]
+\[
+    \langle A, B, C \rangle \cdot \langle x - x_0, y - y_0, z - z_0 \rangle = 0
+\]
+\[
+    A(x - x_0) + B(y - y_0) + C(z - z_0) = 0
+\]
+This is the scalar equation of the plane.
+\end{definitionbox}
+
+In vector form, we can define the line as
+\[
+    \begin{bmatrix}
+        x \\ y \\ z
+    \end{bmatrix} = \begin{bmatrix}
+        x_0 \\ y_0 \\ z_0
+    \end{bmatrix} + t \begin{bmatrix}
+        a \\ b \\ c
+    \end{bmatrix}
+\]
+where $(x_0, y_0, z_0)$ is a point on the line and $(a, b, c)$ is the direction vector. The parameter $t$ is a scalar. \\
+\\
+The vector equation can also be written as
+\[
+    \begin{bmatrix}
+        x \\ y \\ z
+    \end{bmatrix} = \begin{bmatrix}
+        x_0 \\ y_0 \\ z_0
+    \end{bmatrix} + t \vec{d}
+\]
+where $\vec{d} = \begin{bmatrix}
+    a \\ b \\ c
+\end{bmatrix}$ is the direction vector. \\
+\\
+We can also define the line using the symmetric form
+\[
+    \frac{x - x_0}{a} = \frac{y - y_0}{b} = \frac{z - z_0}{c}
+\]
+where $(x_0, y_0, z_0)$ is a point on the line and $(a, b, c)$ is the direction vector. \\
+\\
+In 3D, we can also define a plane using the equation
+\[
+    Ax + By + Cz = D
+\]
+where $(A, B, C)$ is the normal vector to the plane. The normal vector is perpendicular to the plane. The point $(x, y, z)$ is a point on the plane. The scalar $D$ is the distance from the origin to the plane. \\
+\\
+Alternatively, we can define the plane using the parametric form
+\[
+    \begin{aligned}
+        x &= x_0 + su + tv \\
+        y &= y_0 + su + tv \\
+        z &= z_0 + su + tv
+    \end{aligned}
+\]
+where $(x_0, y_0, z_0)$ is a point on the plane and $(u, v)$ are the direction vectors. The parameter $s$ and $t$ are scalars. \\
+\\
+
+\end{document}
