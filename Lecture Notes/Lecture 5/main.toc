@@ -1,4 +1,9 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{Review from the Previous Lecture}{1}{section*.2}%
-\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.3}%
-\contentsline {subsection}{Parabola}{2}{section*.4}%
+\contentsline {section}{\numberline {1}Conic Sections and Their Properties}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Theorem 1.10: Equations of Hyperbolas}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Eccentricity and Directrix}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Polar Equations of Conic Sections}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}General Equations of Degree Two}{4}{subsection.1.4}%
+\contentsline {section}{Review from the Previous Lecture}{1}{section*.9}%
+\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.10}%
+\contentsline {subsection}{Parabola}{2}{section*.11}%
