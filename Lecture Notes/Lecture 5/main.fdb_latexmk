@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738168993.91103 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" "main.pdf" "main" 1738168996.76999 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" 1738168992 31952 7c7464c335a35200819439851e91de1b ""
+["pdflatex"] 1738169809.83945 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" "main.pdf" "main" 1738169812.70814 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" 1738169809 31988 901b941db423b42ed377b7d6373fe9e5 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -270,10 +270,10 @@
   "hyperbola.jpg" 1738166122 112707 9fba2a079cb29256cb8512ae9c9c8147 ""
   "hyperbola_comparison_to_other_shapes.png" 1738166385 7266 271447333582e76766d02424407c79ca ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1738168996 10109 ed5c271e1d9daf86c119a6d6ff9603e7 "pdflatex"
-  "main.out" 1738168996 3150 27f69a0f035540be9b05ddea050f65f4 "pdflatex"
-  "main.tex" 1738168992 31952 7c7464c335a35200819439851e91de1b ""
-  "main.toc" 1738168996 1303 68a8b07e7c1c8da75d765b96da91b4d8 "pdflatex"
+  "main.aux" 1738169812 10099 9ec542544bf6ca8e098589542b289b8b "pdflatex"
+  "main.out" 1738169812 3072 8672776dc2bc0da842572a018ecfb475 "pdflatex"
+  "main.tex" 1738169809 31988 901b941db423b42ed377b7d6373fe9e5 ""
+  "main.toc" 1738169812 1293 ff702da7d3729a98fa3dd62fc57c0b67 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "parabola.jpg" 1738165800 45002 ce546bf29f22d9650edb25e66a413721 ""
   "parabola_ball_example.png" 1738166536 363912 58c362b19252f7d6cec960cb7acc6d37 ""

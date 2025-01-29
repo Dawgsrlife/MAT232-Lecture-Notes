@@ -1,20 +1,20 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Title Page}{0}{Doc-Start}%
-\contentsline {section}{Preliminary Concepts}{1}{section*.1}%
-\contentsline {subsection}{Conic Sections}{1}{section*.2}%
-\contentsline {subsection}{Ellipse}{2}{section*.3}%
-\contentsline {subsubsection}{Standard Forms of an Ellipse}{3}{section*.4}%
-\contentsline {subsubsection}{Verifying an Ellipse}{4}{section*.5}%
-\contentsline {subsection}{Parabola}{5}{section*.6}%
-\contentsline {subsubsection}{Standard Forms of a Parabola}{6}{section*.7}%
-\contentsline {subsubsection}{Verifying a Parabola}{7}{section*.8}%
-\contentsline {subsection}{Hyperbola}{7}{section*.9}%
-\contentsline {subsubsection}{Standard Forms of a Hyperbola}{9}{section*.10}%
-\contentsline {subsubsection}{Verifying a Hyperbola}{10}{section*.11}%
-\contentsline {subsection}{Eccentricity and Directrix}{10}{section*.12}%
-\contentsline {subsection}{General Equations of Degree Two}{12}{section*.13}%
-\contentsline {subsection}{Distinguishing Between Conic Sections}{13}{section*.14}%
-\contentsline {section}{Introduction to Lecture Content}{1}{Item.3}%
-\contentsline {section}{Review from the Previous Lecture}{1}{section*.15}%
-\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.16}%
-\contentsline {subsection}{Parabola}{2}{section*.17}%
+\contentsline {section}{Preliminary Concepts}{1}{section*.2}%
+\contentsline {subsection}{Conic Sections}{1}{section*.3}%
+\contentsline {subsection}{Ellipse}{2}{section*.4}%
+\contentsline {subsubsection}{Standard Forms of an Ellipse}{3}{section*.5}%
+\contentsline {subsubsection}{Verifying an Ellipse}{4}{section*.6}%
+\contentsline {subsection}{Parabola}{5}{section*.7}%
+\contentsline {subsubsection}{Standard Forms of a Parabola}{6}{section*.8}%
+\contentsline {subsubsection}{Verifying a Parabola}{7}{section*.9}%
+\contentsline {subsection}{Hyperbola}{7}{section*.10}%
+\contentsline {subsubsection}{Standard Forms of a Hyperbola}{9}{section*.11}%
+\contentsline {subsubsection}{Verifying a Hyperbola}{10}{section*.12}%
+\contentsline {subsection}{Eccentricity and Directrix}{10}{section*.13}%
+\contentsline {subsection}{General Equations of Degree Two}{12}{section*.14}%
+\contentsline {subsection}{Distinguishing Between Conic Sections}{13}{section*.15}%
+\contentsline {section}{Lecture Content}{1}{section*.16}%
+\contentsline {section}{Review from the Previous Lecture}{1}{section*.17}%
+\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.18}%
+\contentsline {subsection}{Parabola}{2}{section*.19}%
