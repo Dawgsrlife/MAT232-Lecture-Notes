@@ -101,8 +101,8 @@
 
 \input{preliminary}
 
-\subsection*{Preliminary Concepts: Conic Sections}
-\addcontentsline{toc}{subsection}{Preliminary Concepts: Conic Sections}
+\section*{Conic Sections}
+\addcontentsline{toc}{section}{Conic Sections}
 
 \begin{conceptbox}
 \textbf{Definition of Conic Sections:}  
@@ -120,50 +120,70 @@ Conic sections are the curves formed by the intersection of a plane with a doubl
 \end{figure}
 \end{conceptbox}
 
-\subsubsection*{Ellipses}
+\section*{Ellipse}
+\addcontentsline{toc}{section}{Ellipse}
 \begin{definitionbox}
-\textbf{Definition of an Ellipse:}  
-An ellipse is the set of all points in a plane such that the sum of their distances to two fixed points (called the \textit{foci}) is constant.
+An \textbf{ellipse} is the set of all points in a plane such that the sum of their distances to two fixed points (called the \textit{foci}) is constant.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{ellipse.jpg}
+    \caption{Diagram of an ellipse.}
+\end{figure}
+
+\begin{intuitionbox} 
+    Imagine looping a circular string around two fixed points \( F_1 \) and \( F_2 \) on a plane and pulling it taut (fully stretched without slack) with a pencil. As you move the pencil while keeping the string tight, the traced shape forms an ellipse. This method is commonly used for drawing ellipses with nails and string.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{ellipse_string_example.png}
+        \caption{Drawing an ellipse with nails and string.}
+    \end{figure}
+\end{intuitionbox}
 \end{definitionbox}
 
-\begin{intuitionbox}
-\textbf{Key Intuition:}  
-Imagine stretching a string between two fixed points \( F_1 \) and \( F_2 \) on a plane. The shape traced by keeping the string taut while moving a pencil around defines an ellipse.
-\end{intuitionbox}
+\subsection*{Standard Forms of an Ellipse}
+\addcontentsline{toc}{subsection}{Standard Forms of an Ellipse}
 
 \begin{definitionbox}
-\textbf{Standard Forms of an Ellipse:}
+The equation of an ellipse depends on the orientation of its major axis:
+
 \begin{itemize}
     \item \textbf{Horizontal Major Axis:}  
     \[
-    \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1,
+    \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1
     \]
-    where \( a > b \), \( (h, k) \) is the center, and \( c^2 = a^2 - b^2 \), with \( c \) as the distance from the center to the foci.
+    where:
+    \begin{itemize}
+        \item \( (h, k) \) is the center,
+        \item \( a > b \) (semi-major axis \( a \), semi-minor axis \( b \)),
+        \item \( c^2 = a^2 - b^2 \), where \( c \) is the focal distance.
+    \end{itemize}
+    
     \item \textbf{Vertical Major Axis:}  
     \[
-    \frac{(y-k)^2}{a^2} + \frac{(x-h)^2}{b^2} = 1.
+    \frac{(y-k)^2}{a^2} + \frac{(x-h)^2}{b^2} = 1
     \]
+    with the same parameters as above.
 \end{itemize}
+\begin{remarkbox}
+    \textbf{Properties of Ellipses:}
+    \begin{itemize}
+        \item \textit{Vertices:} Located \( a \) units from the center along the major axis.
+        \item \textit{Foci:} Located \( c \) units from the center along the major axis, where \( c^2 = a^2 - b^2 \).
+        \item \textit{Eccentricity:} Defined as \( e = \frac{c}{a} \), with \( 0 < e < 1 \).
+    \end{itemize}
+    \end{remarkbox}
 \end{definitionbox}
 
-\begin{remarkbox}
-\textbf{Properties of Ellipses:}
-\begin{itemize}
-    \item \textit{Vertices:} Located \( a \) units from the center along the major axis.
-    \item \textit{Foci:} Located \( c \) units from the center along the major axis, where \( c^2 = a^2 - b^2 \).
-    \item \textit{Eccentricity:} Defined as \( e = \frac{c}{a} \), with \( 0 < e < 1 \).
-\end{itemize}
-\end{remarkbox}
-
-\begin{examplebox}
-\textbf{Example: Verifying an Ellipse}  
+\subsection*{Verifying an Ellipse}
+\addcontentsline{toc}{subsection}{Verifying an Ellipse}
+\begin{examplebox} 
 Show that the equation  
 \[
 4x^2 + 9y^2 = 36
 \]
 represents an ellipse and determine its key features.
 
-\textbf{Solution:}
+\begin{solutionbox}
 \begin{itemize}
     \item Rewrite the equation in standard form:
     \[
@@ -172,104 +192,145 @@ represents an ellipse and determine its key features.
     \item The ellipse is centered at \( (0, 0) \) with \( a = 3 \), \( b = 2 \), and \( c = \sqrt{a^2 - b^2} = \sqrt{5} \).
     \item The foci are \( (\pm \sqrt{5}, 0) \), and the vertices are \( (\pm 3, 0) \).
 \end{itemize}
+\end{solutionbox}
 \end{examplebox}
 
-\subsubsection*{Parabolas}
+\section*{Parabolas}
+\addcontentsline{toc}{section}{Parabolas}
 \begin{definitionbox}
-\textbf{Definition of a Parabola:}  
-A parabola is the set of all points in a plane equidistant from a fixed point (the \textit{focus}) and a fixed line (the \textit{directrix}).
-\end{definitionbox}
-
+A \textbf{parabola} is the set of all points in a plane equidistant from a fixed point (the \textit{focus}) and a fixed line (the \textit{directrix}).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{parabola.jpg}
+    \caption{Diagram of a parabola.}
+\end{figure}
 \begin{intuitionbox}
-\textbf{Key Intuition:}  
-A parabola can be thought of as the trajectory of an object under uniform acceleration, such as the path of a ball thrown in the air.
-\end{intuitionbox}
-
-\begin{definitionbox}
-\textbf{Standard Forms of a Parabola:}
-\begin{itemize}
-    \item \textbf{Horizontal Opening:}  
-    \[
-    (y-k)^2 = 4p(x-h),
-    \]
-    where \( (h, k) \) is the vertex, and \( p \) is the distance from the vertex to the focus.
-    \item \textbf{Vertical Opening:}  
-    \[
-    (x-h)^2 = 4p(y-k).
-    \]
-\end{itemize}
+    A parabola can be thought of as the trajectory of an object under uniform acceleration, such as the path of a ball thrown in the air.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.65\textwidth]{parabola_ball_example.png}
+        \caption{Parabolic trajectory of a ball.}
+    \end{figure}
+    \end{intuitionbox}
 \end{definitionbox}
 
-\begin{remarkbox}
-\textbf{Properties of Parabolas:}
-\begin{itemize}
-    \item \textit{Focus:} Located \( p \) units from the vertex along the axis of symmetry.
-    \item \textit{Directrix:} A line perpendicular to the axis of symmetry at a distance \( p \) from the vertex.
-    \item \textit{Axis of Symmetry:} A line that passes through the focus and is perpendicular to the directrix.
-\end{itemize}
-\end{remarkbox}
+\subsection*{Standard Forms of a Parabola}
+\addcontentsline{toc}{subsection}{Standard Forms of a Parabola}
 
-\begin{examplebox}
-\textbf{Example: Verifying a Parabola}  
+\begin{definitionbox}
+The equation of a parabola depends on whether it opens horizontally or vertically:
+
+\begin{itemize}
+    \item \textbf{Opens Right or Left (Horizontal Axis):}  
+    \[
+    (y-k)^2 = 4p(x-h)
+    \]
+    \begin{itemize}
+        \item \( (h, k) \) is the vertex.
+        \item \( p \) is the directed distance from the vertex to the focus.
+        \item The focus is at \( (h+p, k) \), and the directrix is the vertical line \( x = h - p \).
+    \end{itemize}
+
+    \item \textbf{Opens Up or Down (Vertical Axis):}  
+    \[
+    (x-h)^2 = 4p(y-k)
+    \]
+    \begin{itemize}
+        \item The vertex and \( p \) are the same as above.
+        \item The focus is at \( (h, k+p) \), and the directrix is the horizontal line \( y = k - p \).
+    \end{itemize}
+\end{itemize}
+\begin{remarkbox}
+    \textbf{Properties of Parabolas:}
+    \begin{itemize}
+        \item \textit{Focus:} Located \( p \) units from the vertex along the axis of symmetry.
+        \item \textit{Directrix:} A line perpendicular to the axis of symmetry at a distance \( p \) from the vertex.
+        \item \textit{Axis of Symmetry:} A line that passes through the focus and is perpendicular to the directrix.
+    \end{itemize}
+    \end{remarkbox}
+\end{definitionbox}
+
+\subsection*{Verifying a Parabola}
+\addcontentsline{toc}{subsection}{Verifying a Parabola}
+\begin{examplebox}  
 Show that the equation  
 \[
 y^2 = 12x
 \]
 represents a parabola and determine its key features.
 
-\textbf{Solution:}
+\begin{solutionbox}
 \begin{itemize}
     \item The equation is in the standard form \( y^2 = 4px \), with \( 4p = 12 \), so \( p = 3 \).
     \item The parabola opens to the right, with vertex \( (0, 0) \), focus \( (3, 0) \), and directrix \( x = -3 \).
 \end{itemize}
+\end{solutionbox}
 \end{examplebox}
 
-\subsubsection*{Hyperbolas}
-\begin{definitionbox}
-\textbf{Definition of a Hyperbola:}  
-A hyperbola is the set of all points in a plane such that the absolute difference of their distances to two fixed points (called the \textit{foci}) is constant.
+\section*{Hyperbola}
+\addcontentsline{toc}{section}{Hyperbola}
+\begin{definitionbox}  
+A \textbf{hyperbola} is the set of all points in a plane such that the absolute difference of their distances to two fixed points (called the \textit{foci}) is constant.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{hyperbola.jpg}
+    \caption{Diagram of a hyperbola.}
+\end{figure}
 \end{definitionbox}
 
 \begin{intuitionbox}
-\textbf{Key Intuition:}  
 A hyperbola appears in real-world phenomena such as satellite orbits, radio wave propagation, and the paths of comets.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{hyperbola_comparison_to_other_shapes.png}
+    \caption{Hyperbolic orbits can have greater eccentricity than parabolic ones.}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{example_light_hyperbola.jpg}
+    \caption{ A hyperbolic mirror used to collect light from distant stars.}
+\end{figure}
 \end{intuitionbox}
 
+\subsection*{Standard Forms of a Hyperbola}
+\addcontentsline{toc}{subsection}{Standard Forms of a Hyperbola}
 \begin{definitionbox}
-\textbf{Standard Forms of a Hyperbola:}
-\begin{itemize}
-    \item \textbf{Horizontal Transverse Axis:}  
-    \[
-    \frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1.
-    \]
-    \item \textbf{Vertical Transverse Axis:}  
-    \[
-    \frac{(y-k)^2}{a^2} - \frac{(x-h)^2}{b^2} = 1.
-    \]
-\end{itemize}
+    A hyperbola is defined by the difference of distances to two fixed points (foci) being constant. Its standard equation depends on the orientation of its transverse axis:  
+    \begin{itemize}
+        \item \textbf{Horizontal Transverse Axis:}  
+        \[
+        \frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1,
+        \]
+        where \( (h, k) \) is the center, \( a \) is the distance from the center to each vertex, and \( c^2 = a^2 + b^2 \) defines the distance from the center to each focus.  
+        
+        \item \textbf{Vertical Transverse Axis:}  
+        \[
+        \frac{(y-k)^2}{a^2} - \frac{(x-h)^2}{b^2} = 1.
+        \]
+    \end{itemize}
+    \begin{remarkbox}
+        \textbf{Properties of Hyperbolas:}
+        \begin{itemize}
+            \item \textit{Foci:} Located \( c \) units from the center along the transverse axis, where \( c^2 = a^2 + b^2 \).
+            \item \textit{Asymptotes:} Lines that the hyperbola approaches but never touches, given by:
+            \[
+            y = k \pm \frac{b}{a}(x-h) \quad \text{(horizontal)}.
+            \]
+            \item \textit{Vertices:} Located \( a \) units from the center along the transverse axis.
+        \end{itemize}
+        \end{remarkbox}
 \end{definitionbox}
 
-\begin{remarkbox}
-\textbf{Properties of Hyperbolas:}
-\begin{itemize}
-    \item \textit{Foci:} Located \( c \) units from the center along the transverse axis, where \( c^2 = a^2 + b^2 \).
-    \item \textit{Asymptotes:} Lines that the hyperbola approaches but never touches, given by:
-    \[
-    y = k \pm \frac{b}{a}(x-h) \quad \text{(horizontal)}.
-    \]
-    \item \textit{Vertices:} Located \( a \) units from the center along the transverse axis.
-\end{itemize}
-\end{remarkbox}
-
+\subsection*{Verifying a Hyperbola}
+\addcontentsline{toc}{subsection}{Verifying a Hyperbola}
 \begin{examplebox}
-\textbf{Example: Verifying a Hyperbola}  
 Show that the equation  
 \[
 9x^2 - 16y^2 = 144
 \]
 represents a hyperbola and determine its key features.
 
-\textbf{Solution:}
+\begin{solutionbox}
 \begin{itemize}
     \item Rewrite the equation in standard form:
     \[
@@ -278,7 +339,10 @@ represents a hyperbola and determine its key features.
     \item The hyperbola is centered at \( (0, 0) \) with \( a = 4 \), \( b = 3 \), and \( c = \sqrt{a^2 + b^2} = 5 \).
     \item The vertices are \( (\pm 4, 0) \), the foci are \( (\pm 5, 0) \), and the asymptotes are \( y = \pm \frac{3}{4}x \).
 \end{itemize}
+\end{solutionbox}
 \end{examplebox}
+
+
 
 \input{intolecturecontent}
 \normalsize

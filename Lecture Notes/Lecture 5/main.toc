@@ -1,5 +1,14 @@
 \babel@toc {english}{}\relax 
-\contentsline {subsection}{Preliminary Concepts: Conic Sections}{1}{section*.2}%
-\contentsline {section}{Review from the Previous Lecture}{1}{section*.6}%
-\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.7}%
-\contentsline {subsection}{Parabola}{2}{section*.8}%
+\contentsline {section}{Conic Sections}{1}{section*.2}%
+\contentsline {section}{Ellipse}{2}{section*.3}%
+\contentsline {subsection}{Standard Forms of an Ellipse}{3}{section*.4}%
+\contentsline {subsection}{Verifying an Ellipse}{4}{section*.5}%
+\contentsline {section}{Parabolas}{5}{section*.6}%
+\contentsline {subsection}{Standard Forms of a Parabola}{6}{section*.7}%
+\contentsline {subsection}{Verifying a Parabola}{7}{section*.8}%
+\contentsline {section}{Hyperbola}{7}{section*.9}%
+\contentsline {subsection}{Standard Forms of a Hyperbola}{9}{section*.10}%
+\contentsline {subsection}{Verifying a Hyperbola}{10}{section*.11}%
+\contentsline {section}{Review from the Previous Lecture}{1}{section*.12}%
+\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.13}%
+\contentsline {subsection}{Parabola}{2}{section*.14}%
