@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  29 JAN 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  29 JAN 2025 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,7 +989,7 @@ LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <40> not available
 
 
 
-<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=59, 1927.2pt x 1606.0pt>
+<ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg, id=71, 1927.2pt x 1606.0pt>
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 14.
@@ -1027,17 +1027,17 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 12.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [1])
-<double-napped cone to 2D shapes.png, id=93, 847.165pt x 470.75874pt>
+<double-napped cone to 2D shapes.png, id=108, 847.165pt x 470.75874pt>
 File: double-napped cone to 2D shapes.png Graphic file (type png)
 <use double-napped cone to 2D shapes.png>
 Package pdftex.def Info: double-napped cone to 2D shapes.png  used on input line 118.
 (pdftex.def)             Requested size: 350.767pt x 194.91588pt.
-<ellipse.jpg, id=95, 569.12625pt x 423.5825pt>
+<ellipse.jpg, id=110, 569.12625pt x 423.5825pt>
 File: ellipse.jpg Graphic file (type jpg)
 <use ellipse.jpg>
 Package pdftex.def Info: ellipse.jpg  used on input line 129.
 (pdftex.def)             Requested size: 284.99442pt x 212.12036pt.
-<ellipse_string_example.png, id=96, 702.625pt x 483.8075pt>
+<ellipse_string_example.png, id=111, 702.625pt x 483.8075pt>
 File: ellipse_string_example.png Graphic file (type png)
 <use ellipse_string_example.png>
 Package pdftex.def Info: ellipse_string_example.png  used on input line 137.
@@ -1070,12 +1070,12 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 197.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [3]
-<parabola.jpg, id=122, 418.56375pt x 425.59pt>
+<parabola.jpg, id=137, 418.56375pt x 425.59pt>
 File: parabola.jpg Graphic file (type jpg)
 <use parabola.jpg>
 Package pdftex.def Info: parabola.jpg  used on input line 204.
 (pdftex.def)             Requested size: 197.30434pt x 200.61177pt.
-<parabola_ball_example.png, id=123, 853.1875pt x 492.84125pt>
+<parabola_ball_example.png, id=138, 853.1875pt x 492.84125pt>
 File: parabola_ball_example.png Graphic file (type png)
 <use parabola_ball_example.png>
 Package pdftex.def Info: parabola_ball_example.png  used on input line 211.
@@ -1099,17 +1099,17 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 269.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [6]
-<hyperbola.jpg, id=141, 644.4075pt x 423.5825pt>
+<hyperbola.jpg, id=156, 644.4075pt x 423.5825pt>
 File: hyperbola.jpg Graphic file (type jpg)
 <use hyperbola.jpg>
 Package pdftex.def Info: hyperbola.jpg  used on input line 276.
 (pdftex.def)             Requested size: 328.8428pt x 216.15994pt.
-<hyperbola_comparison_to_other_shapes.png, id=142, 461.725pt x 346.29375pt>
+<hyperbola_comparison_to_other_shapes.png, id=157, 461.725pt x 346.29375pt>
 File: hyperbola_comparison_to_other_shapes.png Graphic file (type png)
 <use hyperbola_comparison_to_other_shapes.png>
 Package pdftex.def Info: hyperbola_comparison_to_other_shapes.png  used on input line 285.
 (pdftex.def)             Requested size: 219.22853pt x 164.42253pt.
-<example_light_hyperbola.jpg, id=143, 569.12625pt x 385.44pt>
+<example_light_hyperbola.jpg, id=158, 569.12625pt x 385.44pt>
 File: example_light_hyperbola.jpg Graphic file (type jpg)
 <use example_light_hyperbola.jpg>
 Package pdftex.def Info: example_light_hyperbola.jpg  used on input line 290.
@@ -1132,13 +1132,47 @@ File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 344.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[9] (./intolecturecontent.tex
+[9]
+<eccentricity and directrix.png, id=178, 569.12625pt x 441.65pt>
+File: eccentricity and directrix.png Graphic file (type png)
+<use eccentricity and directrix.png>
+Package pdftex.def Info: eccentricity and directrix.png  used on input line 371.
+(pdftex.def)             Requested size: 197.30434pt x 153.1107pt.
+<hyperbola directrix.png, id=179, 388.45125pt x 349.305pt>
+File: hyperbola directrix.png Graphic file (type png)
+<use hyperbola directrix.png>
+Package pdftex.def Info: hyperbola directrix.png  used on input line 377.
+(pdftex.def)             Requested size: 197.30434pt x 177.42365pt.
+<ellipse directrix.png, id=180, 561.09625pt x 447.6725pt>
+File: ellipse directrix.png Graphic file (type png)
+<use ellipse directrix.png>
+Package pdftex.def Info: ellipse directrix.png  used on input line 385.
+(pdftex.def)             Requested size: 263.07692pt x 209.89378pt.
+
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 390.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[10]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 417.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[11 <./eccentricity and directrix.png> <./hyperbola directrix.png> <./ellipse directrix.png>]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 442.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[12] (./intolecturecontent.tex
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
 Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[10]
+[13]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1156,22 +1190,22 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.425 
+l.521 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 425.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 521.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [1]
-<sample_image1.jpg, id=177, 147.4308pt x 147.4308pt>
+<sample_image1.jpg, id=216, 147.4308pt x 147.4308pt>
 File: sample_image1.jpg Graphic file (type jpg)
 <use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 434.
+Package pdftex.def Info: sample_image1.jpg  used on input line 530.
 (pdftex.def)             Requested size: 183.22037pt x 183.23071pt.
-<sample_image2.jpg, id=178, 147.4308pt x 147.4308pt>
+<sample_image2.jpg, id=217, 147.4308pt x 147.4308pt>
 File: sample_image2.jpg Graphic file (type jpg)
 <use sample_image2.jpg>
-Package pdftex.def Info: sample_image2.jpg  used on input line 441.
+Package pdftex.def Info: sample_image2.jpg  used on input line 537.
 (pdftex.def)             Requested size: 183.22037pt x 183.23071pt.
 
 
@@ -1179,22 +1213,22 @@ Package pdftex.def Info: sample_image2.jpg  used on input line 441.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.448 
+l.544 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 448.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 544.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [2]
-<x^2 + 1.png, id=182, 320.397pt x 319.1925pt>
+<x^2 + 1.png, id=222, 320.397pt x 319.1925pt>
 File: x^2 + 1.png Graphic file (type png)
 <use x^2 + 1.png>
-Package pdftex.def Info: x^2 + 1.png  used on input line 459.
+Package pdftex.def Info: x^2 + 1.png  used on input line 555.
 (pdftex.def)             Requested size: 142.50818pt x 141.97446pt.
-<sample_image.jpg, id=183, 147.4308pt x 147.4308pt>
+<sample_image.jpg, id=223, 147.4308pt x 147.4308pt>
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 481.
+Package pdftex.def Info: sample_image.jpg  used on input line 577.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 
 
@@ -1202,11 +1236,11 @@ Package pdftex.def Info: sample_image.jpg  used on input line 481.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.487 
+l.583 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 487.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 583.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [3 <./sample_image1.jpg> <./sample_image2.jpg>]
 Overfull \vbox (81.55933pt too high) has occurred while \output is active []
@@ -1217,34 +1251,34 @@ Overfull \vbox (81.55933pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.487 
+l.583 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 487.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 583.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [4 <./x^2 + 1.png> <./sample_image.jpg>]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 525.
+Package pdftex.def Info: sample_image.jpg  used on input line 621.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--528
+Underfull \hbox (badness 10000) in paragraph at lines 614--624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--544
+Underfull \hbox (badness 10000) in paragraph at lines 634--640
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--544
+Underfull \hbox (badness 10000) in paragraph at lines 634--640
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--553
+Underfull \hbox (badness 10000) in paragraph at lines 645--649
 
  []
 
@@ -1254,11 +1288,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--553
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.555 
+l.651 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 555.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 651.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [5]
 Overfull \vbox (206.3355pt too high) has occurred while \output is active []
@@ -1269,20 +1303,20 @@ Overfull \vbox (206.3355pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.555 
+l.651 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 555.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 651.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [6]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 566.
+Package pdftex.def Info: sample_image.jpg  used on input line 662.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 578.
+Package pdftex.def Info: sample_image.jpg  used on input line 674.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 
 Overfull \vbox (60.8896pt too high) has occurred while \output is active []
@@ -1293,20 +1327,20 @@ Overfull \vbox (60.8896pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.584 
+l.680 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 584.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 680.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [7]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 595.
+Package pdftex.def Info: sample_image.jpg  used on input line 691.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 605.
+Package pdftex.def Info: sample_image.jpg  used on input line 701.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 
 Overfull \vbox (61.92682pt too high) has occurred while \output is active []
@@ -1317,43 +1351,43 @@ Overfull \vbox (61.92682pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.611 
+l.707 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 611.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 707.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [8]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 632.
+Package pdftex.def Info: sample_image.jpg  used on input line 728.
 (pdftex.def)             Requested size: 142.50818pt x 142.51503pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--648
+Underfull \hbox (badness 10000) in paragraph at lines 739--744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--648
+Underfull \hbox (badness 10000) in paragraph at lines 739--744
 
  []
 
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 653.
+Package pdftex.def Info: sample_image.jpg  used on input line 749.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 663.
+Package pdftex.def Info: sample_image.jpg  used on input line 759.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 673.
+Package pdftex.def Info: sample_image.jpg  used on input line 769.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 
 
@@ -1361,11 +1395,11 @@ Package pdftex.def Info: sample_image.jpg  used on input line 673.
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 
+l.774 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 678.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 774.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [9]
 Overfull \vbox (267.25998pt too high) has occurred while \output is active []
@@ -1376,68 +1410,86 @@ Overfull \vbox (267.25998pt too high) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.678 
+l.774 
       
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 678.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 774.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [10]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 684.
+Package pdftex.def Info: sample_image.jpg  used on input line 780.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 691.
+Package pdftex.def Info: sample_image.jpg  used on input line 787.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 704.
+Package pdftex.def Info: sample_image.jpg  used on input line 800.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 711.
+Package pdftex.def Info: sample_image.jpg  used on input line 807.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.812 
+      
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 716.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 812.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[11]
+ [11]
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.819 
+      
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 723.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 819.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[12]
+ [12]
 File: sample_image.jpg Graphic file (type jpg)
 <use sample_image.jpg>
-Package pdftex.def Info: sample_image.jpg  used on input line 741.
+Package pdftex.def Info: sample_image.jpg  used on input line 837.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.843 
+      
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 747.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 843.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[13]
+ [13]
 File: sample_image1.jpg Graphic file (type jpg)
 <use sample_image1.jpg>
-Package pdftex.def Info: sample_image1.jpg  used on input line 755.
+Package pdftex.def Info: sample_image1.jpg  used on input line 851.
 (pdftex.def)             Requested size: 153.46265pt x 153.47063pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 761.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 857.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [14]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 767.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 863.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [15] (./main.aux)
  ***********
@@ -1453,21 +1505,21 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 745943F8984DBA0BF395402F5908D608;2000.
+(rerunfilecheck)             Checksum: D6F6E121BB4F3DC0DE0B38231CCD5801;2635.
  ) 
 Here is how much of TeX's memory you used:
- 34831 strings out of 473579
- 670962 string characters out of 5732263
- 1172821 words of memory out of 5000000
- 57058 multiletter control sequences out of 15000+600000
+ 34882 strings out of 473579
+ 672130 string characters out of 5732263
+ 1173964 words of memory out of 5000000
+ 57100 multiletter control sequences out of 15000+600000
  583116 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,101p,635b,1512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (29 pages, 1468669 bytes).
+Output written on main.pdf (32 pages, 1657099 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

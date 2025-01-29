@@ -9,6 +9,9 @@
 \contentsline {section}{Hyperbola}{7}{section*.9}%
 \contentsline {subsection}{Standard Forms of a Hyperbola}{9}{section*.10}%
 \contentsline {subsection}{Verifying a Hyperbola}{10}{section*.11}%
-\contentsline {section}{Review from the Previous Lecture}{1}{section*.12}%
-\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.13}%
-\contentsline {subsection}{Parabola}{2}{section*.14}%
+\contentsline {section}{Eccentricity and Directrix}{10}{section*.12}%
+\contentsline {section}{General Equations of Degree Two}{12}{section*.13}%
+\contentsline {section}{Distinguishing Between Conic Sections}{13}{section*.14}%
+\contentsline {section}{Review from the Previous Lecture}{1}{section*.15}%
+\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.16}%
+\contentsline {subsection}{Parabola}{2}{section*.17}%

@@ -342,7 +342,103 @@ represents a hyperbola and determine its key features.
 \end{solutionbox}
 \end{examplebox}
 
+\section*{Eccentricity and Directrix}
+\addcontentsline{toc}{section}{Eccentricity and Directrix}
 
+\begin{definitionbox}The \textbf{eccentricity} \( e \) of a conic section is defined as the ratio of the distance from any point on the conic to its focus, divided by the perpendicular distance from that point to the nearest directrix. This value is constant for a given conic and determines its type:
+\begin{itemize}
+    \item If \( e = 1 \), the conic is a \textbf{parabola}.
+    \item If \( e < 1 \), the conic is an \textbf{ellipse}.
+    \item If \( e > 1 \), the conic is a \textbf{hyperbola}.
+\end{itemize}
+
+\begin{remarkbox}
+For a \textbf{circle}, the eccentricity is \( e = 0 \).
+\end{remarkbox}
+
+The \textbf{directrix} of a conic section is a fixed line that, together with the focus, helps define the conic. 
+\begin{itemize}
+    \item \textbf{Parabolas} have one focus and one directrix.
+    \item \textbf{Ellipses} and \textbf{hyperbolas} (excluding circles) have two foci and two corresponding directrices.
+\end{itemize}
+\end{definitionbox}
+
+\begin{illustrationbox}
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{eccentricity and directrix.png}
+            \caption{Eccentricity and directrix of conic sections.}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{hyperbola directrix.png}
+            \caption{Directrix of a hyperbola.}
+        \end{minipage}
+        
+        \vspace{1em} % Adds vertical space before the next row
+        
+        \begin{minipage}{0.6\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{ellipse directrix.png}
+            \caption{Directrix of an ellipse.}
+        \end{minipage}
+    \end{figure}    
+\end{illustrationbox}
+
+\section*{General Equations of Degree Two}
+\addcontentsline{toc}{section}{General Equations of Degree Two}
+
+\begin{conceptbox}
+A general second-degree equation is written as:
+\[
+Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0.
+\]
+The nature of its graph (a conic section) is determined using the \textbf{discriminant}:
+\[
+\Delta = 4AC - B^2.
+\]
+\begin{itemize}
+    \item If \( \Delta > 0 \), the conic is an \textbf{ellipse}.
+    \item If \( \Delta = 0 \), the conic is a \textbf{parabola}.
+    \item If \( \Delta < 0 \), the conic is a \textbf{hyperbola}.
+\end{itemize}
+\begin{remarkbox}
+    If \( B \neq 0 \), the coordinate axes are rotated.
+
+    To determine the rotation angle \( \theta \), use:
+    \[
+    \cot 2\theta = \frac{A - C}{B}.
+    \]
+\end{remarkbox}
+\end{conceptbox}
+
+\section*{Distinguishing Between Conic Sections}
+\addcontentsline{toc}{section}{Distinguishing Between Conic Sections}
+
+\begin{tipbox}
+To classify a conic section, follow these key steps:
+\begin{enumerate}
+    \item \textbf{Check the discriminant} \( \Delta = 4AC - B^2 \):
+    \begin{itemize}
+        \item \( \Delta > 0 \) indicates an \textbf{ellipse}.
+        \item \( \Delta = 0 \) indicates a \textbf{parabola}.
+        \item \( \Delta < 0 \) indicates a \textbf{hyperbola}.
+    \end{itemize}
+    \item \textbf{Identify the presence of an \( xy \)-term}:
+    \begin{itemize}
+        \item If \( B \neq 0 \), the axes are rotated.
+    \end{itemize}
+    \item \textbf{Analyze the equation form}:
+    \begin{itemize}
+        \item Ellipses and circles have \textbf{both \( x^2 \) and \( y^2 \) terms} with the same sign.
+        \item Hyperbolas have \textbf{both \( x^2 \) and \( y^2 \) terms} with opposite signs.
+        \item Parabolas have \textbf{only one squared term} (either \( x^2 \) or \( y^2 \), but not both).
+    \end{itemize}
+\end{enumerate}
+\end{tipbox}
 
 \input{intolecturecontent}
 \normalsize
