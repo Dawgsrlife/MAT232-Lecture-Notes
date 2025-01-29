@@ -15,6 +15,7 @@
 \contentsline {subsection}{General Equations of Degree Two}{12}{section*.14}%
 \contentsline {subsection}{Distinguishing Between Conic Sections}{13}{section*.15}%
 \contentsline {section}{Lecture Content}{1}{section*.16}%
-\contentsline {section}{Review from the Previous Lecture}{1}{section*.17}%
-\contentsline {section}{Exploring Common Curve Shapes}{2}{section*.18}%
-\contentsline {subsection}{Parabola}{2}{section*.19}%
+\contentsline {subsection}{Review from the Previous Lecture}{1}{section*.17}%
+\contentsline {subsection}{Exploring Common Curve Shapes}{2}{section*.18}%
+\contentsline {subsubsection}{Parabola}{2}{section*.19}%
+\contentsline {subsubsection}{Sketching the Region of a Set Defined by a Parabola}{3}{section*.20}%

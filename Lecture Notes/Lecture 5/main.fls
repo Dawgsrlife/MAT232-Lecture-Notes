@@ -562,35 +562,26 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./x^2 + 1.png
 INPUT ./x^2 + 1.png
 INPUT ./x^2 + 1.png
 INPUT ./x^2 + 1.png
 INPUT ./x^2 + 1.png
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./y = x^2 + 1 shaded.png
+INPUT ./y = x^2 + 1 shaded.png
+INPUT ./y = x^2 + 1 shaded.png
+INPUT ./y = x^2 + 1 shaded.png
+INPUT ./y = x^2 + 1 shaded.png
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
@@ -675,6 +666,7 @@ INPUT ./sample_image.jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg
 INPUT ./sample_image1.jpg

@@ -452,7 +452,7 @@ To classify a conic section, follow these key steps:
 \setcounter{page}{1}
 
 \section*{Review from the Previous Lecture}
-\addcontentsline{toc}{section}{Review from the Previous Lecture}
+\addcontentsline{toc}{subsection}{Review from the Previous Lecture}
 \begin{remarkbox}
 In the previous lecture, we covered important foundational concepts related to polar coordinates and their derivatives. Here’s a brief summary: 
 
@@ -482,10 +482,10 @@ In the previous lecture, we covered important foundational concepts related to p
 \end{remarkbox}
 
 \section*{Exploring Common Curve Shapes}
-\addcontentsline{toc}{section}{Exploring Common Curve Shapes}
+\addcontentsline{toc}{subsection}{Exploring Common Curve Shapes}
 
 \subsection*{Parabola}
-\addcontentsline{toc}{subsection}{Parabola}
+\addcontentsline{toc}{subsubsection}{Parabola}
 
 \begin{definitionbox}
 A \textbf{parabola} is a symmetric curve defined by the quadratic equation:  
@@ -522,69 +522,70 @@ Here:
     \]
     where \( f(B) \) is the value of the quadratic function evaluated at \( x = B \).
 \end{algorithmbox}
-\textit{...cont'd...}
 \end{definitionbox}
 
-\begin{definitionbox}
-    \textit{...cont'd...}
-    \begin{illustrationbox}
-        Below are examples of parabolas showcasing key features:  
-        \begin{figure}[H]
-            \centering
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image1.jpg}
-                \caption{A parabola opening down, labeled with its vertex and axis of symmetry.}
-                \label{fig:parabola_down}
-            \end{minipage}
-            \hspace{0.05\textwidth} % Adds horizontal space between the images
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image2.jpg}
-                \caption{Generic parabolas showing upwards and downwards directions of opening.}
-                \label{fig:parabola_generic}
-            \end{minipage}
-        \end{figure}
-    \end{illustrationbox}    
-\end{definitionbox}
-
-\section*{Example: Sketching the Region of a Set}
+\subsection*{Sketching the Region of a Set Defined by a Parabola}
+\addcontentsline{toc}{subsubsection}{Sketching the Region of a Set Defined by a Parabola}
 \begin{examplebox}
 Sketch the region of the set defined by
 \[
-    R = \{ (x, y) \mid y \geq x^2 + 1 \}
+    R = \{ (x, y) \mid y \geq x^2 + 1 \}.
 \]
-\begin{solutionbox}
-    Consider the graph for the function \( y = x^2 = 1 \):
+
+\begin{remarkbox}
+    To sketch the region defined by \( y \geq x^2 + 1 \), we first consider the graph of the parabola \( y = x^2 + 1 \):
+    
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{x^2 + 1.png}
+        \includegraphics[width=0.4\textwidth]{x^2 + 1.png}
         \caption{Graph of \( y = x^2 + 1 \).}
-        \label{fig:sample_image}
+        \label{fig:parabola_graph}
     \end{figure}
-    Notice that
-    \begin{equation*}
-    \begin{aligned}
-    y &= x^2 + 1 \\
-    \implies 0 &\geq (-2)^2 + 1 \\
-    \implies 0 &\geq 5 \text{, which is not true.}
-    \end{aligned}
-    \end{equation*}
-    Then, notice that
-    \begin{equation*}
-    \begin{aligned}
-    2 &\geq 0^2 + 1 \\
-    \implies 2 &\geq 1 \text{, which is true!}
-    \end{aligned}
-    \end{equation*}
-    Here is the region being considered:
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{solutionbox}
+    
+    Next, let’s test some sample points to determine whether they lie in the region \( y \geq x^2 + 1 \):  
+    
+    \begin{itemize}
+        \item For the point \( (-2, 0) \):  
+        \[
+        y \geq x^2 + 1 \implies 0 \geq (-2)^2 + 1 \implies 0 \geq 5,
+        \]
+        which is \textbf{false}. Therefore, \( (-2, 0) \) is not in the region.
+        
+        \item For the point \( (0, 2) \):  
+        \[
+        y \geq x^2 + 1 \implies 2 \geq 0^2 + 1 \implies 2 \geq 1,
+        \]
+        which is \textbf{true}. Therefore, \( (0, 2) \) is in the region.
+    \end{itemize}
+\end{remarkbox}
+
+\textit{...cont'd...}
+\end{examplebox}
+
+\begin{examplebox}
+\textit{...cont'd...}
+\begin{solutionbox}
+    The region defined by \( y \geq x^2 + 1 \) is shown below:
+
+    \begin{blankbox}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.4\textwidth]{y = x^2 + 1 shaded.png}
+            \caption{Shaded region satisfying \( y \geq x^2 + 1 \).}
+            \label{fig:region}
+        \end{figure}
+    \end{blankbox}
+    
+    \textbf{How to Determine the Region:}
+    \begin{conceptbox}
+    To determine the region for \( y \geq x^2 + 1 \):
+    \begin{itemize}
+        \item The parabola \( y = x^2 + 1 \) acts as a boundary. The inequality \( y \geq x^2 + 1 \) indicates that the region lies above or on this parabola.
+        \item The graph of \( y = x^2 + 1 \) opens upwards, so the region \( R \) is the area above this curve, including the curve itself.
+        \item The boundary curve \( y = x^2 + 1 \) is part of the region because the inequality includes equality (\( \geq \)).
+    \end{itemize}
+    \end{conceptbox}
+\end{solutionbox}    
 \end{examplebox}
 
 \section*{Ellipse}
