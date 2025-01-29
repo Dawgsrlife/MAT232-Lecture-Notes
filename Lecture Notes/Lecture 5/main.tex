@@ -588,72 +588,86 @@ Sketch the region of the set defined by
 \end{solutionbox}    
 \end{examplebox}
 
-\section*{Ellipse}
+\subsection*{Ellipse}
+\addcontentsline{toc}{subsubsection}{Ellipse}
 \begin{definitionbox}
 The equation of an ellipse is defined by
 \[
     \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1 \text{.}
 \]
-\begin{notebox}
+\begin{remarkbox}
 Recall the equation of the circle, which is based on the equation of the ellipse when \( a = b = 1 \):
 \[
     \text{Circle:} \quad (x - h)^2 + (y - k)^2 = r^2 \text{,}
 \]
 where \( (h, k) \) is the centre, \( a \) represents the \( x \)-axis radius, and \( b \) represents the \( y \)-axis radius.
-\end{notebox}
+\end{remarkbox}
 \end{definitionbox}
 
-\section*{Example of Skecthing an Ellipse}
+\subsection*{Sketching the Region of a Set Defined by an Ellipse}
+\addcontentsline{toc}{subsubsection}{Sketching the Region of a Set Defined by an Ellipse}
+
 \begin{examplebox}
 Sketch the region of the set defined by
 \[
-    A = \{ (x, y) \mid x^2 + 4y^2 > 4 \} \text{.}
+    A = \{ (x, y) \mid x^2 + 4y^2 > 4 \}.
 \]
-\begin{solutionbox}
-    Notice that
-    \[
-        x^2 + 4y^2 = 4 \text{.}
-    \]
-    This means the centre is at \( (0, 0) \).
-    Also,
-    \[
-        \dfrac{x^2}{4} + \dfrac{y^2}{1} = 1
-    \]
-    provides that the \( x \)-axis radius is \( a = 2 \) and the \( y \)-axis radius is \( b = 1 \). \\
-    \\
-    Here is the corresponding illustration:
-    \\\textbf{self-note: add the illustratoin from the lecture note from your camera roll}
+
+\begin{remarkbox}
+    To sketch the region defined by \( x^2 + 4y^2 > 4 \), we first consider the graph of the ellipse \( x^2 + 4y^2 = 4 \):
+
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Illustration of ellipse.}
-        \label{fig:sample_image}
+        \includegraphics[width=0.65\textwidth]{graph of x^2 + 4y^2 = 4.png}
+        \caption{Graph of \( x^2 + 4y^2 = 4 \).}
+        \label{fig:ellipse_graph}
     \end{figure}
-    \begin{notebox}
-    Note that dashed lines are used to denote that the edge of the ellipse is \textbf{not included} in the region \( A \).
-    \end{notebox}
-    Check the point \( (0, 0) \):
-    \[
-        0^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 0 > 4 \text{,}
-    \]
-    which is not true. \\
-    \\
-    Therefore, the inside of the ellipse is \textbf{not} to be shaded in. \\
-    \\
-    Check the point \( (3, 0) \) :
-    \[
-        3^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 9 > 4 \text{,}
-    \]
-    which is true. \\
-    \\
-    This means, the outer region (excluding the edge) of the ellipse is the region of interest as denoted by \( A \).
-\end{solutionbox}
+
+    Next, let’s test some sample points to determine whether they lie in the region \( x^2 + 4y^2 > 4 \):
+
+    \begin{itemize}
+        \item For the point \( (0, 0) \):
+        \[
+        x^2 + 4y^2 > 4 \implies 0^2 + 4(0)^2 > 4 \implies 0 > 4,
+        \]
+        which is \textbf{false}. Therefore, \( (0, 0) \) is not in the region.
+
+        \item For the point \( (3, 0) \):
+        \[
+        x^2 + 4y^2 > 4 \implies 3^2 + 4(0)^2 > 4 \implies 9 > 4,
+        \]
+        which is \textbf{true}. Therefore, \( (3, 0) \) is in the region.
+    \end{itemize}
+\end{remarkbox}
+
+\textit{...cont'd...}
+\end{examplebox}
+
+\begin{examplebox}
+\textit{...cont'd...}
+\begin{solutionbox}
+    The region defined by \( x^2 + 4y^2 > 4 \) is shown below:
+
+    \begin{blankbox}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.4\textwidth]{x^2 + 4y^2 gt 4 region.png}
+            \caption{Shaded region satisfying \( x^2 + 4y^2 > 4 \).}
+            \label{fig:ellipse_region}
+        \end{figure}
+    \end{blankbox}
+
+    \textbf{How to Determine the Region:}
+    \begin{conceptbox}
+    To determine the region for \( x^2 + 4y^2 > 4 \):
+    \begin{itemize}
+        \item The ellipse \( x^2 + 4y^2 = 4 \) acts as a boundary. The inequality \( x^2 + 4y^2 > 4 \) indicates that the region lies outside this ellipse.
+        \item The equation can be rewritten as \( \frac{x^2}{4} + \frac{y^2}{1} = 1 \), showing that it is an ellipse centered at \( (0,0) \) with a semi-major axis of 2 (along \( x \)-axis) and a semi-minor axis of 1 (along \( y \)-axis).
+        \item The boundary curve \( x^2 + 4y^2 = 4 \) is \textbf{not} part of the region because the inequality is strict (\( > \)).
+        \item A dashed boundary is used in the sketch to indicate that the ellipse itself is not included in the region.
+    \end{itemize}
+    \end{conceptbox}
+\end{solutionbox}    
 \end{examplebox}
 
 \section*{Introducing the Hyperbola}
