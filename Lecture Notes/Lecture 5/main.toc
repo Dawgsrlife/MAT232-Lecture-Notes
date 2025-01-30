@@ -21,3 +21,5 @@
 \contentsline {subsubsection}{Sketching the Region of a Set Defined by a Parabola}{3}{section*.20}%
 \contentsline {subsubsection}{Ellipse}{5}{section*.21}%
 \contentsline {subsubsection}{Sketching the Region of a Set Defined by an Ellipse}{6}{section*.22}%
+\contentsline {subsubsection}{Hyperbola}{8}{section*.23}%
+\contentsline {subsubsection}{Sketching the Region of a Set Defined by a Hyperbola}{9}{section*.24}%

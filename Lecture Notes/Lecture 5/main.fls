@@ -597,10 +597,11 @@ INPUT ./x^2 + 4y^2 gt 4 region.png
 INPUT ./x^2 + 4y^2 gt 4 region.png
 INPUT ./x^2 + 4y^2 gt 4 region.png
 INPUT ./x^2 + 4y^2 gt 4 region.png
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
+INPUT ./hyperbola horizontal transverse axis.png
+INPUT ./hyperbola horizontal transverse axis.png
+INPUT ./hyperbola horizontal transverse axis.png
+INPUT ./hyperbola horizontal transverse axis.png
+INPUT ./hyperbola horizontal transverse axis.png
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
 INPUT ./sample_image.jpg
@@ -609,6 +610,20 @@ INPUT ./sample_image.jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
+INPUT ./sample_image.jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg

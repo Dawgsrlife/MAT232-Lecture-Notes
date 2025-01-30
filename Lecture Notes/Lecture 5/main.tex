@@ -647,15 +647,12 @@ Sketch the region of the set defined by
 \textit{...cont'd...}
 \begin{solutionbox}
     The region defined by \( x^2 + 4y^2 > 4 \) is shown below:
-
-    \begin{blankbox}
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.4\textwidth]{x^2 + 4y^2 gt 4 region.png}
-            \caption{Shaded region satisfying \( x^2 + 4y^2 > 4 \).}
-            \label{fig:ellipse_region}
-        \end{figure}
-    \end{blankbox}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{x^2 + 4y^2 gt 4 region.png}
+        \caption{Shaded region satisfying \( x^2 + 4y^2 > 4 \).}
+        \label{fig:ellipse_region}
+    \end{figure}
 
     \textbf{How to Determine the Region:}
     \begin{conceptbox}
@@ -670,34 +667,98 @@ Sketch the region of the set defined by
 \end{solutionbox}    
 \end{examplebox}
 
-\section*{Introducing the Hyperbola}
+\subsection*{Hyperbola}
+\addcontentsline{toc}{subsubsection}{Hyperbola}
+
 \begin{definitionbox}
 The equation of a hyperbola is defined by
 \[
     \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
 \]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{hyperbola horizontal transverse axis.png}
+    \caption{Graph of the hyperbola with a horizontal transverse axis.}
+    \label{fig:horizontal_hyperbola}
+\end{figure}
+
 \[
     \dfrac{y^2}{b^2} - \dfrac{x^2}{a^2} = 1
 \]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+    \caption{Graph of the hyperbola with a vertical transverse axis.}
+    \label{fig:vertical_hyperbola}
+\end{figure}
+
+\end{definitionbox}
+
+\subsection*{Sketching the Region of a Set Defined by a Hyperbola}
+\addcontentsline{toc}{subsubsection}{Sketching the Region of a Set Defined by a Hyperbola}
+
+\begin{examplebox}
+Sketch the region of the set defined by
+\[
+    H = \{ (x, y) \mid \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \}.
+\]
+
+\begin{remarkbox}
+    To sketch the region defined by \( \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \), we first consider the graph of the hyperbola \( \dfrac{x^2}{4} - \dfrac{y^2}{1} = 1 \):
+
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
+        \includegraphics[width=0.5\textwidth]{sample_image.jpg}
+        \caption{Graph of \( \dfrac{x^2}{4} - \dfrac{y^2}{1} = 1 \).}
+        \label{fig:hyperbola_graph}
     \end{figure}
-\end{illustrationbox}
-\end{definitionbox}
+
+    Next, let’s test some sample points to determine whether they lie in the region \( \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \):
+
+    \begin{itemize}
+        \item For the point \( (0, 0) \):
+        \[
+        \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \implies \dfrac{0^2}{4} - \dfrac{0^2}{1} > 1 \implies 0 > 1,
+        \]
+        which is \textbf{false}. Therefore, \( (0,0) \) is not in the region.
+
+        \item For the point \( (3, 0) \):
+        \[
+        \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \implies \dfrac{3^2}{4} - \dfrac{0^2}{1} > 1 \implies \dfrac{9}{4} > 1,
+        \]
+        which is \textbf{true}. Therefore, \( (3,0) \) is in the region.
+    \end{itemize}
+\end{remarkbox}
+
+\textit{...cont'd...}
+\end{examplebox}
+
+\begin{examplebox}
+\textit{...cont'd...}
+\begin{solutionbox}
+    The region defined by \( \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \) is shown below:
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{sample_image.jpg}
+        \caption{Shaded region satisfying \( \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \).}
+        \label{fig:hyperbola_region}
+    \end{figure}
+
+    \textbf{How to Determine the Region:}
+    \begin{conceptbox}
+    To determine the region for \( \dfrac{x^2}{4} - \dfrac{y^2}{1} > 1 \):
+    \begin{itemize}
+        \item The hyperbola \( \dfrac{x^2}{4} - \dfrac{y^2}{1} = 1 \) acts as a boundary. The inequality \( > 1 \) indicates that the region lies outside the branches of the hyperbola.
+        \item The equation shows that the hyperbola has a center at \( (0,0) \), transverse axis along the \( x \)-axis, and asymptotes \( y = \pm \frac{x}{2} \).
+        \item The boundary curve \( \dfrac{x^2}{4} - \dfrac{y^2}{1} = 1 \) is \textbf{not} part of the region because the inequality is strict (\( > \)).
+        \item A dashed boundary is used in the sketch to indicate that the hyperbola itself is not included in the region.
+    \end{itemize}
+    \end{conceptbox}
+\end{solutionbox}    
+\end{examplebox}
 
 \section*{Welcome to Linear Algebra...}
 \subsection*{well... not really!}
