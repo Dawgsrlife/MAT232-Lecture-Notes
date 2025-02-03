@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738605700.97504 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 9/main.tex" "main.pdf" "main" 1738605702.76 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 9/main.tex" 1738605700 16548 799d02dbb6e854acccf897a73fe5d226 ""
+["pdflatex"] 1738614256.00464 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 9/main.tex" "main.pdf" "main" 1738614257.9016 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 9/main.tex" 1738614253 17848 05ffa080d221b808141ae0c62d699425 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -239,10 +239,10 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1738605702 1668 dc0d486c34b4f6a742f3df1006236be0 "pdflatex"
-  "main.out" 1738605702 1515 9db97a4dc8b129c94e147797e3e4adad "pdflatex"
-  "main.tex" 1738605700 16548 799d02dbb6e854acccf897a73fe5d226 ""
-  "main.toc" 1738605702 523 83ad8c822b8ea976c876c199a6b9d18b "pdflatex"
+  "main.aux" 1738614257 1832 10e312cbacd6b8ff86b350e3165dde09 "pdflatex"
+  "main.out" 1738614257 1743 b2dda129a7d5c52cc1741e36e9ad992a "pdflatex"
+  "main.tex" 1738614253 17848 05ffa080d221b808141ae0c62d699425 ""
+  "main.toc" 1738614257 602 435c756ee81f980452123fdbf55339ad "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "preliminary.tex" 1737039586 451 007a58133a5e6df778541a9fee6dab25 ""
   "sample_image.jpg" 1736441765 7660 85608fa263154431da985ad621fbc020 ""
