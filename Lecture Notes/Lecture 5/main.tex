@@ -765,46 +765,47 @@ Sketch the region of the set defined by
 \end{solutionbox}    
 \end{examplebox}
 
-\section*{Welcome to Linear Algebra...}
+\section*{Section 2.1/2.2: Welcome to Linear Algebra...}
+\addcontentsline{toc}{subsection}{Welcome to Linear Algebra...}
+
 \subsection*{Well... not really!}
+\addcontentsline{toc}{subsubsection}{Well... not really!}
 
-Welcome to MAT232! While the name suggests a deep dive into linear algebra, our journey begins in three-dimensional space, laying the foundation for vector geometry and beyond. 
+Welcome to MAT232! While the name might suggest a course in linear algebra, this course remains focused on multivariable calculus. However, linear algebra concepts will be integrated into our discussions, particularly when we explore vectors and their applications.
 
-\section*{Section 2.1/2.2: Welcome to 3D Space!}
+\subsection*{Review of Cartesian Coordinates in Two Dimensions}
+\addcontentsline{toc}{subsubsection}{Review of Cartesian Coordinates in Two Dimensions}
 
 \begin{remarkbox}
-\textbf{Review of Cartesian Coordinates in Two Dimensions:} 
-
 Before expanding into three dimensions, let's recall the familiar Cartesian coordinate system in \( \mathbb{R}^2 \), where every point is represented as an ordered pair \( (x, y) \) on the \( xy \)-plane.
 
-\begin{illustrationbox}
-    \textbf{Self-note: Insert a 2D Cartesian plane illustration here.}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{The Cartesian coordinate plane in \( \mathbb{R}^2 \).}
-        \label{fig:2d_cartesian}
-    \end{figure}
-\end{illustrationbox}
+\begin{blankbox}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{cartesian plane in 2D.png}
+    \caption{The Cartesian coordinate plane in \( \mathbb{R}^2 \).}
+    \label{fig:2d_cartesian}
+\end{figure}
+\end{blankbox}
+\end{remarkbox}
 
-\bigskip
+\subsection*{Introducing Three-Dimensional Cartesian Coordinates}
+\addcontentsline{toc}{subsubsection}{Introducing Three-Dimensional Cartesian Coordinates}
 
-\textbf{Extending to Three Dimensions:} 
-
+\begin{conceptbox}
 Now, we step into the three-dimensional space, \( \mathbb{R}^3 \), by introducing a third coordinate, \( z \). Each point in \( \mathbb{R}^3 \) is now represented as an ordered triple \( (x, y, z) \). The additional \( z \)-axis extends perpendicular to the \( xy \)-plane, allowing for depth perception in our coordinate system.
 
-\begin{illustrationbox}
-    \textbf{Self-note: Insert a 3D Cartesian coordinate system illustration here.}
+\begin{blankbox}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
+        \includegraphics[width=0.5\textwidth]{cartesian plane in 3D.png}
         \caption{The Cartesian coordinate system in \( \mathbb{R}^3 \), including the \( z \)-axis.}
         \label{fig:3d_cartesian}
     \end{figure}
-\end{illustrationbox}
+\end{blankbox}
 
 Understanding this extension is crucial for working with vectors, planes, and other geometric structures in higher dimensions.
-\end{remarkbox}
+\end{conceptbox}
 
 \begin{notebox}
 \underline{In 2D:} \\
@@ -820,95 +821,137 @@ Notice that \( \mathbb{R}^3 = \mathbb{R} \times \mathbb{R} \times \mathbb{R} \).
 \end{notebox}
 
 \section*{Example of Plotting in a 3D Cartesian Plane}
+\addcontentsline{toc}{subsection}{Example of Plotting in a 3D Cartesian Plane}
 \begin{examplebox}
 Plot the points \( (-1, 2, -3) \) and \( (2, -4, 2) \).
 \begin{illustrationbox}
-    \textbf{self-note: add the illustration here!!}
+    \begin{blankbox}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
+        \begin{minipage}{0.35\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{plotting the 2 points.png}
+            \caption{Illustration from Desmos.}
+            \label{fig:3d_point1}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.6\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{plotting the 2 points (from lecture).png}
+            \caption{Illustration from lecture.}
+            \label{fig:3d_point2}
+        \end{minipage}
     \end{figure}
+    \end{blankbox}
 \end{illustrationbox}
-\textit{Follow the line segments denoted in \textbf{purple} for an interpretation guide of how the three components contribute to the final point destination, for \( (-1, 2, -3) \).} \\
-\textit{Follow the line segments denoted in \textbf{green} for an interpretation guide of how the three components contribute to the final point destination, for \( (2, -4, 2) \).} \\
+\begin{conceptbox}
+To plot a point in 3D space, locate the corresponding \( x \), \( y \), and \( z \) values on the axes. The point is then represented by the intersection of the three coordinate planes.
+\end{conceptbox}
+\begin{tipbox}
+    Trace the path from the origin to the point to visualize its position in 3D space. This approach helps in understanding the spatial relationships between points.
+\end{tipbox}
 \end{examplebox}
 
-\section*{Interpreting Planes}
+\section*{Understanding Planes in 3D}
+\addcontentsline{toc}{subsection}{Understanding Planes in 3D}
+
 \begin{conceptbox}
-Notice that in a 2D world, there is no notion of height when considering the \( x, y \)-plane. In a 3D world, \( z = 0 \). \\
-\\
-Now, have a look at the basic planes for a 3D cartesian graph: \\
-\\
-\underline{The \( xy \) plane:}
+In a 2D world, there is no notion of height when considering the \( xy \)-plane. However, in a 3D world, we introduce the \( z \)-coordinate. 
+
+Here are the fundamental planes in a 3D Cartesian coordinate system:
+
+\begin{blankbox}
+\subsubsection*{The \( xy \)-Plane (\( z = 0 \))}
 \[
-    x = 0 \quad\quad\quad (x, y, 0)
+    (x, y, 0)
 \]
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \includegraphics[width=0.65\textwidth]{xy plane.png}
+    \caption{The \( xy \)-plane where \( z = 0 \).}
+    \label{fig:xy_plane}
 \end{figure}
-\underline{The \( yz \) plane:}
-\[
-    x = 0 \quad\quad\quad (0, y, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\underline{The \( xz \) plane:}
-\[
-    x = 0 \quad\quad\quad (x, 0, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
+\end{blankbox}
+
+\textit{...cont'd...}
 \end{conceptbox}
 
-\section*{Let's Try Going from 2D to 3D}
-\begin{examplebox}
-Consider the graph defined by \( y = 2 \) on a 2D cartesian graph:
+\begin{conceptbox}
+\textit{...cont'd...}
+
+\begin{blankbox}
+    \subsubsection*{The \( yz \)-Plane (\( x = 0 \))}
+    \[
+        (0, y, z)
+    \]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{yz plane.png}
+        \caption{The \( yz \)-plane where \( x = 0 \).}
+        \label{fig:yz_plane}
+    \end{figure}
+\end{blankbox}
+
+\begin{blankbox}
+    \subsubsection*{The \( xz \)-Plane (\( y = 0 \))}
+    \[
+        (x, 0, z)
+    \]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{xz plane.png}
+        \caption{The \( xz \)-plane where \( y = 0 \).}
+        \label{fig:xz_plane}
+    \end{figure}
+    \end{blankbox}
+\end{conceptbox}
+
+\section*{Transitioning from 2D to 3D}
+
+\begin{examplebox}{Visualizing a Line in 3D}
+Consider the equation \( y = 2 \) on a 2D Cartesian plane:
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \caption{The line \( y = 2 \) in 2D.}
+    \label{fig:line_2d}
 \end{figure}
-Here's how that would look like in a 3D cartesian space:
+
+In a 3D space, this extends infinitely along the \( z \)-axis, forming a vertical plane parallel to the \( xz \)-plane:
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \caption{The same line extended into 3D space.}
+    \label{fig:line_3d}
 \end{figure}
+
 \end{examplebox}
 
-\begin{examplebox}
-Consider the graph of a circle defined by
+\begin{examplebox}{Visualizing a Circle in 3D}
+Consider the equation of a circle:
+
 \[
-    x^2 + y^2 = 4 \text{.}
+    x^2 + y^2 = 4
 \]
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \caption{A circle in 2D defined by \( x^2 + y^2 = 4 \).}
+    \label{fig:circle_2d}
 \end{figure}
-If this circle is brought to the 3D world, stretched along the \( z \)-axis, for any values of \( z \), then a cylinder is created (the cirle is the cross-section shape).
+
+If we extend this into the third dimension by allowing any \( z \)-value, it forms a **cylinder**, where the circle acts as the cross-section:
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
+    \caption{The circle extended into 3D space, forming a cylinder.}
+    \label{fig:cylinder_3d}
 \end{figure}
+
 \end{examplebox}
 
 \subsection*{Next Lecture: We Discuss Vectors!}

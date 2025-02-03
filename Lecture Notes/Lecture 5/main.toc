@@ -23,3 +23,9 @@
 \contentsline {subsubsection}{Sketching the Region of a Set Defined by an Ellipse}{6}{section*.22}%
 \contentsline {subsubsection}{Hyperbola}{8}{section*.23}%
 \contentsline {subsubsection}{Sketching the Region of a Set Defined by a Hyperbola}{9}{section*.24}%
+\contentsline {subsection}{Welcome to Linear Algebra...}{11}{section*.25}%
+\contentsline {subsubsection}{Well... not really!}{11}{section*.26}%
+\contentsline {subsubsection}{Review of Cartesian Coordinates in Two Dimensions}{11}{section*.27}%
+\contentsline {subsubsection}{Introducing Three-Dimensional Cartesian Coordinates}{12}{section*.28}%
+\contentsline {subsection}{Example of Plotting in a 3D Cartesian Plane}{13}{section*.29}%
+\contentsline {subsection}{Understanding Planes in 3D}{14}{section*.30}%
