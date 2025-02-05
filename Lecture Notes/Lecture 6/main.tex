@@ -246,7 +246,172 @@ A vector in standard position has its initial point at the origin \((0, 0)\). If
     \end{itemize}
 \end{examplebox}
 
+\subsection*{Learning Objectives}
+\addcontentsline{toc}{subsection}{Learning Objectives}
 
+By the end of this section, you should be able to:
+\begin{itemize}
+    \item Describe three-dimensional space mathematically.
+    \item Locate points in space using coordinates.
+    \item Write the distance formula in three dimensions.
+    \item Write the equations for simple planes and spheres.
+    \item Perform vector operations in \(\mathbb{R}^3\).
+\end{itemize}
+
+\subsection*{Introduction to Three-Dimensional Space}
+\addcontentsline{toc}{subsection}{Introduction to Three-Dimensional Space}
+
+\begin{definitionbox}
+    \textbf{Definition:} The \textbf{three-dimensional rectangular coordinate system} consists of three perpendicular axes: the \(x\)-axis, the \(y\)-axis, and the \(z\)-axis, with an origin at the point of intersection \((0, 0, 0)\). This system is often denoted by \(\mathbb{R}^3\).
+\end{definitionbox}
+
+\begin{notebox}
+    \textbf{Note:} The three-dimensional coordinate system follows the \textbf{right-hand rule}. If you align your right hand’s fingers with the positive \(x\)-axis and curl them toward the positive \(y\)-axis, your thumb points in the direction of the positive \(z\)-axis.
+\end{notebox}
+
+\subsection*{Locating Points in Space}
+\addcontentsline{toc}{subsection}{Locating Points in Space}
+
+\begin{definitionbox}
+    \textbf{Definition:} A point in three-dimensional space is represented by coordinates \((x, y, z)\), where:
+    \begin{itemize}
+        \item \(x\) is the distance along the \(x\)-axis,
+        \item \(y\) is the distance along the \(y\)-axis,
+        \item \(z\) is the distance along the \(z\)-axis.
+    \end{itemize}
+\end{definitionbox}
+
+\begin{examplebox}
+    \textbf{Example 2.11: Locating Points in Space} \\
+    Sketch the point \((1, -2, 3)\) in three-dimensional space.
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.11:} \\
+    Sketch the point \((-2, 3, -1)\) in three-dimensional space.
+\end{exercisebox}
+
+\subsection*{Coordinate Planes in \(\mathbb{R}^3\)}
+\addcontentsline{toc}{subsection}{Coordinate Planes in \(\mathbb{R}^3\)}
+
+\begin{definitionbox}
+    \textbf{Definition:} The three coordinate planes in \(\mathbb{R}^3\) are:
+    \begin{itemize}
+        \item The \(xy\)-plane: \(\{(x, y, 0) \mid x, y \in \mathbb{R}\}\),
+        \item The \(xz\)-plane: \(\{(x, 0, z) \mid x, z \in \mathbb{R}\}\),
+        \item The \(yz\)-plane: \(\{(0, y, z) \mid y, z \in \mathbb{R}\}\).
+    \end{itemize}
+\end{definitionbox}
+
+\begin{notebox}
+    \textbf{Note:} The coordinate planes divide space into eight regions called \textbf{octants}. The first octant is where \(x > 0\), \(y > 0\), and \(z > 0\).
+\end{notebox}
+
+\subsection*{Distance Formula in Three Dimensions}
+\addcontentsline{toc}{subsection}{Distance Formula in Three Dimensions}
+
+\begin{theorembox}
+    \textbf{Theorem 2.2: Distance Between Two Points in Space} \\
+    The distance \(d\) between points \(P_1 = (x_1, y_1, z_1)\) and \(P_2 = (x_2, y_2, z_2)\) is given by:
+    \[
+    d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}.
+    \]
+\end{theorembox}
+
+\begin{examplebox}
+    \textbf{Example 2.12: Distance in Space} \\
+    Find the distance between points \(P_1 = (3, -1, 5)\) and \(P_2 = (2, 1, -1)\).
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.12:} \\
+    Find the distance between points \(P_1 = (1, -5, 4)\) and \(P_2 = (4, -1, -1)\).
+\end{exercisebox}
+
+\subsection*{Equations of Planes}
+\addcontentsline{toc}{subsection}{Equations of Planes}
+
+\begin{definitionbox}
+    \textbf{Definition:} A plane parallel to one of the coordinate planes can be described by:
+    \begin{itemize}
+        \item \(z = c\) for a plane parallel to the \(xy\)-plane,
+        \item \(y = b\) for a plane parallel to the \(xz\)-plane,
+        \item \(x = a\) for a plane parallel to the \(yz\)-plane.
+    \end{itemize}
+\end{definitionbox}
+
+\begin{examplebox}
+    \textbf{Example 2.13: Writing Equations of Planes} \\
+    \begin{itemize}
+        \item Write an equation of the plane passing through point \((3, 11, 7)\) that is parallel to the \(yz\)-plane.
+        \item Find an equation of the plane passing through points \((6, -2, 9)\), \((0, -2, 4)\), and \((1, -2, -3)\).
+    \end{itemize}
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.13:} \\
+    Write an equation of the plane passing through point \((1, -6, -4)\) that is parallel to the \(xy\)-plane.
+\end{exercisebox}
+
+\subsection*{Equations of Spheres}
+\addcontentsline{toc}{subsection}{Equations of Spheres}
+
+\begin{definitionbox}
+    \textbf{Definition:} A \textbf{sphere} is the set of all points in space equidistant from a fixed point, called the \textbf{center}. The distance from the center to any point on the sphere is called the \textbf{radius}.
+\end{definitionbox}
+
+\begin{theorembox}
+    \textbf{Equation of a Sphere:} \\
+    The sphere with center \((a, b, c)\) and radius \(r\) is given by:
+    \[
+    (x - a)^2 + (y - b)^2 + (z - c)^2 = r^2.
+    \]
+\end{theorembox}
+
+\begin{examplebox}
+    \textbf{Example 2.14: Finding an Equation of a Sphere} \\
+    Find the standard equation of the sphere with center \((10, 7, 4)\) and passing through point \((-1, 3, -2)\).
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.14:} \\
+    Find the standard equation of the sphere with center \((-2, 4, -5)\) and passing through point \((4, 4, -1)\).
+\end{exercisebox}
+
+\begin{examplebox}
+    \textbf{Example 2.15: Finding the Equation of a Sphere} \\
+    Let \(P = (-5, 2, 3)\) and \(Q = (3, 4, -1)\), and suppose line segment \(PQ\) forms the diameter of a sphere. Find the equation of the sphere.
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.15:} \\
+    Find the equation of the sphere with diameter \(PQ\), where \(P = (2, -1, -3)\) and \(Q = (-2, 5, -1)\).
+\end{exercisebox}
+
+\subsection*{Graphing Equations in Three Dimensions}
+\addcontentsline{toc}{subsection}{Graphing Equations in Three Dimensions}
+
+\begin{examplebox}
+    \textbf{Example 2.16: Graphing Other Equations} \\
+    Describe the set of points that satisfies \((x - 4)(z - 2) = 0\), and graph the set.
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.16:} \\
+    Describe the set of points that satisfies \((y + 2)(z - 3) = 0\), and graph the set.
+\end{exercisebox}
+
+\begin{examplebox}
+    \textbf{Example 2.17: Graphing Other Equations} \\
+    Describe the set of points in three-dimensional space that satisfies \((x - 2)^2 + (y - 1)^2 = 4\), and graph the set.
+\end{examplebox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.17:} \\
+    Describe the set of points in three-dimensional space that satisfies \(x^2 + (z - 2)^2 = 16\), and graph the surface.
+\end{exercisebox}
+
+\textbf{self-note: add the rest from deepseek alexandermenginquiries@gmail.com account}
 
 \cleardoublepage
 \phantomsection
