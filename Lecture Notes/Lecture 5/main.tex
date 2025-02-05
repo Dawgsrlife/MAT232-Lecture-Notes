@@ -923,102 +923,109 @@ In the 3D space, the \( xy \)-plane is defined by the equation \( z = 0 \), wher
     
 \end{conceptbox}    
 
-\section*{Transitioning from 2D to 3D}
+\subsection*{Transitioning from 2D to 3D}
+\addcontentsline{toc}{subsection}{Transitioning from 2D to 3D}
 
-\begin{examplebox}{Visualizing a Line in 3D}
-Consider the equation \( y = 2 \) on a 2D Cartesian plane:
+Understanding how objects transition from two to three dimensions is an important part of grasping geometric concepts. Let’s look at some examples to help explain this idea.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{The line \( y = 2 \) in 2D.}
-    \label{fig:line_2d}
-\end{figure}
+\subsubsection*{Visualizing a Line in 3D}
+\addcontentsline{toc}{subsubsection}{Visualizing a Line in 3D}
 
-In a 3D space, this extends infinitely along the \( z \)-axis, forming a vertical plane parallel to the \( xz \)-plane:
+\begin{examplebox}
+In a \textbf{2D Cartesian plane}, the equation \( y = 2 \) represents a horizontal line parallel to the \( x \)-axis:
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{The same line extended into 3D space.}
-    \label{fig:line_3d}
-\end{figure}
+\begin{minipage}{0.55\textwidth}
+    \vspace{1em}
+    \begin{itemize}
+        \item Every point on this line has a fixed \( y \)-coordinate of \textbf{2}.
+        \item The \( x \)-coordinate can take \textit{any} real value.
+    \end{itemize}
+    \vspace{1em}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{y = 2.png}
+        \caption{The line \( y = 2 \) in 2D.}
+        \label{fig:line_2d}
+    \end{figure}
+\end{minipage}
+
+\bigskip
+\bigskip
+
+Now, consider what happens when we move this line into \textbf{three-dimensional space}. Since there are no restrictions on \( z \), the line extends \textit{infinitely} along the \( z \)-axis, forming a \underline{vertical plane} parallel to the \( xz \)-plane:
+
+\begin{minipage}{0.55\textwidth}
+    \vspace{1em}
+    \begin{itemize}
+        \item The equation remains \( y = 2 \), but now applies in \textbf{three dimensions}.
+        \item Any point in this \textbf{plane} takes the form \( (x, 2, z) \).
+    \end{itemize}
+    \vspace{1em}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{y = 2 plane.png}
+        \caption{The same line extended into 3D space.}
+        \label{fig:line_3d}
+    \end{figure}
+\end{minipage}
 
 \end{examplebox}
 
-\begin{examplebox}{Visualizing a Circle in 3D}
-Consider the equation of a circle:
+\subsubsection*{Visualizing a Circle in 3D}
+\addcontentsline{toc}{subsubsection}{Visualizing a Circle in 3D}
+\begin{examplebox}
+Next, let’s consider a \textbf{circle} in the 2D plane, defined by the equation:
 
 \[
     x^2 + y^2 = 4
 \]
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{A circle in 2D defined by \( x^2 + y^2 = 4 \).}
-    \label{fig:circle_2d}
-\end{figure}
+This equation represents a circle centered at the origin with a radius of 2:
 
-If we extend this into the third dimension by allowing any \( z \)-value, it forms a **cylinder**, where the circle acts as the cross-section:
+\begin{minipage}{0.55\textwidth}
+    \vspace{1em}
+    \begin{itemize}
+        \item The set of all points \( (x, y) \) satisfying this equation forms a perfect \textbf{circle}.
+        \item The circle lies in the \textbf{\( xy \)-plane} where \( z = 0 \).
+    \end{itemize}
+    \vspace{1em}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{x^2 + y^2 = 4.png}
+        \caption{A circle in 2D defined by \( x^2 + y^2 = 4 \).}
+        \label{fig:circle_2d}
+    \end{figure}
+\end{minipage}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{The circle extended into 3D space, forming a cylinder.}
-    \label{fig:cylinder_3d}
-\end{figure}
+\bigskip
+\bigskip
 
-\end{examplebox}
+Now, \textit{what happens when we extend this into 3D?}  
+If we allow any \( z \)-value while keeping the equation \( x^2 + y^2 = 4 \), the result is a \textbf{cylinder}:
 
-\subsection*{Next Lecture: We Discuss Vectors!}
-
-\section*{Lecture Title}
-\begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
-\end{notebox}
-
-\section*{Key Concepts}
-\begin{definitionbox}
-A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
-\end{definitionbox}
-
-\section*{Examples}
-\begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
+\begin{minipage}{0.55\textwidth}
+    \vspace{1em}
+    \begin{itemize}
+        \item The \textbf{cross-section} of this cylinder (for any fixed \( z \)-value) is always the same \textbf{circle}.
+        \item This \textbf{cylinder} extends infinitely in the \( z \)-direction.
+    \end{itemize}
+    \vspace{1em}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{x^2 + y^2 = 4 in 3D.png}
+        \caption{The circle extended into 3D space, forming a cylinder.}
+        \label{fig:cylinder_3d}
+    \end{figure}
+\end{minipage}
 
 \end{examplebox}
-
-\section*{Theorems and Proofs}
-\begin{theorembox}
-\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
-\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
-
-\end{theorembox}
-
-\section*{Additional Notes}
-\begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
-\end{notebox}
 
 \end{document}

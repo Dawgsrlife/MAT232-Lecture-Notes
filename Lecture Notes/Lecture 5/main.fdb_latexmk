@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1738767430.25325 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" "main.pdf" "main" 1738767433.68806 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" 1738767428 39030 64ee2a482bc116afe2f7c7a30e0d661b ""
+["pdflatex"] 1738769552.67171 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" "main.pdf" "main" 1738769556.6283 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 5/main.tex" 1738769552 41355 2482368b1e612ab41e54bc5f2b3a5de4 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -274,10 +274,10 @@
   "hyperbola.jpg" 1738166122 112707 9fba2a079cb29256cb8512ae9c9c8147 ""
   "hyperbola_comparison_to_other_shapes.png" 1738166385 7266 271447333582e76766d02424407c79ca ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1738767433 12724 00ed2d041cd238044b9bcf94c8f089c0 "pdflatex"
-  "main.out" 1738767433 6425 ff60bcb1fded9af6ce10c126d9fef80e "pdflatex"
-  "main.tex" 1738767428 39030 64ee2a482bc116afe2f7c7a30e0d661b ""
-  "main.toc" 1738767433 2470 8638cc2e34b15f314ffefed609af6acb "pdflatex"
+  "main.aux" 1738769556 13071 f16c9fe9d0ec5198d5a3d17a57a9e0cb "pdflatex"
+  "main.out" 1738769556 7017 da6e2c81f21556b2cedd8e0646512015 "pdflatex"
+  "main.tex" 1738769552 41355 2482368b1e612ab41e54bc5f2b3a5de4 ""
+  "main.toc" 1738769556 2694 3cbc6052f945ddf8b1d7b28cb44761cb "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "parabola.jpg" 1738165800 45002 ce546bf29f22d9650edb25e66a413721 ""
   "parabola_ball_example.png" 1738166536 363912 58c362b19252f7d6cec960cb7acc6d37 ""
@@ -289,10 +289,14 @@
   "titlepage.tex" 1738001007 497 0b3bda720508880878505300874ffb02 ""
   "x^2 + 1.png" 1738170253 58959 675d9586980fe6f416fb4555d9010c5c ""
   "x^2 + 4y^2 gt 4 region.png" 1738171943 56110 c5a46bb6b44cf20c436908c00d7b720e ""
+  "x^2 + y^2 = 4 in 3D.png" 1738769356 446351 73d03dae1c80820d003043118f5fe81b ""
+  "x^2 + y^2 = 4.png" 1738769034 37686 33217c54b5e4b357af2fc77f48133426 ""
   "x^2 over 4 + y^2 = 1.png" 1738591298 101561 7d42c290227ce153e44c31891aee2b2d ""
   "x^2 over 4 + y^2 gt 1.png" 1738591462 77019 c942450be29e7c61f355919a9515dfa6 ""
   "xy plane.png" 1738616290 28492 cffddeea6430d7e692c9b8b467af89dd ""
   "xz plane.png" 1738616336 60164 5e04167b30c91a2bc80166fe185a8214 ""
+  "y = 2 plane.png" 1738769551 277348 d6e143186016d66daae1789687693fae ""
+  "y = 2.png" 1738768226 12587 4b07358860869d2fa7281fe4a311f4e4 ""
   "y = x^2 + 1 shaded.png" 1738171669 36845 4965c0d936bec5f45828862704c1b67c ""
   "yz plane.png" 1738616308 61367 6e1e14629de2576432e4568e1f069e76 ""
   (generated)
