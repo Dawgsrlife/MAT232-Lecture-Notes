@@ -1,0 +1,37 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Title Page}{0}{Doc-Start}%
+\contentsline {section}{Preliminary Concepts}{1}{section*.2}%
+\contentsline {subsection}{Conic Sections}{1}{section*.3}%
+\contentsline {subsection}{Ellipse}{2}{section*.4}%
+\contentsline {subsubsection}{Standard Forms of an Ellipse}{3}{section*.5}%
+\contentsline {subsubsection}{Verifying an Ellipse}{4}{section*.6}%
+\contentsline {subsection}{Parabola}{5}{section*.7}%
+\contentsline {subsubsection}{Standard Forms of a Parabola}{6}{section*.8}%
+\contentsline {subsubsection}{Verifying a Parabola}{7}{section*.9}%
+\contentsline {subsection}{Hyperbola}{7}{section*.10}%
+\contentsline {subsubsection}{Standard Forms of a Hyperbola}{9}{section*.11}%
+\contentsline {subsubsection}{Verifying a Hyperbola}{10}{section*.12}%
+\contentsline {subsection}{Eccentricity and Directrix}{10}{section*.13}%
+\contentsline {subsection}{General Equations of Degree Two}{12}{section*.14}%
+\contentsline {subsection}{Distinguishing Between Conic Sections}{13}{section*.15}%
+\contentsline {section}{Lecture Content}{1}{section*.16}%
+\contentsline {subsection}{Review from the Previous Lecture}{1}{section*.17}%
+\contentsline {subsection}{Exploring Common Curve Shapes}{2}{section*.18}%
+\contentsline {subsubsection}{Parabola}{2}{section*.19}%
+\contentsline {subsubsection}{Sketching the Region of a Set Defined by a Parabola}{3}{section*.20}%
+\contentsline {subsubsection}{Ellipse}{5}{section*.21}%
+\contentsline {subsubsection}{Sketching the Region of a Set Defined by an Ellipse}{6}{section*.22}%
+\contentsline {subsubsection}{Hyperbola}{8}{section*.23}%
+\contentsline {subsubsection}{Sketching the Region of a Set Defined by a Hyperbola}{9}{section*.24}%
+\contentsline {subsection}{Welcome to Linear Algebra...}{11}{section*.25}%
+\contentsline {subsubsection}{Well... not really!}{11}{section*.26}%
+\contentsline {subsubsection}{Review of Cartesian Coordinates in Two Dimensions}{11}{section*.27}%
+\contentsline {subsubsection}{Introducing Three-Dimensional Cartesian Coordinates}{12}{section*.28}%
+\contentsline {subsection}{Example of Plotting in a 3D Cartesian Plane}{13}{section*.29}%
+\contentsline {subsection}{Understanding Planes in 3D}{14}{section*.30}%
+\contentsline {subsubsection}{The \( xy \)-Plane (\( z = 0 \))}{14}{section*.31}%
+\contentsline {subsubsection}{The \( yz \)-Plane (\( x = 0 \))}{15}{section*.32}%
+\contentsline {subsubsection}{The \( xz \)-Plane (\( y = 0 \))}{15}{section*.33}%
+\contentsline {subsection}{Transitioning from 2D to 3D}{16}{section*.34}%
+\contentsline {subsubsection}{Visualizing a Line in 3D}{16}{section*.35}%
+\contentsline {subsubsection}{Visualizing a Circle in 3D}{17}{section*.36}%
