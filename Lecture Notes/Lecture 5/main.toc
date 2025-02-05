@@ -29,3 +29,6 @@
 \contentsline {subsubsection}{Introducing Three-Dimensional Cartesian Coordinates}{12}{section*.28}%
 \contentsline {subsection}{Example of Plotting in a 3D Cartesian Plane}{13}{section*.29}%
 \contentsline {subsection}{Understanding Planes in 3D}{14}{section*.30}%
+\contentsline {subsubsection}{The \( xy \)-Plane (\( z = 0 \))}{14}{section*.31}%
+\contentsline {subsubsection}{The \( yz \)-Plane (\( x = 0 \))}{15}{section*.32}%
+\contentsline {subsubsection}{The \( xz \)-Plane (\( y = 0 \))}{15}{section*.33}%
