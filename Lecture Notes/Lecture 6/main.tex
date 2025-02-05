@@ -24,6 +24,9 @@
 \usepackage{cancel}
 \usepackage{background}
 \usepackage{units}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{esvect}
 
 % Configuring the background
 \backgroundsetup{
@@ -84,15 +87,172 @@
 \renewcommand{\familydefault}{\rmdefault}
 
 \input{titlepage}
+\addcontentsline{toc}{section}{Title Page}
 
 \setcounter{page}{0}
 \newpage
 \tableofcontents
 \newpage
 
+\phantomsection
 \input{preliminary}
+\addcontentsline{toc}{section}{Preliminary Concepts}
 
+\subsection*{Introduction to Vectors}
+\addcontentsline{toc}{subsection}{Introduction to Vectors}
+
+\begin{definitionbox}
+    A \textbf{vector} is a quantity that has both magnitude and direction. Vectors can be optionally denoted in multiple ways:  
+
+    \begin{itemize}
+        \item \textbf{Boldface Notation}: \(\mathbf{v}\)  
+        \item \textbf{Arrow Notation}: \(\vec{v}\)  
+        \item \textbf{Overline Notation}: \(\overline{v}\)
+    \end{itemize}  
+    
+    \begin{notebox}
+    In MAT232H5, the contents of a vector are typically written using angle bracket notation:  
+    
+    \[
+    \mathbf{v} = \langle v_1, v_2, v_3 \rangle
+    \]
+    
+    For example, a 3D vector can be represented as:  
+    
+    \[
+    \vec{v} = \langle 2, -1, 3 \rangle
+    \]
+    
+    Depending on the context, you might see \(\mathbf{v} = \langle v_1, v_2 \rangle\) in 2D or \(\mathbf{v} = \langle v_1, v_2, v_3, v_4 \rangle\) in higher dimensions.
+    \end{notebox}  
+\end{definitionbox}
+
+\begin{remarkbox} Quantities such as velocity and force are examples of vectors because they require both magnitude and direction to be fully described.
+\end{remarkbox}
+
+\subsection*{Vector Representation}
+\addcontentsline{toc}{subsection}{Vector Representation}
+
+A \textbf{vector} in a plane is represented by a directed line segment (an arrow) with an \textbf{initial point} and a \textbf{terminal point}. The length of the segment represents its \textbf{magnitude}, denoted \(\|\vec{v}\|\). A vector with the same initial and terminal point is called the \textbf{zero vector}, denoted \(\vec{0}\).  
+
+\noindent
+Two vectors \(\vec{v}\) and \(\vec{w}\) are \textbf{equivalent} if they have the same magnitude and direction, written as \(\vec{v} = \vec{w}\).
+
+\begin{exercisebox}
+    \textbf{Sketching Vectors} \\
+    Sketch a vector in the plane from initial point \(P(1, 1)\) to terminal point \(Q(8, 5)\).
+\end{exercisebox}
+
+\subsection*{Basic Vector Operations}
+\addcontentsline{toc}{subsection}{Basic Vector Operations}
+
+\subsubsection*{Scalar Multiplication}
+\addcontentsline{toc}{subsubsection}{Scalar Multiplication}
+
+Multiplying a vector \(\vec{v}\) by a scalar \(k\) results in a new vector \(k\vec{v}\) with the following properties:
+\begin{itemize}[label=\labelitemiv, left=2pt]
+    \item Its magnitude is \(|k|\) times the magnitude of \(\vec{v}\).  
+    \item Its direction remains the same if \(k > 0\).  
+    \item Its direction is reversed if \(k < 0\).  
+    \item If \(k = 0\) or \(\vec{v} = \vec{0}\), then \(k\vec{v} = \vec{0}\).  
+\end{itemize}
+\begin{notebox}
+The zero vector \(\vec{0}\) is the vector with a magnitude of 0 and no direction (or any direction). 
+It is the only vector that is orthogonal (perpendicular) to every vector, including itself.
+\end{notebox}
+
+\begin{exercisebox}
+    \textbf{Scalar Multiplication} \\
+    Given vector \(\vv{v}\), sketch the vectors \(3\vv{v}\), \(\frac{1}{2}\vv{v}\), and \(-\vv{v}\).
+\end{exercisebox}
+
+\subsubsection*{Vector Addition}
+\addcontentsline{toc}{subsubsection}{Vector Addition}
+
+The sum of two vectors \(\vv{v}\) and \(\vv{w}\) is constructed by placing the initial point of \(\vv{w}\) at the terminal point of \(\vv{v}\). The vector sum, \(\vv{v} + \vv{w}\), is the vector from the initial point of \(\vv{v}\) to the terminal point of \(\vv{w}\).
+
+\begin{exercisebox}
+    \textbf{Vector Addition} \\
+    Given vectors \(\vv{v}\) and \(\vv{w}\), sketch \(\vv{v} + \vv{w}\) using both the triangle method and the parallelogram method.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{add-vectors.png}
+    \end{figure}
+\end{exercisebox}
+
+\subsubsection*{Vector Subtraction}
+\addcontentsline{toc}{subsubsection}{Vector Subtraction}
+
+The difference \(\vv{v} - \vv{w}\) is defined as \(\vv{v} + (-\vv{w})\), where \(-\vv{w}\) is the vector with the same magnitude as \(\vv{w}\) but opposite direction.
+
+\begin{exercisebox}
+    \textbf{Vector Subtraction} \\
+    Given vectors \(\vv{v}\) and \(\vv{w}\), sketch \(\vv{v} - \vv{w}\).
+\end{exercisebox}
+
+\subsection*{Vector Components}
+\addcontentsline{toc}{subsection}{Vector Components}
+
+A vector in standard position has its initial point at the origin \((0, 0)\). If the terminal point is \((x, y)\), the vector is written in \textbf{component form} as \(\vv{v} = \langle x, y \rangle\). The scalars \(x\) and \(y\) are called the \textbf{components} of \(\vv{v}\).
+
+\begin{exercisebox}
+    \textbf{Expressing Vectors in Component Form} \\
+    Express vector \(\vv{v}\) with initial point \((-3, 4)\) and terminal point \((1, 2)\) in component form.
+\end{exercisebox}
+
+\subsection*{Magnitude of a Vector}
+\addcontentsline{toc}{subsection}{Magnitude of a Vector}
+
+\begin{definitionbox}
+    The magnitude of a vector \(\vv{v} = \langle x, y \rangle\) is its length, and is given by:
+    \[
+    \|\vv{v}\| = \sqrt{x^2 + y^2}.
+    \]
+\end{definitionbox}
+
+\begin{exercisebox}
+    Find the magnitude of the vector \(\vv{v} = \langle 3, -4 \rangle\).
+\end{exercisebox}
+
+\subsection*{Properties of Vector Operations}
+\addcontentsline{toc}{subsection}{Properties of Vector Operations}
+
+\begin{theorembox}
+    Let \(\vv{u}\), \(\vv{v}\), and \(\vv{w}\) be vectors, and let \(k\) and \(c\) be scalars. Then:
+    \begin{enumerate}
+        \item \(\vv{u} + \vv{v} = \vv{v} + \vv{u}\) \quad (Commutative Property)
+        \item \((\vv{u} + \vv{v}) + \vv{w} = \vv{u} + (\vv{v} + \vv{w})\) \quad (Associative Property)
+        \item \(k(c\vv{v}) = (kc)\vv{v}\) \quad (Associativity of Scalar Multiplication)
+        \item \(k(\vv{u} + \vv{v}) = k\vv{u} + k\vv{v}\) \quad (Distributive Property)
+    \end{enumerate}
+\end{theorembox}
+
+\begin{proofbox}
+    \textbf{Proof of Commutative Property:} \\
+    Let \(\vv{u} = \langle u_1, u_2 \rangle\) and \(\vv{v} = \langle v_1, v_2 \rangle\). Then:
+    \[
+    \vv{u} + \vv{v} = \langle u_1 + v_1, u_2 + v_2 \rangle = \langle v_1 + u_1, v_2 + u_2 \rangle = \vv{v} + \vv{u}.
+    \]
+\end{proofbox}
+
+\subsection*{Applications of Vectors}
+\addcontentsline{toc}{subsection}{Applications of Vectors}
+
+\begin{examplebox}
+    \textbf{Real-Life Applications}
+    \begin{itemize}
+        \item A boat crossing a river experiences a force from its motor and a force from the river current. Both forces are vectors.
+        \item A quarterback throwing a football applies a velocity vector to the ball, determining its speed and direction.
+    \end{itemize}
+\end{examplebox}
+
+
+
+\cleardoublepage
+\phantomsection
 \input{intolecturecontent}
+\addcontentsline{toc}{section}{Lecture Content}
+
 \normalsize
 
 \setcounter{page}{1}

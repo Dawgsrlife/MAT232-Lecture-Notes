@@ -1,1 +1,13 @@
 \babel@toc {english}{}\relax 
+\contentsline {section}{Title Page}{0}{Doc-Start}%
+\contentsline {section}{Preliminary Concepts}{1}{section*.2}%
+\contentsline {subsection}{Introduction to Vectors}{1}{section*.3}%
+\contentsline {subsection}{Vector Representation}{1}{section*.4}%
+\contentsline {subsection}{Basic Vector Operations}{2}{section*.5}%
+\contentsline {subsubsection}{Scalar Multiplication}{2}{section*.6}%
+\contentsline {subsubsection}{Vector Addition}{2}{section*.7}%
+\contentsline {subsubsection}{Vector Subtraction}{3}{section*.8}%
+\contentsline {subsection}{Vector Components}{3}{section*.9}%
+\contentsline {subsection}{Magnitude of a Vector}{4}{section*.10}%
+\contentsline {subsection}{Properties of Vector Operations}{4}{section*.11}%
+\contentsline {subsection}{Applications of Vectors}{4}{section*.12}%
