@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1738861260.81539 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 6/main.tex" "main.pdf" "main" 1738861264.37005 0
+["pdflatex"] 1738864680.67951 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 6/main.tex" "main.pdf" "main" 1738864684.56936 0
   "add-vectors.png" 1738855738 18209 4b23d118398695e11dedd6ae23c482d2 ""
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 6/main.tex" 1738861260 32595 137f51ac6840b4dba7dcbbf23fedf875 ""
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 6/main.tex" 1738864679 44408 39eeca674589259a89d7f893791b9407 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -73,6 +73,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathb8.tfm" 1727290189 1384 000e7b0ca0a0b24ccfa273cf5f0bc6ea ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm" 1727290189 1520 88530e4e46ef1e4a7103f014512c50d2 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1727196084 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1727196084 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1727196084 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1727196084 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1727196084 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -291,10 +292,10 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "intolecturecontent.tex" 1737039586 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1738861264 6127 9c69a0ccbca9405566a8541be4b2dd6d "pdflatex"
-  "main.out" 1738861264 6737 d58acdbb021b39de277e2b5d5bd1a25e "pdflatex"
-  "main.tex" 1738861260 32595 137f51ac6840b4dba7dcbbf23fedf875 ""
-  "main.toc" 1738861264 2649 69b6fc88e69006be477e98145fdb84e4 "pdflatex"
+  "main.aux" 1738864684 7813 80c350886006fa029bd28ca67c63a227 "pdflatex"
+  "main.out" 1738864684 9091 12963e788be2404da9dc368b306edc10 "pdflatex"
+  "main.tex" 1738864679 44408 39eeca674589259a89d7f893791b9407 ""
+  "main.toc" 1738864684 3529 aabe1b5240318f6158da650015e5a035 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1736786378 352230 3026293457766b3dbc2374b1899913e4 ""
   "preliminary.tex" 1738857286 443 34983a6af56f0eb4df2d9de87cb5b60f ""
   "region between 2 see thru with inner sphere.png" 1738861035 218606 3b23ded39eaa336c842246553c2fa0cc ""
