@@ -6,18 +6,32 @@
 \contentsline {subsection}{Basic Vector Operations}{2}{section*.5}%
 \contentsline {subsubsection}{Scalar Multiplication}{2}{section*.6}%
 \contentsline {subsubsection}{Vector Addition}{2}{section*.7}%
-\contentsline {subsubsection}{Vector Subtraction}{3}{section*.8}%
-\contentsline {subsection}{Vector Components}{3}{section*.9}%
-\contentsline {subsection}{Magnitude of a Vector}{3}{section*.10}%
-\contentsline {subsection}{Properties of Vector Operations}{3}{section*.11}%
-\contentsline {subsection}{Applications of Vectors}{4}{section*.12}%
-\contentsline {subsection}{Introduction to Three-Dimensional Space}{4}{section*.13}%
-\contentsline {subsection}{Locating Points in Space}{5}{section*.14}%
-\contentsline {subsection}{Coordinate Planes in \(\mathbb {R}^3\)}{5}{section*.15}%
-\contentsline {subsection}{Distance Formula in Three Dimensions}{5}{section*.16}%
-\contentsline {subsection}{Equations of Planes}{5}{section*.17}%
-\contentsline {subsection}{Equations of Spheres}{6}{section*.18}%
-\contentsline {subsection}{Graphing Equations in Three Dimensions}{6}{section*.19}%
-\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{7}{section*.20}%
-\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{7}{section*.21}%
-\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{8}{section*.22}%
+\contentsline {subsubsection}{Vector Subtraction}{3}{section*.9}%
+\contentsline {subsection}{Vector Components}{3}{section*.10}%
+\contentsline {subsection}{Magnitude of a Vector}{3}{section*.11}%
+\contentsline {subsection}{Properties of Vector Operations}{3}{section*.12}%
+\contentsline {subsection}{Applications of Vectors}{4}{section*.13}%
+\contentsline {subsection}{Introduction to Three-Dimensional Space}{4}{section*.14}%
+\contentsline {subsection}{Locating Points in Space}{5}{section*.15}%
+\contentsline {subsection}{Coordinate Planes in \(\mathbb {R}^3\)}{5}{section*.16}%
+\contentsline {subsection}{Distance Formula in Three Dimensions}{5}{section*.17}%
+\contentsline {subsection}{Equations of Planes}{5}{section*.18}%
+\contentsline {subsection}{Equations of Spheres}{6}{section*.19}%
+\contentsline {subsection}{Graphing Equations in Three Dimensions}{6}{section*.20}%
+\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{7}{section*.21}%
+\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{7}{section*.22}%
+\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{8}{section*.23}%
+\contentsline {subsection}{The Dot Product and Its Properties}{8}{section*.24}%
+\contentsline {subsection}{Properties of the Dot Product}{9}{section*.25}%
+\contentsline {subsection}{Using the Dot Product to Find the Angle Between Two Vectors}{10}{section*.26}%
+\contentsline {subsection}{Orthogonal Vectors}{11}{section*.27}%
+\contentsline {subsection}{Direction Cosines}{11}{section*.28}%
+\contentsline {subsection}{Vector Projections}{12}{section*.29}%
+\contentsline {subsection}{Work}{13}{section*.30}%
+\contentsline {section}{Lecture Content}{1}{section*.31}%
+\contentsline {subsection}{Previous Lecture Recap}{1}{section*.32}%
+\contentsline {subsubsection}{Recall the Circle, Ellipse, Parabola, and Hyperbola}{1}{section*.33}%
+\contentsline {subsubsection}{Graph Differences in 2D and 3D}{1}{section*.34}%
+\contentsline {subsubsection}{Circle vs Sphere}{2}{section*.36}%
+\contentsline {subsubsection}{Describing the Region Between Two Spheres}{3}{section*.37}%
+\contentsline {subsection}{Introduction to Vectors}{3}{section*.38}%
