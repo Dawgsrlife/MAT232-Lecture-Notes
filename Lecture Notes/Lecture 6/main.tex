@@ -176,7 +176,7 @@ The sum of two vectors \(\vv{v}\) and \(\vv{w}\) is constructed by placing the i
     Given vectors \(\vv{v}\) and \(\vv{w}\), sketch \(\vv{v} + \vv{w}\) using both the triangle method and the parallelogram method.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.75\textwidth]{add-vectors.png}
+        \includegraphics[width=0.55\textwidth]{add-vectors.png}
     \end{figure}
 \end{exercisebox}
 
@@ -246,110 +246,75 @@ A vector in standard position has its initial point at the origin \((0, 0)\). If
     \end{itemize}
 \end{examplebox}
 
-\subsection*{Learning Objectives}
-\addcontentsline{toc}{subsection}{Learning Objectives}
-
-By the end of this section, you should be able to:
-\begin{itemize}
-    \item Describe three-dimensional space mathematically.
-    \item Locate points in space using coordinates.
-    \item Write the distance formula in three dimensions.
-    \item Write the equations for simple planes and spheres.
-    \item Perform vector operations in \(\mathbb{R}^3\).
-\end{itemize}
-
 \subsection*{Introduction to Three-Dimensional Space}
 \addcontentsline{toc}{subsection}{Introduction to Three-Dimensional Space}
 
-\begin{definitionbox}
-    \textbf{Definition:} The \textbf{three-dimensional rectangular coordinate system} consists of three perpendicular axes: the \(x\)-axis, the \(y\)-axis, and the \(z\)-axis, with an origin at the point of intersection \((0, 0, 0)\). This system is often denoted by \(\mathbb{R}^3\).
-\end{definitionbox}
+The \textbf{three-dimensional rectangular coordinate system} consists of three perpendicular axes: the \(x\)-axis, the \(y\)-axis, and the \(z\)-axis, with an origin at the point of intersection \((0, 0, 0)\). This system is often denoted by \(\mathbb{R}^3\).
 
-\begin{notebox}
-    \textbf{Note:} The three-dimensional coordinate system follows the \textbf{right-hand rule}. If you align your right hand’s fingers with the positive \(x\)-axis and curl them toward the positive \(y\)-axis, your thumb points in the direction of the positive \(z\)-axis.
-\end{notebox}
+\begin{tipbox}
+    The three-dimensional coordinate system follows the \textbf{right-hand rule}. If you align your right hand’s fingers with the positive \(x\)-axis and curl them toward the positive \(y\)-axis, your thumb points in the direction of the positive \(z\)-axis.
+    \begin{remarkbox}
+        This can also be visualized by holding a screwdriver with your right hand. If you rotate the screwdriver from the positive \(x\)-axis to the positive \(y\)-axis, the direction of the screwdriver represents the positive \(z\)-axis.
+    \end{remarkbox}
+    \begin{notebox}
+        The right-hand rule can serve as a visual aid for determining the direction of the cross product of two vectors.
+    \end{notebox}
+\end{tipbox}
 
 \subsection*{Locating Points in Space}
 \addcontentsline{toc}{subsection}{Locating Points in Space}
 
-\begin{definitionbox}
-    \textbf{Definition:} A point in three-dimensional space is represented by coordinates \((x, y, z)\), where:
-    \begin{itemize}
-        \item \(x\) is the distance along the \(x\)-axis,
-        \item \(y\) is the distance along the \(y\)-axis,
-        \item \(z\) is the distance along the \(z\)-axis.
-    \end{itemize}
-\end{definitionbox}
-
-\begin{examplebox}
-    \textbf{Example 2.11: Locating Points in Space} \\
-    Sketch the point \((1, -2, 3)\) in three-dimensional space.
-\end{examplebox}
+A point in three-dimensional space is represented by coordinates \((x, y, z)\), where:
+\begin{itemize}
+    \item \(x\) is the distance along the \(x\)-axis,
+    \item \(y\) is the distance along the \(y\)-axis,
+    \item \(z\) is the distance along the \(z\)-axis.
+\end{itemize}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.11:} \\
-    Sketch the point \((-2, 3, -1)\) in three-dimensional space.
+    Sketch the points \((-2, 3, -1)\) and \((1, -2, 3)\) in three-dimensional space.
 \end{exercisebox}
 
 \subsection*{Coordinate Planes in \(\mathbb{R}^3\)}
 \addcontentsline{toc}{subsection}{Coordinate Planes in \(\mathbb{R}^3\)}
 
-\begin{definitionbox}
-    \textbf{Definition:} The three coordinate planes in \(\mathbb{R}^3\) are:
-    \begin{itemize}
-        \item The \(xy\)-plane: \(\{(x, y, 0) \mid x, y \in \mathbb{R}\}\),
-        \item The \(xz\)-plane: \(\{(x, 0, z) \mid x, z \in \mathbb{R}\}\),
-        \item The \(yz\)-plane: \(\{(0, y, z) \mid y, z \in \mathbb{R}\}\).
-    \end{itemize}
-\end{definitionbox}
+The three coordinate planes in \(\mathbb{R}^3\) are:
+\begin{itemize}
+    \item The \(xy\)-plane: \(\{(x, y, 0) \mid x, y \in \mathbb{R}\}\),
+    \item The \(xz\)-plane: \(\{(x, 0, z) \mid x, z \in \mathbb{R}\}\),
+    \item The \(yz\)-plane: \(\{(0, y, z) \mid y, z \in \mathbb{R}\}\).
+\end{itemize}
 
 \begin{notebox}
-    \textbf{Note:} The coordinate planes divide space into eight regions called \textbf{octants}. The first octant is where \(x > 0\), \(y > 0\), and \(z > 0\).
+    The coordinate planes divide space into eight regions called \textbf{octants}. The first octant is where \(x > 0\), \(y > 0\), and \(z > 0\); the other octants are numbered counterclockwise.
+    It's like quadrants in 2D, but with that extra dimension!
 \end{notebox}
 
 \subsection*{Distance Formula in Three Dimensions}
 \addcontentsline{toc}{subsection}{Distance Formula in Three Dimensions}
 
 \begin{theorembox}
-    \textbf{Theorem 2.2: Distance Between Two Points in Space} \\
     The distance \(d\) between points \(P_1 = (x_1, y_1, z_1)\) and \(P_2 = (x_2, y_2, z_2)\) is given by:
     \[
     d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}.
     \]
 \end{theorembox}
 
-\begin{examplebox}
-    \textbf{Example 2.12: Distance in Space} \\
-    Find the distance between points \(P_1 = (3, -1, 5)\) and \(P_2 = (2, 1, -1)\).
-\end{examplebox}
-
 \begin{exercisebox}
-    \textbf{Checkpoint 2.12:} \\
     Find the distance between points \(P_1 = (1, -5, 4)\) and \(P_2 = (4, -1, -1)\).
 \end{exercisebox}
 
 \subsection*{Equations of Planes}
 \addcontentsline{toc}{subsection}{Equations of Planes}
 
-\begin{definitionbox}
-    \textbf{Definition:} A plane parallel to one of the coordinate planes can be described by:
-    \begin{itemize}
-        \item \(z = c\) for a plane parallel to the \(xy\)-plane,
-        \item \(y = b\) for a plane parallel to the \(xz\)-plane,
-        \item \(x = a\) for a plane parallel to the \(yz\)-plane.
-    \end{itemize}
-\end{definitionbox}
-
-\begin{examplebox}
-    \textbf{Example 2.13: Writing Equations of Planes} \\
-    \begin{itemize}
-        \item Write an equation of the plane passing through point \((3, 11, 7)\) that is parallel to the \(yz\)-plane.
-        \item Find an equation of the plane passing through points \((6, -2, 9)\), \((0, -2, 4)\), and \((1, -2, -3)\).
-    \end{itemize}
-\end{examplebox}
+A plane parallel to one of the coordinate planes can be described by:
+\begin{itemize}
+    \item \(z = c\) for a plane parallel to the \(xy\)-plane,
+    \item \(y = b\) for a plane parallel to the \(xz\)-plane,
+    \item \(x = a\) for a plane parallel to the \(yz\)-plane.
+\end{itemize}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.13:} \\
     Write an equation of the plane passing through point \((1, -6, -4)\) that is parallel to the \(xy\)-plane.
 \end{exercisebox}
 
@@ -357,61 +322,105 @@ By the end of this section, you should be able to:
 \addcontentsline{toc}{subsection}{Equations of Spheres}
 
 \begin{definitionbox}
-    \textbf{Definition:} A \textbf{sphere} is the set of all points in space equidistant from a fixed point, called the \textbf{center}. The distance from the center to any point on the sphere is called the \textbf{radius}.
+    A \textbf{sphere} is the shape described by the set of all points in space equidistant from a fixed point, called the \textbf{centre}. The distance from the centre to any point on the sphere is called the \textbf{radius}.
 \end{definitionbox}
 
 \begin{theorembox}
     \textbf{Equation of a Sphere:} \\
-    The sphere with center \((a, b, c)\) and radius \(r\) is given by:
+    The sphere with centre \((a, b, c)\) and radius \(r\) is given by:
     \[
     (x - a)^2 + (y - b)^2 + (z - c)^2 = r^2.
     \]
 \end{theorembox}
 
-\begin{examplebox}
-    \textbf{Example 2.14: Finding an Equation of a Sphere} \\
-    Find the standard equation of the sphere with center \((10, 7, 4)\) and passing through point \((-1, 3, -2)\).
-\end{examplebox}
-
 \begin{exercisebox}
-    \textbf{Checkpoint 2.14:} \\
     Find the standard equation of the sphere with center \((-2, 4, -5)\) and passing through point \((4, 4, -1)\).
 \end{exercisebox}
 
-\begin{examplebox}
-    \textbf{Example 2.15: Finding the Equation of a Sphere} \\
-    Let \(P = (-5, 2, 3)\) and \(Q = (3, 4, -1)\), and suppose line segment \(PQ\) forms the diameter of a sphere. Find the equation of the sphere.
-\end{examplebox}
-
 \begin{exercisebox}
-    \textbf{Checkpoint 2.15:} \\
     Find the equation of the sphere with diameter \(PQ\), where \(P = (2, -1, -3)\) and \(Q = (-2, 5, -1)\).
 \end{exercisebox}
 
 \subsection*{Graphing Equations in Three Dimensions}
 \addcontentsline{toc}{subsection}{Graphing Equations in Three Dimensions}
 
-\begin{examplebox}
-    \textbf{Example 2.16: Graphing Other Equations} \\
-    Describe the set of points that satisfies \((x - 4)(z - 2) = 0\), and graph the set.
-\end{examplebox}
-
 \begin{exercisebox}
-    \textbf{Checkpoint 2.16:} \\
     Describe the set of points that satisfies \((y + 2)(z - 3) = 0\), and graph the set.
 \end{exercisebox}
 
-\begin{examplebox}
-    \textbf{Example 2.17: Graphing Other Equations} \\
-    Describe the set of points in three-dimensional space that satisfies \((x - 2)^2 + (y - 1)^2 = 4\), and graph the set.
-\end{examplebox}
-
 \begin{exercisebox}
-    \textbf{Checkpoint 2.17:} \\
     Describe the set of points in three-dimensional space that satisfies \(x^2 + (z - 2)^2 = 16\), and graph the surface.
 \end{exercisebox}
 
-\textbf{self-note: add the rest from deepseek alexandermenginquiries@gmail.com account}
+\subsection*{Working with Vectors in \(\mathbb{R}^3\)}
+\addcontentsline{toc}{subsection}{Working with Vectors in \(\mathbb{R}^3\)}
+
+\begin{definitionbox}
+    A \textbf{three-dimensional vector} is a quantity with both magnitude and direction, represented by a directed line segment (arrow) in \(\mathbb{R}^3\). A vector \(\vv{v} = \langle x, y, z \rangle\) has its initial point at the origin \((0, 0, 0)\) and its terminal point at \((x, y, z)\). The zero vector is \(\vv{0} = \langle 0, 0, 0 \rangle\).
+\end{definitionbox}
+
+\begin{exercisebox}
+    \textbf{Checkpoint 2.18:} \\
+    Let \(S = (3, 8, 2)\) and \(T = (2, -1, 3)\). Express \(\vv{ST}\) in component form and in standard unit form.
+\end{exercisebox}
+
+\subsection*{Vector Operations in \(\mathbb{R}^3\)}
+\addcontentsline{toc}{subsection}{Vector Operations in \(\mathbb{R}^3\)}
+
+\begin{definitionbox}
+    Let \(\vv{v} = \langle x_1, y_1, z_1 \rangle\) and \(\vv{w} = \langle x_2, y_2, z_2 \rangle\) be vectors in \(\mathbb{R}^3\), and let \(k\) be a scalar. Then:
+    \begin{itemize}
+        \item \textbf{Vector Addition:} \(\vv{v} + \vv{w} = \langle x_1 + x_2, y_1 + y_2, z_1 + z_2 \rangle\)
+        \item \textbf{Scalar Multiplication:} \(k\vv{v} = \langle kx_1, ky_1, kz_1 \rangle\)
+        \item \textbf{Vector Subtraction:} \(\vv{v} - \vv{w} = \vv{v} + (-\vv{w}) = \langle x_1 - x_2, y_1 - y_2, z_1 - z_2 \rangle\)
+        \item \textbf{Magnitude:} \(\|\vv{v}\| = \sqrt{x_1^2 + y_1^2 + z_1^2}\)
+        \item \textbf{Unit Vector:} The unit vector in the direction of \(\vv{v}\) is \(\frac{1}{\|\vv{v}\|} \vv{v}\), provided \(\vv{v} \neq \vv{0}\).
+    \end{itemize}
+\end{definitionbox}
+
+\begin{exercisebox}
+    \textbf{Vector Operations in Three Dimensions} \\
+    Let \(\vv{v} = \langle -2, 9, 5 \rangle\) and \(\vv{w} = \langle 1, -1, 0 \rangle\). Find the following vectors:
+    \begin{itemize}
+        \item \(3\vv{v} - 2\vv{w}\)
+        \item \(5\|\vv{w}\|\)
+        \item \(\|5\vv{w}\|\)
+        \item A unit vector in the direction of \(\vv{v}\)
+    \end{itemize}
+\end{exercisebox}
+
+\begin{exercisebox}
+    Let \(\vv{v} = \langle -1, -1, 1 \rangle\) and \(\vv{w} = \langle 2, 0, 1 \rangle\). Find a unit vector in the direction of \(5\vv{v} + 3\vv{w}\).
+\end{exercisebox}
+
+\subsection*{Properties of Vectors in \(\mathbb{R}^3\)}
+\addcontentsline{toc}{subsection}{Properties of Vectors in \(\mathbb{R}^3\)}
+
+\begin{theorembox}
+    \textbf{Properties of Vectors in Space:} \\
+    Let \(\vv{u}\), \(\vv{v}\), and \(\vv{w}\) be vectors in \(\mathbb{R}^3\), and let \(k\) and \(c\) be scalars. Then:
+    \begin{enumerate}
+        \item \(\vv{u} + \vv{v} = \vv{v} + \vv{u}\) \quad (Commutative Property)
+        \item \((\vv{u} + \vv{v}) + \vv{w} = \vv{u} + (\vv{v} + \vv{w})\) \quad (Associative Property)
+        \item \(\vv{u} + \vv{0} = \vv{u}\) \quad (Additive Identity Property)
+        \item \(\vv{u} + (-\vv{u}) = \vv{0}\) \quad (Additive Inverse Property)
+        \item \(k(c\vv{v}) = (kc)\vv{v}\) \quad (Associativity of Scalar Multiplication)
+        \item \(k(\vv{u} + \vv{v}) = k\vv{u} + k\vv{v}\) \quad (Distributive Property)
+        \item \((k + c)\vv{u} = k\vv{u} + c\vv{u}\) \quad (Distributive Property)
+        \item \(1\vv{u} = \vv{u}\) and \(0\vv{u} = \vv{0}\) \quad (Identity and Zero Properties)
+    \end{enumerate}
+\end{theorembox}
+
+\begin{proofbox}
+    \textbf{Proof of Commutative Property:} \\
+    Let \(\vv{u} = \langle u_1, u_2, u_3 \rangle\) and \(\vv{v} = \langle v_1, v_2, v_3 \rangle\). Then:
+    \[
+    \vv{u} + \vv{v} = \langle u_1 + v_1, u_2 + v_2, u_3 + v_3 \rangle = \langle v_1 + u_1, v_2 + u_2, v_3 + u_3 \rangle = \vv{v} + \vv{u}.
+    \]
+    \(\square\)
+\end{proofbox}
+
+\textbf{self-note: continue from here with section 2.3 and section 2.4 in the textbook}
 
 \cleardoublepage
 \phantomsection

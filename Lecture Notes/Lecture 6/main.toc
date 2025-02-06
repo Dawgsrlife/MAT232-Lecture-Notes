@@ -8,14 +8,16 @@
 \contentsline {subsubsection}{Vector Addition}{2}{section*.7}%
 \contentsline {subsubsection}{Vector Subtraction}{3}{section*.8}%
 \contentsline {subsection}{Vector Components}{3}{section*.9}%
-\contentsline {subsection}{Magnitude of a Vector}{4}{section*.10}%
-\contentsline {subsection}{Properties of Vector Operations}{4}{section*.11}%
+\contentsline {subsection}{Magnitude of a Vector}{3}{section*.10}%
+\contentsline {subsection}{Properties of Vector Operations}{3}{section*.11}%
 \contentsline {subsection}{Applications of Vectors}{4}{section*.12}%
-\contentsline {subsection}{Learning Objectives}{5}{section*.13}%
-\contentsline {subsection}{Introduction to Three-Dimensional Space}{5}{section*.14}%
-\contentsline {subsection}{Locating Points in Space}{5}{section*.15}%
-\contentsline {subsection}{Coordinate Planes in \(\mathbb {R}^3\)}{6}{section*.16}%
-\contentsline {subsection}{Distance Formula in Three Dimensions}{6}{section*.17}%
-\contentsline {subsection}{Equations of Planes}{7}{section*.18}%
-\contentsline {subsection}{Equations of Spheres}{7}{section*.19}%
-\contentsline {subsection}{Graphing Equations in Three Dimensions}{8}{section*.20}%
+\contentsline {subsection}{Introduction to Three-Dimensional Space}{4}{section*.13}%
+\contentsline {subsection}{Locating Points in Space}{5}{section*.14}%
+\contentsline {subsection}{Coordinate Planes in \(\mathbb {R}^3\)}{5}{section*.15}%
+\contentsline {subsection}{Distance Formula in Three Dimensions}{5}{section*.16}%
+\contentsline {subsection}{Equations of Planes}{5}{section*.17}%
+\contentsline {subsection}{Equations of Spheres}{6}{section*.18}%
+\contentsline {subsection}{Graphing Equations in Three Dimensions}{6}{section*.19}%
+\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{7}{section*.20}%
+\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{7}{section*.21}%
+\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{8}{section*.22}%
