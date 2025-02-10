@@ -135,5 +135,203 @@
     \end{remarkbox}
 \end{definitionbox}
 
+\subsubsection*{Now, in MAT232}
+\addcontentsline{toc}{subsubsection}{Now, in MAT232}
+
+\begin{definitionbox}
+    Plane Equation:
+    \[
+        a(x - x_0) + b(y - y_0) + c(z - z_0) = 0
+    \]
+    is the equation of a plane in $\mathbb{R}^3$ in \textbf{point-normal or scalar form}.
+    Rearrange and notice:
+    \begin{align*}
+        z - z_0 &= -\frac{a}{c}(x - x_0) - \frac{b}{c}(y - y_0) \\
+    \end{align*}
+    where \( z = f(x, y) \) and \( z_0 = f(x_0, y_0) \).
+
+    So, \( z_0 = f(x_0, y_0) \) is the point on the surface of the function \( z = f(x, y) \) at \( (x_0, y_0) \), and \( -\frac{a}{c} = f_x(x_0, y_0) \) and \( -\frac{b}{c} = f_y(x_0, y_0) \) are the partial derivatives of \( f(x, y) \) at \( (x_0, y_0) \).
+    This form is called the \textbf{tangent plane} to the surface of the function \( z = f(x, y) \) at \( (x_0, y_0) \).
+    \begin{notebox}
+    This equation will be included on the formula sheet.
+    \end{notebox}
+\end{definitionbox}
+
+\begin{conceptbox}
+Set \( y = y_0 \):
+\begin{align*}
+    z = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0) \\
+    z = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + \cancelto{0}{f_y(x_0, y_0)(y - y_0)}
+\end{align*}
+Call this \( T_1 \), the tangent plane to the surface of the function \( z = f(x, y) \) at \( (x_0, y_0) \) when \( y = y_0 \).
+\bigskip
+Set \( x = x_0 \):
+\begin{align*}
+    z = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0) \\
+    z = f(x_0, y_0) + \cancelto{0}{f_x(x_0, y_0)(x - x_0)} + f_y(x_0, y_0)(y - y_0)
+\end{align*}
+Call this \( T_2 \), the tangent plane to the surface of the function \( z = f(x, y) \) at \( (x_0, y_0) \) when \( x = x_0 \).
+\end{conceptbox}
+
+\subsection*{Let's Try an Example}
+\addcontentsline{toc}{subsection}{Let's Try an Example}
+
+\begin{examplebox}
+    Find the equation of the tangent plane to the surface \( z = f(x, y) = \ln(x - 2y) \) at the point \( (x_0, y_0) = (3, 1) \).
+
+    \begin{solutionbox}
+    Tangent plane equation:
+    \[
+        z = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0)
+    \]
+    \begin{itemize}
+        \item Point: \( (x_0, y_0) = (3, 1) \)
+    \end{itemize}
+    
+    So\dots
+    \begin{align*}
+        z_0 = f(x_0, y_0) &= \ln(3 - 2(1)) = \ln(3 - 2) = \ln(1) = 0 \\
+        f_x(x, y) &= \frac{1}{x - 2y} \\
+        f_y(x, y) &= \frac{-2}{x - 2y}
+    \end{align*}
+    \begin{itemize}
+        \item Partial derivatives at \( (x_0, y_0) = (3, 1) \):
+        \begin{align*}
+            f_x(3, 1) &= \frac{1}{3 - 2(1)} = \frac{1}{3 - 2} = 1 \\
+            f_y(3, 1) &= \frac{-2}{3 - 2(1)} = \frac{-2}{3 - 2} = -2
+        \end{align*}
+    \end{itemize}
+    So, the equation of the tangent plane is:
+    \begin{align*}
+        z &= 0 + 1(x - 3) - 2(y - 1) \\
+        z &= x - 3 - 2y + 2 \\
+        z &= x - 2y - 1
+    \end{align*}
+    \begin{answerbox}
+        The equation of the tangent plane to the surface \( z = f(x, y) = \ln(x - 2y) \) at the point \( (x_0, y_0) = (3, 1) \) is \( z = x - 2y - 1 \).
+    \end{answerbox}
+\end{solutionbox}
+\end{examplebox}
+
+\subsection*{Another Example}
+\addcontentsline{toc}{subsection}{Another Example}
+
+\begin{examplebox}
+    Find the equation of the tangent plane to the surface \( z = f(x, y) = x^2 + y^2 + 1 \) at the point \( (x_0, y_0) = (2, 1) \).
+
+    \begin{solutionbox}
+    Tangent plane equation:
+    \[
+        z = f(x_0, y_0) + f_x(x_0, y_0)(x - x_0) + f_y(x_0, y_0)(y - y_0)
+    \]
+    \begin{itemize}
+        \item Point: \( (x_0, y_0) = (2, 1) \)
+    \end{itemize}
+    Partial derivatives:
+    \begin{align*}
+        f_x(x, y) &= 2x \\
+        f_y(x, y) &= 2y
+    \end{align*}
+    Point:
+    \begin{align*}
+        z_0 = f(x_0, y_0) &= 2^2 + 1^2 + 1 = 4 + 1 + 1 = 6
+    \end{align*}
+    Partial derivatives at \( (x_0, y_0) = (2, 1) \):
+    \begin{align*}
+        f_x(2, 1) &= 2(2) = 4 \\
+        f_y(2, 1) &= 2(1) = 2
+    \end{align*}
+    So, the equation of the tangent plane is:
+    \begin{align*}
+        z &= 6 + 4(x - 2) + 2(y - 1) \\
+        z &= 6 + 4x - 8 + 2y - 2 \\
+        z &= 4x + 2y - 4
+    \end{align*}
+    \begin{answerbox}
+        The equation of the tangent plane to the surface \( z = f(x, y) = x^2 + y^2 + 1 \) at the point \( (x_0, y_0) = (2, 1) \) is \( z = 4x + 2y - 4 \).
+    \end{answerbox}
+    \end{solutionbox}
+\end{examplebox}
+
+\subsection*{Section 4.5: Chain Rule}
+\addcontentsline{toc}{subsection}{Section 4.5: Chain Rule}
+
+\subsubsection*{Recall from 1st Year Calculus}
+\addcontentsline{toc}{subsubsection}{Recall from 1st Year Calculus}
+Let \( y = f(u) \) and \( u = g(x) \). Then, \( y = f(g(x)) \).
+\begin{itemize}
+    \item Chain Rule: \( \dv{y}{x} = \dv{y}{u} \cdot \dv{u}{x} \)
+\end{itemize}
+
+\begin{examplebox}
+    Let \( f(x) = \cos(x) \) and \( g(x) = e^x \). Find \( h(x) = f(g(x)) \) and \( h'(x) \).
+
+    \begin{solutionbox}
+        Notice that \( h(x) = f(g(x)) = \cos(e^x) \).
+        So \( h'(x) = -\sin(e^x) \cdot e^x \).
+        \begin{answerbox}
+            \( h(x) = \cos(e^x) \) and \( h'(x) = -\sin(e^x) \cdot e^x \).
+        \end{answerbox}
+    \end{solutionbox}
+\end{examplebox}
+
+\subsection*{Now, in MAT232}
+\addcontentsline{toc}{subsection}{Now, in MAT232}
+
+\begin{definitionbox}
+    Given \( w = f(x, y) \), \( x = h(t) \), \( y = g(t) \), and that they are all differentiable functions, then \( w = f(x, y) = f(h(t), g(t)) \).
+    \begin{conceptbox}
+        Chain Rule:
+        \[
+            \dv{w}{t} = \pdv{w}{x} \cdot \dv{x}{t} + \pdv{w}{y} \cdot \dv{y}{t}
+        \]
+    \end{conceptbox}
+    \begin{notebox}
+        This is the chain rule in MAT232.
+    \end{notebox}
+\end{definitionbox}
+
+Let's illustrate how \( w = f(x, y) \) breaks down:
+\begin{align*}
+    w = f(x, y) = f(h(t), g(t))
+\end{align*}
+Note that if \( w = f(x, y) \) depends on \( x \) and \( y \), and \( x \) and \( y \) depend on \( t \), then \( w \) depends on \( t \).
+
+\begin{align*}
+    w &= f(x, y) = f(h(t), g(t)) \\
+    \pdv{w}{x} &= \pdv{f}{x} = f_x(h(t), g(t)) \cdot h'(t) \\
+    \pdv{w}{y} &= \pdv{f}{y} = f_y(h(t), g(t)) \cdot g'(t)
+\end{align*}
+
+\begin{examplebox}
+    Find the derivative of \( w = f(x, y) = xy \) with respect to \( t \) if \( x = \cos(t) \) and \( y = \sin(t) \) at \( t = \frac{\pi}{2} \).
+
+    Approach 1 (Direct Substitution):
+    \begin{solutionbox}
+        \begin{align*}
+            w &= f(x, y) = xy \\
+            &= \cos(t) \cdot \sin(t) \\
+            &= \frac{1}{2} \sin(2t)
+        \end{align*}
+        \begin{answerbox}
+            The derivative of \( w = f(x, y) = xy \) with respect to \( t \) if \( x = \cos(t) \) and \( y = \sin(t) \) at \( t = \frac{\pi}{2} \) is \( \cos(2t) \).
+        \end{answerbox}
+    \end{solutionbox}
+
+    Approach 1 (Substitute \( t = \frac{\pi}{2} \)):
+    \begin{solutionbox}
+        \begin{align*}
+            w &= f(x, y) = xy \\
+            \dv{w}{t} &= \dv{w}{x} \cdot \dv{x}{t} + \dv{w}{y} \cdot \dv{y}{t} \\
+            &= y \cdot (-\sin(t)) + x \cdot \cos(t) \\
+            &= \sin(t) \cdot (-\sin(t)) + \cos(t) \cdot \cos(t) \\
+            &= \sin\left(\frac{\pi}{2}\right) \cdot (-\sin\left(\frac{\pi}{2}\right)) + \cos\left(\frac{\pi}{2}\right) \cdot \cos\left(\frac{\pi}{2}\right) \\
+            &= 1 \cdot (-1) + 0 \cdot 0 = -1
+        \end{align*}
+        \begin{answerbox}
+            The derivative of \( w = f(x, y) = xy \) with respect to \( t \) if \( x = \cos(t) \) and \( y = \sin(t) \) at \( t = \frac{\pi}{2} \) is \( -1 \).
+        \end{answerbox}
+    \end{solutionbox}
+\end{examplebox}
 
 \end{document}
