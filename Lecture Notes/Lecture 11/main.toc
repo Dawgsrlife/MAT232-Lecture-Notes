@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {subsection}{Review of Last Lecture}{1}{section*.2}%
+\contentsline {subsection}{Section 4.4: Tangent Planes}{1}{section*.3}%
+\contentsline {subsubsection}{Recall from 1st Year Calculus}{1}{section*.4}%
