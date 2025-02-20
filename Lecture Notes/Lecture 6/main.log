@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  20 FEB 2025 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  20 FEB 2025 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,93 +1088,99 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 238.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 240.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [3]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 270.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 266.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 280.
+(hyperref)                removing `math shift' on input line 282.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 280.
+(hyperref)                removing `superscript' on input line 282.
 
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 315.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 305.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [5]
-<(y+2)(z-3)=0.png, id=310, 895.345pt x 744.7825pt>
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 346.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[6]
+<(y+2)(z-3)=0.png, id=315, 895.345pt x 744.7825pt>
 File: (y+2)(z-3)=0.png Graphic file (type png)
 <use (y+2)(z-3)=0.png>
-Package pdftex.def Info: (y+2)(z-3)=0.png  used on input line 365.
+Package pdftex.def Info: (y+2)(z-3)=0.png  used on input line 367.
 (pdftex.def)             Requested size: 244.29796pt x 203.21912pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 371.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 377.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[6]
-<x^2+(z-2)^2=16.png, id=315, 895.345pt x 753.81625pt>
+[7 <./(y+2)(z-3)=0.png>]
+<x^2+(z-2)^2=16.png, id=323, 895.345pt x 753.81625pt>
 File: x^2+(z-2)^2=16.png Graphic file (type png)
 <use x^2+(z-2)^2=16.png>
-Package pdftex.def Info: x^2+(z-2)^2=16.png  used on input line 399.
+Package pdftex.def Info: x^2+(z-2)^2=16.png  used on input line 401.
 (pdftex.def)             Requested size: 244.29796pt x 205.68404pt.
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 405.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 407.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[7 <./(y+2)(z-3)=0.png>]
+[8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 407.
+(hyperref)                removing `math shift' on input line 409.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 407.
+(hyperref)                removing `superscript' on input line 409.
 
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 412.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 414.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[8 <./x^2+(z-2)^2=16.png>]
+[9 <./x^2+(z-2)^2=16.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 419.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 419.
+(hyperref)                removing `math shift' on input line 420.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 448.
+(hyperref)                removing `superscript' on input line 420.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 448.
+(hyperref)                removing `math shift' on input line 449.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 449.
 
 
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 464.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 465.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 491--493
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 
  []
 
@@ -1182,69 +1188,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 491--493
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 497.
-(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[10]
-
-File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
-<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 535.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 499.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [11]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 577.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 538.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [12]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 617.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 580.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [13]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 661.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 620.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [14]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 695.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 664.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [15]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 734.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 698.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [16]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 779.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 737.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [17]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 823.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 782.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [18]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 866.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 826.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
 [19]
 
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 900.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 869.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
-[20] (./intolecturecontent.tex
+[20]
+
+File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
+<use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 903.
+(pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
+[21] (./intolecturecontent.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1264,67 +1270,67 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.943 \newpage
+l.946 \newpage
               
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 943.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 946.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [1]
-<unit-circle.png, id=410, 971.63pt x 891.33pt>
+<unit-circle.png, id=414, 971.63pt x 891.33pt>
 File: unit-circle.png Graphic file (type png)
 <use unit-circle.png>
-Package pdftex.def Info: unit-circle.png  used on input line 953.
+Package pdftex.def Info: unit-circle.png  used on input line 956.
 (pdftex.def)             Requested size: 175.38348pt x 160.88129pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 954.
+(caption)                particular \caption on input line 957.
 See the caption package documentation for explanation.
 
-<unit-sphere.png, id=411, 618.31pt x 614.295pt>
+<unit-sphere.png, id=415, 618.31pt x 614.295pt>
 File: unit-sphere.png Graphic file (type png)
 <use unit-sphere.png>
-Package pdftex.def Info: unit-sphere.png  used on input line 958.
+Package pdftex.def Info: unit-sphere.png  used on input line 961.
 (pdftex.def)             Requested size: 175.38348pt x 174.24165pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 959.
+(caption)                particular \caption on input line 962.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.22166pt too wide) in paragraph at lines 951--961
+Overfull \hbox (2.22166pt too wide) in paragraph at lines 954--964
 []$[]$ $[]$ 
  []
 
-<region between 2.png, id=412, 839.135pt x 820.06375pt>
+<region between 2.png, id=416, 839.135pt x 820.06375pt>
 File: region between 2.png Graphic file (type png)
 <use region between 2.png>
-Package pdftex.def Info: region between 2.png  used on input line 1006.
+Package pdftex.def Info: region between 2.png  used on input line 1009.
 (pdftex.def)             Requested size: 109.93332pt x 107.42538pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1008.
+(caption)                particular \caption on input line 1011.
 See the caption package documentation for explanation.
 
-<region between 2 see thru.png, id=413, 777.90625pt x 799.98875pt>
+<region between 2 see thru.png, id=417, 777.90625pt x 799.98875pt>
 File: region between 2 see thru.png Graphic file (type png)
 <use region between 2 see thru.png>
-Package pdftex.def Info: region between 2 see thru.png  used on input line 1013.
+Package pdftex.def Info: region between 2 see thru.png  used on input line 1016.
 (pdftex.def)             Requested size: 109.93332pt x 113.04744pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1015.
+(caption)                particular \caption on input line 1018.
 See the caption package documentation for explanation.
 
-<region between 2 see thru with inner sphere.png, id=414, 920.43875pt x 809.0225pt>
+<region between 2 see thru with inner sphere.png, id=418, 920.43875pt x 809.0225pt>
 File: region between 2 see thru with inner sphere.png Graphic file (type png)
 <use region between 2 see thru with inner sphere.png>
-Package pdftex.def Info: region between 2 see thru with inner sphere.png  used on input line 1020.
+Package pdftex.def Info: region between 2 see thru with inner sphere.png  used on input line 1023.
 (pdftex.def)             Requested size: 109.93332pt x 96.62175pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1022.
+(caption)                particular \caption on input line 1025.
 See the caption package documentation for explanation.
 
 
@@ -1333,11 +1339,11 @@ See the caption package documentation for explanation.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1027 
+l.1030 
        
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1027.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1030.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [2 <./unit-circle.png> <./unit-sphere.png>]
 
@@ -1345,11 +1351,11 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1052 \end{tipbox}
+l.1055 \end{tipbox}
                    
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1052.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1055.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [3 <./region between 2.png> <./region between 2 see thru.png> <./region between 2 see thru with inner sphere.png>]
 
@@ -1357,11 +1363,11 @@ Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1061 \end{document}
+l.1064 \end{document}
                      
 File: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg Graphic file (type jpg)
 <use ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg>
-Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1061.
+Package pdftex.def Info: ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg  used on input line 1064.
 (pdftex.def)             Requested size: 1075.04892pt x 895.8741pt.
  [4] (./main.aux)
  ***********
@@ -1377,18 +1383,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A6F00EE6A9C9B1EBB6D798C0DEAB9AFB;9150.
  ) 
 Here is how much of TeX's memory you used:
- 37021 strings out of 473579
- 711190 string characters out of 5732263
- 1240414 words of memory out of 5000000
- 59176 multiletter control sequences out of 15000+600000
- 587765 words of font info for 119 fonts, out of 8000000 for 9000
+ 37028 strings out of 473579
+ 711316 string characters out of 5732263
+ 1240461 words of memory out of 5000000
+ 59181 multiletter control sequences out of 15000+600000
+ 588451 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,21n,117p,635b,1134s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathb10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vect10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vect7.pfb>
-Output written on main.pdf (29 pages, 2514301 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vect10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vect7.pfb>
+Output written on main.pdf (30 pages, 2527596 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
  442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
