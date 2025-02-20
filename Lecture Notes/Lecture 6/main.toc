@@ -17,33 +17,33 @@
 \contentsline {subsection}{Distance Formula in Three Dimensions}{5}{section*.17}%
 \contentsline {subsection}{Equations of Planes}{5}{section*.18}%
 \contentsline {subsection}{Equations of Spheres}{6}{section*.19}%
-\contentsline {subsection}{Graphing Equations in Three Dimensions}{6}{section*.20}%
-\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{7}{section*.21}%
-\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{7}{section*.22}%
-\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{8}{section*.23}%
-\contentsline {subsection}{The Dot Product and Its Properties}{8}{section*.24}%
-\contentsline {subsection}{Properties of the Dot Product}{9}{section*.25}%
-\contentsline {subsection}{Using the Dot Product to Find the Angle Between Two Vectors}{10}{section*.26}%
-\contentsline {subsection}{Orthogonal Vectors}{11}{section*.27}%
-\contentsline {subsection}{Direction Cosines}{11}{section*.28}%
-\contentsline {subsection}{Vector Projections}{12}{section*.29}%
-\contentsline {subsection}{Work}{13}{section*.30}%
-\contentsline {subsection}{The Cross Product}{13}{section*.31}%
-\contentsline {subsection}{Properties of the Cross Product}{14}{section*.32}%
-\contentsline {subsection}{Cross Product of Standard Unit Vectors}{14}{section*.33}%
-\contentsline {subsection}{Magnitude of the Cross Product}{15}{section*.34}%
-\contentsline {subsection}{Determinants and the Cross Product}{15}{section*.35}%
-\contentsline {subsection}{Applications of the Cross Product}{16}{section*.36}%
-\contentsline {subsection}{Area of a Parallelogram}{16}{section*.37}%
-\contentsline {subsection}{The Triple Scalar Product}{17}{section*.38}%
-\contentsline {subsection}{Volume of a Parallelepiped}{17}{section*.39}%
-\contentsline {subsection}{Applications of the Cross Product}{18}{section*.40}%
-\contentsline {subsection}{Torque}{18}{section*.41}%
-\contentsline {section}{Lecture Content}{1}{section*.42}%
-\contentsline {subsection}{Previous Lecture Recap}{1}{section*.43}%
-\contentsline {subsubsection}{Recall the Circle, Ellipse, Parabola, and Hyperbola}{1}{section*.44}%
-\contentsline {subsubsection}{Graph Differences in 2D and 3D}{1}{section*.45}%
-\contentsline {subsubsection}{Circle vs Sphere}{2}{section*.47}%
-\contentsline {subsubsection}{Describing the Region Between Two Spheres}{3}{section*.48}%
-\contentsline {subsection}{Introduction to Vectors}{3}{section*.49}%
-\contentsline {subsubsection}{Equivalent Vectors}{4}{section*.50}%
+\contentsline {subsection}{Example: Describing and Graphing a Set of Points}{7}{section*.20}%
+\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{9}{section*.23}%
+\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{9}{section*.24}%
+\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{10}{section*.25}%
+\contentsline {subsection}{The Dot Product and Its Properties}{10}{section*.26}%
+\contentsline {subsection}{Properties of the Dot Product}{11}{section*.27}%
+\contentsline {subsection}{Using the Dot Product to Find the Angle Between Two Vectors}{12}{section*.28}%
+\contentsline {subsection}{Orthogonal Vectors}{13}{section*.29}%
+\contentsline {subsection}{Direction Cosines}{13}{section*.30}%
+\contentsline {subsection}{Vector Projections}{14}{section*.31}%
+\contentsline {subsection}{Work}{15}{section*.32}%
+\contentsline {subsection}{The Cross Product}{15}{section*.33}%
+\contentsline {subsection}{Properties of the Cross Product}{16}{section*.34}%
+\contentsline {subsection}{Cross Product of Standard Unit Vectors}{16}{section*.35}%
+\contentsline {subsection}{Magnitude of the Cross Product}{17}{section*.36}%
+\contentsline {subsection}{Determinants and the Cross Product}{17}{section*.37}%
+\contentsline {subsection}{Applications of the Cross Product}{18}{section*.38}%
+\contentsline {subsection}{Area of a Parallelogram}{18}{section*.39}%
+\contentsline {subsection}{The Triple Scalar Product}{19}{section*.40}%
+\contentsline {subsection}{Volume of a Parallelepiped}{19}{section*.41}%
+\contentsline {subsection}{Applications of the Cross Product}{20}{section*.42}%
+\contentsline {subsection}{Torque}{20}{section*.43}%
+\contentsline {section}{Lecture Content}{1}{section*.44}%
+\contentsline {subsection}{Previous Lecture Recap}{1}{section*.45}%
+\contentsline {subsubsection}{Recall the Circle, Ellipse, Parabola, and Hyperbola}{1}{section*.46}%
+\contentsline {subsubsection}{Graph Differences in 2D and 3D}{1}{section*.47}%
+\contentsline {subsubsection}{Circle vs Sphere}{2}{section*.49}%
+\contentsline {subsubsection}{Describing the Region Between Two Spheres}{3}{section*.50}%
+\contentsline {subsection}{Introduction to Vectors}{3}{section*.51}%
+\contentsline {subsubsection}{Equivalent Vectors}{4}{section*.52}%
