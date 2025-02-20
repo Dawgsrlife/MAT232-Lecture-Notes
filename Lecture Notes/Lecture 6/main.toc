@@ -24,7 +24,7 @@
 \contentsline {subsection}{The Dot Product and Its Properties}{11}{section*.26}%
 \contentsline {subsection}{Properties of the Dot Product}{12}{section*.27}%
 \contentsline {subsection}{Using the Dot Product to Find the Angle Between Two Vectors}{13}{section*.28}%
-\contentsline {subsection}{Orthogonal Vectors}{14}{section*.29}%
+\contentsline {subsection}{Orthogonal Vectors}{13}{section*.29}%
 \contentsline {subsection}{Direction Cosines}{14}{section*.30}%
 \contentsline {subsection}{Vector Projections}{15}{section*.31}%
 \contentsline {subsection}{Work}{16}{section*.32}%
