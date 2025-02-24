@@ -1,49 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Title Page}{0}{Doc-Start}%
 \contentsline {section}{Preliminary Concepts}{1}{section*.2}%
-\contentsline {subsection}{Introduction to Vectors}{1}{section*.3}%
-\contentsline {subsection}{Vector Representation}{1}{section*.4}%
-\contentsline {subsection}{Basic Vector Operations}{2}{section*.5}%
-\contentsline {subsubsection}{Scalar Multiplication}{2}{section*.6}%
-\contentsline {subsubsection}{Vector Addition}{2}{section*.7}%
-\contentsline {subsubsection}{Vector Subtraction}{3}{section*.9}%
-\contentsline {subsection}{Vector Components}{3}{section*.10}%
-\contentsline {subsection}{Magnitude of a Vector}{3}{section*.11}%
-\contentsline {subsection}{Properties of Vector Operations}{3}{section*.12}%
-\contentsline {subsection}{Applications of Vectors}{4}{section*.13}%
-\contentsline {subsection}{Introduction to Three-Dimensional Space}{4}{section*.14}%
-\contentsline {subsection}{Locating Points in Space}{5}{section*.15}%
-\contentsline {subsection}{Coordinate Planes in \(\mathbb {R}^3\)}{5}{section*.16}%
-\contentsline {subsection}{Distance Formula in Three Dimensions}{6}{section*.17}%
-\contentsline {subsection}{Equations of Planes}{6}{section*.18}%
-\contentsline {subsection}{Equations of Spheres}{6}{section*.19}%
-\contentsline {subsection}{Example: Describing and Graphing a Set of Points}{7}{section*.20}%
-\contentsline {subsection}{Working with Vectors in \(\mathbb {R}^3\)}{10}{section*.23}%
-\contentsline {subsection}{Vector Operations in \(\mathbb {R}^3\)}{10}{section*.24}%
-\contentsline {subsection}{Properties of Vectors in \(\mathbb {R}^3\)}{11}{section*.25}%
-\contentsline {subsection}{The Dot Product and Its Properties}{11}{section*.26}%
-\contentsline {subsection}{Properties of the Dot Product}{12}{section*.27}%
-\contentsline {subsection}{Using the Dot Product to Find the Angle Between Two Vectors}{13}{section*.28}%
-\contentsline {subsection}{Orthogonal Vectors}{13}{section*.29}%
-\contentsline {subsection}{Direction Cosines}{14}{section*.30}%
-\contentsline {subsection}{Vector Projections}{15}{section*.31}%
-\contentsline {subsection}{Work}{16}{section*.32}%
-\contentsline {subsection}{The Cross Product}{16}{section*.33}%
-\contentsline {subsection}{Properties of the Cross Product}{17}{section*.34}%
-\contentsline {subsection}{Cross Product of Standard Unit Vectors}{17}{section*.35}%
-\contentsline {subsection}{Magnitude of the Cross Product}{18}{section*.36}%
-\contentsline {subsection}{Determinants and the Cross Product}{18}{section*.37}%
-\contentsline {subsection}{Applications of the Cross Product}{19}{section*.38}%
-\contentsline {subsection}{Area of a Parallelogram}{19}{section*.39}%
-\contentsline {subsection}{The Triple Scalar Product}{20}{section*.40}%
-\contentsline {subsection}{Volume of a Parallelepiped}{20}{section*.41}%
-\contentsline {subsection}{Applications of the Cross Product}{21}{section*.42}%
-\contentsline {subsection}{Torque}{21}{section*.43}%
-\contentsline {section}{Lecture Content}{1}{section*.44}%
-\contentsline {subsection}{Previous Lecture Recap}{1}{section*.45}%
-\contentsline {subsubsection}{Recall the Circle, Ellipse, Parabola, and Hyperbola}{1}{section*.46}%
-\contentsline {subsubsection}{Graph Differences in 2D and 3D}{1}{section*.47}%
-\contentsline {subsubsection}{Circle vs Sphere}{2}{section*.49}%
-\contentsline {subsubsection}{Describing the Region Between Two Spheres}{3}{section*.50}%
-\contentsline {subsection}{Introduction to Vectors}{3}{section*.51}%
-\contentsline {subsubsection}{Equivalent Vectors}{4}{section*.52}%
+\contentsline {section}{Lecture Content}{1}{section*.3}%
+\contentsline {subsection}{Term Test 2 Reminder!}{1}{section*.4}%
+\contentsline {subsection}{Section 4.7: Max and Min Values}{1}{section*.5}%
