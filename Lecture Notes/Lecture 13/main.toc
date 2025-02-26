@@ -1,10 +1,6 @@
 \babel@toc {english}{}\relax 
-\contentsline {subsection}{Review of Last Lecture}{1}{section*.2}%
-\contentsline {subsection}{Section 4.4: Tangent Planes}{1}{section*.3}%
-\contentsline {subsubsection}{Recall from 1st Year Calculus}{1}{section*.4}%
-\contentsline {subsubsection}{Now, in MAT232}{2}{section*.5}%
-\contentsline {subsection}{Let's Try an Example}{3}{section*.6}%
-\contentsline {subsection}{Another Example}{4}{section*.7}%
-\contentsline {subsection}{Section 4.5: Chain Rule}{5}{section*.8}%
-\contentsline {subsubsection}{Recall from 1st Year Calculus}{5}{section*.9}%
-\contentsline {subsection}{Now, in MAT232}{5}{section*.10}%
+\contentsline {section}{Title Page}{0}{Doc-Start}%
+\contentsline {section}{Preliminary Concepts}{1}{section*.2}%
+\contentsline {section}{Lecture Content}{1}{section*.3}%
+\contentsline {subsection}{Term Test 2 Reminder!}{1}{section*.4}%
+\contentsline {subsection}{Section 4.7: Max and Min Values}{1}{section*.5}%
