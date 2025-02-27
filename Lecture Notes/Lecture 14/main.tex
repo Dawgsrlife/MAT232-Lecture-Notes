@@ -99,419 +99,182 @@
 
 \setcounter{page}{1}
 
-\section*{Review from the Previous Lecture}
-\addcontentsline{toc}{section}{Review from the Previous Lecture}
-\begin{remarkbox}
-In the previous lecture, we covered important foundational concepts related to polar coordinates and their derivatives. Here’s a brief summary: 
+\textbf{self-note: add the things from the beginning of the lecture here}
 
-\begin{itemize}
-    \item \textbf{Derivative of \( r = f(\theta) \) in Cartesian Coordinates:}
-    \large
-    \[
-        \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = \dfrac{\dfrac{dr}{d\theta}\sin\theta + r\cos\theta}{\dfrac{dr}{d\theta}\cos\theta - r\sin\theta}
-    \]
-    \normalsize
-    This formula helps us compute the slope of the tangent line for polar curves when converted to Cartesian coordinates. 
+\newpage % remove this later
 
-    \item \textbf{Equation of a Circle:}
-    \[
-        (x-h)^2 + (y-k)^2 = r^2
-    \]
-    Here:
-    \begin{itemize}
-        \item[\labelitemi] \( r \): Radius of the circle
-        \item[\labelitemi] \( (h, k) \): Centre of the circle
-    \end{itemize}
-\end{itemize}
-
-\begin{notebox}
-\textbf{Reminder:} Term Test 1 is scheduled for \textbf{Thursday, January 30th, 2025 (Week 4)}. Make sure to review polar derivatives, transformations, and conic sections!
-\end{notebox}
-\end{remarkbox}
-
-\section*{Exploring Common Curve Shapes}
-\addcontentsline{toc}{section}{Exploring Common Curve Shapes}
-
-\subsection*{Parabola}
-\addcontentsline{toc}{subsection}{Parabola}
-
-\begin{definitionbox}
-A \textbf{parabola} is a symmetric curve defined by the quadratic equation:  
-\[
-    y = ax^2 + bx + c, \quad a \neq 0
-\]
-To rewrite this equation in vertex form, we complete the square:  
-\[
-    y = A(x - B)^2 + C
-\]
-
-Here:  
-\begin{itemize}
-    \item \( A \): Determines the direction and "width" of the parabola.  
-    \[
-        A > 0 \implies \text{The parabola opens upwards.}
-    \]  
-    \[
-        A < 0 \implies \text{The parabola opens downwards.}
-    \]
-    \item \( (B, C) \): Represents the vertex of the parabola.
-    \begin{itemize} 
-        \item[\labelitemi] \( B \): Horizontal position of the vertex.  
-        \item[\labelitemi] \( C \): Vertical position of the vertex.
-    \end{itemize} 
-\end{itemize}
-
-\begin{algorithmbox}
-
-    \textbf{Vertex Formula:}  
-    To find the vertex when given the standard form \( y = ax^2 + bx + c \), use the formulas:  
-    \[
-        B = -\frac{b}{2a}, \quad C = f(B)
-    \]
-    where \( f(B) \) is the value of the quadratic function evaluated at \( x = B \).
-\end{algorithmbox}
-\textit{...cont'd...}
-\end{definitionbox}
-
-\begin{definitionbox}
-    \textit{...cont'd...}
-    \begin{illustrationbox}
-        Below are examples of parabolas showcasing key features:  
-        \begin{figure}[H]
-            \centering
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image1.jpg}
-                \caption{A parabola opening down, labeled with its vertex and axis of symmetry.}
-                \label{fig:parabola_down}
-            \end{minipage}
-            \hspace{0.05\textwidth} % Adds horizontal space between the images
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image2.jpg}
-                \caption{Generic parabolas showing upwards and downwards directions of opening.}
-                \label{fig:parabola_generic}
-            \end{minipage}
-        \end{figure}
-    \end{illustrationbox}    
-\end{definitionbox}
-
-\section*{Example: Sketching the Region of a Set}
 \begin{examplebox}
-Sketch the region of the set defined by
-\[
-    R = \{ (x, y) \mid y \geq x^2 + 1 \}
-\]
+    Determine the point on the plane \( 4x - 2y + z = 1 \) that is the closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \).
+
+    \begin{solutionbox}
+        \begin{align*}
+            d &= \sqrt{(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2} \\
+            d &= \sqrt{(x + 2)^2 + (y + 1)^2 + (z - 5)^2} \\
+            d^2 &= (x + 2)^2 + (y + 1)^2 + (z - 5)^2 \\
+        \end{align*}
+        Consider that \( z = 1 - 4x + 2y \). Therefore, we have that
+        \begin{align*}
+            f_x &= 2(x + 2)'[1] + 2(-4x + 2y - 4)'[-4] \\
+            &= 2(x + 2) - 8(-4x + 2y - 4) \\
+            &= 2x + 4 + 32x - 16y + 32 \\
+            &= 34x - 16y + 36 \\
+            &= 0 \\
+            f_y &= 2(y + 1)'[1] + 2(-4x + 2y - 4)'[2] \\
+            &= 2(y + 1) + 4(-4x + 2y - 4) \\
+            &= 2y + 2 - 16x + 8y - 16 \\
+            &= -16x + 10y - 14 \\
+            &= 0 \\
+        \end{align*}
+        Solve the system of equations using substitution. We have that
+        \begin{align*}
+            34x - 16y + 36 = 2(16x - 10y + 14) &= 0 \implies 8y = 17x + 18 \\
+            -16x + 10y - 14 = 2(5y - 8x - 7) &= 0 \implies 5y - 8x - 7 = 0
+        \end{align*}
+
+        \textbf{finish this part according to the lecture notes lol}
+
+    \end{solutionbox}
+\end{examplebox}
+
 \begin{solutionbox}
-    Consider the graph for the function \( y = x^2 = 1 \):
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{x^2 + 1.png}
-        \caption{Graph of \( y = x^2 + 1 \).}
-        \label{fig:sample_image}
-    \end{figure}
-    Notice that
-    \begin{equation*}
-    \begin{aligned}
-    y &= x^2 + 1 \\
-    \implies 0 &\geq (-2)^2 + 1 \\
-    \implies 0 &\geq 5 \text{, which is not true.}
-    \end{aligned}
-    \end{equation*}
-    Then, notice that
-    \begin{equation*}
-    \begin{aligned}
-    2 &\geq 0^2 + 1 \\
-    \implies 2 &\geq 1 \text{, which is true!}
-    \end{aligned}
-    \end{equation*}
-    Here is the region being considered:
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
+    Notice that the plane is given in the form \( Ax + By + Cz = D \), where \( A = 4 \), \( B = -2 \), \( C = 1 \), and \( D = 1 \). The normal vector to the plane is given by \( \vb{n} = \begin{pmatrix} 4 \\ -2 \\ 1 \end{pmatrix} \). The point on the plane that is closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \) is the point on the plane that is closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \). The vector from the point \( (x_0, y_0, z_0) = (-2, -1, 5) \) to the point on the plane is orthogonal to the normal vector of the plane. Therefore, the vector from the point \( (x_0, y_0, z_0) = (-2, -1, 5) \) to the point on the plane is given by \( \vb{v} = \begin{pmatrix} x - (-2) \\ y - (-1) \\ z - 5 \end{pmatrix} = \begin{pmatrix} x + 2 \\ y + 1 \\ z - 5 \end{pmatrix} \). Since \( \vb{v} \) is orthogonal to \( \vb{n} \), we have that \( \vb{v} \cdot \vb{n} = 0 \). Therefore, we have that
+    \begin{align*}
+        \begin{pmatrix} x + 2 \\ y + 1 \\ z - 5 \end{pmatrix} \cdot \begin{pmatrix} 4 \\ -2 \\ 1 \end{pmatrix} &= 0 \\
+        4(x + 2) - 2(y + 1) + (z - 5) &= 0 \\
+        4x + 8 - 2y - 2 + z - 5 &= 0 \\
+        4x - 2y + z + 1 &= 0 \\
+        4x - 2y + z &= -1
+    \end{align*}
+    Since the point on the plane that is closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \) is the point on the plane that is closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \), we have that the point on the plane that is closest to the point \( (x_0, y_0, z_0) = (-2, -1, 5) \) is \( (-2, -1, 5) \).
 \end{solutionbox}
-\end{examplebox}
 
-\section*{Ellipse}
-\begin{definitionbox}
-The equation of an ellipse is defined by
-\[
-    \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1 \text{.}
-\]
-\begin{notebox}
-Recall the equation of the circle, which is based on the equation of the ellipse when \( a = b = 1 \):
-\[
-    \text{Circle:} \quad (x - h)^2 + (y - k)^2 = r^2 \text{,}
-\]
-where \( (h, k) \) is the centre, \( a \) represents the \( x \)-axis radius, and \( b \) represents the \( y \)-axis radius.
-\end{notebox}
-\end{definitionbox}
+In first year calculus, we learned that the derivative of a function gives us the slope of the tangent line to the function at a point. In this course, we will learn that the gradient of a function gives us the direction of the steepest ascent of the function at a point. The gradient of a function is a vector that points in the direction of the steepest ascent of the function at a point. The gradient of a function is given by the vector of partial derivatives of the function. The gradient of a function is denoted by \( \nabla f \) or \( \grad f \). The gradient of a function is given by
+\begin{align*}
+    \nabla f(x, y, z) &= \left \langle \pdv{f}{x}, \pdv{f}{y}, \pdv{f}{z} \right \rangle
+\end{align*}
 
-\section*{Example of Skecthing an Ellipse}
-\begin{examplebox}
-Sketch the region of the set defined by
-\[
-    A = \{ (x, y) \mid x^2 + 4y^2 > 4 \} \text{.}
-\]
-\begin{solutionbox}
-    Notice that
-    \[
-        x^2 + 4y^2 = 4 \text{.}
-    \]
-    This means the centre is at \( (0, 0) \).
-    Also,
-    \[
-        \dfrac{x^2}{4} + \dfrac{y^2}{1} = 1
-    \]
-    provides that the \( x \)-axis radius is \( a = 2 \) and the \( y \)-axis radius is \( b = 1 \). \\
-    \\
-    Here is the corresponding illustration:
-    \\\textbf{self-note: add the illustratoin from the lecture note from your camera roll}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Illustration of ellipse.}
-        \label{fig:sample_image}
-    \end{figure}
-    \begin{notebox}
-    Note that dashed lines are used to denote that the edge of the ellipse is \textbf{not included} in the region \( A \).
-    \end{notebox}
-    Check the point \( (0, 0) \):
-    \[
-        0^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 0 > 4 \text{,}
-    \]
-    which is not true. \\
-    \\
-    Therefore, the inside of the ellipse is \textbf{not} to be shaded in. \\
-    \\
-    Check the point \( (3, 0) \) :
-    \[
-        3^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 9 > 4 \text{,}
-    \]
-    which is true. \\
-    \\
-    This means, the outer region (excluding the edge) of the ellipse is the region of interest as denoted by \( A \).
-\end{solutionbox}
-\end{examplebox}
+\section*{Revisiting the Extreme Value Theorem}
+\addcontentsline{toc}{subsection}{Revisiting the Extreme Value Theorem}
 
-\section*{Introducing the Hyperbola}
-\begin{definitionbox}
-The equation of a hyperbola is defined by
-\[
-    \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
-\]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\[
-    \dfrac{y^2}{b^2} - \dfrac{x^2}{a^2} = 1
-\]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\end{definitionbox}
-
-\section*{Welcome to Linear Algebra...}
-\subsection*{well... not really!}
-
-\section*{Section 2.1/2.2: Welcome to 3D Space!}
-\begin{remarkbox}
-Recall that the cartesian coordinate system considers the 2-dimensional realm: a system in \( \mathbb{R}^2 \).
-\begin{illustrationbox}
-    \textbf{self-note: add the cartesian plane — the typical one in 2D}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-Now, check out the cartesian coordinate system being introduced in MAT232, considering the 3-dimensional realm; \( \mathbb{R}^3 \):
-\begin{illustrationbox}
-    \textbf{self-note: add the illustration for the 3D cartesian plane, the z-axis in addition to the x- and \( y \)-axis}.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\end{remarkbox}
-
-\begin{notebox}
-\underline{In 2D:} \\
-Notice that \( \mathbb{R}^2 = \mathbb{R} \times \mathbb{R} \), where the first \( \mathbb{R} \) represents the \( x \)-values and the second \( \mathbb{R} \) represents the \( y \)-values.
+Recall that in $1^{\text{st}}$ year calculus, the extreme value theorem is defined as follows: \\
+If $f$ is continuous on a closed interval $[a, b]$, then $f$ attains both a maximum and a minimum value on $[a, b]$. \\
 \\
-\underline{Now, in 3D:} \\
-Notice that \( \mathbb{R}^3 = \mathbb{R} \times \mathbb{R} \times \mathbb{R} \).
-\begin{itemize}
-    \item The first \( \mathbb{R} \) represents the \( x \)-values;
-    \item The second \( \mathbb{R} \) represents the \( y \)-values;
-    \item The third \( \mathbb{R} \) represents the \( z \)-values.
-\end{itemize}
-\end{notebox}
+Now, in MAT232, we will extend this theorem to functions of two variables.
 
-\section*{Example of Plotting in a 3D Cartesian Plane}
-\begin{examplebox}
-Plot the points \( (-1, 2, -3) \) and \( (2, -4, 2) \).
-\begin{illustrationbox}
-    \textbf{self-note: add the illustration here!!}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\textit{Follow the line segments denoted in \textbf{purple} for an interpretation guide of how the three components contribute to the final point destination, for \( (-1, 2, -3) \).} \\
-\textit{Follow the line segments denoted in \textbf{green} for an interpretation guide of how the three components contribute to the final point destination, for \( (2, -4, 2) \).} \\
-\end{examplebox}
-
-\section*{Interpreting Planes}
-\begin{conceptbox}
-Notice that in a 2D world, there is no notion of height when considering the \( x, y \)-plane. In a 3D world, \( z = 0 \). \\
-\\
-Now, have a look at the basic planes for a 3D cartesian graph: \\
-\\
-\underline{The \( xy \) plane:}
-\[
-    x = 0 \quad\quad\quad (x, y, 0)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\underline{The \( yz \) plane:}
-\[
-    x = 0 \quad\quad\quad (0, y, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\underline{The \( xz \) plane:}
-\[
-    x = 0 \quad\quad\quad (x, 0, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{conceptbox}
-
-\section*{Let's Try Going from 2D to 3D}
-\begin{examplebox}
-Consider the graph defined by \( y = 2 \) on a 2D cartesian graph:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-Here's how that would look like in a 3D cartesian space:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{examplebox}
-
-\begin{examplebox}
-Consider the graph of a circle defined by
-\[
-    x^2 + y^2 = 4 \text{.}
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-If this circle is brought to the 3D world, stretched along the \( z \)-axis, for any values of \( z \), then a cylinder is created (the cirle is the cross-section shape).
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{examplebox}
-
-\subsection*{Next Lecture: We Discuss Vectors!}
-
-\section*{Lecture Title}
-\begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
-\end{notebox}
-
-\section*{Key Concepts}
-\begin{definitionbox}
-A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
-\end{definitionbox}
-
-\section*{Examples}
-\begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-
-\end{examplebox}
-
-\section*{Theorems and Proofs}
 \begin{theorembox}
-\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
-\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
-
+    If $f$ is continuous on a closed and bounded region $D$ in $\mathbb{R}^2$, then $f$ attains both an absolute maximum and an absolute minimum value at some points \( (x_1, y_1) \) and \( (x_2, y_2) \) in the region $D$.
 \end{theorembox}
 
-\section*{Additional Notes}
-\begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
-\end{notebox}
+\begin{examplebox}
+    Find the absolute maximum and minimum values of the function \( f(x, y) = 3xy - 6x - 3y + 7 \) on the closed triangular region R with vertices at \( (0, 0) \), \( (3, 0) \), and \( (0, 5) \).
+
+    \textbf{self-note: be sure to also add the illustration for this example}
+
+    \begin{solutionbox}
+        \subsubsection*{Step 1: Find the Critical Points of the Function}
+        To find the critical points of the function, we need to find the points where the gradient of the function is equal to the zero vector. The gradient of the function is given by
+        \begin{align*}
+            \nabla f(x, y) &= \left \langle \pdv{f}{x}, \pdv{f}{y} \right \rangle \\
+            &= \left \langle 3y - 6, 3x - 3 \right \rangle
+        \end{align*}
+        Setting the gradient of the function equal to the zero vector, we have that
+        \begin{align*}
+            3y - 6 &= 0 \\
+            3x - 3 &= 0
+        \end{align*}
+        Solving the system of equations, we have that
+        \begin{align*}
+            3y - 6 &= 0 \implies 3y = 6 \implies y = 2 \\
+            3x - 3 &= 0 \implies 3x = 3 \implies x = 1
+        \end{align*}
+        Therefore, the critical point of the function is \( (1, 2) \). \\
+        \\
+        \textit{...cont'd...}
+    \end{solutionbox}
+\end{examplebox}
+\begin{examplebox}
+    \begin{solutionbox}
+        \textit{...cont'd...}
+        \subsubsection*{Step 2: Find the Maximum and Minimum Values of the Function on the Boundary of the Region}
+        \( L_1: x = 0, \quad 0 \leq y \leq 5 \)
+        \begin{align*}
+            f(x, y) &= 3xy - 6x - 3y + 7 \\
+            f(0, y) &= 3(0)y - 6(0) - 3y + 7 \\
+            &= -3y + 7
+            f_y = -3 \neq 0 \implies \text{no critical points}
+        \end{align*}
+        \( L_2: y = 0, \quad 0 \leq x \leq 3 \)
+        \begin{align*}
+            f(x, y) &= 3xy - 6x - 3y + 7 \\
+            f(x, 0) &= 3x(0) - 6x - 3(0) + 7 \\
+            &= -6x + 7
+            f_x = -6 \neq 0 \implies \text{no critical points}
+        \end{align*}
+        \( L_3: \text{slope} = \dfrac{\text{rise}}{\text{run}} = \dfrac{\Delta 5}{\Delta 3} = \dfrac{5 - 0}{0 - 3} = -\dfrac{5}{3} \)
+        So,
+        \begin{align*}
+            y &= mx + b, \quad \text{so } b = 5 \\
+            y &= -\dfrac{5}{3}x + 5, \quad 0 \leq x \leq 3
+        \end{align*}
+        \begin{align*}
+            f(x, y) &= 3xy - 6x - 3y + 7 \\
+            f(x, -\dfrac{5}{3}x + 5) &= 3x(-\dfrac{5}{3}x + 5) - 6x - 3(-\dfrac{5}{3}x + 5) + 7 \\
+            &= -5x^2 + 15x - 6x + 5x - 15 + 7 \\
+            &= -5x^2 + 14x - 8
+        \end{align*}
+        \begin{align*}
+            f_x &= -10x + 14 = 0 \\
+            -10x &= -14 \\
+            x &= \dfrac{7}{5} \\
+        \end{align*}
+        Since \( \dfrac{7}{5} \) is in the interval \( 0 \leq x \leq 3 \), we have that \( x = \dfrac{7}{5} \). \\
+        \\
+        So\dots
+        \begin{align*}
+            y &= -\dfrac{5}{3}(\dfrac{7}{5}) + 5 \\
+            &= -\dfrac{7}{3} + 5 \\
+            &= \dfrac{8}{3}
+        \end{align*}
+        Therefore, the critical point of the function is \( (\dfrac{7}{5}, \dfrac{8}{3}) \).
+    \end{solutionbox}
+    \textit{...cont'd...}
+\end{examplebox}
+\begin{examplebox}
+    \textit{...cont'd...}
+    \begin{solutionbox}
+        \subsubsection*{Step 3: Find the Maximum and Minimum Values of the Function at the Critical Points and on the Boundary of the Region}
+        The points where the function attains its maximum and minimum values are the critical points of the function and the points on the boundary of the region. These points are \( (1, 2) \), \( (\frac{7}{5}, \frac{8}{3}) \), \( (0, 0) \), \( (0, 5) \), and \( (3, 0) \). We need to evaluate the function at these points to determine the maximum and minimum values of the function. \\
+        \begin{align*}
+            f(1, 2) &= 3(1)(2) - 6(1) - 3(2) + 7 \\
+            &= 6 - 6 - 6 + 7 \\
+            &= 1
+        \end{align*}
+        \begin{align*}
+            f \left( \dfrac{7}{5}, \dfrac{8}{3} \right) &= 3 \left( \dfrac{7}{5} \right) \left( \dfrac{8}{3} \right) - 6 \left( \dfrac{7}{5} \right) - 3 \left( \dfrac{8}{3} \right) + 7 \\
+            &= \dfrac{\cancelto{3}{21}}{5} \cdot \dfrac{8}{\cancelto{1}{3}} - \dfrac{42}{5} - 8 + 7 \\
+            &= \dfrac{56}{5} - \dfrac{42}{5} - 8 + 7 \\
+            &= \dfrac{14}{5} - 8 + 7 \\
+            &= \dfrac{14}{5} - \dfrac{40}{5} + \dfrac{35}{5} \\
+            &= -\dfrac{26}{5} + \dfrac{35}{5} \\
+            &= \dfrac{9}{5}
+        \end{align*}
+        \begin{align*}
+            f(0, 0) &= 3(0)(0) - 6(0) - 3(0) + 7 \\
+            &= 0 - 0 - 0 + 7 \\
+            &= 7
+        \end{align*}
+        \begin{align*}
+            f(0, 5) &= 3(0)(5) - 6(0) - 3(5) + 7 \\
+            &= 0 - 0 - 15 + 7 \\
+            &= -8
+        \end{align*}
+        \begin{align*}
+            f(3, 0) &= 3(3)(0) - 6(3) - 3(0) + 7 \\
+            &= 0 - 18 - 0 + 7 \\
+            &= -11
+        \end{align*}
+        Therefore, the absolute maximum value of the function is \( 7 \) and the absolute minimum value of the function is \( -11 \).
+    \end{solutionbox}
+\end{examplebox}
 
 \end{document}

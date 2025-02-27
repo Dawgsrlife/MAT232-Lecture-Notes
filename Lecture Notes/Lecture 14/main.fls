@@ -431,160 +431,30 @@ INPUT intolecturecontent.tex
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/matha12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/matha8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/matha6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathb12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathb8.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathb6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/mathabx/mathx10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
+INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./sample_image2.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./x^2 + 1.png
-INPUT ./x^2 + 1.png
-INPUT ./x^2 + 1.png
-INPUT ./x^2 + 1.png
-INPUT ./x^2 + 1.png
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbi1000.tfm
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./sample_image.jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
-INPUT ./sample_image1.jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
@@ -594,21 +464,23 @@ INPUT ./ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb
