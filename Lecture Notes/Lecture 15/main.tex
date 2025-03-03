@@ -1,0 +1,275 @@
+\documentclass{article}
+\usepackage{amsthm,amsmath,amsfonts,lipsum}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{listings}
+\usepackage{fontawesome5}
+\usepackage{adjustbox}
+\usepackage{mathabx}
+\usepackage{thmtools}
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{physics}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames,x11names]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{background}
+\usepackage{units}
+
+% Configuring the background
+\backgroundsetup{
+  scale=1, % Optional, scale if needed
+  color=black, % Optional, set the image color, can be omitted
+  opacity=0.18, % Optional, adjust opacity for watermark effect
+  angle=0,
+  position=current page.center, % Center the image on the page
+  contents={\includegraphics[width=1.75\paperwidth, height=1.75\paperheight, keepaspectratio]{ninym_ralei_leaf (watermarked by AlexanderTheMango)}} % Keeps aspect ratio and scales to fill the page
+}
+
+% Colours
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{Firebrick}{rgb}{0.698, 0.132, 0.203}
+\definecolor{Crimson}{rgb}{0.862745, 0.078431, 0.235294} % Crimson color
+\definecolor{lightred}{rgb}{1.0, 0.819608, 0.819608} % Light red for background
+\definecolor{MediumPurple}{rgb}{0.576, 0.439, 0.859}
+\definecolor{chocolate}{rgb}{0.82, 0.41, 0.12} % Chocolate color definition
+% Define the Navy color
+\definecolor{Navy}{rgb}{0.0, 0.0, 0.5}
+
+% Define custom tcolorbox styles for notes
+\tcbuselibrary{skins, breakable}
+\newtcolorbox{definitionbox}{colframe=RoyalBlue, colback=blue!5!white, title=Definition}
+\newtcolorbox{examplebox}{colframe=ForestGreen, colback=green!5!white, title=Example}
+\newtcolorbox{notebox}{colframe=RedOrange, colback=orange!5!white, title=Note}
+\newtcolorbox{theorembox}{colframe=RoyalPurple, colback=purple!5!white, title=Theorem}
+
+\newtcolorbox{propositionbox}{colframe=Goldenrod, colback=yellow!10!white, title=Proposition}
+\newtcolorbox{remarkbox}{colframe=MidnightBlue, colback=blue!10!white, title=Remark}
+\newtcolorbox{corollarybox}{colframe=OliveGreen, colback=green!10!white, title=Corollary}
+\newtcolorbox{warningbox}{colframe=Crimson, colback=lightred, title=Warning}
+\newtcolorbox{proofbox}{colframe=Black, colback=gray!10!white, title=Proof}
+\newtcolorbox{questionbox}{colframe=Teal, colback=teal!10!white, title=Question}
+\newtcolorbox{tipbox}{colframe=Goldenrod, colback=yellow!10!white, title=Tip}
+\newtcolorbox{exercisebox}{colframe=darkgreen, colback=green!5!white, title=Exercise}
+\newtcolorbox{solutionbox}{colframe=DodgerBlue4, colback=blue!5!white, title=Solution}
+\newtcolorbox{algorithmbox}{colframe=Navy, colback=blue!10!white, title=Algorithm}
+\newtcolorbox{conceptbox}{colframe=chocolate, colback=brown!10!white, title=Concept}
+\newtcolorbox{illustrationbox}{colframe=Firebrick, colback=red!10!white, title=Illustration}
+\newtcolorbox{intuitionbox}{colframe=MediumPurple, colback=purple!10!white, title=Intuition}
+\newtcolorbox{answerbox}{colframe=RoyalBlue, colback=blue!10!white, title=Answer}
+
+% Geometry settings
+\geometry{letterpaper, portrait, includeheadfoot=true, hmargin=1in, vmargin=1in}
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{MAT232 - Lecture Notes}
+\rhead{\thepage}
+\lfoot{University of Toronto Mississauga}
+\rfoot{\today}
+
+% Document starts
+\begin{document}
+\renewcommand{\familydefault}{\rmdefault}
+
+\input{titlepage}
+
+\setcounter{page}{0}
+\newpage
+\tableofcontents
+\newpage
+
+\input{preliminary}
+
+
+
+\input{intolecturecontent}
+\normalsize
+
+\setcounter{page}{1}
+
+\textbf{self-note: complete this according to the posted lecture notes}
+
+\subsection*{SDT}
+\begin{itemize}
+    \item rel max
+    \item rel min
+    \item saddle point
+    \item 
+\end{itemize}
+
+\section*{Section 14.8: Lagrange Multipliers}
+\begin{illustrationbox}
+
+\end{illustrationbox}
+Absolute maximum? Find it using the gradient!
+
+\[
+    z = f(x, y)
+\]
+
+The gradient would be pointing upwards.
+
+\[
+  g(x, y) = k
+\]
+\( k \) is a scalar/constant \\
+\noindent
+\underline{Lagrange Multipliers} \\
+\begin{examplebox}
+    Given \( f(x, y) \) subject to a constant
+    \[
+        g(x, y) = k
+    \]
+    1: Solve
+    (fix the stuff below later) \\
+    % \[
+    %     \begin{dcases}
+    %         \nabla f(x, y) = \lambda \nabla g(x, y), &\text{ first }  ;\\
+    %         g(x, y) = k, &\text{ second }  .
+    %     \end{dcases}
+    % \]
+    2: \( \nabla g(x, y) \neq \overline{0} \); discard that \( (x, y) \). \\
+    \textbf{self-note: finish this according to the posted lecture notes later}
+    3: Plug all \( (x, y) \) 
+\end{examplebox}
+
+\begin{examplebox}
+    Find the minimum fencing required if the area is \( 800 m^2 \).
+
+    \begin{illustrationbox}
+        \textbf{self-note: add the illustration of the fencing from the notes later on}
+    \end{illustrationbox}
+
+    \begin{solutionbox}
+        Perimeter:
+        \[
+            P = 2y + x
+        \]
+        Area:
+        \[
+            800 = xy
+        \]
+        Note that the \( y \) is the constraint. \\
+        \\
+        So\dots
+        \[
+            y = \frac{800}{x}
+        \]
+        So\dots
+        \begin{align*}
+            P(x) &= 2  (\frac{800}{x}) + x \\
+            &= 1600x^{-1} + x \\
+            \implies P'(x) &= -1600x^{-2} + 1 \\
+            \implies P''(x) &= 3200x^{-3} \\
+            \implies P'(x) = 0 &= -\frac{1600}{x} + \frac{1}{1} \cdot \frac{x^2}{x^2} \\
+            \implies 0 &= \frac{-1600 + x^2}{x^2}
+        \end{align*}
+        So\dots
+        Num:
+        \[
+            0 = -1600 + x^2
+        \]
+        This means
+        \[
+            x = \pm 40
+        \]
+        so only
+        \[
+            x = 40.
+        \]
+        Note that denom
+        \[
+            x^2 = 0
+        \]
+
+        \begin{align*}
+            P''(x) &= 3200x^{-3} \quad \dots \quad x = 40 \\
+            \implies P''(40) &= \frac{3200}{40^3} > 0
+        \end{align*}
+        So, by SDT, rel min at \( x = 40 \).
+        So\dots
+        \begin{align*}
+            800 &= xy \\
+            \implies 800 &= 40y \\
+            \implies 20 &= y
+        \end{align*}
+        Therefore, the minimum fencing needed is
+        \[
+            P = x + 2y = 40 + 2 \cdot 20 = 80 m.
+        \]
+    \end{solutionbox}
+\end{examplebox}
+
+Now, let's achieve the same result using Lagrange Multipliers!
+
+\section*{Application of Lagrange Multipliers}
+\addcontentsline{toc}{subsection}{Application of Lagrange Multiplers}
+
+\begin{examplebox}
+    Find the minimum fencing required if the area is \( 800 m^2 \).
+
+    \begin{solutionbox}
+        Perimeter:
+        \[
+            P = 2y + x \leftarrow f(x, y)
+        \]
+        Area:
+        \[
+            800 = xy \leftarrow \quad \text{constraint} \quad \leftarrow \quad g(x, y) = k
+        \]
+        \end{solutionbox}
+    
+        \subsubsection*{Step No. 1}
+        Given \( P(x, y) = 2y + x \) subject to the constraint \( 800 = xy \).
+    
+        \begin{solutionbox}
+        \begin{align*}
+            \nabla P(x, y) &= \lambda \nabla g(x, y) \\
+            \langle P_x, P_y \rangle &= \lambda \langle g_x, g_y \rangle \\
+            \langle 1, 2 \rangle &= \lambda \langle y, x \rangle \\
+            \textbf{self-note: fix this later}
+            % systm of equations:
+            % \begin{dcases}
+            %     1 = \lambda y, &\text{ if \lambda \neq 0}  ;\\
+            %     2 = \lambda x, &\text{ if }  .
+            % \end{dcases}
+            \implies \frac{1}{y} &= \lambda, \quad y \neq 0 \\
+            \land \frac{2}{x} = \lambda
+        \end{align*}
+        Equate \( \lambda \):
+        \[
+            \frac{1}{y} = \frac{2}{x}
+        \]
+        \[
+            x = 2y
+        \]
+        \subsubsection*{Constraint}
+        \begin{align*}
+            800 &= xy \\
+            800 &= 2y \cdot y \\
+            400 &= y^2 \\
+            \pm 20 &= y \\
+            \text{So\dots} \quad y &= 20 \\
+            \text{So\dots} \quad x &= 2y \\
+            x &= 2 \cdot 20 \\
+            x &= 40
+        \end{align*}
+        So \( (40, 20) \).
+
+        In this case, because \( x = \text{something}y \), we found the \( y \)-value.
+    \end{solutionbox}
+\end{examplebox}
+
+\end{document}
