@@ -269,6 +269,50 @@ Now, let's achieve the same result using Lagrange Multipliers!
         So \( (40, 20) \).
 
         In this case, because \( x = \text{something}y \), we found the \( y \)-value.
+
+        \textbf{self-note: don't forget to add step no.2 and step no. 3 from the posted lecture notes as well!}
+    \end{solutionbox}
+\end{examplebox}
+
+\newpage  % maybe remove this newpage thing later
+
+\begin{examplebox}
+    Fidn the absolute max and absolute min of \( f (x, y) = 5x - 3y \) subject to the constraint \( x^2 + y^2 = 136 \).
+    
+    \begin{solutionbox}
+        \[
+            f(x, y) = 5x - 3y
+        \]
+        \[
+            g(x, y) = x^2 + y^2 = 136 = k
+        \]
+
+        \underline{Step no. 1}
+        \begin{align*}
+            \nabla f(x, y) &= \lambda \nabla g(x, y) \\
+            \langle 5, -3 \rangle &= \lambda \langle 2x, 2y \rangle \\
+            \text{Notice that} \quad 5 = 2\lambda x &\land -3 = 2 \lambda x.
+        \end{align*}
+        \begin{itemize}
+            \item \( \lambda \neq 0 \):
+            \begin{itemize}
+                \item \( \frac{5}{2x} = \lambda \quad \frac{-3}{2y} = \lambda \)
+                \item \( 5y = -3x \) 
+                \item \( y = \frac{-3x}{5} \)
+            \end{itemize}
+            Time for the constraint:
+            \begin{align*}
+                x^2 + y^2 &= 136 \\
+                x^2 + \left( \frac{-3x}{5} \right)^2 &= 136 \\
+                x^2 + \frac{9x^2}{25} &= 136 \\
+                \frac{25x^2 + 9x^2}{25} &= 136 \\
+                \frac{34x^2}{25} &= 136 \\
+                34x^2 &= 136 \cdot 25 \\
+                34x^2 &= 3400 \\
+                x^2 &= 100 \\
+                x &= \pm 10
+            \end{align*}
+        \end{itemize}
     \end{solutionbox}
 \end{examplebox}
 

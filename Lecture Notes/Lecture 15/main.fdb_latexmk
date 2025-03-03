@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741024228.71197 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 15/main.tex" "main.pdf" "main" 1741024230.31996 0
-  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 15/main.tex" 1741024227 8559 874f9d5f662b74cf8927f7cbbcc30907 ""
+["pdflatex"] 1741024720.97961 "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 15/main.tex" "main.pdf" "main" 1741024722.62231 0
+  "c:/Users/33576/! UTM/! Second Year/Winter Term/MAT232-Lecture-Notes/Lecture Notes/Lecture 15/main.tex" 1741024720 10137 08372f3e943badc9c9325c172a9cb294 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1727285803 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727285803 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1727287667 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -50,6 +50,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb" 1727285803 187615 bb451e62cf0d8d93a332d893f0d610a9 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb" 1727290191 90043 2bda701743526ed6f01ce1beda7e4064 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb" 1727290191 93088 b44e209f5507ad83293624e701db4de5 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb" 1727290191 70423 4a4623dcfd6ff83fa8b359aa8621f0da ""
   "c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1727290634 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1727197923 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf" 1727198405 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -240,10 +241,10 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727296253 3325960 5fac605b348f32104185a90287f47418 ""
   "c:/texlive/2024/texmf.cnf" 1727296015 713 e69b156964470283e0530f5060668171 ""
   "intolecturecontent.tex" 1738001006 446 d40b9d973b74599e4707b96b940d9da4 ""
-  "main.aux" 1741024230 785 c1849ca86104512957cbd26408afcf7d "pdflatex"
-  "main.out" 1741024230 223 00e5b90fe33ae60ccad0e12d8f31fc15 "pdflatex"
-  "main.tex" 1741024227 8559 874f9d5f662b74cf8927f7cbbcc30907 ""
-  "main.toc" 1741024230 109 6bdb5fe1b3e631b521eeda3e75728c65 "pdflatex"
+  "main.aux" 1741024722 829 aba6038aeed6c6669af9a74637455c18 "pdflatex"
+  "main.out" 1741024722 223 00e5b90fe33ae60ccad0e12d8f31fc15 "pdflatex"
+  "main.tex" 1741024720 10137 08372f3e943badc9c9325c172a9cb294 ""
+  "main.toc" 1741024722 109 6bdb5fe1b3e631b521eeda3e75728c65 "pdflatex"
   "ninym_ralei_leaf (watermarked by AlexanderTheMango).jpg" 1738001006 352230 3026293457766b3dbc2374b1899913e4 ""
   "preliminary.tex" 1738001006 451 007a58133a5e6df778541a9fee6dab25 ""
   "titlepage.tex" 1741022225 451 4e553e01fa69d1ff9ea224bf43d60b17 ""
