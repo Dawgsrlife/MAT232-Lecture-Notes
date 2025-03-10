@@ -1,0 +1,2 @@
+\babel@toc {english}{}\relax 
+\contentsline {subsection}{Application of Lagrange Multiplers}{4}{section*.4}%
