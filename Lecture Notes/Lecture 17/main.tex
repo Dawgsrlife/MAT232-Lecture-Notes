@@ -99,419 +99,121 @@
 
 \setcounter{page}{1}
 
-\section*{Review from the Previous Lecture}
-\addcontentsline{toc}{section}{Review from the Previous Lecture}
-\begin{remarkbox}
-In the previous lecture, we covered important foundational concepts related to polar coordinates and their derivatives. Here’s a brief summary: 
-
-\begin{itemize}
-    \item \textbf{Derivative of \( r = f(\theta) \) in Cartesian Coordinates:}
-    \large
-    \[
-        \dfrac{dy}{dx} = \dfrac{\dfrac{dy}{d\theta}}{\dfrac{dx}{d\theta}} = \dfrac{\dfrac{dr}{d\theta}\sin\theta + r\cos\theta}{\dfrac{dr}{d\theta}\cos\theta - r\sin\theta}
-    \]
-    \normalsize
-    This formula helps us compute the slope of the tangent line for polar curves when converted to Cartesian coordinates. 
-
-    \item \textbf{Equation of a Circle:}
-    \[
-        (x-h)^2 + (y-k)^2 = r^2
-    \]
-    Here:
-    \begin{itemize}
-        \item[\labelitemi] \( r \): Radius of the circle
-        \item[\labelitemi] \( (h, k) \): Centre of the circle
-    \end{itemize}    
-\end{itemize}
+\section*{Reminders}
+\addcontentsline{toc}{subsection}{Reminders}
 
 \begin{notebox}
-\textbf{Reminder:} Term Test 1 is scheduled for \textbf{Thursday, January 30th, 2025 (Week 4)}. Make sure to review polar derivatives, transformations, and conic sections!
+    Term test 3 information:
 \end{notebox}
-\end{remarkbox}
+\begin{notebox}
+    Final exam information:
+\end{notebox}
 
-\section*{Exploring Common Curve Shapes}
-\addcontentsline{toc}{section}{Exploring Common Curve Shapes}
-
-\subsection*{Parabola}
-\addcontentsline{toc}{subsection}{Parabola}
-
-\begin{definitionbox}
-A \textbf{parabola} is a symmetric curve defined by the quadratic equation:  
-\[
-    y = ax^2 + bx + c, \quad a \neq 0
-\]
-To rewrite this equation in vertex form, we complete the square:  
-\[
-    y = A(x - B)^2 + C
-\]
-
-Here:  
-\begin{itemize}
-    \item \( A \): Determines the direction and "width" of the parabola.  
-    \[
-        A > 0 \implies \text{The parabola opens upwards.}
-    \]  
-    \[
-        A < 0 \implies \text{The parabola opens downwards.}
-    \]
-    \item \( (B, C) \): Represents the vertex of the parabola.
-    \begin{itemize} 
-        \item[\labelitemi] \( B \): Horizontal position of the vertex.  
-        \item[\labelitemi] \( C \): Vertical position of the vertex.
-    \end{itemize} 
-\end{itemize}
-
-\begin{algorithmbox}
-
-    \textbf{Vertex Formula:}  
-    To find the vertex when given the standard form \( y = ax^2 + bx + c \), use the formulas:  
-    \[
-        B = -\frac{b}{2a}, \quad C = f(B)
-    \]
-    where \( f(B) \) is the value of the quadratic function evaluated at \( x = B \).
-\end{algorithmbox}
-\textit{...cont'd...}
-\end{definitionbox}
-
-\begin{definitionbox}
-    \textit{...cont'd...}
+% add a section here
+\begin{examplebox}
+    Set up \( \int_{}^{} \int_{}^{} (2x - y^2) dA \) where \( R \) is the triangular region bounded by \( y = -x + 1 \) \( y = x + 1 \), and \( y = 3 \) in both ways (i.e. \( dydx \) and \( dxdy \)).
     \begin{illustrationbox}
-        Below are examples of parabolas showcasing key features:  
-        \begin{figure}[H]
-            \centering
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image1.jpg}
-                \caption{A parabola opening down, labeled with its vertex and axis of symmetry.}
-                \label{fig:parabola_down}
-            \end{minipage}
-            \hspace{0.05\textwidth} % Adds horizontal space between the images
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{sample_image2.jpg}
-                \caption{Generic parabolas showing upwards and downwards directions of opening.}
-                \label{fig:parabola_generic}
-            \end{minipage}
-        \end{figure}
-    \end{illustrationbox}    
-\end{definitionbox}
+        add stuff here lol
+    \end{illustrationbox}
+    \begin{solutionbox}
+        First, we need to find the intersection points of the lines. We have \( -x + 1 = x + 1 \) which gives us \( x = 0 \). So, the intersection points are \( (0, 1) \) and \( (0, 3) \).
+        \begin{itemize}
+            \item \( dydx \): We have \( x \) going from \( 0 \) to \( 1 \) and \( y \) going from \( -x + 1 \) to \( x + 1 \). So, we have
+                  \[ \int_{0}^{1} \int_{-x + 1}^{x + 1} (2x - y^2) dydx \]
+            \item \( dxdy \): We have \( y \) going from \( 1 \) to \( 3 \) and \( x \) going from \( -y + 1 \) to \( y - 1 \). So, we have
+                  \[ \int_{1}^{3} \int_{-y + 1}^{y - 1} (2x - y^2) dxdy \]
+        \end{itemize}
+        Next, we may optionally evaluate both integrals to verify that they are equal.
+        \subsubsection*{Evaluating \( \int_{0}^{1} \int_{-x + 1}^{x + 1} (2x - y^2) dydx \)}
+        We have
+        \begin{align*}
+            \int_{0}^{1} \int_{-x + 1}^{x + 1} (2x - y^2) dydx & = \int_{0}^{1} \left[ 2xy - \frac{y^3}{3} \right]_{-x + 1}^{x + 1} dx \\
+            & = \int_{0}^{1} \left[ 2x(x + 1) - \frac{(x + 1)^3}{3} - 2x(-x + 1) + \frac{(-x + 1)^3}{3} \right] dx \\
+            & = \int_{0}^{1} \left[ 2x^2 + 2x - \frac{x^3 + 3x^2 + 3x + 1}{3} + 2x^2 - 2x + \frac{-x^3 + 3x^2 - 3x + 1}{3} \right] dx \\
+            & = \int_{0}^{1} \left[ 4x^2 - \frac{2}{3} \right] dx \\
+            & = \left[ \frac{4}{3}x^3 - \frac{2}{3}x \right]_{0}^{1} \\
+            & = \frac{4}{3} - \frac{2}{3} \\
+            & = \frac{2}{3}
+        \end{align*}
+        \subsubsection*{Evaluating \( \int_{1}^{3} \int_{-y + 1}^{y - 1} (2x - y^2) dxdy \)}
+        We have
+        \begin{align*}
+            \int_{1}^{3} \int_{-y + 1}^{y - 1} (2x - y^2) dxdy & = \int_{1}^{3} \left[ x^2 - y^2x \right]_{-y + 1}^{y - 1} dy \\
+            & = \int_{1}^{3} \left[ (y - 1)^2 - y^2(y - 1) - ((-y + 1)^2 - y^2(-y + 1)) \right] dy \\
+            & = \int_{1}^{3} \left[ y^2 - 2y + 1 - y^3 + y^2 - y - y^2 + 2y - 1 \right] dy \\
+            & = \int_{1}^{3} \left[ -y^3 + 2y \right] dy \\
+            & = \left[ -\frac{y^4}{4} + y^2 \right]_{1}^{3} \\
+            & = -\frac{81}{4} + 9 - \left( -\frac{1}{4} + 1 \right) \\
+            & = -\frac{81}{4} + 9 + \frac{1}{4} - 1 \\
+            & = -\frac{80}{4} + 8 \\
+            & = -20 + 8 \\
+            & = -12
+        \end{align*}
+    \end{solutionbox}
 
-\section*{Example: Sketching the Region of a Set}
-\begin{examplebox}
-Sketch the region of the set defined by
-\[
-    R = \{ (x, y) \mid y \geq x^2 + 1 \}
-\]
-\begin{solutionbox}
-    Consider the graph for the function \( y = x^2 = 1 \):
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{x^2 + 1.png}
-        \caption{Graph of \( y = x^2 + 1 \).}
-        \label{fig:sample_image}
-    \end{figure}
-    Notice that
-    \begin{equation*}
-    \begin{aligned}
-    y &= x^2 + 1 \\
-    \implies 0 &\geq (-2)^2 + 1 \\
-    \implies 0 &\geq 5 \text{, which is not true.}
-    \end{aligned}
-    \end{equation*}
-    Then, notice that
-    \begin{equation*}
-    \begin{aligned}
-    2 &\geq 0^2 + 1 \\
-    \implies 2 &\geq 1 \text{, which is true!}
-    \end{aligned}
-    \end{equation*}
-    Here is the region being considered:
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{solutionbox}
 \end{examplebox}
 
-\section*{Ellipse}
-\begin{definitionbox}
-The equation of an ellipse is defined by
-\[
-    \dfrac{(x - h)^2}{a^2} + \dfrac{(y - k)^2}{b^2} = 1 \text{.}
-\]
-\begin{notebox}
-Recall the equation of the circle, which is based on the equation of the ellipse when \( a = b = 1 \):
-\[
-    \text{Circle:} \quad (x - h)^2 + (y - k)^2 = r^2 \text{,}
-\]
-where \( (h, k) \) is the centre, \( a \) represents the \( x \)-axis radius, and \( b \) represents the \( y \)-axis radius.
-\end{notebox}
-\end{definitionbox}
-
-\section*{Example of Skecthing an Ellipse}
 \begin{examplebox}
-Sketch the region of the set defined by
-\[
-    A = \{ (x, y) \mid x^2 + 4y^2 > 4 \} \text{.}
-\]
-\begin{solutionbox}
-    Notice that
-    \[
-        x^2 + 4y^2 = 4 \text{.}
-    \]
-    This means the centre is at \( (0, 0) \).
-    Also,
-    \[
-        \dfrac{x^2}{4} + \dfrac{y^2}{1} = 1
-    \]
-    provides that the \( x \)-axis radius is \( a = 2 \) and the \( y \)-axis radius is \( b = 1 \). \\
-    \\
-    Here is the corresponding illustration:
-    \\\textbf{self-note: add the illustratoin from the lecture note from your camera roll}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Illustration of ellipse.}
-        \label{fig:sample_image}
-    \end{figure}
-    \begin{notebox}
-    Note that dashed lines are used to denote that the edge of the ellipse is \textbf{not included} in the region \( A \).
-    \end{notebox}
-    Check the point \( (0, 0) \):
-    \[
-        0^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 0 > 4 \text{,}
-    \]
-    which is not true. \\
-    \\
-    Therefore, the inside of the ellipse is \textbf{not} to be shaded in. \\
-    \\
-    Check the point \( (3, 0) \) :
-    \[
-        3^2 + 4 \cdot 0^2 > 4
-    \]
-    \[
-        \implies 9 > 4 \text{,}
-    \]
-    which is true. \\
-    \\
-    This means, the outer region (excluding the edge) of the ellipse is the region of interest as denoted by \( A \).
-\end{solutionbox}
+    Reverse the order of the integral defined by \( \int_{-1}^{1} \int_{1 + y^2}^{2y^2} (2x + y) dxdy \).
+
+    \begin{solutionbox}
+        Consider that there are three integrals in the expression. We also have the following bounds:
+        \begin{itemize}
+            \item \( -1 \leq x \leq 1 \)
+            \item \( 1 + y^2 \leq x \leq 2y^2 \)
+        \end{itemize}
+        We can reverse the order of the integral by considering the bounds of the integral. We have
+        \begin{align*}
+            \int_{y = -1}^{y = 1} \int_{x = 1 + y^2}^{x = 2y^2} (2x + y) dxdy \\
+            = \int_{x = 0}^{x = 1} \int_{y = -\sqrt{\frac{x}{2}}}^{y = \sqrt{\frac{x}{2}} } (2x + y) dx dy + \int_{x = 1}^{x = 2} \int_{y = -\sqrt{x - 1}}^{y = \sqrt{\frac{x}{2}}} (2x + y) dx dy + \int_{x = 1}^{x = 2} \int_{y = -\sqrt{\frac{x}{2}}}^{y = -\sqrt{x - 1}} (2x + y) dx dy \\
+        \end{align*}
+    \end{solutionbox}
 \end{examplebox}
 
-\section*{Introducing the Hyperbola}
-\begin{definitionbox}
-The equation of a hyperbola is defined by
-\[
-    \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
-\]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\[
-    \dfrac{y^2}{b^2} - \dfrac{x^2}{a^2} = 1
-\]
-\begin{illustrationbox}
-    \textbf{self-note: add the image of the corresponding illustration here (see the lecture note)}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\end{definitionbox}
+\begin{examplebox}
+    Rewrite the following integral as a single double integral:
+    \[
+        \int_{0}^{\frac{1}{2}} \int_{0}^{2y} (2 - x - 2y) dxdy + \int_{\frac{1}{2}}^{1} \int_{0}^{2 - 2y} (2 - x - 2y) dxdy
+    \]
 
-\section*{Welcome to Linear Algebra...}
-\subsection*{well... not really!}
+    \begin{solutionbox}
+        \begin{illustrationbox}
+            \begin{center}
+                \includegraphics[width=0.5\textwidth]{sample_image.jpg}
+            \end{center}
+        \end{illustrationbox}
+        \begin{itemize}
+            \item \( x = 2 - 2y \implies y = 1 - \frac{x}{2} \)
+        \end{itemize}
+        The triangular region is denoted by:
+        \begin{itemize}
+            \item \( y = \frac{x}{2} \)
+            \item \( x = 0 \)
+            \item \( y = 1 - \frac{x}{2} \)
+        \end{itemize}
 
-\section*{Section 2.1/2.2: Welcome to 3D Space!}
-\begin{remarkbox}
-Recall that the cartesian coordinate system considers the 2-dimensional realm: a system in \( \mathbb{R}^2 \).
-\begin{illustrationbox}
-    \textbf{self-note: add the cartesian plane — the typical one in 2D}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-Now, check out the cartesian coordinate system being introduced in MAT232, considering the 3-dimensional realm; \( \mathbb{R}^3 \):
-\begin{illustrationbox}
-    \textbf{self-note: add the illustration for the 3D cartesian plane, the z-axis in addition to the x- and \( y \)-axis}.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\end{remarkbox}
+        Thus, we consider \( y_{upper} \) and \( y_{lower} \) to find the bounds of the integral. We have
+        \begin{align*}
+            y_1 &= y_2 \\
+            \frac{x}{2} &= 1 - \frac{x}{2} \\
+            x &= 1
+        \end{align*}
+
+    \end{solutionbox}
+\end{examplebox}
+
+\begin{tipbox}
+    Soemtimes it is easier to evaluate the integral by reversing the order of integration.
+\end{tipbox}
 
 \begin{notebox}
-\underline{In 2D:} \\
-Notice that \( \mathbb{R}^2 = \mathbb{R} \times \mathbb{R} \), where the first \( \mathbb{R} \) represents the \( x \)-values and the second \( \mathbb{R} \) represents the \( y \)-values.
-\\
-\underline{Now, in 3D:} \\
-Notice that \( \mathbb{R}^3 = \mathbb{R} \times \mathbb{R} \times \mathbb{R} \).
-\begin{itemize}
-    \item The first \( \mathbb{R} \) represents the \( x \)-values;
-    \item The second \( \mathbb{R} \) represents the \( y \)-values;
-    \item The third \( \mathbb{R} \) represents the \( z \)-values.
-\end{itemize}
+    Sometimes it is the region that is difficult to describe, not the integral itself. In other times, it is the function that has a difficult integral.
 \end{notebox}
 
-\section*{Example of Plotting in a 3D Cartesian Plane}
-\begin{examplebox}
-Plot the points \( (-1, 2, -3) \) and \( (2, -4, 2) \).
-\begin{illustrationbox}
-    \textbf{self-note: add the illustration here!!}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-        \caption{Sample image illustrating the concept.}
-        \label{fig:sample_image}
-    \end{figure}
-\end{illustrationbox}
-\textit{Follow the line segments denoted in \textbf{purple} for an interpretation guide of how the three components contribute to the final point destination, for \( (-1, 2, -3) \).} \\
-\textit{Follow the line segments denoted in \textbf{green} for an interpretation guide of how the three components contribute to the final point destination, for \( (2, -4, 2) \).} \\
-\end{examplebox}
+Some functions are not integrable, such as \( f(x) = \frac{1}{x} \) on \( [0, 1] \).
 
-\section*{Interpreting Planes}
-\begin{conceptbox}
-Notice that in a 2D world, there is no notion of height when considering the \( x, y \)-plane. In a 3D world, \( z = 0 \). \\
-\\
-Now, have a look at the basic planes for a 3D cartesian graph: \\
-\\
-\underline{The \( xy \) plane:}
-\[
-    x = 0 \quad\quad\quad (x, y, 0)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\underline{The \( yz \) plane:}
-\[
-    x = 0 \quad\quad\quad (0, y, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\underline{The \( xz \) plane:}
-\[
-    x = 0 \quad\quad\quad (x, 0, z)
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{conceptbox}
+However, feel free to always use \( u \)-substitution as done in first year calculus.
 
-\section*{Let's Try Going from 2D to 3D}
-\begin{examplebox}
-Consider the graph defined by \( y = 2 \) on a 2D cartesian graph:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-Here's how that would look like in a 3D cartesian space:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{examplebox}
-
-\begin{examplebox}
-Consider the graph of a circle defined by
-\[
-    x^2 + y^2 = 4 \text{.}
-\]
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-If this circle is brought to the 3D world, stretched along the \( z \)-axis, for any values of \( z \), then a cylinder is created (the cirle is the cross-section shape).
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-\end{examplebox}
-
-\subsection*{Next Lecture: We Discuss Vectors!}
-
-\section*{Lecture Title}
-\begin{notebox}
-This template is designed for MAT232 lecture notes. Replace this content with your specific lecture details.
-\end{notebox}
-
-\section*{Key Concepts}
-\begin{definitionbox}
-A \textbf{parametric equation} is a set of equations that express the coordinates of the points of a curve as functions of a variable, called a parameter.
-\end{definitionbox}
-
-\section*{Examples}
-\begin{examplebox}
-\textbf{Example 1:} Consider the parametric equations:
-\[ x = t, \quad y = t^2, \quad t \in \mathbb{R}. \]
-\begin{itemize}
-    \item At $t = 0$, $(x, y) = (0, 0)$.
-    \item At $t = 1$, $(x, y) = (1, 1)$.
-\end{itemize}
-This describes a parabola.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image.jpg}
-    \caption{Sample image illustrating the concept.}
-    \label{fig:sample_image}
-\end{figure}
-
-\end{examplebox}
-
-\section*{Theorems and Proofs}
-\begin{theorembox}
-\textbf{Theorem:} If $x(t)$ and $y(t)$ are differentiable functions, the slope of the curve is given by:
-\[ \frac{dy}{dx} = \frac{\frac{dy}{dt}}{\frac{dx}{dt}}, \quad \text{provided } \frac{dx}{dt} \neq 0. \]
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{sample_image1.jpg}
-    \caption{Graphical representation of the theorem.}
-    \label{fig:sample_image1}
-\end{figure}
-
-\end{theorembox}
-
-\section*{Additional Notes}
-\begin{notebox}
-Always check the domain of the parameter $t$ when solving problems involving parametric equations.
-\end{notebox}
+However, you can reverse the order of integration to actually solve the question from an integral that is not integrable.
 
 \end{document}
