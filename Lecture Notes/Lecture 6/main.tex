@@ -231,6 +231,7 @@ A vector in standard position has its initial point at the origin \((0, 0)\). If
 \begin{proofbox}
     \textbf{Proof of Commutative Property:}
     \begin{proof}
+    \leavevmode\\
     Let \(\vv{u} = \langle u_1, u_2 \rangle\) and \(\vv{v} = \langle v_1, v_2 \rangle\). Then:
     \[
     \vv{u} + \vv{v} = \langle u_1 + v_1, u_2 + v_2 \rangle = \langle v_1 + u_1, v_2 + u_2 \rangle = \vv{v} + \vv{u}.
@@ -324,9 +325,7 @@ A plane parallel to one of the coordinate planes can be described by:
 \subsection*{Equations of Spheres}
 \addcontentsline{toc}{subsection}{Equations of Spheres}
 
-\begin{definitionbox}
-    A \textbf{sphere} is the shape described by the set of all points in space equidistant from a fixed point, called the \textbf{centre}. The distance from the centre to any point on the sphere is called the \textbf{radius}.
-\end{definitionbox}
+A \textbf{sphere} is the shape described by the set of all points in space equidistant from a fixed point, called the \textbf{centre}. The distance from the centre to any point on the sphere is called the \textbf{radius}.
 
 \begin{theorembox}
     \textbf{Equation of a Sphere:} \\
@@ -336,9 +335,20 @@ A plane parallel to one of the coordinate planes can be described by:
     \]
 \end{theorembox}
 
-\begin{exercisebox}
+\begin{examplebox}
     Find the standard equation of the sphere with center \((-2, 4, -5)\) and passing through point \((4, 4, -1)\).
-\end{exercisebox}
+
+    \begin{solutionbox}
+        Since the sphere passes through \((4, 4, -1)\), the distance between the center and this point is the radius:
+        \[
+        r = \sqrt{(-2 - 4)^2 + (4 - 4)^2 + (-5 + 1)^2} = \sqrt{36 + 0 + 16} = \sqrt{52}.
+        \]
+        Thus, the equation of the sphere is:
+        \[
+        (x + 2)^2 + (y - 4)^2 + (z + 5)^2 = 52.
+        \]
+    \end{solutionbox}
+\end{examplebox}
 
 \begin{exercisebox}
     Find the equation of the sphere with diameter \(PQ\), where \(P = (2, -1, -3)\) and \(Q = (-2, 5, -1)\).
@@ -372,7 +382,7 @@ A plane parallel to one of the coordinate planes can be described by:
 \end{examplebox}
 
 \begin{tipbox}
-Graphing such equations involves visualizing the planes and their intersection in three-dimensional space.
+To graph these equations, consider visualizing the planes and their intersections in three-dimensional space. This can help you understand the relationships between the variables and the geometric shapes they represent.
 \end{tipbox}
 
 \begin{examplebox}
@@ -408,9 +418,7 @@ Graphing such equations involves visualizing the planes and their intersection i
 \subsection*{Working with Vectors in \(\mathbb{R}^3\)}
 \addcontentsline{toc}{subsection}{Working with Vectors in \(\mathbb{R}^3\)}
 
-\begin{definitionbox}
-    A \textbf{three-dimensional vector} is a quantity with both magnitude and direction, represented by a directed line segment (arrow) in \(\mathbb{R}^3\). A vector \(\vv{v} = \langle x, y, z \rangle\) has its initial point at the origin \((0, 0, 0)\) and its terminal point at \((x, y, z)\). The zero vector is \(\vv{0} = \langle 0, 0, 0 \rangle\).
-\end{definitionbox}
+A \textbf{three-dimensional vector} is a quantity with both magnitude and direction, represented by a directed line segment (arrow) in \(\mathbb{R}^3\). A vector \(\vv{v} = \langle x, y, z \rangle\) has its initial point at the origin \((0, 0, 0)\) and its terminal point at \((x, y, z)\). The zero vector is \(\vv{0} = \langle 0, 0, 0 \rangle\).
 
 \begin{exercisebox}
     Let \(S = (3, 8, 2)\) and \(T = (2, -1, 3)\). Express \(\vv{ST}\) in component form and in standard unit form.
@@ -430,7 +438,7 @@ Graphing such equations involves visualizing the planes and their intersection i
     \end{itemize}
 \end{definitionbox}
 
-\begin{exercisebox}
+\begin{examplebox}
     \textbf{Vector Operations in Three Dimensions} \\
     Let \(\vv{v} = \langle -2, 9, 5 \rangle\) and \(\vv{w} = \langle 1, -1, 0 \rangle\). Find the following vectors:
     \begin{itemize}
@@ -439,7 +447,16 @@ Graphing such equations involves visualizing the planes and their intersection i
         \item \(\|5\vv{w}\|\)
         \item A unit vector in the direction of \(\vv{v}\)
     \end{itemize}
-\end{exercisebox}
+
+    \begin{solutionbox}
+        \begin{itemize}
+            \item \(3\vv{v} - 2\vv{w} = 3\langle -2, 9, 5 \rangle - 2\langle 1, -1, 0 \rangle = \langle -6, 27, 15 \rangle - \langle 2, -2, 0 \rangle = \langle -8, 29, 15 \rangle\)
+            \item \(5\|\vv{w}\| = 5\sqrt{1^2 + (-1)^2 + 0^2} = 5\sqrt{2}\)
+            \item \(\|5\vv{w}\| = \|5 \langle 1, -1, 0 \rangle\| = \|5, -5, 0\| = \sqrt{5^2 + (-5)^2 + 0^2} = \sqrt{50} = 5\sqrt{2}\)
+            \item A unit vector in the direction of \(\vv{v}\) is \(\dfrac{\vv{v}}{\|\vv{v}\|} = \dfrac{\langle -2, 9, 5 \rangle}{\sqrt{(-2)^2 + 9^2 + 5^2}} = \dfrac{\langle -2, 9, 5 \rangle}{\sqrt{110}} = \left\langle -\dfrac{2}{\sqrt{110}}, \dfrac{9}{\sqrt{110}}, \dfrac{5}{\sqrt{110}} \right\rangle\)
+        \end{itemize}
+    \end{solutionbox}
+\end{examplebox}
 
 \begin{exercisebox}
     Let \(\vv{v} = \langle -1, -1, 1 \rangle\) and \(\vv{w} = \langle 2, 0, 1 \rangle\). Find a unit vector in the direction of \(5\vv{v} + 3\vv{w}\).
@@ -449,7 +466,6 @@ Graphing such equations involves visualizing the planes and their intersection i
 \addcontentsline{toc}{subsection}{Properties of Vectors in \(\mathbb{R}^3\)}
 
 \begin{theorembox}
-    \textbf{Properties of Vectors in Space:} \\
     Let \(\vv{u}\), \(\vv{v}\), and \(\vv{w}\) be vectors in \(\mathbb{R}^3\), and let \(k\) and \(c\) be scalars. Then:
     \begin{enumerate}
         \item \(\vv{u} + \vv{v} = \vv{v} + \vv{u}\) \quad (Commutative Property)
@@ -466,6 +482,7 @@ Graphing such equations involves visualizing the planes and their intersection i
 \begin{proofbox}
     \textbf{Proof of Commutative Property:}
     \begin{proof}
+    \leavevmode\\
     Let \(\vv{u} = \langle u_1, u_2, u_3 \rangle\) and \(\vv{v} = \langle v_1, v_2, v_3 \rangle\). Then:
     \[
     \vv{u} + \vv{v} = \langle u_1 + v_1, u_2 + v_2, u_3 + v_3 \rangle = \langle v_1 + u_1, v_2 + u_2, v_3 + u_3 \rangle = \vv{v} + \vv{u}.
@@ -476,16 +493,14 @@ Graphing such equations involves visualizing the planes and their intersection i
 \subsection*{The Dot Product and Its Properties}
 \addcontentsline{toc}{subsection}{The Dot Product and Its Properties}
 
-\begin{definitionbox}
-    The \textbf{dot product} of vectors \(\vv{u} = \langle u_1, u_2, u_3 \rangle\) and \(\vv{v} = \langle v_1, v_2, v_3 \rangle\) is given by:
-    \[
-    \vv{u} \cdot \vv{v} = u_1 v_1 + u_2 v_2 + u_3 v_3.
-    \]
-    For two-dimensional vectors \(\vv{u} = \langle u_1, u_2 \rangle\) and \(\vv{v} = \langle v_1, v_2 \rangle\), the dot product is:
-    \[
-    \vv{u} \cdot \vv{v} = u_1 v_1 + u_2 v_2.
-    \]
-\end{definitionbox}
+The \textbf{dot product} of vectors \(\vv{u} = \langle u_1, u_2, u_3 \rangle\) and \(\vv{v} = \langle v_1, v_2, v_3 \rangle\) is given by:
+\[
+\vv{u} \cdot \vv{v} = u_1 v_1 + u_2 v_2 + u_3 v_3.
+\]
+For two-dimensional vectors \(\vv{u} = \langle u_1, u_2 \rangle\) and \(\vv{v} = \langle v_1, v_2 \rangle\), the dot product is:
+\[
+\vv{u} \cdot \vv{v} = u_1 v_1 + u_2 v_2.
+\]
 
 \begin{exercisebox}
     Find \(\vv{u} \cdot \vv{v}\), where \(\vv{u} = \langle 2, 9, -1 \rangle\) and \(\vv{v} = \langle -3, 1, -4 \rangle\).
@@ -495,7 +510,6 @@ Graphing such equations involves visualizing the planes and their intersection i
 \addcontentsline{toc}{subsection}{Properties of the Dot Product}
 
 \begin{theorembox}
-    \textbf{Theorem 2.3: Properties of the Dot Product} \\
     Let \(\vv{u}\), \(\vv{v}\), and \(\vv{w}\) be vectors, and let \(c\) be a scalar. Then:
     \begin{enumerate}
         \item \(\vv{u} \cdot \vv{v} = \vv{v} \cdot \vv{u}\) \quad (Commutative Property)
@@ -508,6 +522,7 @@ Graphing such equations involves visualizing the planes and their intersection i
 \begin{proofbox}
     \textbf{Proof of Commutative Property:}
     \begin{proof}
+    \leavevmode\\
     Let \(\vv{u} = \langle u_1, u_2, u_3 \rangle\) and \(\vv{v} = \langle v_1, v_2, v_3 \rangle\). Then:
     \[
     \vv{u} \cdot \vv{v} = u_1 v_1 + u_2 v_2 + u_3 v_3 = v_1 u_1 + v_2 u_2 + v_3 u_3 = \vv{v} \cdot \vv{u}.
@@ -550,62 +565,106 @@ Graphing such equations involves visualizing the planes and their intersection i
     \]
 \end{theorembox}
 
-\textbf{self-note: continue here}
-
 \begin{examplebox}
-    \textbf{Example 2.23: Finding the Angle Between Two Vectors} \\
     Find the measure of the angle between each pair of vectors:
     \begin{itemize}
         \item \(\vv{i} + \vv{j} + \vv{k}\) and \(2\vv{i} - \vv{j} - 3\vv{k}\)
         \item \(\langle 2, 5, 6 \rangle\) and \(\langle -2, -4, 4 \rangle\)
     \end{itemize}
+    
+    \begin{solutionbox}
+        \begin{conceptbox}
+        In each case, use the formula \(\vv{u} \cdot \vv{v} = \|\vv{u}\| \|\vv{v}\| \cos \theta\) to find the angle \(\theta\) between the vectors.
+        \end{conceptbox}
+
+        When \(\vv{u} = \vv{i} + \vv{j} + \vv{k}\) and \(\vv{v} = 2\vv{i} - \vv{j} - 3\vv{k}\):
+        \begin{align*}
+            \vv{u} \cdot \vv{v} &= (1)(2) + (1)(-1) + (1)(-3) = 2 - 1 - 3 = -2, \\
+            \|\vv{u}\| &= \sqrt{1^2 + 1^2 + 1^2} = \sqrt{3}, \\
+            \|\vv{v}\| &= \sqrt{2^2 + (-1)^2 + (-3)^2} = \sqrt{14}.
+        \end{align*}
+        Then:
+        \[
+        -2 = \sqrt{3} \sqrt{14} \cos \theta \implies \cos \theta = -\frac{2}{\sqrt{42}} \implies \theta \approx 107.98^\circ \approx 1.88 \text{ radians}.
+        \]
+
+        When \(\vv{u} = \langle 2, 5, 6 \rangle\) and \(\vv{v} = \langle -2, -4, 4 \rangle\):
+        \begin{align*}
+            \vv{u} \cdot \vv{v} &= (2)(-2) + (5)(-4) + (6)(4) = -4 - 20 + 24 = 0, \\
+            \|\vv{u}\| &= \sqrt{2^2 + 5^2 + 6^2} = \sqrt{65}, \\
+            \|\vv{v}\| &= \sqrt{(-2)^2 + (-4)^2 + 4^2} = \sqrt{36} = 6.
+        \end{align*}
+        Then:
+        \[
+        0 = \sqrt{65} \cdot 6 \cos \theta \implies \cos \theta = 0 \implies \theta = 90^\circ = \frac{\pi}{2} \text{ radians}.
+        \]
+    \end{solutionbox}
 \end{examplebox}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.23:} \\
     Find the measure of the angle, in radians, formed by vectors \(\vv{a} = \langle 1, 2, 0 \rangle\) and \(\vv{b} = \langle 2, 4, 1 \rangle\). Round to the nearest hundredth.
 \end{exercisebox}
 
 \subsection*{Orthogonal Vectors}
 \addcontentsline{toc}{subsection}{Orthogonal Vectors}
 
-\begin{theorembox}
-    \textbf{Theorem 2.5: Orthogonal Vectors} \\
-    The nonzero vectors \(\vv{u}\) and \(\vv{v}\) are orthogonal if and only if \(\vv{u} \cdot \vv{v} = 0\).
-\end{theorembox}
+The nonzero vectors \(\vv{u}\) and \(\vv{v}\) are orthogonal if and only if \(\vv{u} \cdot \vv{v} = 0\).
 
 \begin{examplebox}
-    \textbf{Example 2.24: Identifying Orthogonal Vectors} \\
     Determine whether \(\vv{p} = \langle 1, 0, 5 \rangle\) and \(\vv{q} = \langle 10, 3, -2 \rangle\) are orthogonal vectors.
+
+    \begin{solutionbox}
+        \begin{conceptbox}
+        To determine if two vectors are orthogonal, find their dot product and check if it equals zero.
+        \end{conceptbox}
+
+        The dot product of \(\vv{p}\) and \(\vv{q}\) is:
+        \[
+        \vv{p} \cdot \vv{q} = (1)(10) + (0)(3) + (5)(-2) = 10 + 0 - 10 = 0.
+        \]
+        Since \(\vv{p} \cdot \vv{q} = 0\), the vectors \(\vv{p}\) and \(\vv{q}\) are orthogonal.
+    \end{solutionbox}
 \end{examplebox}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.24:} \\
     For which value of \(x\) is \(\vv{p} = \langle 2, 8, -1 \rangle\) orthogonal to \(\vv{q} = \langle x, -1, 2 \rangle\)?
 \end{exercisebox}
 
 \subsection*{Direction Cosines}
 \addcontentsline{toc}{subsection}{Direction Cosines}
 
-\begin{definitionbox}
-    \textbf{Definition:} The \textbf{direction angles} of a nonzero vector \(\vv{v}\) are the angles \(\alpha\), \(\beta\), and \(\gamma\) that \(\vv{v}\) makes with the positive \(x\)-, \(y\)-, and \(z\)-axes, respectively. The cosines of these angles are called the \textbf{direction cosines}:
-    \[
-    \cos \alpha = \frac{v_1}{\|\vv{v}\|}, \quad \cos \beta = \frac{v_2}{\|\vv{v}\|}, \quad \cos \gamma = \frac{v_3}{\|\vv{v}\|}.
-    \]
-\end{definitionbox}
+The \textbf{direction angles} of a nonzero vector \(\vv{v}\) are the angles \(\alpha\), \(\beta\), and \(\gamma\) that \(\vv{v}\) makes with the positive \(x\)-, \(y\)-, and \(z\)-axes, respectively. The cosines of these angles are called the \textbf{direction cosines}:
+\[
+\cos \alpha = \frac{v_1}{\|\vv{v}\|}, \quad \cos \beta = \frac{v_2}{\|\vv{v}\|}, \quad \cos \gamma = \frac{v_3}{\|\vv{v}\|},
+\]
+where \(\vv{v} = \langle v_1, v_2, v_3 \rangle\).
 
 \begin{examplebox}
-    \textbf{Example 2.25: Measuring the Angle Formed by Two Vectors} \\
     Let \(\vv{v} = \langle 2, 3, 3 \rangle\). Find the measures of the angles formed by:
     \begin{itemize}
         \item \(\vv{v}\) and \(\vv{i}\)
         \item \(\vv{v}\) and \(\vv{j}\)
-        \item \(\vv{v}\) and \(\vv{k}\)
+        \item \(\vv{v}\) and \(\vv{k}.\)
     \end{itemize}
+
+    \begin{solutionbox}
+        \begin{conceptbox}
+        To find the direction cosines of a vector, divide each component by the magnitude of the vector.
+        \end{conceptbox}
+
+        The direction cosines of \(\vv{v}\) are:
+        \[
+        \cos \alpha = \frac{2}{\sqrt{2^2 + 3^2 + 3^2}} = \frac{2}{\sqrt{22}}, \quad \cos \beta = \frac{3}{\sqrt{22}}, \quad \cos \gamma = \frac{3}{\sqrt{22}}.
+        \]
+        Thus, the measures of the angles are:
+        \[
+        \alpha = \cos^{-1} \left( \frac{2}{\sqrt{22}} \right), \quad \beta = \cos^{-1} \left( \frac{3}{\sqrt{22}} \right), \quad \gamma = \cos^{-1} \left( \frac{3}{\sqrt{22}} \right).
+        \]
+
+    \end{solutionbox}
 \end{examplebox}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.25:} \\
     Let \(\vv{v} = \langle 3, -5, 1 \rangle\). Find the measure of the angles formed by:
     \begin{itemize}
         \item \(\vv{v}\) and \(\vv{i}\)
@@ -617,35 +676,68 @@ Graphing such equations involves visualizing the planes and their intersection i
 \subsection*{Vector Projections}
 \addcontentsline{toc}{subsection}{Vector Projections}
 
-\begin{definitionbox}
-    \textbf{Definition:} The \textbf{vector projection} of \(\vv{v}\) onto \(\vv{u}\) is:
-    \[
-    \text{proj}_{\vv{u}} \vv{v} = \left( \frac{\vv{u} \cdot \vv{v}}{\|\vv{u}\|^2} \right) \vv{u}.
-    \]
-    The \textbf{scalar projection} of \(\vv{v}\) onto \(\vv{u}\) is:
-    \[
-    \text{comp}_{\vv{u}} \vv{v} = \frac{\vv{u} \cdot \vv{v}}{\|\vv{u}\|}.
-    \]
-\end{definitionbox}
+The \textbf{vector projection} of \(\vv{v}\) onto \(\vv{u}\) is:
+\[
+\text{proj}_{\vv{u}} \vv{v} = \left( \frac{\vv{u} \cdot \vv{v}}{\|\vv{u}\|^2} \right) \vv{u}.
+\]
+The \textbf{scalar projection} of \(\vv{v}\) onto \(\vv{u}\) is:
+\[
+\text{comp}_{\vv{u}} \vv{v} = \frac{\vv{u} \cdot \vv{v}}{\|\vv{u}\|}.
+\]
 
 \begin{examplebox}
-    \textbf{Example 2.27: Finding Projections} \\
     Find the projection of \(\vv{v}\) onto \(\vv{u}\):
     \begin{itemize}
         \item \(\vv{v} = \langle 3, 5, 1 \rangle\) and \(\vv{u} = \langle -1, 4, 3 \rangle\)
         \item \(\vv{v} = 3\vv{i} - 2\vv{j}\) and \(\vv{u} = \vv{i} + 6\vv{j}\)
     \end{itemize}
+
+    \begin{solutionbox}
+        \begin{conceptbox}
+        To find the vector projection of \(\vv{v}\) onto \(\vv{u}\), use the formula \(\text{proj}_{\vv{u}} \vv{v} = \left( \frac{\vv{u} \cdot \vv{v}}{\|\vv{u}\|^2} \right) \vv{u}\).
+        \end{conceptbox}
+        Thus, compute the projections as follows:
+        \begin{itemize}
+            \item \begin{align*}
+                \text{proj}_{\vv{u}} \vv{v} &= \left( \frac{\langle -1, 4, 3 \rangle \cdot \langle 3, 5, 1 \rangle}{\|\langle -1, 4, 3 \rangle\|^2} \right) \langle -1, 4, 3 \rangle \\
+                &= \left( \frac{(-3) + 20 + 3}{(-1)^2 + 4^2 + 3^2} \right) \langle -1, 4, 3 \rangle = \left( \frac{20}{26} \right) \langle -1, 4, 3 \rangle = \left\langle -\frac{10}{13}, \frac{40}{13}, \frac{30}{13} \right\rangle.
+            \end{align*}
+            \item \begin{align*}
+                \text{proj}_{\vv{u}} \vv{v} &= \left( \frac{(\vv{i} + 6\vv{j}) \cdot (3\vv{i} - 2\vv{j})}{\|\vv{i} + 6\vv{j}\|^2} \right) (\vv{i} + 6\vv{j}) \\
+                &= \left( \frac{3 - 12}{1^2 + 6^2} \right) (\vv{i} + 6\vv{j}) = \left( \frac{-9}{37} \right) (\vv{i} + 6\vv{j}) = \left\langle -\frac{9}{37}, -\frac{54}{37} \right\rangle.
+            \end{align*}
+        \end{itemize}
+    \end{solutionbox}
 \end{examplebox}
 
 \begin{examplebox}
-    \textbf{Example 2.28: Resolving Vectors into Components} \\
     Express \(\vv{v} = \langle 8, -3, -3 \rangle\) as a sum of orthogonal vectors such that one of the vectors has the same direction as \(\vv{u} = \langle 2, 3, 2 \rangle\).
+
+    \begin{solutionbox}
+        \begin{conceptbox}
+            To express \(\vv{v}\) as a sum of orthogonal vectors, find the projection of \(\vv{v}\) onto \(\vv{u}\) and the orthogonal component of \(\vv{v}\) with respect to \(\vv{u}\).
+        \end{conceptbox}
+        The projection of \(\vv{v}\) onto \(\vv{u}\) is:
+        \begin{align*}
+            \text{proj}_{\vv{u}} \vv{v} &= \left( \frac{\langle 2, 3, 2 \rangle \cdot \langle 8, -3, -3 \rangle}{\|\langle 2, 3, 2 \rangle\|^2} \right) \langle 2, 3, 2 \rangle \\
+            &= \left( \frac{16 - 9 - 6}{2^2 + 3^2 + 2^2} \right) \langle 2, 3, 2 \rangle \\
+            &= \left( \frac{1}{17} \right) \langle 2, 3, 2 \rangle \\
+            &= \left\langle \frac{2}{17}, \frac{3}{17}, \frac{2}{17} \right\rangle.
+        \end{align*}
+        Thus, the orthogonal component of \(\vv{v}\) with respect to \(\vv{u}\) is:
+        \begin{align*}
+            \vv{v} - \text{proj}_{\vv{u}} \vv{v} &= \langle 8, -3, -3 \rangle - \left\langle \frac{2}{17}, \frac{3}{17}, \frac{2}{17} \right\rangle \\
+            &= \left\langle \frac{136}{17}, \frac{-51}{17}, \frac{-51}{17} \right\rangle - \left\langle \frac{2}{17}, \frac{3}{17}, \frac{2}{17} \right\rangle \\
+            &= \left\langle \frac{134}{17}, \frac{-54}{17}, \frac{-53}{17} \right\rangle.
+        \end{align*}
+    \end{solutionbox}
 \end{examplebox}
 
 \begin{exercisebox}
-    \textbf{Checkpoint 2.27:} \\
     Express \(\vv{v} = 5\vv{i} - \vv{j}\) as a sum of orthogonal vectors such that one of the vectors has the same direction as \(\vv{u} = 4\vv{i} + 2\vv{j}\).
 \end{exercisebox}
+
+\textbf{self-note: continue here!}
 
 \subsection*{Work}
 \addcontentsline{toc}{subsection}{Work}
